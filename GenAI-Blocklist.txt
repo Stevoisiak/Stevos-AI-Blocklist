@@ -1185,7 +1185,7 @@ www.google.com,www.google.*##.oGdvd
 
 ! -- https://www.google.com/search?q=Mario
 ! Expandable "Things to know" that have AI overviews
-www.google.com,www.google.*##.o3PDvf.XBlWIe.VZ8ove.h373nd:has([data-fbctx="0gEHCgUIswEQAQ=="])
+www.google.com,www.google.*##[jscontroller="Elkdbc"]
 
 ! -- https://www.google.com/search?q=Mario (mobile only)
 ! AI generated topic overview
