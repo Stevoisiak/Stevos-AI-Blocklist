@@ -19,6 +19,12 @@ www.adobe.com###adbmsgCta
 ! "Adobe Virtual Asssistant" chatbox
 www.adobe.com##.adbmsgContentContainer:has(> .adbmsgContentIframe[src^="https://cdn.prod.assistant.adobe.com/production/static/"])
 
+! =====================
+! == Cloudflare Blog ==
+! =====================
+! AI category in navbar
+blog.cloudflare.com##.nav-item[data-tag="ai"]
+
 ! ================
 ! == DeviantArt ==
 ! ================
