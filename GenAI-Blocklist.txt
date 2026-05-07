@@ -1390,6 +1390,13 @@ imgflip.com##.mm-toggle-ai
 imgflip.com###gen-qa > .gen-q:has-text("Do you have a wacky AI that can write memes for me?")
 imgflip.com###gen-qa > p:has-text("Funny you ask. Why yes, we do. Here you go:")
 
+! =========================
+! == Indian Startup News ==
+! =========================
+! -- https://indianstartupnews.com/news/deepika-padukone-backed-healthy-snacks-brand-epigamia-appoints-ritesh-gauba-as-its-new-ceo-11800984
+! Floating "Simplify" button
+indianstartupnews.com###nudgeai-widget
+
 ! ======================
 ! == Insight Software ==
 ! ======================
