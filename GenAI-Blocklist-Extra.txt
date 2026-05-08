@@ -40,11 +40,6 @@ deviantart.com##[data-testid="content_row"] > div:has(a:matches-attr(data-userna
 ! Copilot Settings in user profile icon menu
 github.com##.prc-ActionList-ActionListItem-So4vC:has(> [href="/settings/copilot"])
 
-! -- https://github.com/settings/profile
-! Copilot & Models settings tabs
-github.com##.ActionListItem:has([data-item-id="copilot_features"])
-github.com##.ActionListItem:has(> [href="/settings/models"])
-
 ! ============
 ! == GitLab ==
 ! ============
