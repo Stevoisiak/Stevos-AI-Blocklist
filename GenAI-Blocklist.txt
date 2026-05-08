@@ -660,7 +660,7 @@ github.com##.copilotPreview__container
 github.com##.ActionList-sectionDivider:has(> [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
 github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider > [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
 ! Changelog posts containing ai terms in right sidebar
-github.com##.dashboard-changelog .TimelineItem:has-text(/(Claude|Copilot|Gemini|GPT-)/)
+github.com##.dashboard-changelog .TimelineItem:has(:is([href*="claude"], [href*="copilot"], [href*="gemini"], [href*="gpt-"]))
 ! Floating "Open in Copilot chat" icon when hovering over a pull request or issue.
 ! * Requires enabling "New Dashboard Experience" in "Feature Preview"
 github.com##.DashboardListView-module__contextBubbleMenu__q0zmI:has(> button > svg.octicon-copilot)
