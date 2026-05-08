@@ -451,10 +451,8 @@ www.deviantart.com##.DTw2tY.AvdBMS.NvE3Tw:has(> svg)
 
 ! -- https://www.deviantart.com/studio/draw?new=1 (Create with Draw)
 !  Navbar buttons for Dreamup and Remove Background
-www.deviantart.com##.SE92mD[aria-label="DreamUp"]
-www.deviantart.com##.SE92mD#backgroundIcon
-! Prompt box
-www.deviantart.com##.Ey5HOr.jcpWS7.ZiBWJn:has(> textarea#positivePrompt)
+www.deviantart.com##[aria-label="DreamUp"]
+www.deviantart.com###backgroundIcon
 
 ! -- https://www.deviantart.com/megalevance/art/Untitled-959302716 (Deviation page for AI image)
 ! Hide image if "Created using AI tools" notice exists
