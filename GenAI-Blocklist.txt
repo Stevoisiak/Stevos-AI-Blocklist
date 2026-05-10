@@ -1874,6 +1874,12 @@ www.nike.com##+js(trusted-set-attr, #nav-search-icon path, stroke, currentColor)
 www.nike.com##+js(trusted-set-attr, #nav-search-icon path, stroke-width, 1.5)
 www.nike.com##+js(trusted-set-attr, #nav-search-icon path, fill, )
 
+! ===============
+! == Nordstrom ==
+! ===============
+! Shop with AI in header
+www.nordstrom.com##.j_24W
+
 ! ======================
 ! == NutraIngredients ==
 ! ======================
