@@ -1,19 +1,19 @@
 # Stevo's GenAI Blocklist
 
-A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features that use or promote Generative AI.
+A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features that use Generative AI or content labeled as AI generated.
 
 Available for PC, ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#firefox-microsoft-edge-or-waterfox-desktop), [Edge](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#firefox-microsoft-edge-or-waterfox-desktop), [Chrome](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#google-chrome-desktop), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#brave-desktop)), iOS ([Safari](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#safari-ios), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist#brave-browser-ios)), and Android ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/tree/main?tab=readme-ov-file#firefox-android)).
 
 ## Examples of filtered content
 * Google's AI Overviews
 * YouTube's Ask button, video summaries, and Inspiration tab
+* TikTok videos and Booru images tagged as AI generated
 * Copilot buttons on GitHub, Bing, Microsoft 365, and Azure Portal
 * X/Twitter's Grok buttons
 * Amazon Rufus's product and review summaries
 * DeviantArt's DreamUp ads
 * Facebook's AI chat
 * Reddit Answers and recommended posts from AI subreddits 
-* Booru images tagged as AI generated
 
 ## Image comparison
 

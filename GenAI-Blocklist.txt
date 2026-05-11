@@ -2273,6 +2273,16 @@ thenewstack.io###tns-search-overview
 thenewstack.io##.search-disclaimer
 thenewstack.io##.search-input[placeholder="This is AI-powered search. Type a prompt."]:remove-attr(placeholder)
 
+! ============
+! == TikTok ==
+! ============
+! Videos with AI Generated label
+! * Prevents videos from appearing when swiping or when loading a creators channel page
+! * AI videos can play if loaded directly from the URL
+! * Created with assistance from paintboth1234 (https://www.reddit.com/r/uBlockOrigin/comments/1t9pvef/comment/ol4f58p/)
+www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].aigcLabelType, , propsToMatch, /item_list)
+www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].moderationAigcLabelType, , propsToMatch, /item_list)
+
 ! ==========
 ! == Time ==
 ! ==========
