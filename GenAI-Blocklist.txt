@@ -852,6 +852,7 @@ docs.github.com##[data-component="ActionList.Divider"]:has(+[data-testid="ai-aut
 ! * If this filter list has been added to 'trustedListPrefixes' in uBlock Origin's advanced settings
 !   and the search bar text is in English, change the placeholder text to "Search"
 docs.github.com##+js(trusted-set-attr, input[placeholder="Search or ask Copilot"], placeholder, Search)
+docs.github.com#%#//scriptlet('trusted-set-attr', 'input[placeholder="Search or ask Copilot"]', 'placeholder', 'Search')
 ! * Otherwise, remove the placeholder text
 docs.github.com##input[aria-controls="search-suggestions-list"][placeholder*="Copilot"]:remove-attr(placeholder)
 ! AI Disclaimer below search results
@@ -892,6 +893,8 @@ mail.google.com##.Zmxtcf.e5IPTd
 ! Remove sparkle from search icon (AI Plus, requires trusted filter list)
 mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg, viewBox, 0 0 24 24)
 mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg > path, d, "M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z")
+mail.google.com#%#//scriptlet('trusted-set-attr', '.gb_Oe.gb_Pe.bEP > svg', 'viewBox', '0 0 24 24')
+mail.google.com#%#//scriptlet('trusted-set-attr', '.gb_Oe.gb_Pe.bEP > svg > path', 'd', 'M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z')
 
 ! -- Composing an email
 ! "Help me write" icon next to "Send" button
@@ -978,6 +981,7 @@ blog.google##section:has(> [aria-label="Gemini 3.1 Pro"])
 blog.google##section[data-analytics-module*="\"section_header\": \"AI Impact Summit 2026\""]
 ! Remove sparkle from search icon
 blog.google##+js(trusted-set-attr, [icon-id="uni-search-spark"], icon-id, mi-search)
+blog.google#%#//scriptlet('trusted-set-attr', '[icon-id="uni-search-spark"]', 'icon-id', 'mi-search')
 
 ! -- https://blog.google/search/?query=Why+am+I+here
 ! AI summary in search
@@ -1020,6 +1024,7 @@ developers.google.com##devsite-key-takeaways-panel
 developers.google.com##.devsite-concierge-ai-panel--menu-item
 ! Remove AI sparkle from searh icon
 developers.google.com##+js(trusted-set-attr, .devsite-search-ai-image [d^="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925"], d, "M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z")
+developers.google.com#%#//scriptlet('trusted-set-attr', '.devsite-search-ai-image [d^="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925"]', 'd', 'M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z')
 
 ! -- https://developers.google.com/s/results?q=API%20Call%20Structure&text=API%20Call%20Structure (Search results)
 ! "AI Powered" results
@@ -1190,10 +1195,13 @@ www.google.com,www.google.*##.plR5qb
 ! Remove AI hyperlinks from Google Logo (Added during Olympics)
 ! * Desktop
 www.google.com,www.google.*##.k1zIA.kKvsb > a[href*="&udm=50"]:remove-attr(href)
+www.google.com,www.google.*#%#//scriptlet('remove-attr', 'href', '.k1zIA.kKvsb > a[href*="&udm=50"]')
 ! * Mobile
 www.google.com,www.google.*###hplogoo a[href*="&udm=50"]:remove-attr(href)
+www.google.com,www.google.*#%#//scriptlet('remove-attr', 'href', '#hplogoo a[href*="&udm=50"]')
 ! * Mobile search results page
 www.google.com,www.google.*###mlogo[href*="&udm=50"]:remove-attr(href)
+www.google.com,www.google.*#%#//scriptlet('remove-attr', 'href', '#mlogo[href*="&udm=50"]')
 ! Promo text below search bar mentioning AI
 www.google.com,www.google.*##promo-middle-slot:has-text("/\bAI\b/")
 www.google.com,www.google.*##promo-middle-slot:has-text("Gemini")
@@ -1899,6 +1907,10 @@ www.nike.com##+js(trusted-set-attr, #nav-search-icon path, d, "M13.962 16.296a6.
 www.nike.com##+js(trusted-set-attr, #nav-search-icon path, stroke, currentColor)
 www.nike.com##+js(trusted-set-attr, #nav-search-icon path, stroke-width, 1.5)
 www.nike.com##+js(trusted-set-attr, #nav-search-icon path, fill, )
+www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'd', 'M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853')
+www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'stroke', 'currentColor')
+www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'stroke-width', '1.5')
+www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'fill', '')
 
 ! ===============
 ! == Nordstrom ==
@@ -2277,6 +2289,7 @@ www.target.com##div:has(> [data-test="review-summary-title"])
 thenewstack.io###tns-search-overview
 thenewstack.io##.search-disclaimer
 thenewstack.io##.search-input[placeholder="This is AI-powered search. Type a prompt."]:remove-attr(placeholder)
+thenewstack.io#%#//scriptlet('remove-attr', 'placeholder', '.search-input[placeholder="This is AI-powered search. Type a prompt."]')
 
 ! ============
 ! == TikTok ==
@@ -2286,10 +2299,8 @@ thenewstack.io##.search-input[placeholder="This is AI-powered search. Type a pro
 ! * Prevents videos from appearing when swiping or when loading a creators channel page
 ! * AI videos can play if loaded directly from the URL
 ! * Created with assistance from paintboth1234 (https://www.reddit.com/r/uBlockOrigin/comments/1t9pvef/comment/ol4f58p/)
-! (uBlock Origin)
 www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].aigcLabelType, , propsToMatch, /item_list)
 www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].moderationAigcLabelType, , propsToMatch, /item_list)
-! (AdGuard)
 www.tiktok.com#%#//scriptlet('json-prune', 'itemList.[-].moderationAigcLabelType')
 www.tiktok.com#%#//scriptlet('json-prune', 'itemList.[-].aigcLabelType')
 
@@ -2639,6 +2650,7 @@ www.youtube.com##.ytSearchboxComponentActions > .ytSearchboxComponentActionsButt
 www.youtube.com##.ytSearchboxComponentAiSuggestionsContainer
 ! * Remove "or ask a question" from search bar placeholder
 www.youtube.com##+js(trusted-set-attr, .ytSearchboxComponentInput[placeholder="Search or ask a question"], placeholder, Search)
+www.youtube.com#%#//scriptlet('trusted-set-attr', '.ytSearchboxComponentInput[placeholder="Search or ask a question"]', 'placeholder', 'Search')
 
 ! -- https://www.youtube.com/watch?v=j9gZYYOIG-M (Video page)
 ! "Ask Questions" in description
