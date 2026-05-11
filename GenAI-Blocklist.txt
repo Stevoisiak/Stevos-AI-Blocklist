@@ -2088,6 +2088,17 @@ sentry.zendesk.com##.ask-ai
 sentry.zendesk.com###kapa-widget-container
 
 ! =============
+! == Sephora ==
+! =============
+! AI Beauty Chat in header
+www.sephora.com##[data-comp~="AIBeautyChatDrop"]
+
+! -- https://www.sephora.com/product/l-oreal-professionnel-absolut-repair-molecular-hair-mask-for-damaged-hair-P513135
+! AI Beauty Chat
+www.sephora.com##[comps="Divider"]:has(+ .css-1drm495[data-comp~="ProductPage"])
+www.sephora.com##.css-1drm495[data-comp~="ProductPage"]
+
+! =============
 ! == Shopify ==
 ! =============
 ! -- https://www.shopify.com/ (logged out)
