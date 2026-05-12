@@ -2,7 +2,7 @@
 
 A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features that use Generative AI or content labeled as AI generated.
 
-Available for PC, ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#firefox-microsoft-edge-or-waterfox-desktop), [Edge](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#firefox-microsoft-edge-or-waterfox-desktop), [Chrome](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#google-chrome-desktop), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#brave-desktop)), iOS ([Safari](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist?tab=readme-ov-file#safari-ios), [Brave](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist#brave-browser-ios)), and Android ([Firefox](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/tree/main?tab=readme-ov-file#firefox-android)).
+Available for PC, ([Firefox](#firefox-microsoft-edge-or-waterfox-desktop), [Edge](#firefox-microsoft-edge-or-waterfox-desktop), [Chrome](#google-chrome-desktop), [Brave](#brave-desktop)), iOS ([Safari](#safari-ios), [Brave](#brave-browser-ios)), and Android ([Firefox](#firefox-android)).
 
 ## Examples of filtered content
 * Google's AI Overviews
@@ -131,7 +131,7 @@ A small number of filters use features that require trusted origin filters in uB
 This list requires trust to:
 * Replace "Search or ask a question" text on GitHub Docs and YouTube.
 * Remove the "[AI sparkle](https://design.google/library/ai-sparkle-icon-research-pozos-schmidt)" from search icons.
-* Remove automatic audio dubbing on YouTube videos if they were directly loaded from a URL. (in Extra filters, [see below FAQ entry](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist#why-do-youtube-videos-still-sometimes-play-ai-dubbed-audio-tracks)).
+* Remove automatic audio dubbing on YouTube videos if they were directly loaded from a URL. (in Extra filters, [see below FAQ entry](#why-do-youtube-videos-still-sometimes-play-ai-dubbed-audio-tracks)).
 
 To be clear, ***if you use uBlock Origin, you do not need to mark this list as trusted to use a majority of the AI filters***. However, if you want to use the filters listed above, you can go to [uBlock Origin's advanced settings](https://github.com/gorhill/ublock/wiki/Advanced-settings) and add `https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/` to [`trustedListPrefixes`](https://github.com/gorhill/ublock/wiki/Advanced-settings#trustedListPrefixes). Alternatively, if you use AdGuard there will be a "trusted" checkbox you can enable when importing the filter list.
 
@@ -141,7 +141,7 @@ Some filters use [scriptlets](https://github.com/AdguardTeam/Scriptlets/blob/mas
 ### Why do YouTube videos still sometimes play AI dubbed audio tracks?
 The filter for automatic dubbing on YouTube does not work when opening a video via direct URL. (IE: Entering the address directly in your browser's URL bar). It will work when clicking a video while already on YouTube, such as on YouTube's homepage, search results, or suggested videos.
 
-The [extra filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) has a filter that works when loading directly from URL, but it requires allowing trusted filters to run, ([see above FAQ entry](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist#why-do-some-filters-show-invalid-filter-filter-requires-trusted-source-in-ublock-origin)), and causes a visible page refresh whenever a video is loaded directly via URL. 
+The [extra filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) has a filter that works when loading directly from URL, but it requires allowing trusted filters to run, ([see above FAQ entry](#why-do-some-filters-show-invalid-filter-filter-requires-trusted-source-in-ublock-origin)), and causes a visible page refresh whenever a video is loaded directly via URL. 
 
 ## Contributing guidelines
 
