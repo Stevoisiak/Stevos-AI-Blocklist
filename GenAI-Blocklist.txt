@@ -1778,6 +1778,9 @@ learn.microsoft.com###search-answer
 ! ==========================
 ! Use for web office apps, not including sharepoint and M365 Copilot.
 
+! Floating Copilot button in bottom right 
+officeapps.live.com###CopilotDABContainer
+
 ! -- https://word.cloud.microsoft/ (Microsoft Office)
 ! "Copilot prompts for Word" recomended template
 word.cloud.microsoft##[role="tabpanel"]:has(img[alt="Quickstart guide to Copilot in Word null modern simple"])
