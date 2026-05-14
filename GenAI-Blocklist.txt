@@ -853,7 +853,6 @@ docs.github.com##[data-component="ActionList.Divider"]:has(+[data-testid="ai-aut
 ! Search bar placeholder text "Search or ask Copilot"
 ! * If this filter list has been added to 'trustedListPrefixes' in uBlock Origin's advanced settings
 !   and the search bar text is in English, change the placeholder text to "Search"
-docs.github.com##+js(trusted-set-attr, input[placeholder="Search or ask Copilot"], placeholder, Search)
 docs.github.com#%#//scriptlet('trusted-set-attr', 'input[placeholder="Search or ask Copilot"]', 'placeholder', 'Search')
 ! * Otherwise, remove the placeholder text
 docs.github.com##input[aria-controls="search-suggestions-list"][placeholder*="Copilot"]:remove-attr(placeholder)
@@ -893,8 +892,6 @@ gitlab.com##.btn > svg[data-testid="tanuki-ai-icon"]:upward(1)
 ! Ask Gemini button in top right
 mail.google.com##.Zmxtcf.e5IPTd
 ! Remove sparkle from search icon (AI Plus, requires trusted filter list)
-mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg, viewBox, 0 0 24 24)
-mail.google.com##+js(trusted-set-attr, .gb_Oe.gb_Pe.bEP > svg > path, d, "M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z")
 mail.google.com#%#//scriptlet('trusted-set-attr', '.gb_Oe.gb_Pe.bEP > svg', 'viewBox', '0 0 24 24')
 mail.google.com#%#//scriptlet('trusted-set-attr', '.gb_Oe.gb_Pe.bEP > svg > path', 'd', 'M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z')
 
@@ -990,7 +987,6 @@ blog.google##section:has(> [aria-label="Gemini 3.1 Pro"])
 ! Section on "AI Impact Summit 2026"
 blog.google##section[data-analytics-module*="\"section_header\": \"AI Impact Summit 2026\""]
 ! Remove sparkle from search icon
-blog.google##+js(trusted-set-attr, [icon-id="uni-search-spark"], icon-id, mi-search)
 blog.google#%#//scriptlet('trusted-set-attr', '[icon-id="uni-search-spark"]', 'icon-id', 'mi-search')
 
 ! -- https://blog.google/search/?query=Why+am+I+here
@@ -1033,7 +1029,6 @@ developers.google.com##devsite-key-takeaways-panel
 ! Left sidebar > "Chat" (IE: Ask About this Page)
 developers.google.com##.devsite-concierge-ai-panel--menu-item
 ! Remove AI sparkle from searh icon
-developers.google.com##+js(trusted-set-attr, .devsite-search-ai-image [d^="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925"], d, "M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z")
 developers.google.com#%#//scriptlet('trusted-set-attr', '.devsite-search-ai-image [d^="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925"]', 'd', 'M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z')
 
 ! -- https://developers.google.com/s/results?q=API%20Call%20Structure&text=API%20Call%20Structure (Search results)
@@ -1950,10 +1945,6 @@ www.newegg.com##.ek-sales-content
 ! "Ask NikeAI" when search bar is focused
 www.nike.com##.nav-css-1f9nce4:has(> [data-testid="ask-nikeai-search-result"])
 ! De-sparkle search logo
-www.nike.com##+js(trusted-set-attr, #nav-search-icon path, d, "M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853")
-www.nike.com##+js(trusted-set-attr, #nav-search-icon path, stroke, currentColor)
-www.nike.com##+js(trusted-set-attr, #nav-search-icon path, stroke-width, 1.5)
-www.nike.com##+js(trusted-set-attr, #nav-search-icon path, fill, )
 www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'd', 'M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853')
 www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'stroke', 'currentColor')
 www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'stroke-width', '1.5')
@@ -2711,8 +2702,7 @@ www.youtube.com##.ytSearchboxComponentInputBox > [client-ve-type]
 www.youtube.com##.ytSearchboxComponentActions > .ytSearchboxComponentActionsButton[client-ve-type]
 ! * Focus search bar, Ask YouTube search suggestions
 www.youtube.com##.ytSearchboxComponentAiSuggestionsContainer
-! * Remove "or ask a question" from search bar placeholder
-www.youtube.com##+js(trusted-set-attr, .ytSearchboxComponentInput[placeholder="Search or ask a question"], placeholder, Search)
+! * Remove "or ask a question" from search bar placeholder (Enabled at https://www.youtube.com/new)
 www.youtube.com#%#//scriptlet('trusted-set-attr', '.ytSearchboxComponentInput[placeholder="Search or ask a question"]', 'placeholder', 'Search')
 
 ! -- https://www.youtube.com/watch?v=j9gZYYOIG-M (Video page)
