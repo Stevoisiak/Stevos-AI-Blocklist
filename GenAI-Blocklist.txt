@@ -1233,9 +1233,10 @@ www.google.com,www.google.*##.YNk70c.EjQTId:has(+ div [data-attnms]) #oFNiHe:emp
 !   See https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues/52
 www.google.com#@#.YzCcne:remove()
 ! "People also ask" questions with AI overviews
-www.google.com,www.google.*##[jsname="YrZdPb"]:not(:has(.Sbgr0))
-! * Hide section if all questions are AI
-www.google.com,www.google.*##[jsname="bq0EGf"]:has([jsname="YrZdPb"]):not(:has([jsname="YrZdPb"] .Sbgr0)
+www.google.com,www.google.*##[jsname="YrZdPb"][data-evn]
+! * Hide entire section if all questions are AI
+! ** TODO: Leaves a slight blank space with class 'ULSxyf'
+www.google.com,www.google.*##[jsname="bq0EGf"]:has([jsname="YrZdPb"]):not(:has([jsname="YrZdPb"][data-evn]))
 
 ! Web Guide
 ! * Only applies if Web Guide is enabled in Google Labs
