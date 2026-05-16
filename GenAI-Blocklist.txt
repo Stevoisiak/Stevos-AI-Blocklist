@@ -118,6 +118,20 @@ health.amazon.com###nav-health-ai
 ! "Health AI" promo section
 health.amazon.com##.bg-no-repeat[style*="background-image:url('https://m.media-amazon.com/images/G/01/ahs/health_ai/opt-in/HealthAI_Background_CDF0E9.jpg');"]
 
+! =====================
+! == American Banker ==
+! =====================
+! -- https://www.americanbanker.com/search?q=test
+! Restore non-ai search bar
+! * Created by AchernarB (https://www.reddit.com/r/uBlockOrigin/comments/1te8z0m/comment/om1ap7p/)
+www.americanbanker.com##body[data-toggle-header="search-overlay"] .Page-header-search-overlay:style( display: flex !important; )
+www.americanbanker.com##.Page-header-search:style( display: flex !important; )
+! AI Answer
+www.americanbanker.com##.miso-hybrid-search-combo__disclaimer
+www.americanbanker.com##.miso-hybrid-search-combo__grid-answer
+! Remove sparkle from search icon
+www.americanbanker.com#%#//scriptlet('trusted-set-attr', 'use[href="#miso-arizent-icon-ai-search"]', 'href', '#icon-magnify')
+
 ! =============
 ! == Android ==
 ! =============
