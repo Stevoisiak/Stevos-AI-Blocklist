@@ -1227,7 +1227,7 @@ www.google.com,www.google.*#%#//scriptlet('remove-attr', 'href', '#mlogo[href*="
 www.google.com,www.google.*##promo-middle-slot:has-text("/\bAI\b/")
 www.google.com,www.google.*##promo-middle-slot:has-text(Gemini)
 ! Footer - "Applying AI towards science and the environment"
-www.google.com,www.google.*##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
+www.google.com,www.google.*##.pHiOh[href^="https://ai.google/"]
 ! Search bar - AI button (magnifying glass icon, mobile only)
 www.google.com,www.google.*##.xOchs
 ! Autocomplete suggestions for AI mode (mobile only)
