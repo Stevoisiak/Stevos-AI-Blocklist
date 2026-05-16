@@ -124,8 +124,8 @@ health.amazon.com##.bg-no-repeat[style*="background-image:url('https://m.media-a
 ! -- https://www.americanbanker.com/search?q=test
 ! Restore non-ai search bar
 ! * Created by AchernarB (https://www.reddit.com/r/uBlockOrigin/comments/1te8z0m/comment/om1ap7p/)
-www.americanbanker.com##body[data-toggle-header="search-overlay"] .Page-header-search-overlay:style( display: flex !important; )
-www.americanbanker.com##.Page-header-search:style( display: flex !important; )
+americanbanker.com##body[data-toggle-header="search-overlay"] .Page-header-search-overlay, .Page-header-search:style( display: flex !important; )
+americanbanker.com##.miso-page-header-search
 ! AI Answer
 www.americanbanker.com##.miso-hybrid-search-combo__disclaimer
 www.americanbanker.com##.miso-hybrid-search-combo__grid-answer
