@@ -7,13 +7,13 @@ Available for PC, ([Firefox](#firefox-microsoft-edge-or-waterfox-desktop), [Edge
 ## Examples of filtered content
 * Google's AI Overviews
 * YouTube's Ask button, video summaries, and Inspiration tab
-* TikTok videos and Booru images tagged as AI generated
 * Copilot buttons on GitHub, Bing, Microsoft 365, and Azure Portal
-* X/Twitter's Grok buttons
 * Amazon Rufus's product and review summaries
+* Reddit Answers and recommended posts from AI subreddits
 * DeviantArt's DreamUp ads
 * Facebook's AI chat
-* Reddit Answers and recommended posts from AI subreddits 
+* TikTok videos and Booru images tagged as AI generated
+* X/Twitter's Grok buttons
 
 ## Image comparison
 
