@@ -31,6 +31,14 @@ arstechnica.com###site-header [href="https://arstechnica.com/ai/"]
 ! AI category in navbar
 blog.cloudflare.com##.nav-item[data-tag="ai"]
 
+! ==================
+! == Fox Business ==
+! ==================
+! Navbar > Tech > AI
+www.foxbusiness.com##.dropdown-item--ai
+! Footer > Tech > AI
+www.foxbusiness.com##.nav-item--ai
+
 ! ============
 ! == GitHub ==
 ! ============
