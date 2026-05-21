@@ -499,6 +499,13 @@ www.crateandbarrel.com##.swat-review-summary-container-border
 www.dell.com##[data-test-id="virtual-assistant"]
 
 ! ================
+! == design.dev ==
+! ================
+! -- https://design.dev/guides/css-selectors/
+! Promo banner for CodeRabbit
+design.dev##.sponsor-banner--coderabbit
+
+! ================
 ! == DeviantArt ==
 ! ================
 ! -- https://www.deviantart.com/ (Homepage)
