@@ -2810,6 +2810,10 @@ yandex.com##.Root-FuturisSearchOuter
 ! "Chat" button in header
 yep.com##.css-1k0ztkl-button
 
+! -- https://yep.com/web?q=Test
+! "Yep TLDR" box
+yep.com##.css-2p650t-sidebar
+
 ! ============
 ! == Youdao ==
 ! ============
