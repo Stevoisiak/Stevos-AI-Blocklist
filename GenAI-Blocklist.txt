@@ -2503,7 +2503,7 @@ ups.com###WACContainer
 ! ===========
 ! -- https://app.vanta.com/c/vantasandbox/
 ! Vanta agent in header
-app.vanta.com##.sc-hwdzOV:has(> [data-testid="global-vanta-ai-button"])
+app.vanta.com##[data-testid="global-vanta-ai-button"]
 ! Vanta agent in sidebar
 app.vanta.com###vanta-agent
 
