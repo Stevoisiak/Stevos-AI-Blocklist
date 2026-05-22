@@ -101,6 +101,13 @@ www.amazon.*##.ahi-health-ai-content > .banner-pills-container
 ! AI questions in autocomplete search suggestions
 ! * Recieved from `https://www.amazon.com/suggestions`
 www.amazon.*##+js(json-prune, suggestions.[-].metadata.RufusSuggestionType)
+! Rufus chatbot in sidebar 
+! * Source: https://www.reddit.com/r/uBlockOrigin/comments/1thwnv1/block_rufus_sidebar_on_ublock_origin/
+www.amazon.*###nav-flyout-rufus
+www.amazon.*##body.rufus-docked-left:remove-class(rufus-docked-left)
+www.amazon.*##body.rufus-docked-right:remove-class(rufus-docked-right)
+www.amazon.*##body:is(.rufus-docked-left, .rufus-docked-right):remove-attr(style)
+www.amazon.*##body:style(padding-left: 0px !important; padding-right: 0px !important;)
 
 ! -- https://www.amazon.com/Celeste-Nintendo-Switch-Digital-Code/dp/B079Z1LPSP (Product page)
 ! Rufus button that appears when highlighting text
@@ -111,11 +118,6 @@ www.amazon.*###nile-inline_feature_div
 www.amazon.*###nile-inline-btf_feature_div
 ! AI review summary (IE: "Customers say")
 www.amazon.*##[data-csa-c-item-id="cr-product-insights-cards"], [data-csa-c-item-id="cr-product-insights-detail-page"]
-
-! -- https://www.amazon.com/s?k=light+blue+flats
-! Rufus chatbot window
-! * Avoid filtering when docked to avoid blank sidebar
-www.amazon.*###nav-flyout-rufus[data-state="expanded"]
 
 ! -- https://health.amazon.com/
 ! "Health AI" button in navbar
