@@ -46,7 +46,7 @@ www.foxbusiness.com##.nav-item--ai
 ! Copilot Settings in user profile icon menu
 github.com##.prc-ActionList-ActionListItem-So4vC:has(> [href="/settings/copilot"])
 ! Trending repositories section if all items are AI
-github.com###feed-item-0[data-hydro-view*='"card_type":"TRENDING_REPOSITORY"'] .mt-1.mb-1:has(#feed-item-0):not(:has([data-hydro-click*='"click_target":"repository_link"']:not(:is([href^="/anthropics/claude"], [href^="/Lum1104/Understand-Anything"]))))
+github.com###feed-item-0[data-hydro-view*='"card_type":"TRENDING_REPOSITORY"']:has(#feed-item-0):not(:has([data-hydro-click*='"click_target":"repository_link"']:not(:is([href^="/anthropics/claude"], [href^="/Lum1104/Understand-Anything"]))))
 
 ! ============
 ! == GitLab ==
