@@ -223,6 +223,16 @@ www.baidu.com##.se-main-tab-item[data-pd="csaitab"]
 ! TODO: Filter AI summary box
 !       It's unclear if all content in this box is AI generated. However, it has an AI logo.
 
+! ==========
+! == Belk ==
+! ==========
+! -- https://www.belk.com/p/new-directions-sara-mesh-ballet-flats/0480048915724.html
+! "Ask Belk" button by search bar
+www.belk.com###shopping-assistant-header
+www.belk.com###shopping-assistant-header-mobile
+! "Shopping assistant" button
+www.belk.com###shopping-assistant-pdp
+
 ! ==============
 ! == Best Buy ==
 ! ==============
