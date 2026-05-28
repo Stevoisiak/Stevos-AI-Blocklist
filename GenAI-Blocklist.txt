@@ -1497,8 +1497,6 @@ www.homedepot.com###magic-apron-review-summary
 ! -- https://www.thegamer.com/gaming-site-videogamer-removed-google/
 ! AI summary button in left sidebar
 www.thegamer.com,www.howtogeek.com##.qa-action-list.sensa-features
-! AI Sparkle in left sidebar
-www.thegamer.com,www.howtogeek.com##.i-sensa
 ! AI summary button in header on small page sizes
 www.thegamer.com,www.howtogeek.com##.action-bar-ai-feature
 
