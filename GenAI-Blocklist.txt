@@ -1983,6 +1983,10 @@ sharepoint.com##[data-automation-id="designIdeas"]:upward(1)
 ! =======================
 ! == Microsoft Support ==
 ! =======================
+! -- https://support.microsoft.com/en-us
+! "Start your Copilot journey" section
+support.microsoft.com##.ocpSectionLayout:has(> #copilot)
+
 ! -- https://support.microsoft.com/en-us/office/create-professional-slide-layouts-with-designer-53c77d7b-dc40-45c2-b684-81415eac0617
 ! "Need more help? Try Copilot" in sidebar
 support.microsoft.com###copilotRailBanner
