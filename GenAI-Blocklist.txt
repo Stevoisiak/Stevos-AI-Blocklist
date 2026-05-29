@@ -596,7 +596,7 @@ www.deviantart.com##div.VS2KXS.KQfkEY
 ! "Create your own AI art" promo in description
 www.deviantart.com##.v4LjTE.A3cqZ_:has([href^="https://www.deviantart.com/dreamup"])
 ! Dreamup video ad in right sidebar
-||video.wixstatic.com/video/5e821a_*
+||video.wixstatic.com/video/5e821a_$media,domain=www.deviantart.com
 ! Dreamup promo in sidebar
 www.deviantart.com##.reset-link[href^="https://www.deviantart.com/dreamup"]
 
