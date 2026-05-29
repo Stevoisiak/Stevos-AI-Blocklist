@@ -1886,14 +1886,12 @@ www.microsoft.com##[data-bi-id="Button-Cta-SplitScreen-LearnWithCopilot"]
 www.microsoft.com##.uca-assistant-drawer-button, .uca-assistant-drawer-panel
 ! "Ask Microsoft" in middle of page
 www.microsoft.com##.chatgpt-banner
+! "Ask Microsoft" chat box that appears after a delay
+www.microsoft.com###uca-proactive-chat
 
 ! -- https://www.microsoft.com/en-us/microsoft-365
 ! Copilot promo banner
 www.microsoft.com##.ocr-announcement-banner:has(.link-inline[aria-label*="Copilot"])
-
-! -- https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage
-! "Ask Microsoft" chat box that appears after a delay
-www.microsoft.com###uca-proactive-chat
 
 ! -- https://www.microsoft.com/en-us/microsoft-365/onedrive/onedrive-for-business
 ! "Discover Microsoft 365 Copilot" promo banner
