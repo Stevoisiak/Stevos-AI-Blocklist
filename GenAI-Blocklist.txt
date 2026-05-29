@@ -2300,6 +2300,8 @@ www.sciencedirect.com###bannerCarouselContent .carousel-indicators:has(:last-chi
 ! -- https://www.sciencedirect.com/science/article/pii/S0014579309010850
 ! "Reading assistant" box
 www.sciencedirect.com###reading-assistant-container
+www.sciencedirect.com###reading-assistant-main-body-section
+||www.sciencedirect.com/article/related/suggestedQuestions/pii/$xhr,domain=www.sciencedirect.com
 
 ! ===========
 ! == Scoot ==
