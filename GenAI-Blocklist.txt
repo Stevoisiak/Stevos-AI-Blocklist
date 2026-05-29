@@ -779,8 +779,9 @@ www.g2.com###g2-ai-chat-application
 ! == G4Media ==
 ! =============
 ! -- https://www.g4media.ro/
-! AI Chat
-||chat.g4media.org^
+! Floating AI Chat button
+||chat.g4media.org^$xhr,domain=www.g4media.ro
+www.g4media.ro###g4-ai-chat-root
 
 ! ===============
 ! == Gigasheet ==
