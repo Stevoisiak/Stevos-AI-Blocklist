@@ -58,6 +58,12 @@ github.com###feed-item-0[data-hydro-view*='"card_type":"TRENDING_REPOSITORY"']:h
 ||github.com/github-copilot/chat/$xhr,1p
 
 ! =================
+! == GitHub Blog ==
+! =================
+! Navbar - AI & ML category
+github.blog##li:has(> [href="https://github.blog/ai-and-ml/"])
+
+! =================
 ! == GitHub Docs ==
 ! =================
 ! AI Disclaimer below search results
