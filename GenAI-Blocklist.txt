@@ -755,6 +755,8 @@ facebook.com##[data-dcm-id="1"]:has(.rtl-ignore.f2.a:has-text(/(Adobe Firefly|Me
 www.facebook.com##div:not([class]):has( > .x1g0dm76.xpdmqnj > .x1120s5i.xyamay9.x1n2onr6 > .html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x78zum5.x1n2onr6.xh8yej3)
 
 ! -- https://www.facebook.com/help (Logged in, help center)
+! "Ask for help"  modal popup for Meta AI support assistant
+www.facebook.com##.x78zum5.xdt5ytf.xg6iff7.xippug5.x1n2onr6:has([role="dialog"].x1n2onr6.x1ja2u2z.x1afcbsf.xdt5ytf.x1a2a7pz.x71s49j.x1qjc9v5.xazwl86.x1hl0hii.x1aq6byr.x2k6n7x.x78zum5.x1plvlek.xryxfnj.xcatxm7.x1n7qst7.xh8yej3)
 ! "How can I help" with AI logo
 www.facebook.com##.x9f619.x1n2onr6.x1ja2u2z.x78zum5.xdt5ytf.x2lah0s.x193iq5w.xyamay9.x1l90r2v:has(.x1yztbdb)
 ! "Ask a question or describe your issue" chatbox
