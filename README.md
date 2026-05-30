@@ -2,7 +2,7 @@
 
 A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and the [AdGuard Browser Extension](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features that use Generative AI or content labeled as AI generated.
 
-Available for PC, ([Firefox](#firefox-microsoft-edge-or-waterfox-desktop), [Edge](#firefox-microsoft-edge-or-waterfox-desktop), [Chrome](#google-chrome-desktop), [Brave](#brave-desktop)), iOS ([Safari](#safari-ios), [Brave](#brave-browser-ios)), and Android ([Firefox](#firefox-android)).
+Available for PC, ([Firefox](#firefox-microsoft-edge-or-waterfox-desktop), [Edge](#firefox-microsoft-edge-or-waterfox-desktop), [Chrome](#google-chrome-desktop), [Brave](#brave-desktop)), Android ([Firefox](#firefox-android)), and iOS/iPadOS ([Safari](#safari-iosipados), [Brave](#brave-browser-iosipados)).
 
 ## Examples of filtered content
 * Google's AI Overviews
@@ -50,7 +50,7 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 - Click "Add".
 
 ### Brave (Desktop)
-- Open _Settings > Shields > Content filtering_.
+- Open _Settings → Shields → Content filtering_.
 - Under "_Add custom filter lists_", enter [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 - Click _Add_.
 
@@ -65,23 +65,23 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 - Paste in the link [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 - Tap "_Apply Changes_"
 
-### Safari (iOS)
+### Safari (iOS/iPadOS)
 - Install [AdGuard Ad Blocker for Safari](https://apps.apple.com/us/app/adguard-ad-blocker-for-safari/id1047223162)
-- From your homescreen, Open *Settings > Apps > Safari > Extensions*
+- From your home screen, open *Settings → Apps → Safari → Extensions*
 - Tap *AdGuard — Custom* and enable *Allow Extension*
   - (Optional) Enable "_Allow in Private Browsing_"
   - (Optional) Allow other AdGuard filters
 - Open the *AdGuard* app and go through initial setup
 - Tap the shield icon to open the Protection screen
-- Tap *Safari Protection > Filters > Custom* (Tap the text itself, not the on-off icon)
+- Tap *Safari Protection → Filters → Custom* (Tap the text itself, not the on-off icon)
 - Tap *Add a filter*
 - Paste the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 - Tap *Next > Add*.
 - Change the toggle for custom filters from "Disabled" to "Enabled"
 
-### Brave Browser (iOS)
+### Brave Browser (iOS/iPadOS)
 * Install [Brave Browser](https://apps.apple.com/us/app/brave-browser-search-engine/id1052879175).
-* Open Brave and tap *... > Shields and Privacy > Content Filtering > Add Filter by URL...*
+* Open Brave and tap *... → Shields and Privacy → Content Filtering → Add Filter by URL...*
 * Paste in the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
 * Press *Add*.
 
