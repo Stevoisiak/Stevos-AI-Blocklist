@@ -27,63 +27,63 @@ After:
 
 ## Installation
 ### Firefox, Microsoft Edge, or Waterfox (Desktop)
-- Install [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo).
-- Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
-- Press "_Subscribe_" to import the filter list.
+1. Install [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo).
+2. Left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
+3. Press "_Subscribe_" to import the filter list.
 
 If the above instructions didn't work, (possibly due to multiple adblockers being installed), you can try importing manually:
 
-- Install [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo).
-- Click the uBlock button in the toolbar and open Dashboard Settings (gear icon)
-- Select the "_Filter lists_" tab
-- Open the "_Import..._" section and paste [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
-- Click "_Apply Changes_"
+1. Install [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo).
+2. Click the uBlock button in the toolbar and open Dashboard Settings (gear icon)
+3. Select the "_Filter lists_" tab
+4. Open the "_Import..._" section and paste [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
+5. Click "_Apply Changes_"
 
 ### Google Chrome (Desktop)
-- Install [AdGuard AdBlocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) for Chrome.
-- Click the green AdGuard icon in Chrome then click the gear icon.
-- Open the Filters tab, go to "Custom", and click the "extension settings" link.
-- Enable "Allow User Scripts".
-- Return to this page and left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
-- Under "Add custom filter", hit "Next".
-- (_Recommended_) Check the "Trusted" box.
-- Click "Add".
+1. Install [AdGuard AdBlocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) for Chrome.
+2. Click the green AdGuard icon in Chrome then click the gear icon.
+3. Open the Filters tab, go to "Custom", and click the "extension settings" link.
+4. Enable "Allow User Scripts".
+5. Return to this page and left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
+6. Under "Add custom filter", hit "Next".
+    - (_Recommended_) Check the "Trusted" box.
+7. Click "Add".
 
 ### Brave (Desktop)
-- Open _Settings → Shields → Content filtering_.
-- Under "_Add custom filter lists_", enter [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
-- Click _Add_.
+1. Open _Settings → Shields → Content filtering_.
+2. Under "_Add custom filter lists_", enter [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
+3. Click _Add_.
 
 ### Firefox (Android)
-- Open Firefox
-- Tap the action menu (⋮) and select "_Extensions_"
-- Click the plus (+) next to _uBlock Origin_ and install it
-- Close and reopen the _Extensions_ menu
-- Tap _uBlock Origin_ and select _Settings_
-- Open the "_Filter lists_" tab
-- Scroll to the bottom and tap "_Import..._"
-- Paste in the link [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
-- Tap "_Apply Changes_"
+1. Open Firefox
+2. Tap the action menu (⋮) and select "_Extensions_"
+3. Click the plus (+) next to _uBlock Origin_ and install it
+4. Close and reopen the _Extensions_ menu
+5. Tap _uBlock Origin_ and select _Settings_
+6. Open the "_Filter lists_" tab
+7. Scroll to the bottom and tap "_Import..._"
+8. Paste in the link [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
+9. Tap "_Apply Changes_"
 
 ### Safari (iOS/iPadOS)
-- Install [AdGuard Ad Blocker for Safari](https://apps.apple.com/us/app/adguard-ad-blocker-for-safari/id1047223162)
-- From your home screen, open *Settings → Apps → Safari → Extensions*
-- Tap *AdGuard — Custom* and enable *Allow Extension*
-  - (Optional) Enable "_Allow in Private Browsing_"
-  - (Optional) Allow other AdGuard filters
-- Open the *AdGuard* app and go through initial setup
-- Tap the shield icon to open the Protection screen
-- Tap *Safari Protection → Filters → Custom* (Tap the text itself, not the on-off icon)
-- Tap *Add a filter*
-- Paste the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
-- Tap *Next > Add*.
-- Change the toggle for custom filters from "Disabled" to "Enabled"
+1. Install [AdGuard Ad Blocker for Safari](https://apps.apple.com/us/app/adguard-ad-blocker-for-safari/id1047223162)
+2. From your home screen, open *Settings → Apps → Safari → Extensions*
+3. Tap *AdGuard — Custom* and enable *Allow Extension*
+   - (Optional) Enable "_Allow in Private Browsing_"
+   - (Optional) Allow other AdGuard filters
+4. Open the *AdGuard* app and go through initial setup
+5. Tap the shield icon to open the Protection screen
+6. Tap *Safari Protection → Filters → Custom* (Tap the text itself, not the on-off icon)
+7. Tap *Add a filter*
+8. Paste the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
+9. Tap *Next → Add*.
+10. Change the toggle for custom filters from "Disabled" to "Enabled"
 
 ### Brave Browser (iOS/iPadOS)
-* Install [Brave Browser](https://apps.apple.com/us/app/brave-browser-search-engine/id1052879175).
-* Open Brave and tap *... → Shields and Privacy → Content Filtering → Add Filter by URL...*
-* Paste in the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
-* Press *Add*.
+1. Install [Brave Browser](https://apps.apple.com/us/app/brave-browser-search-engine/id1052879175).
+2. Open Brave and tap *... → Shields and Privacy → Content Filtering → Add Filter by URL...*
+3. Paste in the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
+4. Press *Add*.
 
 ## Optional extra blocklist
 There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) with additional blocks. These are more subjective or experimental blocks. They may be more prone to accidentally blocking non-AI content or content required for site functionality. These include:
