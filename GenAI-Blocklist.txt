@@ -1209,6 +1209,8 @@ docs.google.com##.apps-menuitem:has(.goog-menuitem-label[aria-label="Gemini 2"])
 ! "Write with Gemini" footer popup
 docs.google.com##.WithHideTransition.kixWizBarkickWrapper
 docs.google.com##.appsElementsCalloutIsPrimary.appsElementsCalloutAnchorPaddingContainer
+! "Refine" icon in text selection floating menu
+docs.google.com##.inlineFabBubbleContainerRefineButtonContainer
 
 ! ==================
 ! == Google Drive ==
