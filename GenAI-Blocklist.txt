@@ -1774,6 +1774,12 @@ www.lawinsider.com##.zKcZVDrbtr
 www.lawinsider.com##.mdc-menu-surface--anchor:has([data-trigger-paywall-id="CLAUSE_FINDER"])
 www.lawinsider.com##.mdc-menu-surface--anchor:has(> [data-trigger-paywall-id="AI_SEARCH_COLUMNS"])
 
+! ========
+! == LG ==
+! ========
+! LG AI in header
+www.lg.com##.MuiLink-root[href="https://www.lg.com/us/affectionate-intelligence-ai"]
+
 ! ==============
 ! == LinkedIn ==
 ! ==============
