@@ -1683,6 +1683,16 @@ www.ishopchangi.com###chat-wrapper
 ! "Companion AI" promo section
 www.jimdo.com###companion
 
+! ==============
+! == JSFiddle ==
+! ==============
+! Block API requests for AI code completion
+||api.mistral.ai/v1/fim/completions$xhr,domain=jsfiddle.net
+! Error message about code completion request failing
+jsfiddle.net###flash-messages > .error:has-text("Can't complete code. Error code: Failed to fetch.")
+! AI Code completion button in sidebar
+jsfiddle.net##.si_ai
+
 ! ==========
 ! == Kagi ==
 ! ==========
