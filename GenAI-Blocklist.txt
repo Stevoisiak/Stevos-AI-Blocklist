@@ -1893,12 +1893,12 @@ support.microsoft.com,www.microsoft.com,www.xbox.com##li > a[href="https://www.m
 support.microsoft.com,www.xbox.com##li > a[href="https://copilot.microsoft.com/"]
 
 ! Footer
-cloud.microsoft,support.microsoft.com,www.microsoft.com##li:has(> [href*="/microsoft-copilot/"])
-cloud.microsoft,support.microsoft.com,www.microsoft.com##li:has(> [href$="/microsoft-365-copilot?icid=DSM_Footer_Microsoft365Copilot"])
-cloud.microsoft,support.microsoft.com,www.microsoft.com##li:has(> [href$="/windows/ai-features?icid=DSM_Footer_WhatsNew_AIinWindows"])
-cloud.microsoft,support.microsoft.com,www.microsoft.com##li:has(> [href$="/ai?icid=DSM_Footer_AI"])
-cloud.microsoft,support.microsoft.com,www.microsoft.com##li:has(> [href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98"])
-cloud.microsoft,support.microsoft.com,www.microsoft.com##li:has(> [href$="/education/ai-in-education"])
+microsoft.com##li:has(> [href*="/microsoft-copilot/"])
+microsoft.com##li:has(> [href$="/microsoft-365-copilot?icid=DSM_Footer_Microsoft365Copilot"])
+microsoft.com##li:has(> [href$="/windows/ai-features?icid=DSM_Footer_WhatsNew_AIinWindows"])
+microsoft.com##li:has(> [href$="/ai?icid=DSM_Footer_AI"])
+microsoft.com##li:has(> [href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98"])
+microsoft.com##li:has(> [href$="/education/ai-in-education"])
 
 ! "Store Assistant" chat box pinned to bottom right
 www.microsoft.com,www.xbox.com##.copilot-container
