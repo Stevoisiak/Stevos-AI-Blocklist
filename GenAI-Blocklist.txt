@@ -2787,6 +2787,13 @@ tripadvisor.*##.IDaDx.mvTrV.cyIij.fluiI.SMjpI.Iwmxp:has(> .gytPa.e)
 ! "Travel tips" section
 tripadvisor.*##.IDaDx.mvTrV.cyIij.fluiI.SMjpI.Iwmxp:has([data-test-target="travel-advice-faq-shelf"])
 
+! ================
+! == Trustpilot ==
+! ================
+! -- https://www.trustpilot.com/review/trustpilot.com
+! Review summary
+www.trustpilot.com##[class^="styles_summaryContainer__"]
+
 ! ==============
 ! == TurboTax ==
 ! ==============
