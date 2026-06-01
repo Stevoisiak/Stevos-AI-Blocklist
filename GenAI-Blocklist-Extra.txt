@@ -44,7 +44,7 @@ blog.cloudflare.com##.nav-item[data-tag="ai"]
 ! ** uBlock Origin
 www.deviantart.com##+js(json-edit, $[?$.currentPageData]['@@entities'].deviation.*[?.isAiGenerated==true][*])
 ! ** AdGuard
-www.deviantart.com##+js(json-prune, $.@@entities.deviation.*[?.isAiGenerated==true], currentPageData)
+www.deviantart.com##+js(json-prune, @@entities.deviation.{-}.isAiGenerated.[=].true, currentPageData)
 
 ! Block images loaded when scrolling page, homepage sections, and related images.
 ! ** uBlock Origin
