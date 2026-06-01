@@ -372,6 +372,13 @@ youtube.com##+js(trusted-replace-node-text, script, (function serverContract(), 
 !   by asking to contact a real person.
 studio.youtube.com##ytcp-sam-chat
 
+! ============
+! == Zazzle ==
+! ============
+! Floating "Ask Zee" button
+! * Needed for contacting human customer support
+www.zazzle.com##.CcaiLaunchButton_root
+
 ! =====================
 ! == Zendesk Support ==
 ! =====================
