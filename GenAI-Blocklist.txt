@@ -2704,6 +2704,25 @@ trip.com##.A9zea
 ! "Plan a Trip with AI"
 trip.com##.StartModule_planAI__S_98b
 
+! =================
+! == Tripadvisor ==
+! =================
+! * Use wildcard url to cover region-specific sites
+!   (tripadvisor.co.uk, en.tripadvisor.com.hk, etc.)
+
+! Plan with AI button in header
+tripadvisor.*##._T.Ma.Nj.MA.NL
+! Ask AI button on search bar
+tripadvisor.*##.rmyCe._G.B-.z._S.c.Wc.wSSLS.AeLHi.QHaGY
+
+! -- https://www.tripadvisor.com/Tourism-g154998-Niagara_Falls_Ontario-Vacations.html
+! "Looking for places to stay" section with "Ask anything" field
+tripadvisor.*##.NwcwQ.f.jHZoa.mlyki.SklCk.CwUry.oIZOY.Re.u.c
+! "Itineraries to help you plan" section
+tripadvisor.*##.IDaDx.mvTrV.cyIij.fluiI.SMjpI.Iwmxp:has(> .gytPa.e)
+! "Travel tips" section
+tripadvisor.*##.IDaDx.mvTrV.cyIij.fluiI.SMjpI.Iwmxp:has([data-test-target="travel-advice-faq-shelf"])
+
 ! ==============
 ! == TurboTax ==
 ! ==============
