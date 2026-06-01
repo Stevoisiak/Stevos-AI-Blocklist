@@ -102,7 +102,7 @@ www.amazon.*###nav-flyout-rufus
 www.amazon.*##body.rufus-docked-left:remove-class(rufus-docked-left)
 www.amazon.*##body.rufus-docked-right:remove-class(rufus-docked-right)
 www.amazon.*##body:is(.rufus-docked-left, .rufus-docked-right):remove-attr(style)
-www.amazon.*##body:style(padding-left: 0px !important; padding-right: 0px !important;)
+www.amazon.*##body:style(padding-left: 0px !important)
 ! * AdGuard compatibility
 ! * Removing 'style' attribute isn't working on AdGuard, which can cause a white bar to appear the top of the page if Rufus is open and docked.
 !   The storage items below take care of this.
