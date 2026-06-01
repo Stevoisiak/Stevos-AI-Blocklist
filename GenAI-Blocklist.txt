@@ -782,6 +782,15 @@ exceladept.com##div > [href^="https://x.com/i/grok"]
 exceladept.com##div > [href^="https://www.perplexity.ai/"]
 exceladept.com##div > [href^="https://www.google.com/search?udm=50"]
 
+! ==================
+! == ExtendOffice ==
+! ==================
+! -- https://www.extendoffice.com/documents/excel/1876-excel-pivot-table-hide-zero-values.html
+! "Unlock Excel Magic with Kutools AI" section
+www.extendoffice.com##.uk-margin-remove-last-child:has([src="//cdn.extendoffice.com/images/stories/ads-siluvia/kte-ads/kutools-for-excel-ai-1.png"])
+! "Kutools AI Aide" in "Best Office Productivity Tools"
+www.extendoffice.com##.uk-margin-remove-last-child tr:has([href^="https://www.extendoffice.com/product/kutools-for-excel/kutools-excel-ai-assistant.html"])
+
 ! ==============
 ! == Facebook ==
 ! ==============
