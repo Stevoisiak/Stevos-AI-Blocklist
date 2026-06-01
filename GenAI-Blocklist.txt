@@ -745,6 +745,16 @@ www.ecosia.org##.search-navigation__divider:has(+ [data-test-id="search-navigati
 !   See https://www.elsevier.com/products/journals
 ##.js--show.gen-ai
 
+! ==================
+! == Emoji Combos ==
+! ==================
+! AI Chat link in description
+emojicombos.com###introEl > [href="https://perchance.org/ai-chat"]
+
+! -- https://emojicombos.com/dot-art-generator
+! Tip for AI icon generator
+emojicombos.com##.step-body > div:has(> [href="https://perchance.org/ai-icon-generator"])
+
 ! ================
 ! == Emojipedia ==
 ! ================
