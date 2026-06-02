@@ -1908,6 +1908,13 @@ blog.logrocket.com##.plug-gutter
 ! Promo at bottom of article
 blog.logrocket.com##.code-block:has(> .blog-plug)
 
+! ==============
+! == Lokalise ==
+! ==============
+! -- https://lokalise.com/blog/what-is-character-encoding-exploring-unicode-utf-8-ascii-and-more/
+! AI translation in navbar
+lokalise.com##li.border-b-2:has(> [href="/blog/category/ai-translation/"])
+
 ! ===========
 ! == Lowes ==
 ! ===========
