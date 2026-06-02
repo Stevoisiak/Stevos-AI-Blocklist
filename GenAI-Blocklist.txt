@@ -805,6 +805,18 @@ exceladept.com##div > [href^="https://x.com/i/grok"]
 exceladept.com##div > [href^="https://www.perplexity.ai/"]
 exceladept.com##div > [href^="https://www.google.com/search?udm=50"]
 
+! ==============
+! == Exceljet ==
+! ==============
+! "Ask the chatbot"
+exceljet.net##.hero-chatbot-link
+
+! -- https://exceljet.net/search?keys=test
+! Chatbot button in sidebar
+exceljet.net##.block-chatbot-cta
+! Chatbot notice
+exceljet.net##.chatbot-callout
+
 ! ==================
 ! == ExtendOffice ==
 ! ==================
