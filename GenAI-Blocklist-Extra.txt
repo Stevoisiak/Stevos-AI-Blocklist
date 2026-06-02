@@ -190,6 +190,12 @@ central.insightsoftware.com###forethought-chat
 ! * Needed to contact human customer support. 
 www.lowes.com##.sc-coJMku.ChatInviteButton
 
+! ====================
+! == Microsoft Blog ==
+! ====================
+! AI category in navbar
+blogs.microsoft.com###AI.uhf-nav-link
+
 ! =====================
 ! == Microsoft Learn ==
 ! =====================
