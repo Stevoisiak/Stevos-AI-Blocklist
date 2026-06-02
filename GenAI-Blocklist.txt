@@ -2380,6 +2380,8 @@ myapps.paychex.com##png-fab-help-chat-card
 ! ===========
 ! AI Product Finder in header
 www.pcmag.com##[data-element="Maggie-Product-Picker-Launcher"]
+! AI Product Finder QA box
+www.pcmag.com##div:has(> [data-element="embedded-unit"] > form[\@submit\.prevent*="'product-picker-init'"])
 
 ! =============
 ! == Pictory ==
