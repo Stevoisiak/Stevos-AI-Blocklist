@@ -2881,7 +2881,6 @@ turbotax.intuit.com###aic-entry
 ! ==============
 ! == TutorBin ==
 ! ==============
-! -- https://tutorbin.com/online-tutoring
 ! Header - AI Study Tools
 tutorbin.com##[class^="dropdown_li__"]:has(> [class^="dropdown_ai_tool___"])
 ! AI Study Tools section
