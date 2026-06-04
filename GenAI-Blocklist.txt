@@ -1694,6 +1694,21 @@ www.homedepot.com###magic-apron-review-summary
 virtualagent.hpcloud.hp.com##.ac-actionSet > [aria-label="Chat with HP's SupportGPT for AI Answers"]
 virtualagent.hpcloud.hp.com##.ac-actionSet > [aria-label="Get an AI Answer"]
 
+! ===================
+! == Humble Bundle ==
+! ===================
+! -- https://www.humblebundle.com/bundles
+! Bundles involving AI
+! * Excluded the "The Cybersecurity & AI Defense" bundle. Should it be counted?
+www.humblebundle.com##.tile-holder:has(> [href^="/books/claude-code-mastery-bundle-zenva-books"])
+www.humblebundle.com##.tile-holder:has(> [href^="/books/programming-with-ai-and-gpt-prompts-mammoth-books"])
+www.humblebundle.com##.tile-holder:has(> [href^="/software/build-launch-ai-apps-bundle-software"])
+www.humblebundle.com##.tile-holder:has(> [href^="/software/complete-ai-certification-bundle-claude-nvidia-copilot-aws-gemini-and-more-software"])
+www.humblebundle.com##.tile-holder:has(> [href^="/software/complete-business-and-ai-certification-bundle-software"])
+www.humblebundle.com##.tile-holder:has(> [href^="/software/complete-claude-design-and-lovable-automation-super-bundle-software"])
+www.humblebundle.com##.tile-holder:has(> [href^="/software/ultimate-ai-skills-bundle-software"])
+www.humblebundle.com##.tile-holder:has(> [href^="/software/ultimate-genai-llm-developer-bundle-software"])
+
 ! ==========
 ! == IMDB ==
 ! ==========
