@@ -3165,17 +3165,23 @@ www.yahoo.com###conbar-content > .group:has(.stretched-box[href^="https://scout.
 ! -- https://search.yahoo.com/
 ! Yahoo Scout popup promo 
 search.yahoo.com##.scoutPromoPopup
-! "Ask Yahoo Scout" + Separator in search bar
-search.yahoo.com##.sbb-divider
-search.yahoo.com##.sb-scout-wrap
 ! "Try the new Yahoo Scout" below search bar
 search.yahoo.com##.scoutPromo
 
 ! -- https://search.yahoo.com/search?p=Test
+! Scout button in search bar + separator
+search.yahoo.com##.pr-\[11\.5px\]:has(+ .sb-scout-wrap)
+search.yahoo.com##.sb-scout-wrap
 ! "Yahoo Scout" in navbar
 search.yahoo.com##.scoutNav
 ! "Yahoo Scout" in navbar (mobile)
 search.yahoo.com##.scout-tab
+! "Explore AI results" in sidebar
+search.yahoo.com##.searchRightBottom:has(.AlsoTry_E):has([href^="https://scout.yahoo.com/chat"])
+
+! -- https://search.yahoo.com/search?p=Women%27s+College+World+Series
+! "Trending now" AI headline
+search.yahoo.com##.summary-container:has(> .ai-summary)
 
 ! =================
 ! == Yahoo Japan ==
