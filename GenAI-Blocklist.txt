@@ -890,6 +890,26 @@ facebook.com##.m.nb[data-type="container"]:has([role="button"][aria-label="Meta 
 ! Quick Answers - appears below contents box
 fandom.com##section.trfc161
 
+! ============
+! == Ful.io ==
+! ============
+! -- https://ful.io/blog/top-5-json-viewer-chrome-extensions-you-need-to-check-out
+! Header - Email Finder Extension
+ful.io##nav li:has(> [href="https://chrome.google.com/webstore/detail/email-finder-powered-by-a/lhcmmncnljldcdeeheclgfidlgllgfhc"])
+! Header - SalesGPT Extension 
+ful.io##nav > .items-center:has(> [href="https://chrome.google.com/webstore/detail/fulio-free-real-time-sale/adfkbphmnebbfljcdcfjlckobbacdgfn"])
+! ⋮ menu > Ask AI options
+ful.io##.dropdown .border-t:has(+ li > [href^="https://chatgpt.com/"])
+ful.io##.dropdown li:has(> [href^="https://chatgpt.com/"])
+ful.io##.dropdown li:has(> [href^="https://claude.ai/"])
+ful.io##.dropdown li:has(> [href^="https://grok.com/"])
+! Footer links
+ful.io##footer .link[href="https://chrome.google.com/webstore/detail/email-finder-powered-by-a/lhcmmncnljldcdeeheclgfidlgllgfhc"]
+ful.io##footer .link[href="https://chrome.google.com/webstore/detail/fulio-technology-profiler/kkdkjfbpldapfdcngapjigdgcafjopli"]
+ful.io##footer .link[href="https://chrome.google.com/webstore/detail/fulio-free-real-time-sale/adfkbphmnebbfljcdcfjlckobbacdgfn"]
+ful.io##footer .link[href="https://ful.io/extension-list/ai-powered-email-finder"]
+ful.io##footer .link[href="https://ful.io/extension-list/salesGPT-prospector"]
+
 ! ========
 ! == G2 ==
 ! ========
