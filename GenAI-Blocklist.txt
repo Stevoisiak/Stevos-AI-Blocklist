@@ -2878,6 +2878,15 @@ www.trustpilot.com##[class^="styles_summaryContainer__"]
 ! "Ask AI Concierge" sticky button in bottom right
 turbotax.intuit.com###aic-entry
 
+! ==============
+! == TutorBin ==
+! ==============
+! -- https://tutorbin.com/online-tutoring
+! Header - AI Study Tools
+tutorbin.com##[class^="dropdown_li__"]:has(> [class^="dropdown_ai_tool___"])
+! AI Study Tools section
+tutorbin.com##section:has([href="/ai-homework-helper"] > [class^="Aisection_tryAiText__"])
+
 ! =================
 ! == Ulta Beauty ==
 ! =================
