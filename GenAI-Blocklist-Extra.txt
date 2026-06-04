@@ -215,6 +215,14 @@ learn.microsoft.com###ms--highlight-section:has(> [style*="/media/home-and-direc
 ! Sparkle icon indicating an app has AI features (Apps tab)
 teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 
+! ===============
+! == Pinterest ==
+! ===============
+! -- https://www.pinterest.com/search/pins/?q=scenery
+! WIP filter for images with AI modified label
+! * Does not work on all pages. (Example: https://www.pinterest.com/hlynch316/ai-generated-art/)
+www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_topics)
+
 ! ===========
 ! == Pixiv ==
 ! ===========
