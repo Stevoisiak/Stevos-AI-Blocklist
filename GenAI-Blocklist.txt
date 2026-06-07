@@ -1796,14 +1796,35 @@ ttlc.intuit.com###chip-wrapper
 ! Navbar links "Warren" and "Stocks Picked by AI"
 www.investing.com##.quick-links_item__N8CIb:has(> [href="https://www.investing.com/warrenai"])
 www.investing.com##.quick-links_item__N8CIb:has(> [href="https://www.investing.com/pro/propicks"])
-! Promo banner for "AI-picked stocks"
+! Promo banner for "AI-picked stocks" (No longer used?)
 www.investing.com###promo-strip:has([href^="https://www.investing.com/pro/propicks"])
 www.investing.com###main-header:has(promo-strip [href^="https://www.investing.com/pro/propicks"]):style(margin-bottom: 66px !important)
-! Stock sidebar buttons
+! AI buttons below InvestingPro promo
+www.investing.com##a[href="/pro/propicks"]
+www.investing.com##a[href="/warrenai"]
+! Stock sidebar buttons (after scrolling down page)
 www.investing.com##[data-test="ws-warren-btn"]
 www.investing.com##[data-test="ws-propicks-btn"]
+! "Tools" section - ProPicks AI button
+www.investing.com##a[href="https://www.investing.com/pro/propicks"]
+! ... menu > AI buttons (mobile only)
+www.investing.com##[data-test="mobile-ws-tab-5"]
+www.investing.com##[data-test="mobile-ws-tab-8"]
 ! "ProPicks AI - Stocks picked by AI" promo
 www.investing.com##.order-6:has([data-test="inv-pro-strategies"])
+
+! -- https://www.investing.com/markets/united-states
+! "Ask WarrenAI" header banner
+www.investing.com##.proPromo-stripe:has([href^="https://www.investing.com/warrenai/"])
+
+! -- https://www.investing.com/news/stock-market-news/how-durable-is-the-impact-of-the-world-cup-on-stocks-4729697
+! Stock chart - "Included in our AI-picked strategies"
+! * TODO: Filters leave blank space.
+www.investing.com##div.transition-\[grid-template-rows\]:has([href="/pro/propicks"])
+! Stock chart - AI "Analyze" button
+www.investing.com##button.sm\:w-fit:has([href="/next_/menu.svg?v=a38d740#ws-warren-active"])
+! WarrenAI promo at end of article
+www.investing.com##[data-test="contextual-subscription-hook"]
 
 ! ==================
 ! == Investopedia ==
