@@ -564,6 +564,13 @@ www.consumerreports.org###ask-cr-search-tab
 ! Review summary
 www.crateandbarrel.com##.swat-review-summary-container-border
 
+! ==============
+! == DeepWiki ==
+! ==============
+! -- https://deepwiki.com/microsoft/vscode
+! Floating "Ask Devin about" chatbox
+deepwiki.com##.pointer-events-none.fixed.bottom-2:has(form)
+
 ! ==========
 ! == Dell ==
 ! ==========
