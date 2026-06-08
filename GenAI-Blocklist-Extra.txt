@@ -432,6 +432,11 @@ support.zendesk.com###launcher
 ! == Zoom ==
 ! ==========
 ! -- https://us02web.zoom.us/rec/share/[RECORDED-MEETING-ID]
+! Smart chapters in video playback bar
+! (uBlock Origin)
+zoom.us##+js(json-edit, $..result.recordingSmartChapters)
+! (AdGuard)
+zoom.us#%#//scriptlet('json-prune', '$..result.recordingSmartChapters')
 ! Highlights on video playback bar
 zoom.us##.vjs-highlights-bar
 ! Highlights checkbox
