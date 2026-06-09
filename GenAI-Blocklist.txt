@@ -1006,9 +1006,8 @@ github.com###copilot-button-container
 github.com##[data-component="ActionList.Group"]:has(> [aria-label="Copilot"])
 github.com##[data-component="ActionList.Group"]:has(> [aria-label="Copilot"]) + [data-component="ActionList.Divider"]
 github.com##[data-testid="copilot-menu-items"]:remove()
-! "Agents" tab in repository navbar (while on repository you own) (desktop & mobile)
-github.com##.prc-UnderlineNav-UnderlineNavItem-syRjR:has(> [data-tab-item="agents"])
-github.com##[data-component="ActionList.Item"]:has(> [data-tab-item="agents"])
+! "Agents" tab in repository navbar (desktop & mobile)
+github.com##li:has(> [data-tab-item="agents"])
 ! Copilot button in file header next to file size
 ! * Does not appear for all users
 github.com##div:has(> [class*="CopilotPopover-module__copilotButton__"])
