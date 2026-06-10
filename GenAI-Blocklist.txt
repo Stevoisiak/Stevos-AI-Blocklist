@@ -1203,7 +1203,9 @@ glyphy.io##section[class^="NameGenerators_container__"]
 ! Some filters only apply to accounts with a Google Workspace or Google AI subscription
 
 ! -- https://mail.google.com/mail/ (Inbox)
-! Ask Gemini icon in header
+! Header - Google Workspace Studio icon
+mail.google.com##.lRwCV
+! Header - Ask Gemini icon
 mail.google.com##.Zmxtcf
 ! Remove sparkle from search icon (trusted filter)
 mail.google.com#%#//scriptlet('trusted-set-attr', '.gb_Oe.gb_Pe.bEP > svg', 'viewBox', '0 0 24 24')
