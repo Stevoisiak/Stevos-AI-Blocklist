@@ -2540,6 +2540,12 @@ www.priceline.com###penny-icon-module
 www.priceline.com##[data-testid="penny-fab-button"]
 www.priceline.com##[data-testid="poptip"]
 
+! =============
+! == Privacy ==
+! =============
+! Header banner for AI Agents
+www.privacy.com##.click-promo-banner[href="https://agents.privacy.com"]
+
 ! ==============
 ! == ProQuest ==
 ! ==============
