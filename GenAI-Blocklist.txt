@@ -29,9 +29,9 @@
 ! ===========
 ! == Adobe ==
 ! ===========
-! -- https://www.adobe.com/
-! AI Chatbot "Find the right app to bring your ideas to life."
-www.adobe.com##.brand-concierge.hero.above-pods
+! -- https://www.adobe.com/ (logged out)
+! Floating "Ask a question" field. Appears after scrolling down
+||www.adobe.com/libs/c2/blocks/brand-concierge/chat-ui-config.js$script,domain=www.adobe.com
 
 ! -- https://www.adobe.com/home (logged in)
 ! Promo bar for Firefly
