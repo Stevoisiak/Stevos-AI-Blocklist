@@ -1515,25 +1515,17 @@ www.google.com#@#.YzCcne:remove()
 www.google.com,www.google.*##.oGdvd
 
 ! -- https://www.google.com/search?q=caine
-! "Things to know" section 
-! * List items with AI overviews
-www.google.com,www.google.*##[jscontroller="Elkdbc"]
-! * Hide full section if all items are AI
-! * TODO: Often leaves blank space. Filtering on parent `.ULSxyf` fixes this, but the class can also be used by
-!         higher level parents on some pages, leading to overblocking. (For example, standings pages for active sports events).
-!         This can be fixed with the commented filter below, but it has a slight delay before it takes effect.
-! www.google.com,www.google.*##.ULSxyf:has(> .MjjYud > div > div[jsname="Ypkwb"] > div[data-hveid] > .YViDd:not(:has(:not([jscontroller="Elkdbc"]) > .EyBRub)):has([jscontroller="Elkdbc"] > .EyBRub))
-www.google.com,www.google.*##.YViDd:has([jscontroller="Elkdbc"]>.EyBRub):not(:has(:not([jscontroller="Elkdbc"])>.EyBRub))
-
-! "People also ask" section
-! * List items with AI overviews
+! "People also ask" and "Things to know" items with AI
 www.google.com,www.google.*##[jsname="YrZdPb"][data-evn]
-! * Hide full section if all items are AI (desktop & mobile)
-! * TODO: Often leaves blank space. (See "things to know" comment above)
-!         Can be fixed with commented filter below, but it has a slight delay.
-! www.google.com,www.google.*##.ULSxyf:has(> .MjjYud > .A6K0A > .cUnQKe:has([jsname="YrZdPb"]):not(:has([jsname="YrZdPb"]:not([data-evn]))))
-www.google.com,www.google.*##.cUnQKe:has([jsname="YrZdPb"]):not(:has([jsname="YrZdPb"]:not([data-evn])))
-
+www.google.com,www.google.*##[jscontroller="Elkdbc"]
+! Remove section if full of AI
+! * Filter by AchernarB (https://www.reddit.com/r/uBlockOrigin/comments/1u2k877/comment/oqy9qpm/)
+www.google.com,www.google.*###search :is(.ULSxyf:not(:only-child),.A6K0A):has(div:is([jsname="yEVEwb"],[jscontroller="Elkdbc"])):style( display: var(--hasNonAI, none) !important;)
+!   for "People also ask"
+www.google.com,www.google.*###search div[jsname="yEVEwb"]:not(:has([jsname="YrZdPb"][data-evn])):upward(.ULSxyf:not(:only-child)):style( --hasNonAI: block; )
+www.google.com,www.google.*###search div[jsname="yEVEwb"]:not(:has([jsname="YrZdPb"][data-evn])):upward(.A6K0A):style( --hasNonAI: block; )
+!   for "Things to know"
+www.google.com,www.google.*###search :is(.ULSxyf:not(:only-child),.A6K0A):has(.EyBRub:not(:only-child)):style( --hasNonAI: block; )
 ! AI generated topic overview (mobile only)
 www.google.com,www.google.*##[data-attrid="VisualDigestGeneratedDescription"]
 
