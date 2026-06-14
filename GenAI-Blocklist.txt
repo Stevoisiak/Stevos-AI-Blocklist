@@ -2518,9 +2518,68 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ! ===========
 ! == Pixiv ==
 ! ===========
-! -- https://www.pixiv.net/en/artworks/140381030 (Image page)
-! Hide image if Pixiv assigned an AI-generated label
-www.pixiv.net##footer.sc-965e5f82-4.hvhvYg:has(a[href="https://www.pixiv.help/hc/articles/11866167926809"]):upward(4) > figure.sc-bf28ee48-2.kiQxQX
+! Hide images with "AI-generated" label
+! * Filtered images should match Pixiv's own AI filter (https://www.pixiv.help/hc/en-us/articles/11866167926809-What-are-display-settings-for-AI-generated-work)
+! * This filter will reduce the number of results shown per-page, since AI images aren't replaced with new results.
+! * Some pages need both 'json-edit' and 'json-edit-fetch-response'. The former applies mainly when loading page via direct URL.
+
+! -- https://www.pixiv.net/en/tags/ai/illustrations (semi-NSFW)
+! Search results
+! * Page changes depending on whether user is logged in
+! (uBlock Origin)
+www.pixiv.net##+js(json-edit, $..data.[?.aiType==2])
+www.pixiv.net##+js(json-edit-fetch-response, $..data.[?.aiType==2])
+! (AdGuard)
+www.pixiv.net##+js(json-prune, $..data.[?.aiType==2])
+
+! -- https://www.pixiv.net/en/ (logged in)
+! Latest works for you
+! (uBlock Origin)
+www.pixiv.net##+js(json-edit, $..data.thumbnails.[?.aiType==2])
+www.pixiv.net##+js(json-edit-fetch-response, $..data.thumbnails.[?.aiType==2])
+! (AdGuard)
+www.pixiv.net##+js(json-prune, $..data.thumbnails.[?.aiType==2])
+
+! Recommended works
+! * 'carousel' filter applies when user loads a different Pixiv page via direct url then navigates to homepage  
+! (uBlock Origin)
+www.pixiv.net##+js(json-edit, $..contents.[?.thumbnails.[?.aiType==2]])
+www.pixiv.net##+js(json-edit-fetch-response, $..contents.[?.thumbnails.[?.aiType==2]])
+www.pixiv.net##+js(json-edit-fetch-response, $..content.[?.kind=="carousel"].thumbnails[?.aiType==2])
+! (AdGuard)
+www.pixiv.net##+js(json-prune, $..contents.[?.thumbnails.[?.aiType==2]])
+www.pixiv.net##+js(json-prune-fetch-response, $..content.[?.kind=="carousel"].thumbnails[?.aiType==2])
+
+! -- https://www.pixiv.net/bookmark_new_illust.php (logged in)
+! (uBlock Origin)
+www.pixiv.net##+js(json-edit-fetch-response, $..illust.[?.aiType==2])
+www.pixiv.net##+js(json-edit-fetch-response, $..novel.[?.aiType==2])
+! (AdGuard)
+www.pixiv.net##+js(json-prune-fetch-response, $..illust.[?.aiType==2])
+www.pixiv.net##+js(json-prune-fetch-response, $..novel.[?.aiType==2])
+
+! -- https://www.pixiv.net/en/artworks/145900548
+! Works by same author
+! * First filter also covers related & other works sections
+! (uBlock Origin)
+www.pixiv.net##+js(json-edit-fetch-response, $.body.*[?.aiType==2])
+www.pixiv.net##+js(json-edit-fetch-response, $..userIllusts.*[?.aiType==2])
+www.pixiv.net##+js(json-edit-fetch-response, $..illusts.*[?.aiType==2])
+! (AdGuard)
+www.pixiv.net##+js(json-prune-fetch-response, $.body.*[?.aiType==2])
+www.pixiv.net##+js(json-prune-fetch-response, $..userIllusts.*[?.aiType==2])
+www.pixiv.net##+js(json-prune-fetch-response, $..illusts.*[?.aiType==2])
+! Hide image if 'AI-generated' tag is present 
+www.pixiv.net##.dIQnXc:has(.uniTI.jwpVQN) > figure
+
+! -- https://www.pixiv.net/en/users/112965293/illustrations
+! Illustrations by user
+! (uBlock Origin)
+www.pixiv.net##+js(json-edit-fetch-response, $..works.*[?.aiType==2])
+! (AdGuard)
+www.pixiv.net##+js(json-prune-fetch-response, $..works.*[?.aiType==2])
+! Blank space on user's page when viewing image list
+www.pixiv.net##.lptroa
 
 ! ============
 ! == Pockit ==

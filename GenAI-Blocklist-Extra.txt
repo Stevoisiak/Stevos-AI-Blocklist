@@ -215,62 +215,6 @@ learn.microsoft.com###ms--highlight-section:has(> [style*="/media/home-and-direc
 ! Sparkle icon indicating an app has AI features (Apps tab)
 teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 
-! ===========
-! == Pixiv ==
-! ===========
-! -- https://www.pixiv.net/search?q=ai&s_mode=tag&type=illust_ugoira
-! -- https://www.pixiv.net/en/tags/ai
-! Hide images with "AI-generated" label in search results.
-! * Filtered images should match Pixiv's own AI filter (https://www.pixiv.help/hc/en-us/articles/11866167926809-What-are-display-settings-for-AI-generated-work)
-! * This filter will reduce the number of results shown per-page, since AI images aren't replaced with new results.
-! * Unlike Pixiv's built-in filter, this setup doesn't require users to login.
-! * Covers endpoints at '/ajax/search' (logged in) and '/en/tags/' (logged out?)
-! * Use 'json-prune' instead of 'json-prune-fetch-response' because logged out filtering on tag page doesn't work otherwise.
-!   Unclear why this isn't the case for the uBlock Origin edit filter???
-! * Currently in extra as rules are WIP
-! * TODO: Combine rules where possible
-! (AdGuard)
-www.pixiv.net#%#//scriptlet('json-prune', '$..data.*[?aiType==2]')
-! (uBlock Origind)
-www.pixiv.net##+js(json-edit-fetch-response, ..data.*[?.aiType==2], propsToMatch, /search)
-
-! AI images in Popular Works section
-! (AdGuard)
-www.pixiv.net#%#//scriptlet('json-prune', '$..popular.*.[?aiType==2]')
-! (uBlock Origin)
-www.pixiv.net##+js(json-edit-fetch-response, ..popular.*.[?.aiType==2], propsToMatch, /search)
-
-! -- https://www.pixiv.net/en/artworks/145353478
-! AI images from the same user
-! (AdGuard)
-www.pixiv.net#%#//scriptlet('json-prune', '$..userIllusts.*.[?aiType==2]')
-! (uBlock Origin)
-www.pixiv.net##+js(json-edit-fetch-response, ..userIllusts.*.[?.aiType==2])
-
-! AI images in Related Works
-! (AdGuard)
-www.pixiv.net#%#//scriptlet('json-prune', '$..illusts.*.[?aiType==2]')
-! (uBlock Origin)
-www.pixiv.net##+js(json-edit-fetch-response, ..illusts.*.[?.aiType==2])
-
-! AI images in Works by All Users
-! (AdGuard)
-www.pixiv.net#%#//scriptlet('json-prune', '$..zengoIdWorks.*.[?aiType==2]')
-! (uBlock Origin)
-www.pixiv.net##+js(json-edit-fetch-response, ..zengoIdWorks.*.[?.aiType==2])
-
-! AI images in "Other Works"
-! (AdGuard)
-www.pixiv.net#%#//scriptlet('json-prune', '$.body.*.[?aiType==2]')
-! (uBlock Origin)
-www.pixiv.net##+js(json-edit-fetch-response, .body.*.[?.aiType==2])
-
-! -- https://www.pixiv.net/en/users/113334118/illustrations
-! (AdGuard)
-www.pixiv.net#%#//scriptlet('json-prune', '$.body.works.*.[?aiType==2]')
-! (uBlock Origin)
-www.pixiv.net##+js(json-edit-fetch-response, .body.works.*.[?.aiType==2])
-
 ! ======================
 ! == Quicken Simplifi ==
 ! ======================

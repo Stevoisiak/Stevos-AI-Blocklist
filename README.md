@@ -8,9 +8,9 @@ Available for PC/Linux ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-o
 * Google's AI Overviews
 * YouTube's Ask button, video summaries, auto-dubbing, and 'Super Resolution' upscaling
 * Copilot buttons on GitHub, Bing, Microsoft 365, and Azure Portal
+* Images on Pixiv, DeviantArt, and Danbooru with AI-generated label
 * Amazon Rufus's product and review summaries
 * Reddit Answers and recommended posts from AI subreddits
-* DeviantArt images with AI tools disclaimer and DreamUp ads
 * Facebook's AI chat
 * TikTok videos tagged as AI generated
 * X/Twitter's Grok buttons
@@ -100,11 +100,11 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 
 ## Optional extra blocklist
 There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) with additional blocks. These are more subjective or experimental blocks. They may be more prone to accidentally blocking non-AI content or content required for site functionality. These include:
-* Pixiv: An experimental filter that hides AI generated images in search results.
 * X: Posts made by @Grok.
-* AI category section on news sites (Just the category, not posts covering AI).
+* AI category in headers on news sites.
 * Customer support chatbots that must be used before you can contact human customer support.
 * YouTube: Trusted filter to remove autodubbing when loading a video directly via URL, but causes visible page refresh even on videos without autodubbing.
+* Zoom: Highlights and automatic chapters on recorded meetings.
 
 ## FAQ
 ### Which adblockers will this filter list work with?
