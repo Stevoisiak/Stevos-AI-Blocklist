@@ -2535,8 +2535,10 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ! (uBlock Origin)
 www.pixiv.net##+js(json-edit, $..data.[?.aiType==2])
 www.pixiv.net##+js(json-edit-fetch-response, $..data.[?.aiType==2])
+www.pixiv.net##+js(json-edit-fetch-response, $..popular.*.[?.aiType==2])
 ! (AdGuard)
 www.pixiv.net##+js(json-prune, $..data.[?.aiType==2])
+www.pixiv.net##+js(json-prune-fetch-response, $..popular.*.[?.aiType==2])
 
 ! -- https://www.pixiv.net/en/ (logged in)
 ! Latest works for you
