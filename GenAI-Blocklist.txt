@@ -2578,7 +2578,7 @@ www.pixiv.net##+js(json-prune-fetch-response, $.body.*[?.aiType==2])
 www.pixiv.net##+js(json-prune-fetch-response, $..userIllusts.*[?.aiType==2])
 www.pixiv.net##+js(json-prune-fetch-response, $..illusts.*[?.aiType==2])
 ! Hide image if 'AI-generated' tag is present 
-www.pixiv.net##.dIQnXc:has(.uniTI.jwpVQN) > figure
+www.pixiv.net##.dIQnXc:has(.uniTI.jwpVQN > [href="https://www.pixiv.help/hc/articles/11866167926809"]) > figure
 
 ! -- https://www.pixiv.net/en/users/112965293/illustrations
 ! Illustrations by user
