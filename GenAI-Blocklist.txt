@@ -2520,8 +2520,9 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ! ===========
 ! Hide images with "AI-generated" label
 ! * Filtered images should match Pixiv's own AI filter (https://www.pixiv.help/hc/en-us/articles/11866167926809-What-are-display-settings-for-AI-generated-work)
-! * This filter will reduce the number of results shown per-page, since AI images aren't replaced with new results.
+! * JSON filters reduce the number of results shown per-page, since AI images aren't replaced with new results.
 ! * Some pages need both 'json-edit' and 'json-edit-fetch-response'. The former applies mainly when loading page via direct URL.
+! * Ideally some of these filters would be combined, but filtering too broadly causes errors (ex: '$..*[?.aiType==2]' breaks logged-in homepage)
 
 ! -- https://www.pixiv.net/search?q=ai&s_mode=tag&type=artwork (Logged in) (semi-NSFW)
 ! Change search settings to hide AI
