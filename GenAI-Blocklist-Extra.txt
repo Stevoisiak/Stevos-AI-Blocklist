@@ -109,7 +109,7 @@ design.google##[data-testid="search-bar"]:has(> [name="ai"])
 ! =================
 ! == Google Docs ==
 ! =================
--- https://docs.google.com/spreadsheets/create (Sheets)
+! -- https://docs.google.com/spreadsheets/create (Sheets)
 ! Break Gemini chatbot
 ||appsgenaiserver-pa.clients6.google.com/v1/genai/$xhr,domain=docs.google.com
 
