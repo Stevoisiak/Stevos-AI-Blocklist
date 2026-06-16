@@ -180,6 +180,14 @@ www.google.com,www.google.*##.G43f7e > [data-attrid="AutocompletePrediction"]:ha
 ! Google Labs icon in header (mobile)
 www.google.com,www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
 
+! ===================
+! == Hello Klarity ==
+! ===================
+! Searching provider by description of symptoms
+! * Does not apply if selecting one of the auto-fill options that appears when typing
+! * Causes error message
+||app.kiwihealth.com/patient-server/public/klarity/llm/search$xhr,domain=www.helloklarity.com
+
 ! ======================
 ! == Insight Software ==
 ! ======================
