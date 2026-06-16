@@ -1572,6 +1572,8 @@ docs.google.com##.FormulaBarContainerGeminiSummarizeButton
 docs.google.com##.extendTableControlsOverlayIconContainer:has(> .extendTableControlsOverlayColumnsmithIcon)
 ! Modal promo for "Drag to fill with Gemini"
 docs.google.com##.javascriptMaterialdesignGm3WizDialog-dialog--sheet:has([src="https://www.gstatic.com/apps/upsell/sheets_magic_drag_without_toolbar.png"])
+! Bottom bar - Canvas menu
+docs.google.com##.docs-sheet-canvas-button
 
 ! - Table options (Insert > Pre-built tables)
 ! "Help me create a table" button
