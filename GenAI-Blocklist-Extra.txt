@@ -168,6 +168,12 @@ www.google.com,www.google.*##.G43f7e > [data-attrid="AutocompletePrediction"]:ha
 www.google.com,www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
 
 ! ===================
+! == Google Sheets ==
+! ===================
+! Break Gemini chatbot
+||appsgenaiserver-pa.clients6.google.com/v1/genai/$xhr,domain=docs.google.com
+
+! ===================
 ! == Google Slides ==
 ! ===================
 ! "Convert to video" in "File" menubar and right sidebar 
