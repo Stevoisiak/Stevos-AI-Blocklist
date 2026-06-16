@@ -3181,6 +3181,9 @@ developer.vonage.com##[data-testid="copy-llm-btn"]
 ! =============
 ! == Walmart ==
 ! =============
+! Floating chat icon
+www.walmart.com##.unified-chat-component
+
 ! -- https://www.walmart.com/ip/Lux-Decor-Collection-5-Piece-Queen-Down-Alternative-Comforter-Set-Washable-Duvet-Bedding-Set-Quatrefoil-Navy/747152652
 ! Key item features
 www.walmart.com###top-highlights-module
