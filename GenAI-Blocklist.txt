@@ -487,6 +487,12 @@ www.canva.com##.SymshQ.BMOCzQ.LuBWVA:has([src="https://template.canva.com/EAHBDm
 ! Floating "Get Plus" promo on top of page
 chatgpt.com##.button-glimmer-cta:has-text(Get Plus):upward(1)
 
+! ==================
+! == Cisco DevNet ==
+! ==================
+! Header notification for AI repos
+developer.cisco.com##.wrapper-dwc-notification:has([href="/codeexchange/ai/"])
+
 ! =============
 ! == Claimyr ==
 ! =============
