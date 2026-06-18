@@ -987,9 +987,9 @@ github.com##.dashboard-changelog .TimelineItem:has(:is([href*="claude"], [href*=
 ! Command Palette - Copilot
 ! * "Command Palette" is enabled via "Feature Preview". Opens with Ctrl+K
 !#if ext_ublock
-github.com##+js(json-edit-fetch-response, $.results.[?.action.path=="/copilot"])
+github.com##+js(json-edit-fetch-response, $.results.[?.action.path=="/copilot"], propsToMatch, /command_palette/jump_to_page_navigation)
 !#else
-github.com##+js(json-prune-fetch-response, $.results.[?.action.path=="/copilot"])
+github.com##+js(json-prune-fetch-response, $.results.[?.action.path=="/copilot"], propsToMatch, /command_palette/jump_to_page_navigation)
 !#endif
 ! * Backup cosmetic filter (Won't remove from autocomplete. Uses :remove() to fix arrow key navigation)
 github.com##command-palette-item[data-item-title="Copilot"]
