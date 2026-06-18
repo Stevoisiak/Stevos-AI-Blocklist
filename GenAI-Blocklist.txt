@@ -1391,7 +1391,9 @@ docs.google.com##.extendTableControlsOverlayIconContainer:has(> .extendTableCont
 ! Formula suggestion box - Fix
 docs.google.com##.geminiFixButtonWrapper
 ! Formula suggestion box - Generate formula
-docs.google.com##.waffle-unified-formula-help-gemini-button-container
+docs.google.com##.waffle-unified-formula-help-gemini-button-only
+! Sggestion box - Fix all formula errors
+docs.google.com##.waffleGriddySuggestionsBubbleGeminiUi
 ! Bottom bar - Canvas menu
 docs.google.com##.docs-sheet-canvas-button
 
