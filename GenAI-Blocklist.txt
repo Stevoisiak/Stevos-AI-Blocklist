@@ -954,41 +954,42 @@ gitbook.com##button[aria-label="GitBook Assistant"]:remove()
 ! ============
 ! == GitHub ==
 ! ============
-! -- https://github.com/ (Homepage - logged in)
 ! Copilot network requests
-! * Prevents Copilot generated commit messages 
+! * Prevents Copilot-generated commit messages 
 ||api.individual.githubcopilot.com/$xhr,domain=github.com
-! "Chat with Copilot" icon in header next to search bar
+
+! -- https://github.com/ (Homepage - logged in)
+! Header - "Chat with Copilot" icon next to search bar
 github.com##[data-testid="top-bar-actions"] > .hide-md:has(> .CopilotItems-module__Wrapper__BFG9q)
-! "Copilot" button in left hamburger menu (≡)
+! Header - left hamburger menu (≡) - "Copilot" button
 github.com##[data-testid="side-nav-menu-item-COPILOT"]
-! "Ask Copilot" prompt box in "Home" feed
-github.com##.copilotPreview__container
-! "Copilot" section & separator in search bar auto-complete suggestions
+! Header - Search bar - "Copilot" section in auto-complete suggestions
 github.com##.ActionList-sectionDivider:has([data-command-name="search-copilot-chat"])
 github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider [data-command-name="search-copilot-chat"])
-! Right sidebar - Copilot promo banner
-github.com##.DashboardBannerCopilotApp
-! Changelog posts containing ai terms in right sidebar
-github.com##.dashboard-changelog .TimelineItem:has(:is([href*="claude"], [href*="copilot"], [href*="gemini"], [href*="gpt-"], [href*="grok"]))
-! Floating "Open in Copilot chat" icon when hovering over a pull request or issue.
-! * Requires enabling "New Dashboard Experience" in "Feature Preview"
-github.com##.DashboardListView-module__contextBubbleMenu__q0zmI:has(> button > svg.octicon-copilot)
-! Copilot menu option
-! * Requires enabling "Command Palette" in "Feature Preview"
-! * Use :remove() to fix arrow key navigation.
-github.com##command-palette-item[data-item-title="Copilot"]
-github.com##command-palette-item[data-item-title="Copilot"]:remove()
-! Feature Preview > Organization Custom Instructions
+! Header - Profile icon - Feature Preview - Organization Custom Instructions
 ! * Only applies if feature is already disabled
 github.com##[id$="-tab-copilot_chat_custom_instructions"]:has(.octicon-eye-closed)
-! Trending repositories for AI tools
+! Home feed - "Ask Copilot" prompt box
+github.com##.copilotPreview__container
+! Home feed - Trending repositories for AI tools
 ! * FIXME: Blank padding left when hiding spot 1. (Element .mt-1.mb-1)
 ! * 1st spot (+ separator)
 github.com###feed-item-0 .mt-1.mb-1 > .tmp-px-3:has([data-hydro-click*='"card_type":"TRENDING_REPOSITORY"']:is([href^="/anthropics/claude"], [href="/anthropics/knowledge-work-plugins"], [href^="/Lum1104/Understand-Anything"], [href="/rohitg00/ai-engineering-from-scratch"]))
 github.com###feed-item-0 .mt-1.mb-1 > .tmp-px-3:has([data-hydro-click*='"card_type":"TRENDING_REPOSITORY"']:is([href^="/anthropics/claude"], [href="/anthropics/knowledge-work-plugins"], [href^="/Lum1104/Understand-Anything"], [href="/rohitg00/ai-engineering-from-scratch"])) + div > #feed-item-0 .tmp-mb-3.mt-2
 ! * 2nd spot
 github.com###feed-item-0 #feed-item-0:has([data-hydro-click*='"card_type":"TRENDING_REPOSITORY"']:is([href^="/anthropics/claude"], [href="/anthropics/knowledge-work-plugins"], [href^="/Lum1104/Understand-Anything"], [href="/rohitg00/ai-engineering-from-scratch"]))
+! Home feed (w/ New Dashboard Experience enabled) - Floating Copilot icon when hovering over pull request or issue.
+github.com##.DashboardListView-module__contextBubbleMenu__q0zmI:has(> button > svg.octicon-copilot)
+! Right sidebar - Copilot promo banner
+github.com##.DashboardBannerCopilotApp
+! Right sidebar - Changelog posts containing ai terms
+github.com##.dashboard-changelog .TimelineItem:has(:is([href*="claude"], [href*="copilot"], [href*="gemini"], [href*="gpt-"], [href*="grok"]))
+! Command Palette - Copilot
+! * Requires enabling "Command Palette" in "Feature Preview". Opens with Ctrl+K
+! * Use :remove() to fix arrow key navigation.
+! * TODO: Prevent auto-complete suggestion for Copilot
+github.com##command-palette-item[data-item-title="Copilot"]
+github.com##command-palette-item[data-item-title="Copilot"]:remove()
 
 ! -- https://github.com/settings/copilot/features (Copilot features in account settings)
 ! Promo banner for GitHub Copilot (Doesn't appear for all users)
@@ -996,9 +997,16 @@ github.com##.start-copilot-banner
 ! "Getting started" checklist section
 github.com##[data-testid="copilot-free-user-checklist"]
 
+! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/
+! "Agents" tab in repository navbar (desktop & mobile)
+github.com##li:has(> [data-tab-item="agents"])
+
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/blob/main/GenAI-Blocklist.txt (File view)
-! "Ask Copilot about this file" button - Copilot logo in header bar above file contents
+! File header - "Ask Copilot about this file" button
 github.com###blob-view-header-copilot-icon
+! File header - Copilot button next to file size
+! * Does not appear for all users
+github.com##div:has(> [class*="CopilotPopover-module__copilotButton__"])
 ! "Ask Copilot about this snippet" button that appears after selecting lines in file view
 github.com###copilot-button-container
 ! "Copilot" section & separator in navbar action Menu (...)
@@ -1006,18 +1014,13 @@ github.com###copilot-button-container
 github.com##[data-component="ActionList.Group"]:has(> [aria-label="Copilot"])
 github.com##[data-component="ActionList.Group"]:has(> [aria-label="Copilot"]) + [data-component="ActionList.Divider"]
 github.com##[data-testid="copilot-menu-items"]:remove()
-! "Agents" tab in repository navbar (desktop & mobile)
-github.com##li:has(> [data-tab-item="agents"])
-! Copilot button in file header next to file size
-! * Does not appear for all users
-github.com##div:has(> [class*="CopilotPopover-module__copilotButton__"])
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/compare/main...reddit-rewrite (Pull request creation)
 ! "Generate pull request title with Copilot" button
 github.com##[data-component="IconButton"]:has(> .octicon-copilot)
 
 ! -- https://github.com/gorhill/uBlock/blob/master/src/js/resources/json-edit.js
-! Copilot button in symbols panel
+! Symbols pane - Copilot button 
 github.com##.prc-ButtonGroup-ButtonGroup-vFUrY:has([data-testid="copilot-ask-menu"])
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/new (New issue page)
@@ -1031,16 +1034,16 @@ github.com##.Footer-module__footerButtonWrapper__RL1TZUq, .Footer-module__footer
 github.com##[partial-name="copilot-assisted-review-upsell"]
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/pull/13/changes (Viewing changed files of a pull request)
+! Copilot panel button
+github.com##.flex-items-center:has(> [data-component="IconButton"] > .octicon-copilot)
+! File header - "Ask about this diff" button
+github.com##[data-testid="copilot-diff-explain-button"]
 ! "Ask Copilot" button next to "Review" button (no longer used?)
 github.com##[partial-name="copilot-code-chat"]
 ! "Ask Copilot about this file diff" icon that appears when hovering over diff (no longer used?)
 github.com##.DiffLinesMenu-module__diff-button-container__vsLlS:has([data-testid="more-copilot-button"])
 ! "Ask Copilot about this diff" in action menu (...) (no longer used?)
 github.com##[data-target="copilot-diff-entry.menuItemsSlot"]
-! Copilot panel button
-github.com##.flex-items-center:has(> [data-component="IconButton"] > .octicon-copilot)
-! "Ask about this diff" button
-github.com##[data-testid="copilot-diff-explain-button"]
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/commit/0a4ba065e2b4e5b5ee60b23e6d01621561343af4 (Viewing commit)
 ! "Ask about this diff" and "Copilot" options in ... and ▾ menu
@@ -1055,14 +1058,12 @@ github.com##[data-component="ActionList.Divider"] + [data-component="ActionList.
 ! "Explain error" button
 github.com##[data-test-id="copilot-actions-chat-button"]
 
-! -- https://github.com/home (Homepage - logged out)
+! -- https://github.com/home (logged out)
 ! Header - Platform >  "AI Code Creation" section
 ! * This filter might hide more than intended if the Copilot button gets moved to a column with non-ai features
 github.com##li:has(> div[class^="NavGroup-module__group"] a[href="https://github.com/features/copilot"])
-
 ! Header - Resources > Explore by Topic > "AI" link
 github.com##li:has(> a[class^="NavLink-module__link"][href="https://github.com/resources/articles?topic=ai"])
-
 ! "Try GitHub Copilot free" button
 github.com##.Primer_Brand__Button-module__Button___lDruK[href="/github-copilot/pro"]
 ! "Your AI Partner everywhere" section
@@ -1074,7 +1075,7 @@ github.com##.Link--secondary[href="/features/copilot"]
 github.com##.Link--secondary[href="/features/ai"]
 
 ! -- https://support.github.com/
-! Copilot button in header
+! Header - Copilot button
 support.github.com##[data-fs="copilot_chat_nav"]
 ! "Need instant help?" Copilot suggestion after searching
 support.github.com##.icXpMNcCnhao54vzcHSi:has(.prc-Flash-Flash-q6HW0)
