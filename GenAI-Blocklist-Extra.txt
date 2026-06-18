@@ -56,6 +56,8 @@ github.com###feed-item-0[data-hydro-view*='"card_type":"TRENDING_REPOSITORY"']:h
 ! Unsure. Entitlements and AI prompts suggestions from homepage chatbox?
 ! * Suggestions seemingly still work when this is blocked. Purpose is assumed is based on data from `/github-copilot/chat/entitlement` and `/github-copilot/chat?skip_anchor=true`
 ||github.com/github-copilot/chat$xhr,1p
+! Right sidebar - Copilot promo banner
+||github.com/static/images/modules/dashboard/promos/copilot-$image,1p
 
 ! =================
 ! == GitHub Blog ==

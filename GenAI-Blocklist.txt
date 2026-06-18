@@ -967,6 +967,8 @@ github.com##.copilotPreview__container
 ! "Copilot" section & separator in search bar auto-complete suggestions
 github.com##.ActionList-sectionDivider:has([data-command-name="search-copilot-chat"])
 github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider [data-command-name="search-copilot-chat"])
+! Right sidebar - Copilot promo banner
+github.com##.DashboardBannerCopilotApp
 ! Changelog posts containing ai terms in right sidebar
 github.com##.dashboard-changelog .TimelineItem:has(:is([href*="claude"], [href*="copilot"], [href*="gemini"], [href*="gpt-"], [href*="grok"]))
 ! Floating "Open in Copilot chat" icon when hovering over a pull request or issue.
