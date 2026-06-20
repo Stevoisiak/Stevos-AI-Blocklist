@@ -1891,14 +1891,6 @@ kagi.com##[href="/summarizer"]
 kagi.com##[href="/fastgpt"]
 ! Quick answer tip in search autocomplete
 kagi.com##.tip:has-text(Quick Answer)
-! April Fools Day redesign
-kagi.com##div:has(> b > [href="/summarizer"])
-! * April 1st Ask Assistant
-kagi.com##td > br:has(+ b:has-text(Have a question? Ask Assistant))
-kagi.com##td > b:has-text(Have a question? Ask Assistant)
-kagi.com##td > form[action="/assistant"]
-kagi.com##td > b:has-text(Sample questions:)
-kagi.com##td > b:has-text(Sample questions:) + ul
 
 ! -- https://kagi.com/search?q=test (Search results)
 ! "Quick Answer" button
