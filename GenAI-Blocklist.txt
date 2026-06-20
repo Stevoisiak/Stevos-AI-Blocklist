@@ -2842,6 +2842,14 @@ www.singaporeair.com##chat-bot-button + .dwc--SiaHeader__WhiteSeparator
 
 ! TODO: More AI buttons in search
 
+! =================
+! == Sleepopolis ==
+! =================
+! Floating chat icon
+||chat.autonomoustechnology.ai/embed/$subdocument,domain=sleepopolis.com
+sleepopolis.com###art-chat-launcher
+sleepopolis.com###art-chat-widget
+
 ! ===========
 ! == Sogou ==
 ! ===========
