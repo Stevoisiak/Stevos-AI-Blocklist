@@ -182,6 +182,23 @@ www.google.com,www.google.*##.G43f7e > [data-attrid="AutocompletePrediction"]:ha
 ! Google Labs icon in header (mobile)
 www.google.com,www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
 
+! -- Testing new Google filters for https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/115 --
+! "Things to know" and "People also ask" sections
+! * First filter hides list items, .cUnQKe hides header if all items are AI, .ULSxyf hides extra space if needed
+! * Extra sanity checks on child elements of .ULSxyf to avoid overfiltering. (Example: https://www.google.com/search?q=world+cup+standing)
+! ** "Things to know"
+www.google.com,www.google.*##[jscontroller="Elkdbc"]
+www.google.com,www.google.*##.ULSxyf:has(> .MjjYud > div:not([class]) > [jsname="Ypkwb"] [jscontroller="Elkdbc"] > .EyBRub)
+! ** "People also ask" section
+www.google.com,www.google.*##[jsname="YrZdPb"][data-evn]
+www.google.com,www.google.*##.cUnQKe:has([jsname="YrZdPb"][data-evn]):not(:has([jsname="YrZdPb"]:not([data-evn])))
+www.google.com,www.google.*##.ULSxyf:has(> .MjjYud > .A6K0A > .cUnQKe [jsname="YrZdPb"][data-evn]):not(:has([jsname="YrZdPb"]:not([data-evn])))
+! Override main list filters so we can validate
+www.google.com,www.google.*#@##search :is(.ULSxyf:not(:only-child),.A6K0A):has(div:is([jsname="yEVEwb"],[jscontroller="Elkdbc"])):style( display: var(--hasNonAI, none) !important;)
+www.google.com,www.google.*#@##search div[jsname="yEVEwb"]:not(:has([jsname="YrZdPb"][data-evn])):upward(.ULSxyf:not(:only-child)):style( --hasNonAI: block; )
+www.google.com,www.google.*#@##search div[jsname="yEVEwb"]:not(:has([jsname="YrZdPb"][data-evn])):upward(.A6K0A):style( --hasNonAI: block; )
+www.google.com,www.google.*#@##search :is(.ULSxyf:not(:only-child),.A6K0A):has(.EyBRub:not(:only-child)):style( --hasNonAI: block; )
+
 ! ===================
 ! == Hello Klarity ==
 ! ===================
