@@ -2955,6 +2955,12 @@ www.supersummary.com##.edk5i7v1:has([data-testid="AutoFixHighOutlinedIcon"])
 ! Floating "Ask SuperSummary" button
 www.supersummary.com##.e1jtsgu01:has(> [src="/ai-assistant-icon.svg"])
 
+! =================
+! == Talent Yard ==
+! =================
+! Floating assistant icon
+talent.performyard.com##+js(json-prune-fetch-response, *, , propsToMatch, /v1/ai/)
+
 ! ============
 ! == Target ==
 ! ============
