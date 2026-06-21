@@ -372,6 +372,12 @@ androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers
 ! -- Posts by Grok
 x.com##article[data-testid="tweet"]:has(div.css-175oi2r.r-5f1w11.r-u8s1d.r-8jfcpp > a[role="link"][href="/grok"])
 
+! ==========
+! == Yahoo ==
+! ===========
+! Navbar - AI topic
+tech.yahoo.com##.group\/subItem[href="https://tech.yahoo.com/ai/"]
+
 ! =============
 ! == YouTube ==
 ! =============
