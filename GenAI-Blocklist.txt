@@ -2454,6 +2454,13 @@ op.gg##.button-bold.rounded.size-\[40px\]:has(> .transition-all > .bg-animated-r
 ! Suggested questions below search bar
 op.gg##.flex-col.items-center.-mt-\[60px\] > .w-full.pb-2.md\:hidden.md\:pb-0
 
+! =======================
+! == OpenJS Foundation ==
+! =======================
+! -- https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers
+! Summarize with AI
+openjsf.org##.mt-2.flex.items-center.gap-2.text-gray-500.dark\:text-gray-400:has([href^="https://claude.ai/"])
+
 ! =============
 ! == Outlook ==
 ! =============
