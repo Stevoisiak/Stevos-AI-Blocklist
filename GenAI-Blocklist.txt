@@ -17,6 +17,16 @@
 ! * Removing sites that post Generative AI content from search engines.
 !   (Covered by https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)
 
+! ========================
+! == Generic/Multi-site ==
+! ========================
+! "Reading Assistant" floating icon on elsevier sites
+! * Button potentially present on hundreds of child sites.
+!   See https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/74
+##.js--show.gen-ai
+! Floating Ask AI button
+||widget.kapa.ai/kapa-widget.bundle.js$script,domain=developer.vonage.com|developers.reddit.com|docs.posit.co|kapa.ai|sentry.zendesk.com
+
 ! ===============
 ! == 1Password ==
 ! ===============
@@ -776,14 +786,6 @@ www.ecosia.org##.omnibox-search-form__ai-chat
 ! "AI Chat" & separator in navbar
 www.ecosia.org##[data-test-id="search-navigation-item-chat"]
 www.ecosia.org##.search-navigation__divider:has(+ [data-test-id="search-navigation-item-chat"])
-
-! ==============
-! == Elsevier ==
-! ==============
-! "Reading Assistant" floating icon
-! * Uses global filter as button is present on hundreds of child sites.
-!   See https://www.elsevier.com/products/journals
-##.js--show.gen-ai
 
 ! ==================
 ! == Emoji Combos ==
@@ -1923,12 +1925,6 @@ kahoot.com##.menu-item:has(> [href^="https://kahoot.com/kahoot-study/notes-to-fl
 ! -- https://create.kahoot.it/page/en/make
 ! AI Assisted tools to get started
 discover.kahoot.it##[data-functional-selector="native-carousel-item"]:has([class^="styles_AiAssisted__"])
-
-! =============
-! == Kapa AI ==
-! =============
-! Floating Ask AI button
-||widget.kapa.ai/kapa-widget.bundle.js$script,domain=developer.vonage.com|developers.reddit.com|docs.posit.co|kapa.ai|sentry.zendesk.com
 
 ! ==================
 ! == Karma Search ==
