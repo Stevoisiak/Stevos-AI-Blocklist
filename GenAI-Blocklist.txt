@@ -1739,6 +1739,13 @@ virtualagent.hpcloud.hp.com##.ac-actionSet > [aria-label="Get an AI Answer"]
 ! * Exclude the "The Cybersecurity & AI Defense" bundle
 www.humblebundle.com##.bundle:is([href*="-ai-"], [href*="claude-code"], [href*="genai-"]):not([href*="cybersecurity"])
 
+! =========
+! == IBM ==
+! =========
+! -- https://www.ibm.com/think
+! Floating chat bubble
+www.imb.com###ucx-symphony-webchat-host
+
 ! ==========
 ! == IMDB ==
 ! ==========
