@@ -166,17 +166,22 @@ Commit messages use prefixes to indicate the type of change.
 * F: Fixed a filter (not working, blocking too much, typo, etc.)
 * +: Filter applied to the "extra" list
 
-## Other AI blocking projects
+## Other AI blocking tools
+### General
 * [Just the Browser](https://justthebrowser.com/): Removes AI features, telemetry, and sponsored content from web browsers.
 * [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI): Removes AI components in Windows.
-* [AI uBlock Origin Blacklist](https://github.com/alvi-se/ai-ublock-blacklist): uBlock Origin filter list for AI content farms. 
 * [uBlockOrigin Huge AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist): Filter list to remove sites with AI generated content from search engines.
+* [AI uBlock Origin Blacklist](https://github.com/alvi-se/ai-ublock-blacklist): uBlock Origin filter list for AI content farms. 
+* [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt): Another uBlock Origin filter list aimed at AI widgets. Used as a reference for a few of the filters on this list.
+
+### Media 
+* Blocktube ([Chrome/Edge](https://chromewebstore.google.com/detail/blocktube/bbeaicapbccfllodepmimpkgecanonai?hl=en-US), [Firefox](http://addons.mozilla.org/en-US/firefox/addon/blocktube/)): Extension for blocking channels and videos on YouTube.
+  * [Blocklist for AI music on YouTube](https://surasshu.com/blocklist-for-ai-music-on-youtube/): List of AI music channels for Blocktube.
+  * [Ionotter's YT Blocklist](https://pastebin.com/QS93tnXk): List of channels that use AI for BlockTube.
+* [AI warning for Steam](https://github.com/seeeeew/aiwarningforsteam): Browser extension to blur or hide Steam games with an AI content disclosure.
 * [CevvalYoutubeAIBlocklist](https://github.com/cevvalkoala/CevvalYoutubeAIBlocklist): Filter list for AI Music channels on YouTube for uBlock Origin.
-* [Blocklist for AI music on YouTube](https://surasshu.com/blocklist-for-ai-music-on-youtube/): Blocklist of AI music channels on YouTube for the Blocktube extension.
 * [Spotify AI Band Blocker](https://github.com/Reginald-Gillespie/Spotify-AI-Band-Blocker): Plugin for Spicetify to block AI artists on Spotify.
 * [Spotify AI Blocker](https://github.com/CennoxX/spotify-ai-blocker): Userscript to block AI artists on Spotify.
-* [AI warning for Steam](https://github.com/seeeeew/aiwarningforsteam): Browser extension to show popup warnings for Steam games with an AI content disclosure.
-* [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt): Another uBlock Origin filter list aimed at AI widgets. Used as a reference for a few of the filters on this list.
 
 ## Feedback
 If you want to report an AI widget that is unblocked, please [submit an issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues) and include the website URL and a screenshot of the unblocked item. 
