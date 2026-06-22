@@ -1917,6 +1917,12 @@ kahoot.com##.menu-item:has(> [href^="https://kahoot.com/kahoot-study/notes-to-fl
 ! AI Assisted tools to get started
 discover.kahoot.it##[data-functional-selector="native-carousel-item"]:has([class^="styles_AiAssisted__"])
 
+! =============
+! == Kapa AI ==
+! =============
+! Floating Ask AI button
+||widget.kapa.ai/kapa-widget.bundle.js$script,domain=developer.vonage.com|developers.reddit.com|docs.posit.co|kapa.ai|sentry.zendesk.com
+
 ! ==================
 ! == Karma Search ==
 ! ==================
@@ -2603,8 +2609,6 @@ pockit.tools##[href="/ai/"]
 ! == Posit Docs ==
 ! ================
 ! -- https://docs.posit.co/
-! "Ask AI" floating chat icon
-docs.posit.co###kapa-widget-container
 ! "Ask AI" in navbar
 docs.posit.co##.nav-item:has(#custom-ask-ai-button)
 
@@ -2777,8 +2781,6 @@ develop.sentry.dev,docs.sentry.io##.search_sgs-ai__2z63Q
 ! "Or Ask AI" next to searchbar
 sentry.zendesk.com##.new-search-component-span
 sentry.zendesk.com##.ask-ai
-! Floating "Ask AI" button
-sentry.zendesk.com###kapa-widget-container
 
 ! =============
 ! == Sephora ==
@@ -3190,8 +3192,6 @@ vimeo.com##.text-footer-sub-content[href="/features/ai-translation"]
 ! =============================
 ! == Vonage Developer Center ==
 ! =============================
-! Floating "Ask AI" button
-developer.vonage.com###kapa-widget-container
 ! Also works as #kapa-widget-root
 developer.vonage.com##.ai-icon-group
 
