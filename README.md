@@ -175,15 +175,23 @@ Commit messages use prefixes to indicate the type of change.
 * [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt): Another uBlock Origin filter list aimed at AI widgets. Used as a reference for a few of the filters on this list.
 
 ### Media 
-* Blocktube ([Chrome/Edge](https://chromewebstore.google.com/detail/blocktube/bbeaicapbccfllodepmimpkgecanonai?hl=en-US), [Firefox](http://addons.mozilla.org/en-US/firefox/addon/blocktube/)): Extension for blocking channels and videos on YouTube.
-  * [Blocklist for AI music on YouTube](https://surasshu.com/blocklist-for-ai-music-on-youtube/): List of AI music channels for Blocktube.
-  * [Ionotter's YT Blocklist](https://pastebin.com/QS93tnXk): List of channels that use AI for BlockTube.
+* YouTube
+  * Blocktube ([Chrome/Edge](https://chromewebstore.google.com/detail/blocktube/bbeaicapbccfllodepmimpkgecanonai?hl=en-US), [Firefox](http://addons.mozilla.org/en-US/firefox/addon/blocktube/)): Extension for blocking channels and videos on YouTube.
+    * [Blocklist for AI music on YouTube](https://surasshu.com/blocklist-for-ai-music-on-youtube/): List of AI music channels for Blocktube.
+    * [Ionotter's YT Blocklist](https://pastebin.com/QS93tnXk): List of channels that use AI for BlockTube.
+  * [CevvalYoutubeAIBlocklist](https://github.com/cevvalkoala/CevvalYoutubeAIBlocklist): Filter list for AI Music channels on YouTube for uBlock Origin.
+  * [DeSlop](https://github.com/NikoboiNFTB/DeSlop): Hide YouTube channels that post AI-generated content.
+* Spotify
+  * [Spotify AI Band Blocker](https://github.com/Reginald-Gillespie/Spotify-AI-Band-Blocker): Plugin for Spicetify to block AI artists on Spotify.
+  * [Spotify AI Blocker](https://github.com/CennoxX/spotify-ai-blocker): Userscript to block AI artists on Spotify.
+* Bluesky moderation lists
+  * [AI content](https://bsky.app/profile/yevvie.varyel.com/lists/3kl3qhqgfnw2z) by [yevvie](https://bsky.app/profile/yevvie.varyel.com)
+  * [AI Slop accounts](https://bsky.app/profile/did:plc:hf7kukeekqbkjub6cubltuiy/lists/3lnxorubvgl2e) by [Hopefulone1997](https://bsky.app/profile/thehopeful1997.bsky.social)
+  * [AI Stuff](https://bsky.app/profile/volmie.varyel.com/lists/3kkjuavrfns2z) by ‬[Volmie](https://bsky.app/profile/volmie.varyel.com)
+  * [The Great AI - NFT - CRYPTO Cull](https://bsky.app/profile/did:plc:2segyv655ckqdgkvsqaiianr/lists/3jxwojift2y2n) by [RayDay](https://bsky.app/profile/rayday.bsky.social)
 * [AI warning for Steam](https://github.com/seeeeew/aiwarningforsteam): Browser extension to blur or hide Steam games with an AI content disclosure.
-* [CevvalYoutubeAIBlocklist](https://github.com/cevvalkoala/CevvalYoutubeAIBlocklist): Filter list for AI Music channels on YouTube for uBlock Origin.
-* [Spotify AI Band Blocker](https://github.com/Reginald-Gillespie/Spotify-AI-Band-Blocker): Plugin for Spicetify to block AI artists on Spotify.
-* [Spotify AI Blocker](https://github.com/CennoxX/spotify-ai-blocker): Userscript to block AI artists on Spotify.
-* [DeSlop](https://github.com/NikoboiNFTB/DeSlop): Hide YouTube channels that post AI-generated content.
 * [Firewalla's NSFW AI Blocklist](https://github.com/firewalla/fw-public-lists/blob/main/nsfw-ai.txt): Blocklist of adult-focused AI chatbots.
+
 
 ## Feedback
 If you want to report an AI widget that is unblocked, please [submit an issue](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues) and include the website URL and a screenshot of the unblocked item. 
