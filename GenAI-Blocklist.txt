@@ -3509,7 +3509,7 @@ www.youtube.com##.ytSearchboxComponentInputBox > [client-ve-type]
 www.youtube.com##.ytSearchboxComponentActions > .ytSearchboxComponentActionsButton[client-ve-type]
 ! * Focus search bar, Ask YouTube search suggestions
 www.youtube.com##.ytSearchboxComponentAiSuggestionsContainer
-! * Remove "or ask a question" from search bar placeholder (Enabled at https://www.youtube.com/new)
+! * Remove "or ask a question" from search bar placeholder
 www.youtube.com#%#//scriptlet('trusted-set-attr', '.ytSearchboxComponentInput[placeholder="Search or ask a question"]', 'placeholder', 'Search')
 
 ! -- https://www.youtube.com/watch?v=j9gZYYOIG-M (Video page)
