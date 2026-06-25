@@ -297,6 +297,8 @@ www.bing.com##.b_ans:has(.with_ai)
 ||www.bing.com/cmc/fetch$xhr,domain=www.bing.com
 ! "Ask a follow-up" at bottom of page
 www.bing.com###b_copilot_search_container
+! Popout promo for AI soccer
+www.bing.com##[data-viewname="VerticalHeaderFlyout"]:has([href^="https://bing.com/tools/ai/"])
 
 ! -- https://www.bing.com/search?q=best+companies
 ! "Copilot Search" summary (again)
