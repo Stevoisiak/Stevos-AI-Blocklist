@@ -51,8 +51,6 @@ futurism.com##.menu-item:has([href="https://futurism.com/category/artificial-int
 ! -- https://github.com/ (logged in)
 ! Copilot Settings in user profile icon menu
 github.com##.prc-ActionList-ActionListItem-So4vC:has(> [href="/settings/copilot"])
-! Trending repositories section if all items are AI
-github.com###feed-item-0[data-hydro-view*='"card_type":"TRENDING_REPOSITORY"']:has(#feed-item-0):not(:has([data-hydro-click*='"click_target":"repository_link"']:not(:is([href^="/anthropics/claude"], [href="/anthropics/knowledge-work-plugins"], [href^="/Lum1104/Understand-Anything"], [href="/rohitg00/ai-engineering-from-scratch"]))))
 ! Unsure. Entitlements and AI prompts suggestions from homepage chatbox?
 ! * Suggestions seemingly still work when this is blocked. Purpose is assumed is based on data from `/github-copilot/chat/entitlement` and `/github-copilot/chat?skip_anchor=true`
 ||github.com/github-copilot/chat$xhr,1p
