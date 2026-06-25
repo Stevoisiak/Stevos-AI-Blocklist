@@ -362,11 +362,17 @@ tech.yahoo.com##.group\/subItem[href="https://tech.yahoo.com/ai/"]
 ! =============
 ! == YouTube ==
 ! =============
+! Autocomplete suggestions
+www.youtube.com##+js(set, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_mode_suggest_client, false)
+! Search or ask a question placeholder text
+www.youtube.com##+js(set, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_searchbox_ux, false)
+
 ! -- https://www.youtube.com/watch?v=j9gZYYOIG-M (Video page)
 ! Trusted filter to disable auto-dubbed audio when video is loaded directly from URL.
 ! * Causes a visible page reload when any video is loaded from a URL. Auto-dubbed audio will breifly play before refresh. 
 ! * Filter by paintboth1234 (https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/)
 youtube.com##+js(trusted-replace-node-text, script, (function serverContract(), if("object"===typeof window.ytInitialPlayerResponse){window.ytInitialPlayerResponse=JSON.parse(JSON.stringify(window.ytInitialPlayerResponse));}(function serverContract(), sedCount, 1)
+
 
 ! ====================
 ! == YouTube Studio ==
