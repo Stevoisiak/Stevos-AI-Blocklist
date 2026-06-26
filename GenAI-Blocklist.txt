@@ -1796,7 +1796,7 @@ indianstartupnews.com###nudgeai-widget
 ! -- https://inkbunny.net/submissionsviewall.php?rid=e6651baf27&mode=search&text=ai+generated&stringtype=and&keywords=yes&title=yes
 ! Hide AI tagged images
 ! * Will not filter front page. Only applies to search results.
-inkbunny.net##.widget_thumbnailLargeCompleteFromSubmission:has(img:is([title*="ai-generated"], [title=*"ai generated"]))
+inkbunny.net##:is(.widget_thumbnailCompleteFromSubmission,.widget_thumbnailLargeCompleteFromSubmission,.widget_thumbnailHugeCompleteFromSubmission):has(img:is([title*="ai art"], [title*="ai assisted"], [title*="ai generated"], [title*="ai-generated"], [title*="aigenerated"], [title*="stable diffusion"]))
 
 ! =============
 ! == Insight ==
