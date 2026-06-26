@@ -1790,6 +1790,14 @@ imgflip.com###gen-qa > p:has-text(Funny you ask. Why yes, we do. Here you go:)
 ! Floating "Simplify" button
 indianstartupnews.com###nudgeai-widget
 
+! ==============
+! == Inkbunny ==
+! ==============
+! -- https://inkbunny.net/submissionsviewall.php?rid=e6651baf27&mode=search&text=ai+generated&stringtype=and&keywords=yes&title=yes
+! Hide AI tagged images
+! * Will not filter front page. Only applies to search results.
+inkbunny.net##.widget_thumbnailLargeCompleteFromSubmission:has(img:is([title*="ai-generated"], [title=*"ai generated"]))
+
 ! =============
 ! == Insight ==
 ! =============
