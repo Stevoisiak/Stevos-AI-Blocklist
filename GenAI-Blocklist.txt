@@ -2958,8 +2958,8 @@ stackoverflow.com###mainbar > div.wmx7.w100.bg-white.mb24:has(textarea#ask-stack
 ! Left sidebar - AI Assist
 askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###nav-askstack
 ! Left sidebar - Stack Overflow For Agents
-stackoverflow.com##.pb24:has(+ .ps-relative > #nav-sofa)
-stackoverflow.com##.ps-relative:has(> #nav-sofa)
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.pb24:has(+ .ps-relative > #nav-sofa)
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.ps-relative:has(> #nav-sofa)
 
 ! -- https://stackoverflow.com/questions
 ! Collective for OpenAI
