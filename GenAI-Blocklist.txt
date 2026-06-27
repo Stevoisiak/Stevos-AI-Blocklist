@@ -3647,6 +3647,8 @@ studio.youtube.com###comment-smart-replies
 ! -- Video Details page
 ! "Brainstorm video ideas" in action menu (⋮)
 studio.youtube.com##[test-id="VIDEO_BRAINSTORM_IDEA"]
+! "Get Suggestions" button for thumbnail
+studio.youtube.com##.ask-studio-container
 
 ! ==========
 ! == Zoom ==
