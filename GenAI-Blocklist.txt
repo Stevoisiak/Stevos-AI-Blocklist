@@ -1499,6 +1499,9 @@ docs.google.com##[jsname="Vjwl5e"]:has(#getting-started-dialog-navigation-view)
 ! ==================
 ! Some filters only apply to accounts with a Google Workspace or Google AI subscription
 
+! AI requests for search
+||appsgenaiserver-pa.clients6.google.com/v1/genai/$xhr,domain=drive.google.com
+
 ! -- https://drive.google.com/drive/my-drive
 ! "Ask Gemini" icon in header
 drive.google.com###WWNEkf
