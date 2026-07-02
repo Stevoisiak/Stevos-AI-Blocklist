@@ -3466,7 +3466,7 @@ yacy.net##.navbar-right > li:has(> [href="https://chatgpt.com/g/g-h7fLnaDuI-yacy
 www.yahoo.com##[aria-label="Search with Yahoo Scout"]
 ! AI search suggestion
 !#if ext_ublock
-www.yahoo.com##+js(json-edit-fetch-response, $.r.*[?.m==89], propsToMatch, /sugg/gossip/gossip-us-fastbreak)
+www.yahoo.com##+js(json-edit-fetch-response, v2:$.r[?@.m==89], propsToMatch, /sugg/gossip/gossip-us-fastbreak)
 !#else
 www.yahoo.com##+js(json-prune-fetch-response, $.r.*[?.m==89], propsToMatch, /sugg/gossip/gossip-us-fastbreak)
 !#endif
