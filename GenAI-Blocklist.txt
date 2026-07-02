@@ -3408,6 +3408,12 @@ www.wolframalpha.com##.sc-fc1b1463-0:has(> [href^="https://www.wolfram.com/artif
 ! "Ask us your health questions"
 www.womansworld.com###gist-answers-widget
 
+! =================
+! == Wondershare ==
+! =================
+! -- https://recoverit.wondershare.com/computer-backup/backup-files-before-reformatting-in-windows.html
+recoverit.wondershare.com##.ai-summary
+
 ! ===============
 ! == Wordpress ==
 ! ===============
