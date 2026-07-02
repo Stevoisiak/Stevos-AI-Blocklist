@@ -634,14 +634,14 @@ design.dev##.sponsor-banner--coderabbit
 !   Otherwise, if an AI image is loaded via URL, the page gets stuck in loading animation.
 ! * Requires Javascript to be enabled
 !#if ext_ublock
-www.deviantart.com##+js(json-edit, $[?$.currentPageData]['@@entities'].deviation.*[?.isAiGenerated==true][*])
+www.deviantart.com##+js(json-edit, v2:$.currentPageData;$['@@entities'].deviation[?@.isAiGenerated==true])
 !#else
 www.deviantart.com##+js(json-prune, @@entities.deviation.{-}.isAiGenerated.[=].true, currentPageData)
 !#endif
 
 ! Block images loaded when scrolling page, homepage sections, and related images.
 !#if ext_ublock
-www.deviantart.com##+js(json-edit, ..deviations.*[?.isAiGenerated==true])
+www.deviantart.com##+js(json-edit, v2:$..deviations.[?@.isAiGenerated==true])
 !#else
 www.deviantart.com##+js(json-prune, $..deviations.*[?.isAiGenerated==true])
 !#endif
@@ -1002,7 +1002,7 @@ github.com##.dashboard-changelog .TimelineItem:has(:is([href*="claude"], [href*=
 ! Command Palette - Copilot
 ! * "Command Palette" is enabled via "Feature Preview". Opens with Ctrl+K
 !#if ext_ublock
-github.com##+js(json-edit-fetch-response, $.results.[?.action.path=="/copilot"], propsToMatch, /command_palette/jump_to_page_navigation)
+github.com##+js(json-edit-fetch-response, v2:$.results.[?.action.path=="/copilot"], propsToMatch, /command_palette/jump_to_page_navigation)
 !#else
 github.com##+js(json-prune-fetch-response, $.results.[?.action.path=="/copilot"], propsToMatch, /command_palette/jump_to_page_navigation)
 !#endif
