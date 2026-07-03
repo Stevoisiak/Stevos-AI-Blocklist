@@ -3490,7 +3490,7 @@ www.yahoo.com##[aria-label="Search with Yahoo Scout"]
 !#if ext_ublock
 www.yahoo.com##+js(json-edit-fetch-response, $.r.*[?.m==89], propsToMatch, /sugg/gossip/gossip-us-fastbreak)
 !#else
-www.yahoo.com##+js(json-prune-fetch-response, $.r.*[?.m==89], propsToMatch, /sugg/gossip/gossip-us-fastbreak)
+www.yahoo.com##+js(json-prune-fetch-response, $.r[?@.m==89])
 !#endif
 ! Yahoo Scout in "More" navbar menu
 www.yahoo.com##[role="menuitem"]:has(> [href^="https://scout.yahoo.com/"])
