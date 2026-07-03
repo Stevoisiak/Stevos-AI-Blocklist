@@ -3604,6 +3604,8 @@ www.youtube.com##.ytSearchboxComponentAiSuggestionsContainer
 ! * Remove "or ask a question" from search bar placeholder
 www.youtube.com##+js(set, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_searchbox_ux, false)
 www.youtube.com#%#//scriptlet('trusted-set-attr', '.ytSearchboxComponentInput[placeholder="Search or ask a question"]', 'placeholder', 'Search')
+! * Autocomplete search suggestions
+www.youtube.com##+js(set, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_mode_suggest_client, false)
 
 ! -- https://www.youtube.com/watch?v=j9gZYYOIG-M (Video page)
 ! "Ask Questions" in description
