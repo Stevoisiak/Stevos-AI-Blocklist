@@ -3660,12 +3660,12 @@ www.youtube.com##.ytp-suggested-action-badge[aria-label="Ask about this video"]
 ! * Filter by paintboth1234 (https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/)
 !#if ext_ublock
 ! (v2 compatible)
-youtube.com##+js(json-edit, $..adaptiveFormats[?@.audioTrack.isAutoDubbed])
-youtube.com##+js(json-edit-xhr-response, $..adaptiveFormats[?@.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
-youtube.com##+js(json-edit-fetch-response, $..adaptiveFormats[?@.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
+www.youtube.com##+js(json-edit, $..adaptiveFormats[?@.audioTrack.isAutoDubbed])
+www.youtube.com##+js(json-edit-xhr-response, $..adaptiveFormats[?@.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
+www.youtube.com##+js(json-edit-fetch-response, $..adaptiveFormats[?@.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
 !#else
 ! * Alternate filter for AdGuard support
-youtube.com#%#//scriptlet('json-prune', '$..adaptiveFormats[?@.audioTrack.isAutoDubbed]')
+www.youtube.com#%#//scriptlet('json-prune', '$..adaptiveFormats[?@.audioTrack.isAutoDubbed]')
 !#endif
 ! * Backup to remove auto-dub menu options from settings menu when video loaded from URL and trusted filters are disabled.
 !   This will not prevent the auto-dubbed audio from playing as the default selection 
