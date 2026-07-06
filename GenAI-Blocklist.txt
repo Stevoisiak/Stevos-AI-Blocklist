@@ -2803,6 +2803,13 @@ www.rediff.com##.navlink:has(> [data-secid="nav_aisitebuilder"])
 ! "Summarize via" box
 replug.io##.mantine-1fndqk8
 
+! ==========
+! == Rows ==
+! ==========
+! -- https://rows.com/docs/aj-filtering-with-jsonpath
+! "Your new AI Data Analyst" at bottom of article
+rows.com##section._2XOGP._3hVT9:has([href="https://superhuman.com/products/coda"])
+
 ! ================
 ! == Salesforce ==
 ! ================
