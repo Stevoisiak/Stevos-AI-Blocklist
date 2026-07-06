@@ -354,8 +354,8 @@ androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers
 ! ===============
 ! == X/Twitter ==
 ! ===============
-! -- Posts by Grok
-x.com##article[data-testid="tweet"]:has(div.css-175oi2r.r-5f1w11.r-u8s1d.r-8jfcpp > a[role="link"][href="/grok"])
+! -- Posts by or mentioning Grok
+x.com##[data-testid="tweet"]:has([href="/grok"])
 
 ! ==========
 ! == Yahoo ==
