@@ -2691,6 +2691,21 @@ www.privacy.com##.click-promo-banner[href="https://agents.privacy.com"]
 ! Research Assistant panel AI feature
 www.proquest.com###ra-panel-wrapper
 
+! ============
+! == Proton ==
+! ============
+! -- https://proton.me/
+! Lumo AI section
+proton.me##main > .md\:dtc-pt-8.xl\:dtc-pt-12.dtc-pt-4.md\:dtc-pb-20.xl\:dtc-pb-24.dtc-pb-16.px-4.md\:px-8.xl\:px-16:has([href="https://lumo.proton.me/?ref=hp2"])
+
+! -- https://account.proton.me/login
+! Floating "Get help from Lumo" button
+account.proton.me##.lumo-troubleshoot-launcher
+
+! -- https://account.proton.me/apps
+! Lumo app
+account.proton.me##.explore-apps-list-item:has(> [data-testid="explore-lumo"])
+
 ! ======================
 ! == Quicken Simplifi ==
 ! ======================
