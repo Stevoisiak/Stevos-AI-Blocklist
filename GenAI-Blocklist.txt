@@ -1476,7 +1476,7 @@ docs.google.com##.appsSketchyGenerativeaiNudgesCanvasNudgeSurfaceAnchoredContain
 ! -- https://docs.google.com/videos/u/0/create (Vids)
 ! - "Start a new video" window
 ! "Let's start creating" intro popup - infocards ("Storyboard", "Veo", "AI Avatar")
-docs.google.com##.appsDocsGettingStartedEntryPointSelectionViewButton:is(.sketchysmith, .videogen, .avatars)
+docs.google.com##li:has(> .appsDocsGettingStartedEntryPointSelectionViewButton:is(.sketchysmith, .videogen, .avatars))
 ! Bottom promo bar to buy Google AI
 ! * Element is removed instead of hidden to avoid empty space
 docs.google.com###getting-started-recommendation-banner-container[data-recommendation*="VIDS_GEN_AI_G1_PERSISTENT_UPSELL"]:remove()
