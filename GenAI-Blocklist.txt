@@ -3514,9 +3514,13 @@ x.com##.css-175oi2r.r-rki7wi.r-1ba6zt5.r-u8s1d.r-c97pre:has([href^="https://grok
 ! "Ask Grok" button - below posts from Grok
 x.com##.css-175oi2r.r-1mmae3n:has(> [data-testid="grok_post_atgrok_button"])
 
-! -- https://x.com/soraofficialapp/status/2036546752535470382
-! Tweet with "Made with AI" disclosure
-x.com##[data-testid="tweet"]:has(.css-175oi2r.r-9aw3ui.r-7xmw5f.r-knv0ih):not([tabindex="-1"])
+! -- https://x.com/yee_22_/status/2068659455445873124
+! Posts by or mentioning Grok
+x.com##[data-testid="tweet"]:has([href="/grok"]):not([tabindex="-1"])
+
+! -- https://x.com/SpaceX/status/2074243929273250124
+! Tweet with AI label
+x.com##[data-testid="tweet"]:has(.r-knv0ih [d^="M12.998 1.94c.18 3.015 1.04 5.156 2.473 6.59 1.433"]):not([tabindex="-1"])
 
 ! -- https://x.com/Newgrounds
 ! "Profile Summary" button

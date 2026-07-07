@@ -352,17 +352,6 @@ time.com##li:has(div > [href="#id-ai-0"])
 ! AI Sparkle in left sidebar
 androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,fextralife.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,movieweb.com,pocket-lint.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.i-sensa
 
-! ===============
-! == X/Twitter ==
-! ===============
-! -- https://x.com/yee_22_/status/2068659455445873124
-! Posts by or mentioning Grok
-x.com##[data-testid="tweet"]:has([href="/grok"]):not([tabindex="-1"])
-
-! -- https://x.com/SpaceX/status/2074243929273250124
-! Tweet with AI label
-x.com##[data-testid="tweet"]:has(.r-knv0ih [d^="M12.998 1.94c.18 3.015 1.04 5.156 2.473 6.59 1.433"]):not([tabindex="-1"])
-
 ! ==========
 ! == Yahoo ==
 ! ===========

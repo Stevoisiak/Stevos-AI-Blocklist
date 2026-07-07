@@ -13,7 +13,7 @@ Available for PC/Linux ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-o
 * Reddit Answers and recommended posts from AI subreddits
 * Facebook's AI chat
 * TikTok videos tagged as AI generated
-* X/Twitter's Grok buttons
+* X/Twitter's Grok buttons, posts from Grok, and posts with "made with AI" label
 
 ## Image comparison
 
@@ -104,7 +104,6 @@ There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https:
 * AI category in headers on news sites.
 * Customer support chatbots that must be used before you can contact human customer support.
 * YouTube: Trusted filter to remove autodubbing when loading a video directly via URL, but causes visible page refresh even on videos without autodubbing.
-* X: Posts made by @Grok.
 * Zoom: Highlights and automatic chapters on recorded meetings.
 * Early versions of filters that require testing
 
