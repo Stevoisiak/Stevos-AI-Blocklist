@@ -284,8 +284,10 @@ www.bing.com##.cdxCopilotIconBg
 www.bing.com###aitools
 ! AI tools search suggestions (mobile only)
 www.bing.com###sa_ai_block
-! Microsoft Rewards > Try Bing Image Creator
+! Microsoft Rewards → Try Bing Image Creator
 www.bing.com##.gbfo_c_bsic_variant:has(> [href^="https://www.bing.com/images/create"])
+! ... → Microsoft 365 → M365 Copilot
+www.bing.com###m365copilot_overflow
 
 ! -- https://www.bing.com/search?q=mario+last+name
 ! "Search" tab in navbar below search bar
