@@ -333,6 +333,8 @@ www.techradar.com##.meganav-item--top-level:has(> [data-before-rewrite-localise=
 www.theverge.com##[aria-label="Top Navigation"] li:has(> [href="https://www.theverge.com/ai-artificial-intelligence"])
 ! "AI" category in header menu (☰)
 www.theverge.com##[aria-label="Drawer Navigation"] li:has(> [aria-label="Collapse 'AI' Section"])
+! "Latest from AI" section
+www.theverge.com##.duet--homepage--category-shelf:has(.sh1kne0[href="/ai-artificial-intelligence"])
 
 ! ==========
 ! == Time ==
