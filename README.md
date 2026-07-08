@@ -1,6 +1,6 @@
 # Stevo's AI Blocklist
 
-A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and the [AdGuard Browser Extension](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features that use Generative AI and content labeled as AI generated.
+A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features that use Generative AI and content labeled as AI generated.
 
 Available for PC/Linux ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-or-microsoft-edge), [Chrome](#google-chrome-desktop), [Brave](#brave-desktop)), macOS ([Firefox](#firefox-or-microsoft-edge), [Edge](#firefox-or-microsoft-edge), [Chrome](#google-chrome-desktop), [Safari](#safari-macos)), Android ([Firefox](#firefox-android)), and iOS/iPadOS ([Safari](#safari-iosipados), [Brave](#brave-browser-iosipados)).
 
