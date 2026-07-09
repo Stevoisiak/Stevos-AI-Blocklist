@@ -205,7 +205,7 @@ www.google.com,www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/searc
 ! ======================
 ! -- https://central.insightsoftware.com/ (Main page - logged in)
 ! "Ask Max" Virtual Assistant
-! * Possibly required to submit tickets to a human
+! * Required for submitting tickets to a human
 central.insightsoftware.com###forethought-chat
 
 ! ==================
