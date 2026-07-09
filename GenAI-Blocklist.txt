@@ -36,6 +36,13 @@
 ! AI promo
 1password.com##[data-testid="text-lockup"] .w-full.space-y-6.text-balance:has-text(Secure access for every human and AI agent)
 
+! ==================
+! == Adblock Plus ==
+! ==================
+! -- https://help.adblockplus.org/adblock-plus-help-center/how-to-write-filters
+! "Use with AI" button
+help.adblockplus.org##ai-actions
+
 ! ===========
 ! == Adobe ==
 ! ===========
