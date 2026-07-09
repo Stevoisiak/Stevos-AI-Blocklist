@@ -1629,8 +1629,7 @@ www.google.com,www.google.*##.pHiOh[href^="https://ai.google/"]
 www.google.com,www.google.*##.xOchs
 ! Autocomplete suggestions - AI Mode
 !#if ext_ublock
-! (v2 compatible)
-www.google.*##+js(json-edit, $..[?@.zp.udm=="50"])
+www.google.*##+js(json-edit, v2:$..[?@.zp.udm=="50"])
 !#endif
 !#if adguard
 www.google.*##+js(json-prune, $.*.*[?@.zp.udm=="50"])
