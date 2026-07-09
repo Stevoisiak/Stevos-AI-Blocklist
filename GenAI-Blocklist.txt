@@ -3694,10 +3694,9 @@ www.youtube.com##.ytp-suggested-action-badge[aria-label="Ask about this video"]
 ! * Targets response from 'https://www.youtube.com/youtubei/v1/get_watch'
 ! * Filter by paintboth1234 (https://www.reddit.com/r/uBlockOrigin/comments/1npyxsc/comment/ng4kmje/)
 !#if ext_ublock
-! (v2 compatible)
-www.youtube.com##+js(json-edit, $..adaptiveFormats[?@.audioTrack.isAutoDubbed])
-www.youtube.com##+js(json-edit-xhr-response, $..adaptiveFormats[?@.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
-www.youtube.com##+js(json-edit-fetch-response, $..adaptiveFormats[?@.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
+www.youtube.com##+js(json-edit, v2:$..adaptiveFormats[?@.audioTrack.isAutoDubbed])
+www.youtube.com##+js(json-edit-xhr-response, v2:$..adaptiveFormats[?@.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
+www.youtube.com##+js(json-edit-fetch-response, v2:$..adaptiveFormats[?@.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
 !#else
 ! * Alternate filter for AdGuard support
 www.youtube.com#%#//scriptlet('json-prune', '$..adaptiveFormats[?@.audioTrack.isAutoDubbed]')
@@ -3711,8 +3710,8 @@ www.youtube.com##.ytp-menuitem-section-header ~ .ytp-menuitem
 ! Block AI upscaled "Super Resolution" quality options
 ! * May not work if video is loaded directly from URL
 !#if ext_ublock
-www.youtube.com##+js(json-edit, $[?..paygatedQualitiesMetadata.*[?.key=="1080p"]]..adaptiveFormats.*[?.qualityLabel=="1080p"])
-www.youtube.com##+js(json-edit, $[?..paygatedQualitiesMetadata.*[?.key=="720p"]]..adaptiveFormats.*[?.qualityLabel=="720p"])
+www.youtube.com##+js(json-edit, v2:$..paygatedQualitiesMetadata.*[?@.key=="1080p"];$..adaptiveFormats[?@.qualityLabel=="1080p"])
+www.youtube.com##+js(json-edit, v2:$..paygatedQualitiesMetadata.*[?@.key=="720p"];$..adaptiveFormats[?@.qualityLabel=="720p"])
 !#else
 www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.*[?.key=="1080p"]]..adaptiveFormats.*[?.qualityLabel=="1080p"])
 www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.*[?.key=="720p"]]..adaptiveFormats.*[?.qualityLabel=="720p"])
