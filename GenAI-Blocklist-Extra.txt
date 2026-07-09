@@ -36,8 +36,8 @@ blog.cloudflare.com##.nav-item[data-tag="ai"]
 ! ==============
 ! -- https://www.facebook.com/profile.php?id=61588534388215
 ! Post with AI info disclaimer
-! * :has() condition excludes when post is linked directly
-www.facebook.com##.x17zd0t2 > [role="button"]:has-text("AI info"):upward(.x1yztbdb.x1n2onr6.xh8yej3.x1ja2u2z):has(.x1n2onr6.x1ja2u2z.x1jx94hy.xw5cjc7.x1dmpuos.x1vsv7so.xau1kf4.x9f619.xh8yej3.x6ikm8r.x10wlt62.xquyuld)
+! * TODO: Don't hide post if linked directly, only hide in post feeds
+www.facebook.com##.x17zd0t2 > [role="button"]:has-text(/(AI info|AI content)/):upward(.x1n2onr6.xh8yej3.x1ja2u2z)
 
 ! ==================
 ! == Fox Business ==
