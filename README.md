@@ -87,9 +87,11 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 4. Tap the first "Adguard" extension, scroll down and change "All websites" to "Allow". 
 5. Open the *AdGuard* app and go through initial setup
 6. Tap the shield icon to open the Protection screen
-7. Tap *Safari Protection → Filters → Annoyances* (Tap the text itself, not the on-off icon)
-8. Toggle Annoyances to "*Enabled*"
-9. Toggle "*Stevo's AI Blocklist*" On
+7. Tap *Safari Protection → Filters → Custom* (Tap the text itself, not the on-off icon)
+8. Tap "*Add a filter*"
+9. Paste the URL [`https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt)
+10. Tap *Next → Add*.
+11. Change the toggle for custom filters from "Disabled" to "Enabled"
 
 ### Brave Browser (iOS/iPadOS)
 1. Install [Brave Browser](https://apps.apple.com/us/app/brave-browser-search-engine/id1052879175).
