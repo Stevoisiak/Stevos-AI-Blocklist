@@ -2453,6 +2453,12 @@ www.nate.com##.chat1
 ! ===========
 ! == Naver ==
 ! ===========
+www.nate.com##.link-ngpt
+! AI Chat tab on the search bar
+m.naver.com##[id^="MM_AI_TAB"]
+search.naver.com##[data-block-id^="ai-briefing"]
+search.naver.com##a[href*="ait.all"][role="tab"]
+www.naver.com###search-ai-tab-button
 ! -- https://search.naver.com/search.naver?where=nexearch&query=test
 ! AI summary box
 search.naver.com##[data-meta-ssuid-extra="fender_renderer-ai_briefing"]
