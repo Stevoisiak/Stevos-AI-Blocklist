@@ -607,6 +607,13 @@ www.consumerreports.org###ask-cr-search-tab
 ! Review summary
 www.crateandbarrel.com##.swat-review-summary-container-border
 
+! ===============
+! == Cybernews ==
+! ===============
+! -- https://cybernews.com/news/meta-pulls-controversial-ai-image-tool/
+! Key takeaways with AI disclaimer
+cybernews.com##.key-takeaway-editorial:has(> .key-takeaway-editorial__disclaimer)
+
 ! ==============
 ! == DeepWiki ==
 ! ==============
