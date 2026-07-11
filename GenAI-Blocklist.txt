@@ -640,6 +640,22 @@ www.dell.com##.tech-specs-faq:has(> .ai-prompt-header)
 ! Review summary
 www.dell.com###va-review-summary:has(> .ai-reviews-summary)
 
+! ===============
+! == Demócrata ==
+! ===============
+! Header button
+www.democrata.es##.c-header__fren
+! Chatbot
+www.democrata.es###fren-widget
+
+! -- https://www.democrata.es/politica/psoe-madrid-lamenta-decision-enma-lopez/
+www.democrata.es##p:has(> .c-article__header-share__button-fren)
+www.democrata.es##.fren-inline
+! Article from AI
+www.democrata.es###fren_extracts
+! Quiz by AI
+www.democrata.es###quiz_section
+
 ! ================
 ! == design.dev ==
 ! ================
