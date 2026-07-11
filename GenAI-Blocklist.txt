@@ -3627,6 +3627,7 @@ search.yahoo.co.jp##.AnswerAiNavigation__content
 ! == Yandex ==
 ! ============
 ! -- https://ya.ru/
+! (no longer used?)
 ya.ru##.alice-ai-button__wrapper
 
 ! -- https://yandex.com/search/?text=test&lr=202
@@ -3634,16 +3635,11 @@ ya.ru##.alice-ai-button__wrapper
 ya.ru##.HeaderNav-Tab[href^="//ya.ru/alice?"]
 yandex.com##.HeaderNav-Tab[href$="&promo=force_neuro"]
 yandex.ru##.HeaderNav-Tab[href^="//yandex.ru/alice?"]
-! AI Summary
-ya.ru,yandex.com,yandex.ru##[data-lwfilxa-name="neuro_answer"]
-ya.ru,yandex.com,yandex.ru##[data-fast-name="neuro_answer"]
+! AI summary
 ||ya.ru/search/generative_answer$xhr,1p
 ||yandex.com/search/generative_answer$xhr,1p
 ||yandex.ru/search/generative_answer$xhr,1p
-
-! -- https://yandex.com/search/touch/?text=test&lr=202
-! AI Summary
-ya.ru,yandex.com,yandex.ru##[data-qiuattq-name="neuro_answer"]
+ya.ru,yandex.com,yandex.ru##[class*="__futuris-snippet"]
 
 ! =========
 ! == Yep ==
