@@ -1734,7 +1734,7 @@ virtualagent.hpcloud.hp.com##.ac-actionSet > [aria-label="Get an AI Answer"]
 ! -- https://www.humblebundle.com/bundles
 ! Bundles involving AI
 ! * Exclude the "The Cybersecurity & AI Defense" bundle
-www.humblebundle.com##.bundle:is([href*="-ai-"], [href*="claude-code"], [href*="genai-"]):not([href*="cybersecurity"])
+www.humblebundle.com##.bundle:is([href*="-ai-"], [href*="claude-code"], [href*="genai-"], [href*="ai-"]):not([href*="cybersecurity"])
 
 ! ==========
 ! == IMDB ==
