@@ -3386,6 +3386,13 @@ vimeo.com##section.container-base[data-bp-cta-location-id="9c3e2300d913447a8224f
 vimeo.com##.text-footer-sub-content[href="/features/vimeo-ai"]
 vimeo.com##.text-footer-sub-content[href="/features/ai-translation"]
 
+! ================
+! == VirusTotal ==
+! ================
+! -- https://www.virustotal.com/gui/file/40b8fe7d0867307fdb399371dc9d749baaf237d57a978f1e0527a0c199183b34
+! Code insights
+www.virustotal.com##vt-crowdsourced-ai-gemini
+
 ! ===================
 ! == Visual Studio ==
 ! ===================
