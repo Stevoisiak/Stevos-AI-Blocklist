@@ -1652,26 +1652,26 @@ one.google.com##.aTVMOe.RLyrIe.KGSMie
 
 ! -- https://www.google.com/ (Homepage)
 ! Search bar > "AI Mode" button
-www.google.com,www.google.*##.plR5qb
+www.google.*##.plR5qb
 ! Remove AI hyperlinks from Google Logo (Added during Olympics) (Separate filters for uBlock and AdGuard compatability)
 ! * Desktop
-www.google.com,www.google.*##.k1zIA.kKvsb > a[href*="&udm=50"]:remove-attr(href)
-www.google.com,www.google.*#%#//scriptlet('remove-attr', 'href', '.k1zIA.kKvsb > a[href*="&udm=50"]')
+www.google.*##.k1zIA.kKvsb > a[href*="&udm=50"]:remove-attr(href)
+www.google.*#%#//scriptlet('remove-attr', 'href', '.k1zIA.kKvsb > a[href*="&udm=50"]')
 ! * Mobile
-www.google.com,www.google.*###hplogoo a[href*="&udm=50"]:remove-attr(href)
-www.google.com,www.google.*#%#//scriptlet('remove-attr', 'href', '#hplogoo a[href*="&udm=50"]')
+www.google.*###hplogoo a[href*="&udm=50"]:remove-attr(href)
+www.google.*#%#//scriptlet('remove-attr', 'href', '#hplogoo a[href*="&udm=50"]')
 ! * Mobile search results page
-www.google.com,www.google.*###mlogo[href*="&udm=50"]:remove-attr(href)
-www.google.com,www.google.*#%#//scriptlet('remove-attr', 'href', '#mlogo[href*="&udm=50"]')
+www.google.*###mlogo[href*="&udm=50"]:remove-attr(href)
+www.google.*#%#//scriptlet('remove-attr', 'href', '#mlogo[href*="&udm=50"]')
 ! Promo text below search bar mentioning AI
-www.google.com,www.google.*##promo-middle-slot:has-text("/\bAI\b/")
-www.google.com,www.google.*##promo-middle-slot:has-text(Gemini)
+www.google.*##promo-middle-slot:has-text("/\bAI\b/")
+www.google.*##promo-middle-slot:has-text(Gemini)
 ! AI mode promo boxes
-www.google.com,www.google.*##[jscontroller="DyTeib"]
+www.google.*##[jscontroller="DyTeib"]
 ! Footer - "Applying AI towards science and the environment"
-www.google.com,www.google.*##.pHiOh[href^="https://ai.google/"]
+www.google.*##.pHiOh[href^="https://ai.google/"]
 ! Search bar - AI button (magnifying glass icon, mobile only)
-www.google.com,www.google.*##.xOchs
+www.google.*##.xOchs
 ! Autocomplete suggestions - AI Mode
 !#if ext_ublock
 www.google.*##+js(json-edit, v2:$..[?@.zp.udm=="50"])
@@ -1680,65 +1680,65 @@ www.google.*##+js(json-edit, v2:$..[?@.zp.udm=="50"])
 www.google.*##+js(json-prune, $.*.*[?@.zp.udm=="50"])
 !#endif
 ! * Backup cosmetic filter for mobile
-www.google.com,www.google.*##.CKtgbd[role="listbox"] > .sbct:has(.cuyMBe:has-text(AI Mode))
+www.google.*##.CKtgbd[role="listbox"] > .sbct:has(.cuyMBe:has-text(AI Mode))
 
 ! -- https://www.google.com/search?q=Why+are+we+here
 ! "AI Mode" tab in navbar
-www.google.com,www.google.*##[role="listitem"]:has(.olrp5b)
+www.google.*##[role="listitem"]:has(.olrp5b)
 ! * Fix conflict with laylavish's AI blocklist.
 !   Without this, a small blank space can get added to the top of search results.
 www.google.com#@#div[role="navigation"] span:has-text(AI Mode):upward(5):remove()
 ! Main AI Overview
-www.google.com,www.google.*##[data-attnms]
+www.google.*##[data-attnms]
 ! Blank space for AI Overview at top of search results
-www.google.com,www.google.*##.Kevs9.SLPe5b:has([data-attnms])
-www.google.com,www.google.*##.YNk70c.EjQTId:has(+ div [data-attnms]) #oFNiHe:empty
+www.google.*##.Kevs9.SLPe5b:has([data-attnms])
+www.google.*##.YNk70c.EjQTId:has(+ div [data-attnms]) #oFNiHe:empty
 ! * Fix conflict with laylavish's AI blocklist
 !   See https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/52
 www.google.com#@#.YzCcne:remove()
 ! Web Guide
 ! * Only applies if Web Guide is enabled in Google Labs
-www.google.com,www.google.*##.oGdvd
+www.google.*##.oGdvd
 
 ! -- https://www.google.com/search?q=caine
 ! "Things to know" and "People also ask" sections
 ! * First filter hides list items, .cUnQKe hides header if all items are AI, .ULSxyf hides extra space if needed
 ! * Extra sanity checks on child elements of .ULSxyf to avoid overfiltering. (Example: https://www.google.com/search?q=world+cup+standing)
 ! ** "Things to know"
-www.google.com,www.google.*##[jscontroller="Elkdbc"]
-www.google.com,www.google.*##.ULSxyf:has(> .MjjYud > div:not([class]) > [jsname="Ypkwb"] [jscontroller="Elkdbc"] > .EyBRub):not(:has(:not([jscontroller="Elkdbc"]) > .EyBRub))
+www.google.*##[jscontroller="Elkdbc"]
+www.google.*##.ULSxyf:has(> .MjjYud > div:not([class]) > [jsname="Ypkwb"] [jscontroller="Elkdbc"] > .EyBRub):not(:has(:not([jscontroller="Elkdbc"]) > .EyBRub))
 ! ** "People also ask" section
-www.google.com,www.google.*##[jsname="YrZdPb"][data-evn]
-www.google.com,www.google.*##.cUnQKe:has([jsname="YrZdPb"][data-evn]):not(:has([jsname="YrZdPb"]:not([data-evn])))
-www.google.com,www.google.*##.ULSxyf:has(> .MjjYud > .A6K0A > .cUnQKe [jsname="YrZdPb"][data-evn]):not(:has([jsname="YrZdPb"]:not([data-evn])))
+www.google.*##[jsname="YrZdPb"][data-evn]
+www.google.*##.cUnQKe:has([jsname="YrZdPb"][data-evn]):not(:has([jsname="YrZdPb"]:not([data-evn])))
+www.google.*##.ULSxyf:has(> .MjjYud > .A6K0A > .cUnQKe [jsname="YrZdPb"][data-evn]):not(:has([jsname="YrZdPb"]:not([data-evn])))
 
 ! -- https://www.google.com/search?q=gachiakuta+game (mobile only)
 ! Loading placeholder for AI Generated topic info (in middle of search results)
 ! * May not appear when reloading page multiple times in a row
-www.google.com,www.google.*##[role="presentation"][data-md="50"]:has(.eaNXV[style*="animation-delay"])
+www.google.*##[role="presentation"][data-md="50"]:has(.eaNXV[style*="animation-delay"])
 
 ! -- https://www.google.com/search?q=tie (mobile only)
 ! AI generated overview container
-www.google.com,www.google.*##.iVzeVc:has([data-attrid="VisualDigestGeneratedDescription"])
+www.google.*##.iVzeVc:has([data-attrid="VisualDigestGeneratedDescription"])
 
 ! -- https://www.google.com/search?q=tower+of+god
 ! AI generated topic overview
-www.google.com,www.google.*##[data-attrid="VisualDigestGeneratedDescription"]
+www.google.*##[data-attrid="VisualDigestGeneratedDescription"]
 ! Remove images on desktop layout
-www.google.com,www.google.*##[data-ly="/desktop_aio_layout/GG/large_image"]:has([data-attrid="VisualDigestGeneratedDescription"])
+www.google.*##[data-ly="/desktop_aio_layout/GG/large_image"]:has([data-attrid="VisualDigestGeneratedDescription"])
 
 ! -- https://www.google.com/search?q=computer+repair
 ! Have AI check prices
-www.google.com,www.google.*##[jsname="lHCI7d"]
+www.google.*##[jsname="lHCI7d"]
 ! * Blank space on desktop
-www.google.com,www.google.*##[jsname="NoEzVd"]:has([jsname="lHCI7d"])
+www.google.*##[jsname="NoEzVd"]:has([jsname="lHCI7d"])
 
 ! -- https://www.google.com/search?q=Halo
 ! Expandable topics in "What people are saying" section (mobile only)
 ! * Section seems to appear if search is related to recent news events
 ! * .k1U36b.OMMx3d is for "Generative AI is experimental" disclaimer
 ! * Filter has a delay before it applies
-www.google.com,www.google.*##[data-crust-trigger] > div:has(.k1U36b.OMMx3d)
+www.google.*##[data-crust-trigger] > div:has(.k1U36b.OMMx3d)
 
 ! =====================
 ! == Google Shopping ==

@@ -173,16 +173,16 @@ labs.google.com##.SzpS3d:has([href="/search/experiment/34"]):has([aria-checked="
 ! -- https://www.google.com/
 ! Google labs icon in header
 ! * May be needed to disable AI features, so it's in the extra file
-www.google.com,www.google.*###gb > div:has([href^="https://labs.google.com/search?"])
+www.google.*###gb > div:has([href^="https://labs.google.com/search?"])
 ! * Mobile version
-www.google.com,www.google.*##.gTxCBd:has(> [href^="https://labs.google.com/search?"])
+www.google.*##.gTxCBd:has(> [href^="https://labs.google.com/search?"])
 ! Search autocomplete suggestion that uses AI mode
 ! * Use remove() to prevent selection by keyboard shortcut. The item still takes up a slot with keyboards selection, but it cannot be selected. (IE: Need to hit arrow twice to get past it.)
-www.google.com,www.google.*##.G43f7e > [data-attrid="AutocompletePrediction"]:has([role="option"][aria-description="AI Mode"]):remove()
+www.google.*##.G43f7e > [data-attrid="AutocompletePrediction"]:has([role="option"][aria-description="AI Mode"]):remove()
 
 ! -- https://www.google.com/search?q=test
 ! Google Labs icon in header (mobile)
-www.google.com,www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
+www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
 
 ! ===================
 ! == Hello Klarity ==
