@@ -3200,6 +3200,14 @@ www.testmuai.com##.w-\[265px\].flex-shrink-0.desktop\:hidden > div > [title^="Op
 ! Sidebar ad
 www.testmuai.com##.w-\[265px\].flex-shrink-0.desktop\:hidden .mt-20.flex-shrink-0
 
+! ==================
+! == The Atlantic ==
+! ==================
+! -- https://www.theatlantic.com/games/
+! Lemony Snicket LLM game
+www.theatlantic.com##[data-event-puzzle-name="lemony-snicket-suspicious-incident-dubious-park"]
+www.theatlantic.com##[class^="GamesHubLayout_featuredList__"]:has(> [data-event-puzzle-name="lemony-snicket-suspicious-incident-dubious-park"]:only-child)
+
 ! ===================
 ! == The New Stack ==
 ! ===================
