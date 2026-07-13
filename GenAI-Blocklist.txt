@@ -684,12 +684,12 @@ design.dev##.sponsor-banner--coderabbit
 ! * Filter has a slight delay before it takes affect
 
 ! Block images on initial page load
-! * Skip filtering deviation pages so direct links to AI images don't get stuck in loading animation.
+! * Checks for currentPageData to avoid filtering on deviation pages.
+!   Otherwise, if an AI image is loaded via URL, the page gets stuck in loading animation.
 ! * Requires Javascript to be enabled
 !#if ext_ublock
-www.deviantart.com##+js(json-edit, v2:$[?@.sharedApiBasePath=="/_napi/da-deviation/shared_api"]{0};$['@@entities'].deviation[?@.isAiGenerated==true])
+www.deviantart.com##+js(json-edit, v2:$.currentPageData;$['@@entities'].deviation[?@.isAiGenerated==true])
 !#else
-! TODO: Fix AdGuard not filtering on user pages
 www.deviantart.com##+js(json-prune, @@entities.deviation.{-}.isAiGenerated.[=].true, currentPageData)
 !#endif
 
