@@ -618,8 +618,8 @@ cybernews.com##.key-takeaway-editorial:has(> .key-takeaway-editorial__disclaimer
 ! == DataCamp ==
 ! ==============
 ! -- https://www.datacamp.com/tutorial/sql-union-union-all
-! Explain code button below code block
-www.datacamp.com##.code-block-footer:has(> .ai-explain-code-button)
+! Explain code button & DataLab AI promo below code blocks
+www.datacamp.com##.code-block-footer
 
 ! ==============
 ! == DeepWiki ==
