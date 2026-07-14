@@ -682,21 +682,16 @@ design.dev##.sponsor-banner--coderabbit
 ! ================
 ! Block images that have "Created using AI tools" disclaimer
 ! * Filter has a slight delay before it takes affect
-
-! Block images on initial page load
-! * Checks for currentPageData to avoid filtering on deviation pages.
-!   Otherwise, if an AI image is loaded via URL, the page gets stuck in loading animation.
 ! * Requires Javascript to be enabled
 !#if ext_ublock
+! Initial page load
+! * Checks for currentPageData to avoid filtering on deviation pages.
+!   Otherwise, if an AI image is loaded via URL, the page gets stuck in loading animation.
 www.deviantart.com##+js(json-edit, v2:$.currentPageData;$['@@entities'].deviation[?@.isAiGenerated==true])
-!#else
-www.deviantart.com##+js(json-prune, @@entities.deviation.{-}.isAiGenerated.[=].true, currentPageData)
-!#endif
-
-! Block images loaded when scrolling page, homepage sections, and related images.
-!#if ext_ublock
+! Images loaded when scrolling page, homepage sections, and related images.
 www.deviantart.com##+js(json-edit, v2:$..deviations[?@.isAiGenerated==true])
 !#else
+www.deviantart.com##+js(json-prune, @@entities.deviation.{-}.isAiGenerated.[=].true, currentPageData)
 www.deviantart.com##+js(json-prune, $..deviations[?@.isAiGenerated==true])
 !#endif
 
