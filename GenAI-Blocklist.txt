@@ -2700,15 +2700,15 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ! Collection items - leaves blank space in image grid (illust, novel)
 ! -- https://www.pixiv.net/novel
 ! Popular original novels (novelSeries)
-www.pixiv.net##+js(json-edit-fetch-response, "v2:$..['body','data','illust','illusts','novel','novels','novelSeries','permanent','recent','userIllusts','works','zengoIdWorks'][?@.aiType]")
-www.pixiv.net##+js(json-edit, "v2:$..['data','illust','novel'][?@.aiType]")
+www.pixiv.net##+js(json-edit-fetch-response, "v2:$..['body','data','illust','illusts','novel','novels','novelSeries','permanent','recent','userIllusts','works','zengoIdWorks'][?@.aiType==2]")
+www.pixiv.net##+js(json-edit, "v2:$..['data','illust','novel'][?@.aiType==2]")
 ! -- https://www.pixiv.net/en/
 ! Homepage - Latest works for you
-www.pixiv.net##+js(json-edit-fetch-response, v2:$.body.content.thumbnails[?@.aiType])
-www.pixiv.net##+js(json-edit, v2:$.street.latest.data.thumbnails[?@.aiType])
+www.pixiv.net##+js(json-edit-fetch-response, v2:$.body.content.thumbnails[?@.aiType==2])
+www.pixiv.net##+js(json-edit, v2:$.street.latest.data.thumbnails[?@.aiType==2])
 ! Homepage - Recommended works
-www.pixiv.net##+js(json-edit-fetch-response, v2:$.body.contents[?@.thumbnails.*.aiType])
-www.pixiv.net##+js(json-edit, v2:$.street.forYou.contents[?@.thumbnails.*.aiType])
+www.pixiv.net##+js(json-edit-fetch-response, v2:$.body.contents[?@.thumbnails.*.aiType==2])
+www.pixiv.net##+js(json-edit, v2:$.street.forYou.contents[?@.thumbnails.*.aiType==2])
 !#else
 www.pixiv.net##+js(json-prune-fetch-response, "$..['body','data','illusts','popular','userIllusts','works'].*[?.aiType==2]", propsToMatch, /ajax/)
 www.pixiv.net##+js(json-prune-fetch-response, "$..body.thumbnails.*.[?.aiType==2]", propsToMatch, /ajax/)
