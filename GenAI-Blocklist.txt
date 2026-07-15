@@ -1433,11 +1433,15 @@ developer.chrome.com##tab:has(> [track-name="for agents"])
 ! AI section
 developer.chrome.com##.devsite-landing-row:has(#span-idaidebug-with-aispan)
 
-! -- https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema (Documentation page)
-! "Page Summary"
-developers.google.com##devsite-key-takeaways-panel
+! -- https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart
 ! Left sidebar > "Chat" (IE: Ask About this Page)
 developers.google.com##.devsite-concierge-ai-panel--menu-item
+! MCP server promo banner
+developers.google.com##.devsite-banner-announcement:has([href="/analytics/devguides/MCP"])
+! Page Summary
+developers.google.com##devsite-key-takeaways-panel
+! "Explain this code" on code block
+developers.google.com##.devsite-explain-code
 
 ! -- https://developers.google.com/s/results?q=Test (Search results)
 ! "AI Powered" results
