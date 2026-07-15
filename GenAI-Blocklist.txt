@@ -3209,8 +3209,11 @@ www.theatlantic.com##[class^="GamesHubLayout_featuredList__"]:has(> [data-event-
 ||thenewstack.io/no-cache/vertex-answer/$xhr,1p
 thenewstack.io###tns-search-overview
 thenewstack.io##.search-disclaimer
+!#if ext_ublock
 thenewstack.io##.search-input[placeholder="This is AI-powered search. Type a prompt."]:remove-attr(placeholder)
+!#else
 thenewstack.io#%#//scriptlet('remove-attr', 'placeholder', '.search-input[placeholder="This is AI-powered search. Type a prompt."]')
+!#endif
 ! Remove AI sparkles from search icon
 thenewstack.io##.masthead-search-icon path[d^="M18 4a4 4 0 0 0-4 4 4 4 0"]
 
