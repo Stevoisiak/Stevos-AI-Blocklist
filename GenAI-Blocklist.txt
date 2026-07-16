@@ -735,6 +735,13 @@ www.deviantart.com##.v4LjTE.A3cqZ_:has([href^="https://www.deviantart.com/dreamu
 ! "DreamUp and earn big with AI" section
 www.deviantart.com##section.ail3hi:has([href="https://www.deviantart.com/dreamup"])
 
+! =================
+! == Diffchecker ==
+! =================
+! -- https://www.diffchecker.com/ne4H8RD8/
+! Explain button
+www.diffchecker.com##button.bg-surface-purple:has([clip-path="url(#sparkle_svg__a)"])
+
 ! ===============
 ! == Drinkmate ==
 ! ===============
