@@ -1000,6 +1000,12 @@ ful.io##footer .link[href="https://ful.io/extension-list/salesGPT-prospector"]
 ! AI chatbot
 www.g2.com###g2-ai-chat-application
 
+! =========
+! == G2A ==
+! =========
+! Floating "Chat with Buddy" box
+www.g2a.com##.group:has(> [href="https://www.g2a.com/buddy"])
+
 ! =============
 ! == G4Media ==
 ! =============
