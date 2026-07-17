@@ -4192,6 +4192,12 @@ h-flash.com##a[href^="https://a.logivanta42.com/"]
 hdporn92.com###menu-item-200272
 hdporn92.com###menu-item-202508
 
+! ===================
+! == HDtube (NSFW) ==
+! ===================
+! Navbar - AI Porn
+hdtube.porn##.navigation__item:has(> [title="AI Porn"])
+
 ! =====================
 ! == HQporner (NSFW) ==
 ! =====================
