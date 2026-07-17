@@ -932,6 +932,13 @@ facebook.com##[data-dcm-id="1"]:has(.rtl-ignore.f2.a:has-text(/(Adobe Firefly|Me
 ! TODO: Filter mobile version
 www.facebook.com##div:not([class]):has( > .x1g0dm76.xpdmqnj > .x1120s5i.xyamay9.x1n2onr6 > .html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x78zum5.x1n2onr6.xh8yej3)
 
+! -- https://www.facebook.com/groups/1404116417142065/posts/1791850441701992/
+! * TODO:  Other Posts - Summarized by AI (logged out)
+! Post title generated with AI (logged in)
+www.facebook.com##[role="presentation"] .xsag5q8.x1g0dm76.xpdmqnj.x1y1aw1k:has(.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x1b0d499.x1d69dk1[style*="background-image: url(\"https://static.xx.fbcdn.net/rsrc.php/yD/r/dVRMatSddQj.webp\");"])
+! "What people are saying" comment summary (logged in)
+www.facebook.com##[role="presentation"] .x1jx94hy.x1obq294.x5a5i1n.xde0f50.x15x8krk.xjf5wm9.xod5an3.x1tpqehw.x1wsuqlk.x14vqqas.xz9dl7a.xpdmqnj.xsag5q8.x1g0dm76:has(> .x6s0dn4.x78zum5.x1q0g3np.x1qughib [alt="Meta AI logo"])
+
 ! -- https://www.facebook.com/profile.php?id=61588534388215
 ! Post with AI info disclaimer
 ! * Won't hide posts if linked directly
