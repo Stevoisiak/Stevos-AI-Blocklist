@@ -4651,6 +4651,13 @@ topcartoonpornsites.com##[data-url="https://topcartoonpornsites.com/ai-porn-site
 ! Ad for gptgirlfriend in footer
 topcartoonpornsites.com##img[src$="/gptgirlfriend.jpg"]
 
+! ===========================
+! == Top Porn Sites (NSFW) ==
+! ===========================
+! Site category sections
+toppornsites.com##.best-ai-porn-sites
+toppornsites.com##.best-ai-porn-generators
+
 ! ==================
 ! == Tube8 (NSFW) ==
 ! ==================
