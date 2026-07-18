@@ -2953,6 +2953,15 @@ www.sciencedirect.com###reading-assistant-main-body-section
 www.flyscoot.com##.ai-trip-section
 www.flyscoot.com##.vertical-divider:has(+ .currency-section)
 
+!=============
+! == Scribd ==
+! ============
+! -- https://www.scribd.com/doc/235674068/List-of-School-With-Contact-Details?language_settings_changed=English
+! Left sidebar - Ask AI button
+www.scribd.com##[data-e2e="doc-actions-ask-ai-button-sticky_metadata_column"]
+! Bottom bar (small page size) - Ask AI button
+www.scribd.com##[data-testid="mobile-actions-bottom-bar"] button:has-text("Ask AI")
+
 ! =============
 ! == Semrush ==
 ! =============
