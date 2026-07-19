@@ -3386,6 +3386,9 @@ www.ulta.com##chat-messenger[service*="commerce-ai"]
 ! ======================
 ! == UnitedHealthCare ==
 ! ======================
+! -- https://member.uhc.com/dashboard
+! Floating chatbot icon
+||lagoon-cloud.uhc.com/app/ce-genai/env/prod$xhr,domain=member.uhc.com
 ! "Ask Avery" button in header
 member.uhc.com##[data-test-id="global-nav-ask-ai"]
 
