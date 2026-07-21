@@ -238,6 +238,10 @@ blogs.microsoft.com###AI.uhf-nav-link
 ! Promo to get started with MCP Server
 learn.microsoft.com###ms--highlight-section:has(> [style*="/media/home-and-directory/hero_mcp.png"])
 
+! -- https://learn.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server?view=sql-server-ver17
+! Left Sidebar - AI category
+learn.microsoft.com##.table-of-contents > .tree-item:has(> .tree-expander:has-text(/^AI$/))
+
 ! =====================
 ! == Microsoft Teams ==
 ! =====================
