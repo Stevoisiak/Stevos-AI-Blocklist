@@ -182,12 +182,6 @@ Commit messages use prefixes to indicate the type of change.
 * Spotify
   * [Spotify AI Band Blocker](https://github.com/Reginald-Gillespie/Spotify-AI-Band-Blocker): Plugin for Spicetify to block AI artists on Spotify.
   * [Spotify AI Blocker](https://github.com/CennoxX/spotify-ai-blocker): Userscript to block AI artists on Spotify.
-* Bluesky
-  * [AI Media Labeler](https://bsky.app/profile/labeler.blackwall.gg): Labels AI content. Also has blocklists for [LLM bots](https://bsky.app/profile/labeler.blackwall.gg/lists/3moncbutqpk2l) and [replies with AI images](https://bsky.app/profile/labeler.blackwall.gg/lists/3motpo2uydp2k).
-  * [AI content blocklist](https://bsky.app/profile/yevvie.varyel.com/lists/3kl3qhqgfnw2z) by [yevvie](https://bsky.app/profile/yevvie.varyel.com)
-  * [AI Slop accounts blocklist](https://bsky.app/profile/did:plc:hf7kukeekqbkjub6cubltuiy/lists/3lnxorubvgl2e) by [Hopefulone1997](https://bsky.app/profile/thehopeful1997.bsky.social)
-  * [AI Stuff blocklist](https://bsky.app/profile/volmie.varyel.com/lists/3kkjuavrfns2z) by ‬[Volmie](https://bsky.app/profile/volmie.varyel.com)
-  * [The Great AI - NFT - CRYPTO Cull blocklist](https://bsky.app/profile/did:plc:2segyv655ckqdgkvsqaiianr/lists/3jxwojift2y2n) by [RayDay](https://bsky.app/profile/rayday.bsky.social)
 * [AI warning for Steam](https://github.com/seeeeew/aiwarningforsteam): Browser extension to blur or hide Steam games with an AI content disclosure.
 
 ### Website admin tools
