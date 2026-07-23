@@ -3985,6 +3985,13 @@ studio.youtube.com##[test-id="VIDEO_BRAINSTORM_IDEA"]
 ! "Get Suggestions" button for thumbnail
 studio.youtube.com##.ask-studio-container
 
+! ============
+! == Zocdoc ==
+! ============
+! AI Care Assistant
+www.zocdoc.com##.ai-search-hero__search-container-wrapper
+www.zocdoc.com##[data-test="ai-search-hero-quick-links"]
+
 ! ==========
 ! == Zoom ==
 ! ==========
