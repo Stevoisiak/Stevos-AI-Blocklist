@@ -817,6 +817,24 @@ duckduckgo.com##.nav-menu__item:has(> a[href="https://duck.ai"])
 !   For example, (https://duckduckgo.com/?q=what+is+a+test&ia=web)
 duckduckgo.com##[data-layout="wikinlp"]
 
+! =============
+! == Dummies ==
+! =============
+! Header - Dummies AI button
+www.dummies.com##.n4-dummies-ai_btn
+
+! -- https://www.dummies.com/
+! Section for ask Dummies AI
+www.dummies.com##.h_header_section:has([src="https://cdn.prod.website-files.com/6630d85d73068bc09c7c436c/6877a7e85b73c0cfc8a39b14_dummies-ai-home-hero-v2-d.webp"])
+! "We Recommend"
+www.dummies.com##.h_recommend_item-wrapper:has-text("All Things AI")
+
+! -- https://www.dummies.com/book/macbook-neo-for-dummies
+! Engage with Book button
+www.dummies.com##[n4-button-type="wiley"]
+! AI chatbot section
+www.dummies.com###engage-ai
+
 ! ========
 ! == e+ ==
 ! ========
