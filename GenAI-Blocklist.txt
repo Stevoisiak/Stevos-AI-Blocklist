@@ -622,27 +622,36 @@ deepwiki.com##.pointer-events-none.fixed.bottom-2:has(form)
 ! == Dell ==
 ! ==========
 ! -- https://www.dell.com/en-us
-! Artificial Intelligence in navbar
-www.dell.com##.mh-top-menu:has(> [href="//www.dell.com/en-us/shop/dell-ai-solutions/sc/artificial-intelligence"])
-! Virtual Assistant in header
+! Header - Virtual Assistant button
 www.dell.com##.mh-valink
+! Navbar - Artificial Intelligence category
+www.dell.com##.mh-top-menu:has(> [href="//www.dell.com/en-us/shop/dell-ai-solutions/sc/artificial-intelligence"])
 ! "How can I help you today" section
 www.dell.com##dell-ai-assistant
 ! Virtual Assistant floating button
-www.dell.com##.shop-ai-chat-wrapper
-! Virtual assistant chat in sidebar
+www.dell.com##un-chat-va
+! Virtual Assistant chat responses
 ||www.dell.com/csbapi/unifiedai-chat/$xhr,domain=www.dell.com
 
 ! -- https://www.dell.com/en-us/search/laptop%2015%20inch
-! Virtual assistant response to search query
+! Virtual assistant response to search query (No longer used?)
 ||www.dell.com/csbapi/searchux/productAI/getpanelcontent/$xhr,domain=www.dell.com
 www.dell.com##.sux-virtual-assistant
+! Stop AI chat sidebar from opening
+||www.dell.com/cdn/assets/csb/unified-comm/bundles/*/js/dell-uai-chat.min.js$script,domain=www.dell.com
+||www.dell.com/cdn/assets/csb/unified-comm/bundles/*/css/dell-ai-chat.min.css$stylesheet,domain=www.dell.com
 
-! https://www.dell.com/en-us/shop/dell-laptops/dell-15-laptop/spd/dell-dc15250-laptop/usedc15250hbtshrck
+! https://www.dell.com/en-us/shop/dell-laptops/dell-15-laptop/spd/dell-dc15250-laptop
 ! Commonly asked questions
 www.dell.com##.tech-specs-faq:has(> .ai-prompt-header)
 ! Review summary
 www.dell.com###va-review-summary:has(> .ai-reviews-summary)
+
+! -- https://www.dell.com/support/home/en-nz
+! "What can I help you with today?" section
+www.dell.com##.dds__container-fluid > h2.dds__text-center
+www.dell.com##.dds__container-fluid > div > .chat-box
+www.dell.com##.dds__container-fluid > #divHomeMicromomentsContainer
 
 ! ===============
 ! == Demócrata ==
