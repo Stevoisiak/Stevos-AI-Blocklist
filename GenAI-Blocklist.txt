@@ -3929,6 +3929,8 @@ www.youtube.com##yt-button-view-model:has(> .you-chat-entrypoint-button)
 m.youtube.com,www.youtube.com##.you-chat-entrypoint-button
 ! Floating "Ask about this video" button over video
 www.youtube.com##.ytp-suggested-action-badge[aria-label="Ask about this video"]
+! (mobile) "Summarize the video" bar when description is open
+m.youtube.com##.engagement-panel-section-list-footer-wrapper
 
 ! Auto-dubbed audio languages
 ! * Switch to non-dubbed audio language automatically. Removes audio-track submenu from settings if
