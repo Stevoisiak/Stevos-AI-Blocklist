@@ -2708,14 +2708,16 @@ outlook.office.com##.___77lcry0.f10pi13n[aria-label="Copilot"]
 ! Summarize button while reading a message
 outlook.office.com##.fai-CopilotProvider
 
-! ===============================
+! =====================
 ! == Oxford Academic ==
-! ===============================
+! =====================
 ! -- https://academic.oup.com/
-! "AI Discovery Assistant" next to/or below the searchbar
-academic.oup.com##.widget-instance-SitePageHeader.widget-SitePageHeader.widget > .navbar > .center-inner-row > .navbar-right-container > .site-menu-item.navbar-ai-assistant-container.navbar-menu
-academic.oup.com##.stuck.js-sticky-toolbar.sticky-toolbar > .js-toolbar-wrap.toolbar-wrap > .toolbar-outer-wrap > .toolbar-search > .widget-instance-OUP_ArticleToolbarSearchBox.widget-SitePageHeader.widget > .navbar > .center-inner-row > .navbar-right-container > .site-menu-item.navbar-ai-assistant-container.navbar-menu
+! "AI Discovery Assistant" by searchbar
 academic.oup.com##.ai
+
+! -- https://academic.oup.com/search-results?q=test
+! "AI Discovery Assistant" in navbar 
+academic.oup.com##.navbar-ai-assistant-container.navbar-menu
 
 ! ===============================
 ! == Oxford English Dictionary ==
