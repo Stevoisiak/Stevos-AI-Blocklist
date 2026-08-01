@@ -1220,11 +1220,11 @@ github.com##.Footer-module__footerButtonWrapper__eCAAR
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/pull/13 (Pull request)
 ! "Copilot" promo when adding reviewers via gear icon
 github.com##[partial-name="copilot-assisted-review-upsell"]
-! "Request review from Copilot" (possibly enterprise only)
+! "Request review from Copilot" (enterprise only)
 github.com##.css-truncate > div:has([data-assignee-name="Copilot"])
-! Suggested Reviewer Dropdown: Copilot (possibly enterprise only)
+! Suggested Reviewer Dropdown: Copilot (enterprise only)
 github.com##+js(json-edit-fetch-response, $.suggestions[?@.login=="Copilot"])
-! Ask Copilot button above comment box (possibly enterprise only)
+! Ask Copilot button above comment box (enterprise only)
 github.com###copilot-md-menu-anchor-new_comment_field
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/pull/13/changes (Viewing changed files of a pull request)
