@@ -1828,11 +1828,13 @@ docs.google.com##[jsname="Vjwl5e"]:has(#getting-started-dialog-navigation-view)
 
 ! -- https://drive.google.com/drive/my-drive
 ! "Ask Gemini" icon in header
-drive.google.com##.z39Ete
+drive.google.com###WWNEkf
 ! "AI Overview search" sources icon in search bar
 drive.google.com##.p5rLxe.HBDJjb
 ! "Summarize this file" in selection bar above files after selecting a file (Also matches "Catch me up")
 drive.google.com##.SMHH7
+! "Ask Gemini"/"Suggest file moves" button
+drive.google.com##[data-test-id="help-me-organize-chip-container"]
 ! "Summarize this folder/file" in file "More actions" menu (⋮)
 ! * TODO: Fix arrow key navigation. (:remove() doesn't fix it)
 drive.google.com##.h-v[role="menuitem"]:has(.Nsw7Y)
