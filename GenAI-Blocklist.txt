@@ -1828,7 +1828,7 @@ docs.google.com##[jsname="Vjwl5e"]:has(#getting-started-dialog-navigation-view)
 
 ! -- https://drive.google.com/drive/my-drive
 ! "Ask Gemini" icon in header
-drive.google.com###WWNEkf
+drive.google.com##.z39Ete
 ! "AI Overview search" sources icon in search bar
 drive.google.com##.p5rLxe.HBDJjb
 ! "Summarize this file" in selection bar above files after selecting a file (Also matches "Catch me up")
