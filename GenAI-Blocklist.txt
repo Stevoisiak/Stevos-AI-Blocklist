@@ -2180,6 +2180,8 @@ www.imdb.com##[data-testid="ai-review-summary"]
 ! -- https://imgflip.com/
 ! "AI Meme Generator" button
 imgflip.com##.home-create-btn[href="/ai-meme"]
+! "Imgflip AI" banners seen on homepage and in meme generator
+imgflip.com##.ai-banner
 
 ! -- https://imgflip.com/memegenerator
 ! * Credit to gittaca for pointing some of these out (https://codeberg.org/gittaca/gitludd-blocklist/src/commit/0ba96a400350599e325a6c6c4399f1c51b1b2e76/txt)
