@@ -491,12 +491,12 @@ www.boldbi.com###boldchat-host
 ! "AI" tab in left sidebar.
 cloud.boldbi.com###bold-ai
 
-! ==================
+! =================
 ! == Booking.com ==
-! ==================
-! -- https://www.booking.com/searchresults.html
+! =================
+! -- https://www.booking.com/searchresults.html?ss=London
 ! Smart filter textbox
-www.booking.com##div[data-testid="filters-search-widget"]
+www.booking.com##[data-testid="filters-search-widget"]
 
 ! ==================
 ! == Brave Search ==
