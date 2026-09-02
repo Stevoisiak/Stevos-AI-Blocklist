@@ -492,6 +492,13 @@ www.boldbi.com###boldchat-host
 cloud.boldbi.com###bold-ai
 
 ! ==================
+! == Booking.com ==
+! ==================
+! -- https://www.booking.com/searchresults.html
+! Smart filter textbox
+www.booking.com##div[data-testid="filters-search-widget"]
+
+! ==================
 ! == Brave Search ==
 ! ==================
 ! -- https://search.brave.com/ (Homepage)
