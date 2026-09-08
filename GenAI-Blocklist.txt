@@ -303,6 +303,8 @@ www.asus.com###brandAssistant-root
 docs.aws.amazon.com##button[aria-label="Search with Docs AI"]
 ! Remove purple glow from search bar
 docs.aws.amazon.com##div:has(> [data-testid="agentic-search-trigger"]):style(background: #bbb !important)
+! "Agent Setup" button
+docs.aws.amazon.com##button[data-testid="agent-toolkit-setup-button"]
 
 ! -- https://docs.aws.amazon.com/search/doc-search.html?searchQuery=test
 ! "Docs AI" tab on search results page
