@@ -301,16 +301,16 @@ www.asus.com###brandAssistant-root
 ! -- https://docs.aws.amazon.com/
 ! "Docs AI" button when search bar is focused
 docs.aws.amazon.com##button[aria-label="Search with Docs AI"]
-! "Docs AI" search results tab
-docs.aws.amazon.com##button[data-testid="ai"]
 ! Remove purple glow from search bar
 docs.aws.amazon.com##div:has(> [data-testid="agentic-search-trigger"]):style(background: #bbb !important)
-! "Agent Setup" button
-docs.aws.amazon.com##button[data-testid="agent-toolkit-setup-button"]
 
 ! -- https://docs.aws.amazon.com/search/doc-search.html?searchQuery=test
 ! "Docs AI" tab on search results page
-docs.aws.amazon.com##.awsui_tabs-tab_14rmt_1cc6a_216:has([data-testid="ai"])
+docs.aws.amazon.com##[class^="awsui_tabs-tab_14rmt_"]:has([data-testid="ai"])
+
+! -- https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html
+! "Agent Setup" button
+docs.aws.amazon.com##[data-testid="agent-toolkit-setup-button"]
 
 ! =========
 ! == B&Q ==
