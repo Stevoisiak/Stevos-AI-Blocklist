@@ -1219,7 +1219,7 @@ emojipedia.org##.flex.flex-col.gap-4:has(> .items-center > .Button_btn__p7Xgd[hr
 ! ==========
 ! == Etsy ==
 ! ==========
-! -- https://www.etsy.com/listing/1877003583/princess-rosalina-cosplay-crown-3d
+! -- https://www.etsy.com/
 ! "Buyer highlights"
 www.etsy.com##[data-appears-component-name="reviews_feature_tags"]
 
