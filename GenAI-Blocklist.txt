@@ -744,6 +744,43 @@ platform.claude.com###aiSearchResults__Item-__ask_ai__
 ! Search bar - Toggle AI mode
 platform.claude.com##.ikp-ai-search-input-group > [data-part="view_toggle"]
 
+! ==============
+! == Code.org ==
+! ==============
+! -- https://code.org/
+! "Students already use AI. They should understand it too." widget
+code.org##.contentful-container.cf-db7dcd3b13272e708a9d11a90cf3ae89
+!"Code.org has become CodeAI" banner
+code.org##.mui-ralfbg.MuiBox-root.section-background-greenMid.section-root
+! "New curriculum for a new standard" widget
+code.org##.contentful-container.cf-efb90484109697b4570e6a3f540878d1
+! "Hour of AI" hotbar button
+code.org##a.mui-xu7y1n.MuiButton-colorPrimary.MuiButton-textSizeMedium.MuiButton-sizeMedium.MuiButton-textPrimary.MuiButton-text.MuiButton-root.MuiButtonBase-root:nth-of-type(1)
+! "The Hour of AI makes teaching AI literacy easy, engaging, and fun." banner
+code.org##.mui-l611qg
+
+! Associated links under "Teachers" in the hotbar
+! - "AI Teaching Assistant"
+code.org##div.mui-12pwx0e:nth-of-type(2) > .mui-5i31c5 > li:nth-of-type(3)
+! - "AI Tutor"
+code.org##div.mui-12pwx0e:nth-of-type(2) > .mui-5i31c5 > li:nth-of-type(4)
+! - "Hour of AI"
+code.org##.mui-5i31c5 > li:nth-of-type(6)
+! - "Featured courses" widget, which currently contains only AI related items
+code.org##.mui-1xj8cq1
+
+! Associated links under "Advocacy" in the hotbar
+! - "TeachAI"
+code.org##div.mui-12pwx0e:nth-of-type(1) > .mui-5i31c5 > li:nth-of-type(2)
+! - "AI Literacy Framework"
+code.org##.mui-5i31c5 > li:nth-of-type(4)
+
+! -- https://code.org/parents
+! "Explore Hour of AI activites" button
+code.org##.cf-1f035385f689ecea8498db213245edbc
+! "Start with the Hour of AI" widget
+code.org##.mui-ralfbg.MuiBox-root.section-background-primary.section-root
+
 ! ================
 ! == Codecademy ==
 ! ================
