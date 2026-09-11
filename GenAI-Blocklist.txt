@@ -1976,6 +1976,8 @@ docs.google.com###openSidekickForSlideGenerationButton
 ! "Beautify this slide" notice below slide
 ! * Requires trusted filters
 docs.google.com#%#//scriptlet('trusted-click-element', '.appsElementsGenerativeAiNudgeButtonNudgeDismissButton')
+! Right sidebar - "Transform"
+###content-library-rail-convert-to-video-element
 
 ! -- https://docs.google.com/videos/u/0/create (Vids)
 ! - "Start a new video" window
