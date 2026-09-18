@@ -1923,6 +1923,12 @@ chat.google.com##.SDFSsb.oMuP2d:has([role="dialog"][data-promotype="19"])
 ! "Summarize" button on message
 chat.google.com##.pYTkkf-Bz112c-LgbsSe.sgwC2b.q5K0Kc.sd47rd
 
+! ======================
+! == Google Classroom ==
+! ======================
+! "Gemini" button on leftmost sidebar
+classroom.google.com##[role="menuitem"][href="/ai"]
+
 ! ==================
 ! == Google Cloud ==
 ! ==================
