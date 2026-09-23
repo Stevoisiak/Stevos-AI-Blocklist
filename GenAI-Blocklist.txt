@@ -1460,6 +1460,13 @@ www.forbes.com##.jwGQ_
 www.forbes.com##.genAiSummary
 
 ! ============
+! == FRITZ! ==
+! ============
+! -- https://fritz.com/en/pages/service
+! FRITZ!-Bot AI chat
+fritz.com###chat-widget-root
+
+! ============
 ! == Ful.io ==
 ! ============
 ! -- https://ful.io/blog/top-5-json-viewer-chrome-extensions-you-need-to-check-out
