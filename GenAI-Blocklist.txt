@@ -1821,6 +1821,13 @@ gitshare.me##section#artifacts
 gitshare.me##section.border-border:has(.text-brand[href="/readme-generator"])
 
 ! ===============
+! == GiveRadar ==
+! ===============
+! -- https://giveradar.com/
+! "Use GiveRadar with AI" button
+giveradar.com##.gr-ai-chip
+
+! ===============
 ! == Glassdoor ==
 ! ===============
 ! -- https://www.glassdoor.com/Job/test-jobs-SRCH_KO0,4.htm
