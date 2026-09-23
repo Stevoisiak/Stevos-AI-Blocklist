@@ -1826,6 +1826,8 @@ gitshare.me##section.border-border:has(.text-brand[href="/readme-generator"])
 ! -- https://giveradar.com/
 ! "Use GiveRadar with AI" button
 giveradar.com##.gr-ai-chip
+! "Ask AI" button on a charities page
+giveradar.com##div[x-data="{ showAi: false }"]
 
 ! ===============
 ! == Glassdoor ==
