@@ -2623,7 +2623,6 @@ www.ishopchangi.com###chat-wrapper
 ! ===============
 ! == JetBrains ==
 ! ===============
-! -- https://www.jetbrains.com/
 ! Header - Products - AI TOOLS section
 www.jetbrains.com##[data-test-marker="Products"] [data-test$="menu-column-title"]:has-text("AI TOOLS"):upward(1)
 ! Header - Products - JetBrains Air promo
@@ -2634,14 +2633,16 @@ www.jetbrains.com##[data-test="main-submenu-banner"]:has(> [href="/agentic-softw
 www.jetbrains.com##[data-test="main-submenu-item"]:has(> [href="/agentic-software-development/"])
 ! Header - Solutions - Jetbrains AI Solutions
 www.jetbrains.com##[data-test="main-submenu-item"]:has(> [href="/ai/"])
-! JetBrains Air promo
-www.jetbrains.com##div[class^="_hero_"]:has([type="button"][href="/air/"])
-! "Professional AI Coding" promo card
-www.jetbrains.com##a[href="/business/"][class^="_card_"]
 ! Footer - AI Section
 www.jetbrains.com##.jb-footer-catalog h2:has-text(AI):upward(.jb-footer-catalog__item)
 ! Footer - AI Agents Hub
 www.jetbrains.com##.jb-footer-catalog-links__item:has(> [href="/pages/ai-agents/"])
+
+! -- https://www.jetbrains.com/ (Landing page)
+! JetBrains Air promo
+www.jetbrains.com##div[class^="_hero_"]:has([type="button"][href="/air/"])
+! "Professional AI Coding" promo card
+www.jetbrains.com##a[href="/business/"][class^="_card_"]
 
 ! -- https://jetbrains.com/ides/
 ! "Natively integrated AI" section
