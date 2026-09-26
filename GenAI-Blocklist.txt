@@ -5834,17 +5834,17 @@ mylust.com##.item:has(> [data-id="307"])
 ! Advert for AI GF
 mymangacomics.com##.item.image-block:has(iframe)
 
-! ============================
-! == MyHentaiGallery (NSFW) ==
-! ============================
+! ===========================
+! == MyHentaiComics (NSFW) ==
+! ===========================
 ! Navbar - AI Jerk Off
-myhentaigallery.com##.main-menu li:has(> [href="https://myhentaicomics.com/mainmenu"])
+myhentaicomics.com,myhentaigallery.com##.main-menu li:has(> [href="https://myhentaicomics.com/mainmenu"])
 ! Header & footer ads
-||myhentaicomics.com/maincandy$subdocument
+||myhentaicomics.com/maincandy$subdocument,domain=myhentaicomics.com|myhentaigallery.com
 myhentaigallery.com##center:has(> div > ins[data-revive-zoneid])
 myhentaigallery.com##center:has(> div > iframe)
 ! Floating ad
-myhentaigallery.com###Slider
+myhentaicomics.com,myhentaigallery.com###Slider
 
 ! ===========================
 ! == nhentai (togo) (NSFW) ==
