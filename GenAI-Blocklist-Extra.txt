@@ -674,6 +674,15 @@ mixam.com###front-chat-iframe
 forums.opera.com##.category-54
 forums.opera.com##.category-61
 
+! ============
+! == PayPal ==
+! ============
+! -- https://www.paypal.com/smc/async/ (Messages page)
+! Messages/Conversations with PayPal Assistant 
+www.paypal.com##[data-scroll="conversations"] [data-testid="card"]:has(#avatar-item path[d="M12 2a14.757 14.757 0 0 0 10 10 14.757 14.757 0 0 0-10 10A14.758 14.758 0 0 0 2 12 14.757 14.757 0 0 0 12 2Z"])
+! Chat window for PayPal Assistant conversations
+www.paypal.com###botContainer:has(#ChatConversation [aria-label="ai-mark-fill icon"])
+
 ! ==============
 ! == PC Guide ==
 ! ==============
