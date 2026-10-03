@@ -1010,6 +1010,13 @@ code.visualstudio.com##.docs-markdown-actions
 ! Navbar - AI topic
 tech.yahoo.com##.group\/mega-nav-item:has([aria-controls="submenu-ai"])
 
+! ==================
+! == YourHomie.ai ==
+! ==================
+! -- Product advisor chatbot
+||yourhomie.ai
+||https://homie.blob.core.windows.net/images/chatbots
+
 ! =============
 ! == YouTube ==
 ! =============
