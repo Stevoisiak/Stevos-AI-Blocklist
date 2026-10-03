@@ -3597,6 +3597,15 @@ myapps.paychex.com##png-chat-launcher
 ! "Meet your Paychex Assistant" in right "help" sidebar
 myapps.paychex.com##png-fab-help-chat-card
 
+! ============
+! == PayPal ==
+! ============
+! -- Messages page (https://www.paypal.com/smc/async/)
+! Nudge header to use chatbot, and its message cards, which're distinguishable from other messages by the SVG icon.
+paypal.com##a[data-testid="newConversationButton"]:upward(1)
+paypal.com##div[data-testid="messaging-card-container"] > div > div > div > div > span > svg > path[d="M12 2a14.757 14.757 0 0 0 10 10 14.757 14.757 0 0 0-10 10A14.758 14.758 0 0 0 2 12 14.757 14.757 0 0 0 12 2Z"]:upward(7)
+paypal.com###ChatConversation
+
 ! =============
 ! == PB Tech ==
 ! =============
