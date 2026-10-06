@@ -1213,19 +1213,17 @@ idrinkproducts.com###smart-bot-container
 ! == Dropbox ==
 ! =============
 ! -- https://www.dropbox.com/ (Main page - logged out)
-! Header - "Meet Dropbox Dash" sticky promo
-! * We have 2 rules to hide and remove. Hide is immediate, but it leaves a gap. Remove is slower, but gets rid of the gap.
-www.dropbox.com##._banner_1ozs8_1:has(> [data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"])
-www.dropbox.com##._banner_1ozs8_1:has(> [data-trackingid="dwg_banner_plank-b6fbc6399b__meet-dropbox-dash-your-new-ai-teammate--1"]):remove()
+! Header banner for ChatGPT webinar
+www.dropbox.com##.banner--sticky:has([href*="chatgpt"])
 
 ! Header nav > Products > AI links
 www.dropbox.com##.dwg-dropdown-list-item__container:has(> [role="menuitem"][data-trackingid="unav_product_Reclaim.ai"])
 www.dropbox.com##.dwg-dropdown-list-item__container:has(> [role="menuitem"][data-trackingid="unav_product_dash"])
 
 ! Footer - AI links
-www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__dash--14"])
-www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__reclaimai--15"])
-www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[data-uxa-log="dwg_footer_plank-9f13e0e16d__ai-principles--33"])
+www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[href="https://dash.dropbox.com"])
+www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[href^="https://app.reclaim.ai/"])
+www.dropbox.com##.dwg-footer-plank__link-list > .dwg-stack__item:has(> .dwg-text[href="/ai-principles"])
 
 ! -- https://www.dropbox.com/home (Home - Logged in)
 ! * TODO: Block AI feature promo notices that appear upon initial login. (Seemingly do not re-appear for a given account after being dismissed)
