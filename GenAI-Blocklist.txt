@@ -2140,6 +2140,8 @@ docs.google.com#?#.appsElementsCalloutTitle:has-text(Listen to document summary)
 ! -- https://docs.google.com/presentation/ (Slides)
 ! Right sidebar - Slide button
 docs.google.com###content-library-rail-slide-generation-element
+! Right sidebar - Transform button
+docs.google.com###content-library-rail-convert-to-video-element
 ! Floating "refine" button when selecting a text box
 docs.google.com##.appsSketchyPluginsFloatingToolbarFloatingToolbarComponentGenerativeAiButton
 ! Menubar - "Insert" items
