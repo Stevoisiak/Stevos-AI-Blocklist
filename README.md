@@ -57,11 +57,10 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 1. Install [AdGuard AdBlocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) from the Chrome Web Store.
 2. Click the extensions button (puzzle piece icon) in the toolbar
 3. Click the green AdGuard icon then click the gear icon.
-4. Open the Filters tab, go to "Custom", and click the "extension settings" link.
-5. Return to this page and left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20AI%20Blocklist).
-6. Under "Add custom filter", hit "Next".
+4. Return to this page and left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20AI%20Blocklist).
+5. Under "Add custom filter", hit "Next".
     - (_Recommended_) Check the "Trusted" box.
-7. Click "Add".
+6. Click "Add".
 
 ### Safari (macOS)
 1. Install [AdGuard Mini](https://adguard.com/en/download-extension/safari.html). ([Instructions](https://adguard.com/kb/adguard-mini-for-mac/installation/))
