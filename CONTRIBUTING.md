@@ -31,7 +31,7 @@ This repository categorizes filters between two files: a main list `GenAI-Blockl
 * Filters should include specific identifying elements avoid accidental filtering of unintended items.
 
 ## How should commit messages/pull requests be written?
- Commit messages should begin with a prefix indicating the type of change being made, followed by the site where the where the unblocked item appears and a description of the change.
+ Commit messages should begin with a prefix indicating the type of change being made, followed by the site where the unblocked item appears and a description of the change.
 
 The prefixes are:
 * A: Added a new filter
