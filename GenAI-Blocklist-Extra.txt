@@ -228,7 +228,7 @@ cortex-docs.paloaltonetworks.com##body:has(.page-no-toc) header:has(> .layout-wi
 
 ! -- https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security
 ! Ask button + Markdown copy menu
-cortex-docs.paloaltonetworks.com##header > .float-right:has(button[aria-label="Ask"])
+cortex-docs.paloaltonetworks.com,gitbook.com##header > .float-right:has(button[aria-label="Ask"])
 
 ! ============
 ! == DBCode ==
