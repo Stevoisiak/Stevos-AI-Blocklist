@@ -2459,6 +2459,13 @@ support.google.com#?#.top-nav > li:has-text("Gen AI tips")
 ! Notice promoting Workplace with Gemini
 support.google.com##.notification[data-name="Gemini_EN_RemoteWork_Covid19_NonEN"]
 
+! ===================
+! == Google Trends ==
+! ===================
+! -- https://trends.google.com/explore
+! "Suggest search terms" button
+trends.google.com##button[aria-label="Suggest search terms"]
+
 ! ======================
 ! == Google Workspace ==
 ! ======================
