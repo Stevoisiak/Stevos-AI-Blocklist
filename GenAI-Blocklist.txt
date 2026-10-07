@@ -4656,6 +4656,14 @@ thenewstack.io#%#//scriptlet('remove-attr', 'placeholder', '.search-input[placeh
 ! Remove AI sparkles from search icon
 thenewstack.io##.masthead-search-icon path[d^="M18 4a4 4 0 0 0-4 4 4 4 0"]
 
+! ====================
+! == The StoryGraph ==
+! ====================
+! -- https://app.thestorygraph.com/books/9ea80c87-b424-472d-b17e-bf4b97e042e4
+! SGAI personalized recommendation
+||app.thestorygraph.com/personalized-preview.turbo_stream$xhr,domain=app.thestorygraph.com
+app.thestorygraph.com##.storygraph-preview-pane
+
 ! ==================
 ! == ThermoFisher ==
 ! ==================
