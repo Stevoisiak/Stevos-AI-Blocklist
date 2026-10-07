@@ -55,7 +55,6 @@ The prefixes are:
 * R: Removed a filter
 * C: Cosmetic "meta" change like editing comments or rearranging filters
 * T: Transfer filter between extra and main list.
-* F: Fixed a filter (not working, blocking too much, typo, etc.)
 
 Additionally, if the altered change only applies to the extra filters, it should begin with a +.
 
