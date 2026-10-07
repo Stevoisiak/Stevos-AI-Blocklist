@@ -653,12 +653,12 @@ www.browserstack.com##.bstack-mm-li:has([data-title="AI Agents"])
 ! Footer - AI Agents
 www.browserstack.com###menu-item-153460
 
-! ==============
-! == Bunnings ==
-! ==============
+! ========================
+! == Bunnings Warehouse ==
+! ========================
 ! -- https://www.bunnings.com.au/
-! AI button next to search bar
-www.bunnings.com.au##[aria-label="Ask Bunnings AI"]
+! Ask Buddy button
+www.bunnings.com.au##button:has(.bg-ai-sparkle-gradient)
 
 ! ======================
 ! == Business Insider ==
