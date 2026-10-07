@@ -936,6 +936,8 @@ squareup.com###q-messenger-frame[title="Qualified Messenger"]
 ! ====================
 ! AI Assist requests
 ||stackoverflow.com/ai-assist/$xhr,1p
+! Left sidebar - Stack Internal
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###left-sidebar .nav-links > .ps-relative:has(.stack-internal-left-tile-image--pinned)
 
 ! =========================
 ! == Stack Overflow Blog ==
