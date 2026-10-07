@@ -2497,6 +2497,31 @@ workspace.google.com##.summary
 www.graphed.com##[data-sentry-component="BlogCTADashboard"]
 www.graphed.com##[data-sentry-component="BlogCTAPdf"]
 
+! ==================
+! == Grafana Labs ==
+! ==================
+! -- https://grafana.com/
+! AI question prompt
+grafana.com##.first-section-class:has([aria-label="Ask AI question input"])
+! Footer - "Still have questions?"
+grafana.com###marketing-ui-footer .gmui\:xl\:col-span-2:has([alt="Ask AI icon"]) {visibility: hidden}
+! Footer items
+grafana.com##li:has(> [data-plcmt="footer-nav"][href^="/products/cloud/ai-assistant"])
+grafana.com##li:has(> [data-plcmt="footer-nav"][href^="/products/cloud/agent-observability"])
+grafana.com##li:has(> [data-plcmt="footer-nav"][href^="/products/cloud/investigations"])
+grafana.com##li:has(> [data-plcmt="footer-nav"][href^="/products/cloud/ai-tools-for-observability"])
+grafana.com##li:has(> [data-plcmt="footer-nav"][href^="/ai-info"])
+
+! -- https://grafana.com/docs/
+! "Ask Grot" button
+grafana.com##.ask-ai-button
+! "Ask AI" when search bar is focused
+grafana.com##button:has(> [src="https://a-us.storyblok.com/f/567658451994139/14x14/71b3167fed/ai-icon.svg"])
+
+! -- https://community.grafana.com/
+! Header - Ask Grot AI
+community.grafana.com##.mega-menu__nav > [href^="https://grafana.com/grot/"]
+
 ! ======================
 ! == Hardware Busters ==
 ! ======================
