@@ -32,7 +32,11 @@ This repository categorizes filters between two files: a main list `GenAI-Blockl
 
 ## Resources for learning to create filters
 
-Most filter rules in this list use [CSS selectors](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors) to select AI elements to hide. This type of rule is known as a [cosmetic rule](https://adguard.com/kb/general/ad-filtering/create-own-filters/#cosmetic-rule) or an [element hiding filter](https://help.adblockplus.org/adblock-plus-help-center/how-to-write-filters#Types-of-filters). For more information on creating cosmetic CSS rules, refer to the following guides:
+Most filter rules in this list use CSS selectors to select AI elements to hide. This type of rule is known as a cosmetic rule or an element hiding filter. To borrow an image from [AdGuard's CSS guide](https://adguard.com/kb/general/ad-filtering/create-own-filters/#cosmetic-rule):
+
+<img width="562" height="295" alt="image" src="https://github.com/user-attachments/assets/ca1318a0-e975-4ab7-be8c-a8b0e29921dc" />
+
+For more information on creating cosmetic CSS rules, refer to the following guides:
 
 * [Mozilla - Basic CSS selectors](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors)
 * [AdGuard - How to create your own ad filters (cosmetic rule)](https://adguard.com/kb/general/ad-filtering/create-own-filters/#cosmetic-rule)
