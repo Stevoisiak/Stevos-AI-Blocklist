@@ -30,6 +30,18 @@ This repository categorizes filters between two files: a main list `GenAI-Blockl
 * Within each site group, filters are grouped by a URL showing where the filter applies. Whenever possible, users should be able to visit the link as-is to see the elements being filtered.
 * Filters should include specific identifying elements avoid accidental filtering of unintended items.
 
+## Resources for learning to create filters
+
+Most filter rules in this list use [CSS selectors](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors) to select AI elements to hide. This type of rule is known as a [cosmetic rule](https://adguard.com/kb/general/ad-filtering/create-own-filters/#cosmetic-rule) or an [element hiding filter](https://help.adblockplus.org/adblock-plus-help-center/how-to-write-filters#Types-of-filters). The following guides should be helpful.
+
+* [Mozilla - Basic CSS selectors](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors)
+* [AdGuard - How to create your own ad filters (cosmetic rule)](https://adguard.com/kb/general/ad-filtering/create-own-filters/#cosmetic-rule)
+
+For more advanced filtering, the following resources may also help.
+
+* [AdGuard Scriptlets and Redirect Resources](https://github.com/AdguardTeam/Scriptlets/tree/master#adguard-scriptlets-and-redirect-resources)
+* [uBlock Origin - Resources Library](https://github.com/gorhill/ublock/wiki/Resources-Library)
+
 ## How should commit messages/pull requests be written?
  Commit messages should begin with a prefix indicating the type of change being made, followed by the site where the unblocked item appears and a description of the change.
 
