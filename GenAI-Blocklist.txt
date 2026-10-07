@@ -2908,6 +2908,16 @@ www.kathimerini.gr###gas-summary-root
 ! Review summary
 www.kiehls.com##.swat-review-summary-container-border
 
+! =====================
+! == Kmart Australia ==
+! =====================
+! Joy AI chat
+||agenticapplications.googleapis.com$xhr,domain=www.kmart.com.au
+! Ask Joy button by search bar
+www.kmart.com.au##[class^="ToolTipstyled__ToolTipContainer"]:has(.shop-assistant-chat-button)
+! Floating Joy sparkle on side
+www.kmart.com.au##chat-messenger
+
 ! ============
 ! == Kohl's ==
 ! ============
