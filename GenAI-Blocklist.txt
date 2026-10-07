@@ -2982,6 +2982,13 @@ www.linkedin.com##.share-creation-state__writing-assistant-container--premium
 ! "Enahnce with AI" button
 www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-icon="premium-signal-ai-small"])
 
+! -- https://www.linkedin.com/jobs/view/4384663522/
+! "Use AI to assess how you fit"
+! * Desktop
+www.linkedin.com##[data-testid="lazy-column"] > div > div:has(div > div[data-display-contents="true"] > div[componentkey] > div > #InitialStateHowYouFitSlot)
+! * Mobile
+www.linkedin.com##.job-details-module:has(.guide-entry-point-container)
+
 ! ===============
 ! == Linkyhost ==
 ! ===============
