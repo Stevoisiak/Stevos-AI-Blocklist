@@ -2,7 +2,7 @@
 
 A filter list for [uBlock Origin](https://github.com/gorhill/uBlock?tab=readme-ov-file#ublock-origin-ubo) and [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html) that hides specific website features which use Generative AI and content labeled as AI-generated.
 
-Available for PC/Linux ([Firefox](#firefox-desktop), [Edge](#microsoft-edge-desktop), [Chrome](#google-chrome-desktop), [Brave](#brave-desktop)), macOS ([Firefox](#firefox-desktop), [Edge](#microsoft-edge-desktop), [Chrome](#google-chrome-desktop), [Safari](#safari-macos)), Android ([Firefox](#firefox-android)), and iOS/iPadOS ([Safari](#safari-iosipados), [Brave](#brave-browser-iosipados)).
+Available for PC/Linux ([Firefox](#firefox-desktop), [Chrome](#google-chromemicrosoft-edge-desktop), [Edge](#google-chromemicrosoft-edge-desktop), [Brave](#brave-desktop)), macOS ([Firefox](#firefox-desktop), [Chrome](#google-chromemicrosoft-edge-desktop), [Edge](#google-chromemicrosoft-edge-desktop), [Safari](#safari-macos)), Android ([Firefox](#firefox-android)), and iOS/iPadOS ([Safari](#safari-iosipados), [Brave](#brave-browser-iosipados)).
 
 ## Examples of filtered content
 * Google's AI Overviews & AI Mode
@@ -42,7 +42,7 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
    ```
 5. Click "_Apply Changes_"
 
-### Google Chrome (Desktop)
+### Google Chrome/Microsoft Edge (Desktop)
 1. Install [AdGuard AdBlocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) from the Chrome Web Store.
 2. Click the extensions button (puzzle piece icon) in the toolbar
 3. Click the green AdGuard icon then click the gear icon.
@@ -52,15 +52,6 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 7. Under "Add custom filter", hit "Next".
     - (_Recommended_) Check the "Trusted" box.
 8. Click "Add".
-
-### Microsoft Edge (Desktop)
-1. Install [AdGuard AdBlocker](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) from the Chrome Web Store.
-2. Click the extensions button (puzzle piece icon) in the toolbar
-3. Click the green AdGuard icon then click the gear icon.
-4. Return to this page and left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20AI%20Blocklist).
-5. Under "Add custom filter", hit "Next".
-    - (_Recommended_) Check the "Trusted" box.
-6. Click "Add".
 
 ### Safari (macOS)
 1. Install [AdGuard Mini](https://adguard.com/en/download-extension/safari.html). ([Instructions](https://adguard.com/kb/adguard-mini-for-mac/installation/))
