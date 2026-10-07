@@ -32,7 +32,7 @@ This repository categorizes filters between two files: a main list `GenAI-Blockl
 
 ## Resources for learning to create filters
 
-Most filter rules in this list use CSS selectors to select AI elements to hide. This type of rule is known as a cosmetic rule or an element hiding filter. To borrow an image from [AdGuard's CSS guide](https://adguard.com/kb/general/ad-filtering/create-own-filters/#cosmetic-rule):
+Most filter rules in this list use CSS selectors to select AI elements to hide. This type of rule is known as a cosmetic rule or an element hiding filter. To borrow an image from [AdGuard's filter guide](https://adguard.com/kb/general/ad-filtering/create-own-filters/#cosmetic-rule):
 
 <img width="562" height="295" alt="image" src="https://github.com/user-attachments/assets/ca1318a0-e975-4ab7-be8c-a8b0e29921dc" />
 
