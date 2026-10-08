@@ -2674,6 +2674,13 @@ imgflip.com#?##gen-qa > p:has-text(Funny you ask. Why yes, we do. Here you go:)
 ! Floating "Simplify" button
 indianstartupnews.com###nudgeai-widget
 
+! ================
+! == Infomaniak ==
+! ================
+! -- https://www.infomaniak.com/en
+! Eurina banner
+www.infomaniak.com##section[class^="Banner-module--banner--"]:has([href="https://euria.infomaniak.com/"])
+
 ! ==============
 ! == Inkbunny ==
 ! ==============

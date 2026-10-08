@@ -573,6 +573,13 @@ www.howtogeek.com##.subheader-menu-item:has(> [href="/category/ai-amp-machine-le
 ! * Exclude the "The Cybersecurity & AI Defense" bundle
 www.humblebundle.com##.bundle:is([href*="/ai-"], [href*="-ai-"], [href*="claude-code"], [href*="genai-"]):not([href*="cybersecurity"])
 
+! ================
+! == Infomaniak ==
+! ================
+! -- https://www.infomaniak.com/en
+! Promo box for Euria
+www.infomaniak.com##.bg-euria-light
+
 ! ======================
 ! == Insight Software ==
 ! ======================
