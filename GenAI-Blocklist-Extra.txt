@@ -16,12 +16,29 @@
 ! ==================
 ! We block the entire page for these
 |https://chatgpt.com^$document
+||assistant.kagi.com^$document
 ||claude.ai^$document
+||dictionary.cambridge.org/assistant^$document
 ||euria.infomaniak.com^$document
 ||copilot.microsoft.com^$document
+||grok.com^$document
 ||gemini.google.com/app^$document
 ||github.com/copilot^$document
+||glyphy.io/name-generator^$document
+||imgflip.com/ai-meme^$document
+||kagi.com/summarizer^$document
+||m365.cloud.microsoft/chat^$document
+||perchance.org/ai-chat^$document
 ||stackoverflow.com/ai-assist^$document
+||www.bing.com/images/create/ai-image-generator^$document
+||www.britannica.com/chatbot^$document
+||www.collinsdictionary.com/assistant^$document
+||www.deviantart.com/dreamup^$document
+||www.dummies.com/dummies-ai^$document
+||www.ecosia.org/ai-chat^$document
+||www.g2a.com/buddy^$document
+||www.kimi.ai^$document
+||www.kimi.com^$document
 
 ! ===============
 ! == 1Password ==
