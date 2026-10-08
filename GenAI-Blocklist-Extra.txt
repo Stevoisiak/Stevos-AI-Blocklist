@@ -11,6 +11,18 @@
 ! * Posts from subreddits that focus on AI generated content
 ! * Filters that may catch non-ai content
 
+! ==================
+! == Blocked URLs ==
+! ==================
+! We block the entire page for these
+|https://chatgpt.com^$document
+||claude.ai^$document
+||euria.infomaniak.com^$document
+||copilot.microsoft.com^$document
+||gemini.google.com/app^$document
+||github.com/copilot^$document
+||stackoverflow.com/ai-assist^$document
+
 ! ===============
 ! == 1Password ==
 ! ===============
@@ -96,7 +108,6 @@ www.astronomer.io###page-context-menu
 www.astronomer.io##footer [href="https://www.astronomer.io/solutions/ai-ml"]
 www.astronomer.io##footer [href="https://www.astronomer.io/solutions/mlops"]
 www.astronomer.io##footer .flex-col.gap-4.w-full:has([href="https://www.astronomer.io/solutions/ai-ml"]):style(align-self: stretch)
-
 
 ! -- https://www.astronomer.io/ebooks/practical-guide-to-apache-airflow-3/
 ! Header banner promo for "AI Orchestration cert at Orchestrate Everything" 
