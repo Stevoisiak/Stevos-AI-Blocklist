@@ -1914,7 +1914,7 @@ glyphy.io##section[class^="NameGenerators_container__"]
 ! Header - Google Workspace Studio icon
 mail.google.com##.lRwCV
 ! Header - Ask Gemini icon
-mail.google.com##.Zmxtcf
+mail.google.com##.e5IPTd
 ! Remove "Ask Gmail" and sparkle from search bar
 mail.google.com#%#//scriptlet('trusted-set-attr', '.searchboxInputFontClass[placeholder="Ask Gmail"]', 'placeholder', 'Search mail')
 mail.google.com#%#//scriptlet('trusted-set-attr', 'button[aria-label="Search mail"] > svg[viewBox="0 -960 960 960"]', 'viewBox', '0 0 24 24')
