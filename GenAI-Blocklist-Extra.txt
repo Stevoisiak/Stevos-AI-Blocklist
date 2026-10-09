@@ -39,6 +39,7 @@
 ||www.g2a.com/buddy^$document
 ||www.kimi.ai^$document
 ||www.kimi.com^$document
+||www.meta.ai^$document
 
 ! ===============
 ! == 1Password ==
