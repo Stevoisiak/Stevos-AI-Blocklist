@@ -6,7 +6,7 @@ Available for PC/Linux ([Firefox](#firefox-desktop), [Chrome](#google-chromemicr
 
 ## Examples of filtered content
 * Google's AI Overviews & AI Mode
-* YouTube's Ask button, video summaries, auto-dubbing, and 'Super Resolution' upscaling
+* YouTube's Ask button, video summaries, auto-dubbing, automatic chapters, and 'Super Resolution' upscaling
 * Copilot buttons on GitHub, Bing, Microsoft 365, and Azure Portal
 * Pixiv and DeviantArt images labeled as AI-generated
 * Amazon Rufus and review summaries
