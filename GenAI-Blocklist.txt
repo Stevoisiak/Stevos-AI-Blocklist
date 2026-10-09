@@ -3772,9 +3772,9 @@ www.pbtech.co.nz,www.pbtech.com###aiReviewCard
 ! ===============
 ! -- https://www.pchealth.ca/en/health/pharmacist-vaccinations-injections/book-flu-shot-vaccine-appointment-near-me/
 ! Ask PC Chat
-||mypharmacy.pchealth.ca/remedy?variant=pchChat$subdocument,domain=www.pchealth.ca
-||mypharmacy.pchealth.ca/remedy?variant=entry$subdocument,domain=www.pchealth.ca
-www.pchealth.ca##.remedy-chatbot-landing
+||mypharmacy.*.ca/remedy?variant=pchChat$subdocument,domain=www.pchealth.ca|www.shoppersdrugmart.ca
+||mypharmacy.*.ca/remedy?variant=entry$subdocument,domain=www.pchealth.ca|www.shoppersdrugmart.ca
+www.pchealth.ca,www.shoppersdrugmart.ca##.remedy-chatbot-landing
 
 ! ===========
 ! == PCMag ==
