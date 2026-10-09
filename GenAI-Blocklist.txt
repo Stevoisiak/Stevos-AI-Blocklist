@@ -5154,7 +5154,7 @@ www.wigs.com##.oke-w-reviewsSummaryModule
 ! ==========================
 ! -- https://onlinelibrary.wiley.com/doi/10.1002/agr.70142
 ! Floating AI Companion
-||onlinelibrary.wiley.com/pb/widgets/article-assistant/initiate$xhr,domain=onlinelibrary.wiley.com
+||onlinelibrary.wiley.com/products/acropolis/pericles/releasedAssets/js/ContentAssistant.js$script,domain=onlinelibrary.wiley.com
 
 ! =========
 ! == Wix ==
