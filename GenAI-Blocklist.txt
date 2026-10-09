@@ -4726,6 +4726,13 @@ www.tiktok.com##+js(json-edit-fetch-response, $.itemList.[?.ad_info][?.author.un
 ! * Appears after scrolling down the page
 time.com###scale-agent-overlay-container
 
+! ========================
+! == The Times of India ==
+! ========================
+! -- https://timesofindia.indiatimes.com/world/rest-of-world/tim-hortons-says-it-will-hire-10000-locals-in-canada-amid-boycott-call-singh-hortons-nickname/articleshow/131317275.cms
+! Key Facts and Background
+timesofindia.indiatimes.com##.mjzLH
+
 ! ===================
 ! == TMS Outsource ==
 ! ===================
