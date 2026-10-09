@@ -2742,8 +2742,10 @@ konfigurator.interdoor.pl##.fixed:has(> [aria-label="Otwórz czat AI"])
 ! ============
 ! == Intuit ==
 ! ============
-! -- https://ttlc.intuit.com/community/home/misc/03/en-us
-! Search suggestions
+! -- https://ttlc.intuit.com/turbotax-support/en-us/
+! Search question pills
+ttlc.intuit.com###aic-entry-inline
+! * (No longer used?)
 ttlc.intuit.com###chip-wrapper
 
 ! ===================
