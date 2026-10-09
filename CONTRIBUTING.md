@@ -60,4 +60,4 @@ Additionally, if the altered change only applies to the extra filters, it should
 
 ## AI Policy
 
-Do not use any form of generative AI when contributing to this repository. This includes using content from a generative AI tool as reference or for finding information.
+Do not use any form of generative AI to assist with contributions to this repository. This includes using content from a generative AI tool as reference or for finding information.
