@@ -3675,6 +3675,15 @@ op.gg##.button-bold.rounded.size-\[40px\]:has(> .transition-all > .bg-animated-r
 ! Suggested questions below search bar
 op.gg##.flex-col.items-center.-mt-\[60px\] > .w-full.pb-2.md\:hidden.md\:pb-0
 
+! ============
+! == OpenAI ==
+! ============
+! -- https://developers.openai.com/
+! Floating Ask AI button
+developers.openai.com##.docs-agent-root
+! Chat sidebar messages
+||cdn.platform.openai.com/deployments/chatkit/chatkit.js$script,domain=developers.openai.com
+
 ! =======================
 ! == OpenJS Foundation ==
 ! =======================
