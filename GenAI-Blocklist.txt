@@ -5516,6 +5516,20 @@ m.youtube.com,www.youtube.com##+js(json-edit, $..[?@.panelIdentifier=="engagemen
 ! * Chapter cards in description
 www.youtube.com##+js(json-edit, $..[?@.horizontalCardListRenderer.header.richListHeaderRenderer.navigationButton.buttonRenderer.command.commandExecutorCommand.commands[0].updateEngagementPanelContentCommand.contentSourcePanelIdentifier.tag=="engagement-panel-macro-markers-auto-chapters"])
 m.youtube.com##+js(json-edit, $..[?@.horizontalCardListRenderer.header.richListHeaderRenderer.navigationButton.buttonRenderer.command.commandExecutorCommand.commands[2].engagementPanelHeaderShowNavigationButtonCommand.targetId=="engagement-panel-macro-markers-auto-chapters"])
+! Automatic chapters backup filters
+! Partially based on https://github.com/moocj/yt-remove-ai-chapters
+! TODO: Remove segments on playback bar
+! * Player - Chapter tooltips when hovering progress bar
+www.youtube.com##ytd-watch-flexy:has([target-id="engagement-panel-macro-markers-auto-chapters"]) .ytp-tooltip-progress-bar-pill-title
+! * Player - Chapter near video time 
+www.youtube.com##ytd-watch-flexy:has([target-id="engagement-panel-macro-markers-auto-chapters"]) .ytp-chapter-container
+! * Description - Chapter cards
+www.youtube.com##ytd-watch-flexy:has([target-id="engagement-panel-macro-markers-auto-chapters"]) ytd-horizontal-card-list-renderer[modern-chapters]
+! * Sidebar panel - Chapter tab
+www.youtube.com##ytd-watch-flexy:has([target-id="engagement-panel-macro-markers-auto-chapters"]) .ytChipBarViewModelChipWrapper:has(button[aria-label="Chapters"][aria-selected="false"])
+www.youtube.com##ytd-watch-flexy:has([target-id="engagement-panel-macro-markers-auto-chapters"]) chip-bar-view-model:has(button[aria-label="Chapters"][aria-selected="false"]):has(.ytChipBarViewModelChipWrapper:last-child:nth-child(2))
+! * Sidebar panel - Transcript chapter headers
+www.youtube.com##ytd-watch-flexy:has([target-id="engagement-panel-macro-markers-auto-chapters"]) [data-target-id="PAmodern_transcript_view"] yt-item-section-renderer > #header
 
 ! -- https://m.youtube.com/watch?v=oh5p5f5_-7A (mobile)
 ! "Ask" slide in comment carousel below video
