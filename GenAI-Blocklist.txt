@@ -4731,7 +4731,7 @@ time.com###scale-agent-overlay-container
 ! ========================
 ! -- https://timesofindia.indiatimes.com/world/rest-of-world/tim-hortons-says-it-will-hire-10000-locals-in-canada-amid-boycott-call-singh-hortons-nickname/articleshow/131317275.cms
 ! Key Facts and Background
-timesofindia.indiatimes.com##.mjzLH
+||toiutils.indiatimes.com/search/times_iq/faqs$xhr,domain=timesofindia.indiatimes.com
 
 ! ===================
 ! == TMS Outsource ==
