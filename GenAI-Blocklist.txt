@@ -167,6 +167,17 @@ www.amazon.*##.cr-reviews-ai-pills-t2
 ! AI review summary (IE: "Customers say")
 www.amazon.*##[data-csa-c-item-id="cr-product-insights-cards"], [data-csa-c-item-id="cr-product-insights-detail-page"]
 
+! -- https://www.amazon.com/CORSAIR-VENGEANCE-6000MHz-Compatible-Computer/dp/B0BPTKD797 (mobile)
+! Alexa chat window
+! Prevents issue where window cannot be closed once opened
+www.amazon.*##.nav-search-rufus-container > #nav-flyout-rufus
+! Question pills below product image carousel
+www.amazon.*###rufus-dpx-atf-mission-pills-container
+! Top highlights - Summarized points
+www.amazon.*###nile-inline-insights_feature_div
+! Top highlights - Question suggestions
+www.amazon.*###nile-inline-mobile-hoc-below-top-highlights_feature_div
+
 ! -- https://www.amazon.com/clp/B01BFE0KNQ
 ! "Customers say" summary
 www.amazon.*##.cs-summary-section
