@@ -1307,6 +1307,15 @@ fandom.com##section.trfc161
 ! Floating AI button
 fightthenewdrug.org###askFTND_button
 
+! ============
+! == Firebase Console ==
+! ============
+! -- Sidebar Gemini icon
+console.firebase.google.com##helios-entry-point
+! -- Ask Gemini button
+console.firebase.google.com##fire-gemini-button
+
+
 ! === Firstpost ===
 ! ≡ menu > "First AI" button
 firstpost.com###ia-search
