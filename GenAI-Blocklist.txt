@@ -4213,6 +4213,11 @@ www.studocu.com##.SidebarClickableItem_wrapper__vQRrT:has(#content-sidebar-quiz-
 ! AI question bar
 www.studocu.com##[aria-label="AI toolbar"]
 
+! === SuperHuman Docs ===
+! -- https://docs.superhuman.com
+! Open Docs AI Button
+docs.superhuman.com##[aria-label="Open Docs AI"]:upward(2)
+
 ! === SuperSummary ===
 ! -- https://www.supersummary.com/game-changer-shusterman/summary/
 ! Generate questions button
