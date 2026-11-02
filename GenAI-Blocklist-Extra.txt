@@ -519,6 +519,16 @@ www.google.*##.gTxCBd:has(> [href^="https://labs.google.com/search?"])
 ! Google Labs icon in header (mobile)
 www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
 
+! === Google Search (about) ===
+! -- https://www.search.google/ways-to-search/lens/
+! Header items
+www.search.google##.about-search-header-item:has(> [href="/ai-in-search/"])
+www.search.google##.about-search-header-item:has(> [href="/ways-to-search/ai-overviews/"])
+www.search.google##.about-search-header-item:has(> [href="/ways-to-search/ai-mode/"])
+! Page tabs
+www.search.google##.about-search-nav-pills-list-item:has(> [href=" /ways-to-search/ai-overviews/ "])
+www.search.google##.about-search-nav-pills-list-item:has(> [href=" /ways-to-search/ai-mode/ "])
+
 ! === Google Support ===
 ! -- https://support.google.com/
 ! Support category for Gemini Apps
