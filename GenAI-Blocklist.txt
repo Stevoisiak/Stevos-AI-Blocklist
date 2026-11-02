@@ -5102,6 +5102,9 @@ m.youtube.com##.engagement-panel-section-list-footer-wrapper
 www.youtube.com##+js(json-edit, v2:$..adaptiveFormats[?@.audioTrack.isAutoDubbed])
 www.youtube.com##+js(json-edit-xhr-response, v2:$..adaptiveFormats[?@.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
 www.youtube.com##+js(json-edit-fetch-response, v2:$..adaptiveFormats[?@.audioTrack.isAutoDubbed], propsToMatch, /youtubei)
+! Would fix filtering on initial URL load, but causes conflicts
+! (See https://github.com/uBlockOrigin/uBlock-issues/issues/4187)
+! www.youtube.com##+js(edit-object-on-setter, ytInitialPlayerResponse, $..adaptiveFormats[?@.audioTrack.isAutoDubbed])
 !#else
 ! * Alternate filter for AdGuard support
 www.youtube.com#%#//scriptlet('json-prune', '$..adaptiveFormats[?@.audioTrack.isAutoDubbed]')
@@ -5117,6 +5120,10 @@ www.youtube.com##.ytp-menuitem-section-header ~ .ytp-menuitem
 !#if ext_ublock
 www.youtube.com##+js(json-edit, v2:$..paygatedQualitiesMetadata.qualityDetails[?@.key=="1080p"];$..adaptiveFormats[?@.qualityLabel=="1080p"])
 www.youtube.com##+js(json-edit, v2:$..paygatedQualitiesMetadata.qualityDetails[?@.key=="720p"];$..adaptiveFormats[?@.qualityLabel=="720p"])
+! Would fix filtering on initial URL load, but causes conflicts
+! (See https://github.com/uBlockOrigin/uBlock-issues/issues/4187)
+! www.youtube.com##+js(edit-object-on-setter, ytInitialPlayerResponse, $..paygatedQualitiesMetadata.qualityDetails[?@.key=="1080p"];$..adaptiveFormats[?@.qualityLabel=="1080p"])
+! www.youtube.com##+js(edit-object-on-setter, ytInitialPlayerResponse, $..paygatedQualitiesMetadata.qualityDetails[?@.key=="720p"];$..adaptiveFormats[?@.qualityLabel=="720p"]
 !#else
 www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.qualityDetails[?.key=="1080p"]]..adaptiveFormats[?.qualityLabel=="1080p"])
 www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.qualityDetails[?.key=="720p"]]..adaptiveFormats[?.qualityLabel=="720p"])
