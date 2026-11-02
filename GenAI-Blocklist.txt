@@ -1281,6 +1281,10 @@ www.facebook.com##[role="presentation"] .xsag5q8.x1g0dm76.xpdmqnj.x1y1aw1k:has([
 ! "What people are saying" comment summary (logged in)
 www.facebook.com##[role="presentation"] .x1jx94hy.x1obq294.x5a5i1n.xde0f50.x15x8krk.xjf5wm9.xod5an3.x1tpqehw.x1wsuqlk.x14vqqas.xz9dl7a.xpdmqnj.xsag5q8.x1g0dm76:has(> .x6s0dn4.x78zum5.x1q0g3np.x1qughib [alt="Meta AI logo"])
 
+! -- https://www.facebook.com/groups/captainsoftech/posts/797383481555925/?seo_visit=1 (mobile)
+! Comment summary
+www.facebook.com##.m.displayed[data-mcomponent="MContainer"]:has(> div > div > [data-mcomponent="ServerImageArea"] > [src="https://static.xx.fbcdn.net/rsrc.php/y-/r/Ib87vxW-sT9.webp"])
+
 ! -- https://www.facebook.com/permalink.php?story_fbid=pfbid0nM3EdTKDBTXFnxftmhzgX2HRaESqcBoNXDHTFCo3oq8u716VFg2mUp9PLykieQPfl&id=61588534388215
 ! Post with AI info disclaimer (disclosed by user)
 ! * Won't hide posts if linked directly
