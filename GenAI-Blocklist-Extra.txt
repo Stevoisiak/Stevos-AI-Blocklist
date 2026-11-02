@@ -518,6 +518,9 @@ www.google.*##.gTxCBd:has(> [href^="https://labs.google.com/search?"])
 ! -- https://www.google.com/search?q=test
 ! Google Labs icon in header (mobile)
 www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
+! Footer - Promo for Google app
+www.google.com##.fbar.ouy7Mc.diAzE:has(> [data-url^="https://iga.google.com/"][data-url$="iga-footer-acq-button-srp"])
+
 
 ! === Google Search (about) ===
 ! -- https://www.search.google/ways-to-search/lens/
