@@ -246,6 +246,12 @@ www.asus.com###aiMenu
 ! Floating assistant
 ||asus-brand-assistant.asus.com/brand-assistant.js$script,domain=www.asus.com
 
+! -- https://rog.asus.com/us/
+! Floating chatbot
+||asuschatapi.asus.com/aiassistantapi/api/v0c/$xhr,domain=rog.asus.com
+! AI product recommendations
+rog.asus.com##div[class^="Home__aiRecommendWrapper__"]
+
 ! === Atlassian ===
 ! -- https://<yourdomain>.atlassian.net/browse/SUP-1 (Support - Task)
 ! Automation button (lighting icon) - Build automations with AI
