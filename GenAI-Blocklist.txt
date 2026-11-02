@@ -5054,7 +5054,6 @@ www.youdao.com##.swiper-slide:has(> [src="https://ydlunacommon-cdn.nosdn.127.net
 www.youdao.com##.product-item:has([src="https://ydlunacommon-cdn.nosdn.127.net/cc4afa89cc5497e23b355bc7436cb1c9.png"])
 
 ! === YouTube ===
-! -- General
 ! Search bar (includes backup cosmetic filters)
 ! * Ask YouTube button
 www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_mode_searchbox_entrypoint, false)
@@ -5122,7 +5121,9 @@ www.youtube.com##+js(json-edit, v2:$..paygatedQualitiesMetadata.qualityDetails[?
 www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.qualityDetails[?.key=="1080p"]]..adaptiveFormats[?.qualityLabel=="1080p"])
 www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.qualityDetails[?.key=="720p"]]..adaptiveFormats[?.qualityLabel=="720p"])
 !#endif
-! Automatic video chapters
+
+! - Automatic video chapters
+! Method 1: JSON
 ! * Playback bar chapter segments
 m.youtube.com,www.youtube.com##+js(json-edit, $..[?@.playerBar.multiMarkersPlayerBarRenderer.visibleOnLoad.key=="AUTO_CHAPTERS"])
 ! * "In this video" sidebar chapters + backup for playback bar
@@ -5132,7 +5133,8 @@ m.youtube.com##+js(json-edit, $..[?@.panelIdentifier=="engagement-panel-macro-ma
 m.youtube.com##+js(json-edit, $..[?@.horizontalCardListRenderer.header.richListHeaderRenderer.navigationButton.buttonRenderer.command.commandExecutorCommand.commands[2].engagementPanelHeaderShowNavigationButtonCommand.targetId=="engagement-panel-macro-markers-auto-chapters"])
 ! * Alt for chapter card in description (Seen on https://m.youtube.com/watch?v=1K55xVb6qhY)
 m.youtube.com##+js(json-edit, $..[?@.horizontalCardListRenderer.header.richListHeaderRenderer.navigationButton.buttonRenderer.command.commandExecutorCommand.commands[0].updateEngagementPanelContentCommand.contentSourcePanelIdentifier.tag=="engagement-panel-macro-markers-auto-chapters"])
-! Automatic chapter backup filters
+
+! Method 2: CSS
 ! Partially based on https://github.com/moocj/yt-remove-ai-chapters
 ! TODO: Remove segments on playback bar
 ! * Player - Chapter tooltips when hovering progress bar
