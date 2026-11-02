@@ -3403,6 +3403,24 @@ northflank.com##aside:has(> [href="/blog/ai-sdlc"])
 ! Floating AI chat button
 www.nutraingredients.com##.ask-ia-widget
 
+! === Nvidia ===
+! -- https://www.nvidia.com/en-us/
+! Floating Ask AI button
+www.nvidia.com##nv-assistant
+! Replace search bar placeholder text
+www.nvidia.com#%#//scriptlet('trusted-set-attr', '.librarian-search-input[placeholder="AI-powered search"]', 'placeholder', 'Search')
+
+! -- https://www.nvidia.com/en-us/search/?q=NVIDIA%20Broadcast
+! Search summary
+www.nvidia.com##.librarian-genai-summery
+||www.nvidia.com/ai-agents/chimera/stream$xhr,domain=www.nvidia.com
+
+! -- https://www.nvidia.com/404/
+! Messages about AI search
+www.nvidia.com###librarian-search1 .css-c2iebg > svg
+www.nvidia.com###librarian-search1 .css-c2iebg > .css-12k99am
+www.nvidia.com###librarian-search1 .css-c2iebg {height: unset !important}
+
 ! === NxCode ===
 ! -- https://www.nxcode.io/resources/news/claude-sonnet-4-6-vs-gpt-5-4-coding-comparison-2026
 ! "Before you go..." modal
