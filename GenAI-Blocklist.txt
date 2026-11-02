@@ -1538,14 +1538,12 @@ github.com##.start-copilot-banner
 ! "Getting started" checklist section
 github.com##[data-testid="copilot-free-user-checklist"]
 
-! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/
+! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/ (repository page)
 ! "Agents" tab in repository navbar (desktop & mobile)
 ! * Via https://www.reddit.com/r/uBlockOrigin/comments/1vkxr0j/comment/p2xake5/
 github.com##li:has(> [data-tab-item="agents"]):style(max-width: 0px !important; margin-left: calc(0px - var(--stack-gap-condensed,.5rem)) !important; visibility: hidden !important;)
 github.com##[data-component="ActionList.Item"]:has(> [data-tab-item="agents"])
-
-! -- https://github.com/easylist/easylistchina
-! "Ask Copilot about this repository" when repository has no README file
+! "Ask Copilot about this repository" when repository has no README file (ex: https://github.com/easylist/easylistchina)
 ! Might be limited to enterprise users with Copilot
 github.com##[class^="OverviewRepoFiles-module_"]:has([data-component="Blankslate"] .octicon-copilot)
 
@@ -1576,7 +1574,7 @@ github.com##.prc-ButtonGroup-ButtonGroup-vFUrY:has([data-testid="copilot-ask-men
 github.com##[data-component="ActionList.Item"]:has(img[src^="https://github.githubassets.com/assets/github-copilot-app-"])
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/new (New issue page)
-! "Write with Copilot" below issue description
+! "Write with Copilot" below issue description (No longer used?)
 ! * Doesn't always appear. May be limited to issues from repository owner?
 ! * The end of class name changed from "__RL1TZUq" to "__eCAAR". Is it dynamic?
 github.com##.Footer-module__footerButtonWrapper__RL1TZUq
@@ -1619,6 +1617,10 @@ github.com##[data-component="ActionList.Divider"] + [data-component="ActionList.
 ! -- https://github.com/zloirock/core-js/actions/runs/22272347580/job/64429009933 (Failed workflow job)
 ! "Explain error" button
 github.com##[data-test-id="copilot-actions-chat-button"]
+
+! -- https://github.com/search?q=python&type=repositories (Search)
+! Left sidebar - Filter by AI resources
+github.com##[data-testid="nav-item-ai_resources"]
 
 ! -- https://github.com/ (logged out)
 ! Download GitHub Copilot app button
