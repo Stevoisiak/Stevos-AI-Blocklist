@@ -4375,6 +4375,15 @@ thenewstack.io#%#//scriptlet('remove-attr', 'placeholder', '.search-input[placeh
 ! Remove AI sparkles from search icon
 thenewstack.io##.masthead-search-icon path[d^="M18 4a4 4 0 0 0-4 4 4 4 0"]
 
+! === The New York Times ===
+! -- https://www.nytimes.com/wirecutter/
+! "What do you need (or want)" search section
+www.nytimes.com##[data-testid="finder-promo-below-hero-desktop"]
+
+! -- https://www.nytimes.com/wirecutter/search/?s=How+do+I+stop+my+house+from+smelling%3F
+! AI summarized answer (& product recommendations)
+www.nytimes.com##[data-testid="answer-block"]:not(:has([data-icon="spinner"]))
+
 ! === The StoryGraph ===
 ! -- https://app.thestorygraph.com/books/9ea80c87-b424-472d-b17e-bf4b97e042e4
 ! SGAI personalized recommendation
