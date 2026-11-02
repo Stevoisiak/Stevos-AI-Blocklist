@@ -4213,6 +4213,20 @@ www.studocu.com##.SidebarClickableItem_wrapper__vQRrT:has(#content-sidebar-quiz-
 ! AI question bar
 www.studocu.com##[aria-label="AI toolbar"]
 
+! === Superhuman Docs ===
+! -- https://docs.superhuman.com/ (Home)
+! Left sidebar - User profile menu - Connect to the Docs MCP
+docs.superhuman.com##[data-layer-id]:has(> [role="menuitem"] [data-icon="Connectors"])
+docs.superhuman.com##[data-layer-id]:has(> [role="menuitem"] [data-icon="Connectors"]) + hr
+! Getting started carousel > Connect Docs MCP
+docs.superhuman.com##.L2QHsp05.tnBcgZxh:has-text(Connect Docs MCP)
+
+! -- New document page
+! Close chat sidebar
+docs.superhuman.com#%#//scriptlet('trusted-click-element', '[role="button"][aria-label="Hide Docs AI"]')
+! Floating chat icon
+docs.superhuman.com##[data-coda-ui-id="shAgentEntryButton"]
+
 ! === SuperSummary ===
 ! -- https://www.supersummary.com/game-changer-shusterman/summary/
 ! Generate questions button

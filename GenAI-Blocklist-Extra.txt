@@ -865,6 +865,14 @@ stackify.com##.sidebar [href="https://stackify.com/tag/ai/"]
 ! View as markdown buttons
 docs.stripe.com##.⚙x1uodc[role="toolbar"]
 
+! === Superhuman Docs ===
+! -- https://docs.superhuman.com/account
+! Left sidebar - Superhuman Docs MCP
+docs.superhuman.com##nav > [href="#mcpConnections"]
+! Settings list - Superhuman Docs MCP
+docs.superhuman.com##[data-coda-ui-id="account-mcp-section"]
+docs.superhuman.com##[data-coda-ui-id="account-mcp-section"] + div
+
 ! === TechCrunch ===
 ! -- https://techcrunch.com/
 ! AI news category in navbar
