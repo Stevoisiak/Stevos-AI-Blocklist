@@ -62,6 +62,11 @@ www.1password.dev##.nav-tabs-item[href="/security-for-ai"]
 ! Copy Page button
 www.1password.dev###page-context-menu
 
+! === AdBlock ===
+! -- https://helpcenter.getadblock.com/adblock-help-center/how-does-adblock-work
+! Use with AI/markdown button
+help.adblockplus.org,helpcenter.getadblock.com##ai-actions
+
 ! === Addend Analytics ===
 ! Header items
 addendanalytics.com##.addend-nav-list [href="https://addendanalytics.com/ai-consulting-services"]

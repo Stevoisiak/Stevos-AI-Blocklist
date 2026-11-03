@@ -45,10 +45,14 @@ www.1password.dev#?#[role="menuitem"]:has-text(Ask questions about this page)
 ! Floating chatbot button
 www.aberdeencity.gov.uk##a[aria-label="Open Chatbot"]
 
-! === AdBlock/Adblock Plus ===
-! -- https://help.adblockplus.org/adblock-plus-help-center/how-to-write-filters
-! "Use with AI" button
-help.adblockplus.org,helpcenter.getadblock.com##ai-actions
+! === AdBlock ===
+! -- https://helpcenter.getadblock.com/adblock-help-center/how-does-adblock-work
+! "Use with AI" markdown button text & menu options
+help.adblockplus.org,helpcenter.getadblock.com##ai-actions button > svg:has(> [d="M19 9L20.25 6.25L23 5L20.25 3.75L19 1L17.75 3.75L15 5L17.75 6.25L19 9Z"])
+help.adblockplus.org,helpcenter.getadblock.com##ai-actions button {font-size: 0 !important; column-gap: 0 !important; padding-inline: 6px !important}
+help.adblockplus.org,helpcenter.getadblock.com##hr:has(+ [value="open-in-chatgpt"])
+help.adblockplus.org,helpcenter.getadblock.com##[value="open-in-chatgpt"]
+help.adblockplus.org,helpcenter.getadblock.com##[value="open-in-claude"]
 
 ! === Adobe ===
 ! -- https://www.adobe.com/ (logged out)
