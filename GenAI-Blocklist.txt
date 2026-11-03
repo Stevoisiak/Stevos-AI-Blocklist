@@ -4215,6 +4215,10 @@ stackoverflow.com##.js-sofa-sidebar-promo
 ! Collective for OpenAI
 stackoverflow.com##.js-gps-related-tags:has([href="/collectives/openai"])
 
+! -- https://stackoverflow.com/questions/550001/fully-transparent-windows-in-pygame/51845075#51845075
+! "Use with AI" button on code block in answer
+stackoverflow.com##.js-use-with-ai-button
+
 ! === Startpage ===
 ! Expandable sidebar, Products, "Vanish: Private AI"
 ! * TODO: Leaves blank space. Need to change spacing on prior element in list. (Different between desktop and mobile sites)
