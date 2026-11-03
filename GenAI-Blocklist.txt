@@ -3366,11 +3366,13 @@ search.naver.com##[role="tab"][href^="?ssc=tab.ait.all"]
 www.ndtv.com##.ASum_wr.ASum_Mnon
 
 ! === Newegg ===
-! -- https://www.newegg.com/abs-stratos-ruby-gaming-desktop-rtx-5060-core-i5-14400f-32gb-ddr5-1tb-ssd-sr7800x3d9070xt-black/p/N82E16883360936
-! AI Assistant
+! -- https://www.newegg.com/
+! Header - Shop with Celeste
+www.newegg.com##.header2021-celeste
+! Search bar (focused) - Ask Celeste
+www.newegg.com##.header2021-search-sec-ask
+! Floating AI Assistant icon
 www.newegg.com##.floating-robot
-! AI Expert
-www.newegg.com##.ek-sales-content
 
 ! === News18 ===
 ! Search - AI overview

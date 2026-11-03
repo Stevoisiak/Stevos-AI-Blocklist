@@ -661,6 +661,15 @@ min.io#?#.new-section:has-text(One Foundation. Every AI Workflow.)
 ! * Is also used for chatting with human support
 mixam.com###front-chat-iframe
 
+! === Newegg ===
+! -- https://www.newegg.com/
+! Search bar - Sparkle icon
+www.newegg.com##.header2021-search-ai-star
+! Search bar - De-sparkle search icon (has a delay)
+www.newegg.com#%#//scriptlet('trusted-set-attr', '.header2021-search-button > .ico-search-ai', 'class', 'ico ico-search')
+! Search bar - trending search - AI hardware
+www.newegg.com##.header-trending.tag-list > [title="ai hardware"]
+
 ! === Noble Knight Games ===
 ! Tracking script from AI company
 ||services.zoovu.com/events/user-tracking-script/$script,domain=www.nobleknight.com
