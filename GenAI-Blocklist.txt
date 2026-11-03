@@ -3374,6 +3374,10 @@ www.newegg.com##.header2021-search-sec-ask
 ! Floating AI Assistant icon
 www.newegg.com##.floating-robot
 
+! -- https://www.newegg.com/p/pl?d=test
+! Sidebar - Ask Celeste about filters
+www.newegg.com##.plp-side-ask
+
 ! === News18 ===
 ! Search - AI overview
 www.news18.com##.aiovwrp
