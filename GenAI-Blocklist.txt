@@ -1196,6 +1196,13 @@ emojicombos.com##.step-body > div:has(> [href="https://perchance.org/ai-icon-gen
 ! Executive AI Summary tab
 devhome.evero.net##[role="tablist"] > [id$="-trigger-aisummary"]
 
+! === Evetech ===
+! Header - Eva icon
+www.evetech.co.za##button[title="Ask Eva"]
+www.evetech.co.za##button[title="Ask Eva"] + div
+! Floating Eva button
+www.evetech.co.za##button[aria-label="Open Eva chat assistant"]
+
 ! === Emojipedia ===
 ! -- https://emojipedia.org/
 ! "Create Emojis" button in navbar
