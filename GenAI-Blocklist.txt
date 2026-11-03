@@ -2826,6 +2826,11 @@ www.lesnumeriques.com##[data-lemrock-component]
 ! LG AI in header
 www.lg.com##.MuiLink-root[href="https://www.lg.com/us/affectionate-intelligence-ai"]
 
+! === Liberty Care Mobility ===
+! -- https://libertycare.ca/product/mobb-sock-aid-with-foam-handles-mhscaf/
+! "Have a question about this product?" box
+libertycare.ca###lcai
+
 ! === LinkedIn ===
 ! -- https://www.linkedin.com/feed/ (Feed - logged in)
 ! Start a post > "Rewrite with AI" button
