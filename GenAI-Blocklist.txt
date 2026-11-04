@@ -148,6 +148,8 @@ www.amazon.*##.nav-search-rufus-container > #nav-flyout-rufus
 www.amazon.*###rufus-ask-rufus-tooltip
 ! "Ask Alexa" question suggestions below product image carousel
 www.amazon.*###nile-inline_feature_div
+! "Ask Alexa" suggestion on the order history page
+www.amazon.*##.yo-ask-order-pill
 ! "Hear the highlights" AI summary
 www.amazon.*###shopTalk_feature_div
 ! "Looking for specific info?" section above reviews
