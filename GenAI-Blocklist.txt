@@ -2664,6 +2664,16 @@ www.ishopchangi.com###chat-wrapper
 ! Chatbot modal
 ||webchat.studizz.fr/webchat.js$script,domain=www.istom.fr
 
+! === JCPenney ===
+! -- https://www.jcpenney.com/
+! Header - AskPenney
+www.jcpenney.com###askPenneyBlock
+www.jcpenney.com###askPenneyMobileBlock
+
+! -- https://www.jcpenney.com/p/stylus-womens-high-rise-wide-leg-pant/ppr5008207177?pTmplType=regular&geoZip=11530
+! Review summary
+www.jcpenney.com##[data-bv-show="review-summaries"]
+
 ! === JetBrains ===
 ! Header - Products - AI TOOLS section
 www.jetbrains.com#?#[data-test-marker="Products"] [data-test$="menu-column-title"]:has-text("AI TOOLS"):upward(1)
