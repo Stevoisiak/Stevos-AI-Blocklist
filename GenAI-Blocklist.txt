@@ -3582,6 +3582,11 @@ www.pcmag.com##[data-element="Maggie-Product-Picker-Launcher"]
 ! AI Product Finder QA box
 www.pcmag.com##div:has(> [data-element="embedded-unit"] > form[\@submit\.prevent*="'product-picker-init'"])
 
+! === PCWorld ===
+! -- https://www.pcworld.com/article/3088112/vibe-coding-apps-taught-me-how-hard-real-coding-is.html
+! Article summary
+www.pcworld.com##.miso-summary-box
+
 ! === Phys.org ===
 ! -- https://phys.org/news/2026-07-rare-blue-optical-transient-class.html
 ! "The GIST" article summary
