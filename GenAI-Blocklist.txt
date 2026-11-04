@@ -121,49 +121,49 @@ alphacoders.com##.item:has(.thumb-tag-masonry:is([href="https://alphacoders.com/
 ! -- https://www.amazon.com/ (homepage)
 ! Chatbot network requests
 ||www.amazon.*/rufus/$xhr,domain=www.amazon.*
-! "Rufus" button in navbar
+! AI questions in autocomplete search suggestions
+www.amazon.*##+js(json-prune-xhr-response, suggestions.[-].widgetId, , propsToMatch, /suggestions)
+! Search placeholder messages (No longer used?)
+www.amazon.com##+js(json-edit, $.suggestions[?@.text=="Ask Alexa a question"])
+www.amazon.com##+js(json-edit, $.suggestions[?@.text=="Compare products with Alexa"])
+! Navbar - "Rufus" button
 www.amazon.*###nav-rufus-disco
-! Health AI in navbar
+! Navbar - Health AI in navbar (No longer used?)
 www.amazon.*##.nav-li:has([data-csa-c-content-id$="_cs_health_ai"])
-! Navbar > Medical Care - AI elements
+! Navbar - Medical Care - AI elements (No longer used?)
 www.amazon.*##.health-ai-header
 www.amazon.*##.ask-health-ai-section 
 www.amazon.*##.ahi-health-ai-content > .banner-pills-container
-! AI questions in autocomplete search suggestions
-www.amazon.*##+js(json-prune-xhr-response, suggestions.[-].widgetId, , propsToMatch, /suggestions)
-! Search placeholder messages
-www.amazon.com##+js(json-edit, $.suggestions[?@.text=="Ask Alexa a question"])
-www.amazon.com##+js(json-edit, $.suggestions[?@.text=="Compare products with Alexa"])
 ! Rufus chatbot in sidebar 
 ! * Requires trusted filters in AdGuard
 ! * Source: https://www.reddit.com/r/uBlockOrigin/comments/1pod2g6/comment/nuelobn/
 www.amazon.*##+js(set-session-storage-item, rufus:panel:dockedState, null)
 www.amazon.*##+js(set-session-storage-item, rufus:panel, null)
 
-! -- https://www.amazon.com/Celeste-Nintendo-Switch-Digital-Code/dp/B079Z1LPSP (Product page)
-! Rufus button that appears when highlighting text
-www.amazon.*###rufus-ask-rufus-tooltip
-! "Ask Rufus" suggestions below product image
-www.amazon.*###nile-inline_feature_div
-! "Ask rufus or search reviews" section above user reviews ("ie: Looking for specific info?")
-www.amazon.*###nile-inline-btf_feature_div
-! Summarize positive/negative reviews
-www.amazon.*##.cr-reviews-ai-pills-t2
-! AI review summary (IE: "Customers say")
-www.amazon.*##[data-csa-c-item-id="cr-product-insights-cards"], [data-csa-c-item-id="cr-product-insights-detail-page"]
-
-! -- https://www.amazon.com/CORSAIR-VENGEANCE-6000MHz-Compatible-Computer/dp/B0BPTKD797 (mobile)
+! -- https://www.amazon.com/CORSAIR-VENGEANCE-6000MHz-Compatible-Computer/dp/B0BPTKD797
 ! Alexa chat window
-! Prevents issue where window cannot be closed once opened
+! * Prevents issue where window cannot be closed once opened
 www.amazon.*##.nav-search-rufus-container > #nav-flyout-rufus
-! "Ask Alexa" question pills below product image carousel
-www.amazon.*###rufus-dpx-atf-mission-pills-container
+! Rufus button that appears when highlighting text (No longer used?)
+www.amazon.*###rufus-ask-rufus-tooltip
+! "Ask Alexa" question suggestions below product image carousel
+www.amazon.*###nile-inline_feature_div
 ! "Hear the highlights" AI summary
 www.amazon.*###shopTalk_feature_div
+! "Looking for specific info?" section above reviews
+www.amazon.*###nile-inline-btf_feature_div
+! "Customers say" section
+www.amazon.*##[data-csa-c-painter="review-highlights-experience"]
+www.amazon.*##.cr-reviews-ai-pills-t2
+! - Mobile
+! "Ask Alexa" question pills below product image carousel
+www.amazon.*###rufus-dpx-atf-mission-pills-container
 ! Top highlights - Summarized points
 www.amazon.*###nile-inline-insights_feature_div
 ! Top highlights - Question suggestions
 www.amazon.*###nile-inline-mobile-hoc-below-top-highlights_feature_div
+! Customer reviews - Summarize 1 star/5 star reviews pills
+www.amazon.*##.cr-reviews-ai-pills-t1
 
 ! -- https://www.amazon.com/clp/B01BFE0KNQ
 ! "Customers say" summary
