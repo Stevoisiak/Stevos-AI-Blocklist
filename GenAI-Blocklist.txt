@@ -156,8 +156,10 @@ www.amazon.*##[data-csa-c-item-id="cr-product-insights-cards"], [data-csa-c-item
 ! Alexa chat window
 ! Prevents issue where window cannot be closed once opened
 www.amazon.*##.nav-search-rufus-container > #nav-flyout-rufus
-! Question pills below product image carousel
+! "Ask Alexa" question pills below product image carousel
 www.amazon.*###rufus-dpx-atf-mission-pills-container
+! "Hear the highlights" AI summary
+www.amazon.*###shopTalk_feature_div
 ! Top highlights - Summarized points
 www.amazon.*###nile-inline-insights_feature_div
 ! Top highlights - Question suggestions
