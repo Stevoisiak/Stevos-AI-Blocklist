@@ -63,6 +63,10 @@ www.1password.dev##.nav-tabs-item[href="/security-for-ai"]
 www.1password.dev###page-context-menu
 
 ! === AdBlock ===
+! -- https://adblockplus.org/en/
+! Banner for blocking ads in AI assistants 
+adblockplus.org##.abom-banner:has([href^="/en/ai-block-o-meter"])
+
 ! -- https://helpcenter.getadblock.com/adblock-help-center/how-does-adblock-work
 ! Use with AI/markdown button
 help.adblockplus.org,helpcenter.getadblock.com##ai-actions
