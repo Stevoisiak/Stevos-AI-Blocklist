@@ -148,8 +148,6 @@ www.amazon.*##.nav-search-rufus-container > #nav-flyout-rufus
 www.amazon.*###rufus-ask-rufus-tooltip
 ! "Ask Alexa" question suggestions below product image carousel
 www.amazon.*###nile-inline_feature_div
-! "Ask Alexa" suggestion on the order history page
-www.amazon.*##.yo-ask-order-pill
 ! "Hear the highlights" AI summary
 www.amazon.*###shopTalk_feature_div
 ! "Looking for specific info?" section above reviews
@@ -175,6 +173,10 @@ www.amazon.*##.a-spacing-top-mini:has(> .ai-branding-icon)
 www.amazon.*##.hero-top-highlights
 ! Question suggestions
 www.amazon.*##.scans-hero-pills-row
+
+! -- https://www.amazon.com/gp/css/order-history
+! "Ask Alexa about this order" button on order history page
+www.amazon.*##.yo-ask-order-pill
 
 ! -- https://health.amazon.com/
 ! "Health AI" button in navbar
