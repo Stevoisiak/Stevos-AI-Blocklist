@@ -11,45 +11,7 @@
 ! * Posts from subreddits that focus on AI generated content
 ! * Filters that may catch non-ai content
 
-! === Blocked URLs ===
-! We block the entire page for these
-|https://chatgpt.com^$document
-|https://github.com/copilot^$document
-||ask.brave.com^$document
-||assistant.kagi.com^$document
-||chat.z.ai^$document
-||claude.ai^$document
-||dictionary.cambridge.org/assistant^$document
-||duck.ai^$document
-||euria.infomaniak.com^$document
-||copilot.microsoft.com^$document
-||gemma4-ai.com^$document
-||gemma4.chat/chat^$document
-||gemma4.com/chat^$document
-||grok.com^$document
-||gemini.google.com/app^$document
-||glyphy.io/name-generator^$document
-||imgflip.com/ai-meme^$document
-||kagi.com/summarizer^$document
-||lumo.proton.me^$document
-||nicevoice.org/ai-voice-generator^$document
-||notrack.ai/chat^$document
-||m365.cloud.microsoft/chat^$document
-||perchance.org/ai-chat^$document
-||poe.com^$document
-||qwen.ai^$document
-||search.brave.com/ask^$document
-||stackoverflow.com/ai-assist^$document
-||www.bing.com/images/create/ai-image-generator^$document
-||www.britannica.com/chatbot^$document
-||www.collinsdictionary.com/assistant^$document
-||www.deviantart.com/dreamup^$document
-||www.dummies.com/dummies-ai^$document
-||www.ecosia.org/ai-chat^$document
-||www.g2a.com/buddy^$document
-||www.kimi.ai^$document
-||www.kimi.com^$document
-||www.meta.ai^$document
+!#include categories/genai-domain-blocking.txt
 
 ! === 1Password ===
 ! -- https://1password.com/
