@@ -2250,10 +2250,6 @@ www.google.*##+js(json-edit, $..[?@[?@.zf==86]])
 ! * Backup cosmetic filter for mobile
 www.google.*##.CKtgbd[role="listbox"] > .sbct:has(.cuyMBe:has-text(AI Mode))
 
-! -- https://www.google.com/?sa=X (mobile)
-! Search bar - Ask Google placeholder text
-www.google.*##form[action="/search"] textarea[placeholder="Ask Google"]
-
 ! -- https://www.google.com/search?q=Why+are+we+here
 ! "AI Mode" tab in navbar
 www.google.*##[role="listitem"]:has(.olrp5b)
