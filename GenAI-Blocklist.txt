@@ -2221,7 +2221,9 @@ www.google.*#%#//scriptlet('remove-attr', 'href', '#mlogo[href*="&udm=50"]')
 ! AI buttons below search bar
 ! * "Create images", "Ask about files", and "Brainstorm"
 ! * These buttons replace the standard "Google Search" button.
-www.google.com##[class="jLddNe"][role="button"]:has(> .DUGvJe)
+www.google.com##[role="button"][data-azi][jsname="pLYtdd"]
+www.google.com##[role="button"][data-azi][jsname="KrqAEf"]
+www.google.com##[role="button"][data-azi][jsname="aG66rb"]
 ! Promo text below search bar mentioning AI
 www.google.*#?#promo-middle-slot:has-text("/\bAI\b/")
 www.google.*#?#promo-middle-slot:has-text(Gemini)
