@@ -814,9 +814,13 @@ www.collinsdictionary.com##.assistantMobile:remove()
 www.collinsdictionary.com###assistant-link
 
 ! -- https://www.collinsdictionary.com/dictionary/english/word
-! Footer - Ask me a question
+! Sticky "Ask me a question" bar
 ||www.collinsdictionary.com/external/assistant/idm-assistant.js$script,domain=www.collinsdictionary.com
 www.collinsdictionary.com##.assistant-sticky-bar
+
+! -- https://www.collinsdictionary.com/us/dictionary/english/word
+! Sticky "Ask me a question" chatbox
+www.collinsdictionary.com###ai-widget
 
 ! === Computer World ===
 ! Header promo for AI powered hybrid search
