@@ -654,6 +654,12 @@ learn.microsoft.com#?#.table-of-contents > .tree-item:has(> .tree-expander:has-t
 ! Sidebar - Windows 11 - Release information for AI components
 learn.microsoft.com##.tree-item[href="https://learn.microsoft.com/en-us/windows/release-health/ai-components-release-information"]
 
+! === Microsoft Office ===
+! -- https://powerpoint.cloud.microsoft/ (With document open)
+! Multiple copilot buttons
+! * Experimental filter: Check if anything breaks
+usc-powerpoint.officeapps.live.com##.fai-CopilotProvider
+
 ! === Microsoft Teams ===
 ! -- https://teams.microsoft.com/v2/ (logged in)
 ! Sparkle icon indicating an app has AI features (Apps tab)
