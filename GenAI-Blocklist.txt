@@ -2202,7 +2202,13 @@ one.google.com##.aTVMOe.RLyrIe.KGSMie
 !   * Mixture of AI and non-ai infoboxes: https://www.google.com/search?q=Super+Mario+64+release+date
 
 ! -- https://www.google.com/ (Homepage)
-! Search bar > "AI Mode" button
+! Search bar - Plus icon for "add files and tools"
+! * TODO: Doesn't work on https://www.google.co.jp/index.html
+! * TODO: Replace icon with magnifying glass
+www.google.*##.y1yadf:has(.UbbAWe) {pointer-events: none !important}
+www.google.*##.y1yadf .UbbAWe path {color: #9aa0a6 !important}
+www.google.*##.y1yadf .UbbAWe > .wPSZBe {height: 20px !important; width: 20px !important}
+! Search bar - "AI Mode" button
 www.google.*##.plR5qb
 ! Remove AI hyperlinks from Google Doodle Logos
 !#if ext_ublock
