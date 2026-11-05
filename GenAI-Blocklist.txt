@@ -3191,8 +3191,12 @@ powerpoint.cloud.microsoft##[aria-label="Explore Copilot section."]
 powerpoint.cloud.microsoft##.___qeeaaj0:has(> [aria-label="Explore Copilot section."]:only-child)
 
 ! -- https://powerpoint.cloud.microsoft/ (With document open)
-! Ribbon - Home - Designer button
-usc-powerpoint.officeapps.live.com###innerRibbonContainer > [class^="groupContainer-"]:has(#ChatPPT-group)
+! Ribbon - Home - Create Interactive Slide
+usc-powerpoint.officeapps.live.com###CopilotCreateInteractiveSlideGalleryFromRibbon
+! Ribbon - Home - Design Suggestions
+usc-powerpoint.officeapps.live.com##[class^="groupContainer-"]:has(#ChatPPT-group)
+! Copilot button to the right of ribbon
+usc-powerpoint.officeapps.live.com##[id^="dabCon"]
 ! Context menu - Explain
 usc-powerpoint.officeapps.live.com##.fui-MenuGroup:has(> [data-unique-id^="ContextMenu-Explainer"])
 usc-powerpoint.officeapps.live.com##.fui-MenuGroup:has(> [data-unique-id^="ContextMenu-Explainer"]) + .fui-MenuDivider
