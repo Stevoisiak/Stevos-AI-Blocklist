@@ -3132,7 +3132,7 @@ learn.microsoft.com##.card:has([id^="ai-answer-"])
 learn.microsoft.com##[id^="ai-answer-"]
 
 ! === Microsoft Office/365 ===
-! Use for web Office apps. Tested via SharePoint. 
+! Use for web Office apps. Tested via SharePoint.
 
 ! Floating Copilot button in bottom right (After opening document)
 officeapps.live.com###CopilotDABContainer
@@ -3191,8 +3191,12 @@ powerpoint.cloud.microsoft##[aria-label="Explore Copilot section."]
 powerpoint.cloud.microsoft##.___qeeaaj0:has(> [aria-label="Explore Copilot section."]:only-child)
 
 ! -- https://powerpoint.cloud.microsoft/ (With document open)
+! Ribbon - Home - Create Interactive Slide
+usc-powerpoint.officeapps.live.com###CopilotCreateInteractiveSlideGalleryFromRibbon
 ! Ribbon - Home - Designer button
 usc-powerpoint.officeapps.live.com###innerRibbonContainer > [class^="groupContainer-"]:has(#ChatPPT-group)
+! Ribbon - Design - Design Suggestions
+usc-powerpoint.officeapps.live.com##[class^="groupContainer-"]:has(#DesignerNew-group)
 ! Context menu - Explain
 usc-powerpoint.officeapps.live.com##.fui-MenuGroup:has(> [data-unique-id^="ContextMenu-Explainer"])
 usc-powerpoint.officeapps.live.com##.fui-MenuGroup:has(> [data-unique-id^="ContextMenu-Explainer"]) + .fui-MenuDivider
