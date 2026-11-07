@@ -4711,6 +4711,11 @@ vercel.com#?#.mt-3 div:has(+ button:has-text(Ask AI))
 www.verizon.com###vz-gpt-flare-button
 ||chatbot-exp.verizon.com/chatbot/nsa/nos/h8sv-vzwcb-onebot-proxy/eksprod/public/askverizon.js$script,domain=www.verizon.com
 
+! === Viduki ===
+! -- https://www.viduki.net/
+! Video - Settings - FX - AI Upscale 
+www.viduki.net##.vp-fx-tab:not(.vp-fx-tab-active):has-text(4K AI Upscale)
+
 ! === Vimeo ===
 ! -- https://vimeo.com/ (Homepage - promo materials)
 ! Navbar - Features > Platform > Vimeo AI
