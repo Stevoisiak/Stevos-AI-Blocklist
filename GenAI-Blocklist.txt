@@ -3977,6 +3977,15 @@ www.reddit.com##shreddit-sidebar-ad:is(#t3_1tqih0v, #t3_1tr5maz)
 ! AI-Website Builder
 www.rediff.com##.navlink:has(> [data-secid="nav_aisitebuilder"])
 
+! === Regex101 ===
+! -- https://regex101.com/
+! Sidebar - AI Assistant
+regex101.com##button[data-section="assistant"][aria-pressed="false"]
+! Explanation - AI Assistant paragraph
+regex101.com##section[data-section="explanation"] p:has(button[aria-label="Open AI Assistant"])
+! Update notice for v14.5.0 with AI Assistant
+regex101.com##[aria-label="Notifications"] > [role="dialog"]:has([href="https://docs.regex101.com/application/ai-assistant/"])
+
 ! === Render ===
 ! -- https://render.com/docs/your-first-deploy
 ! Ask button
