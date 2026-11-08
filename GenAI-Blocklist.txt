@@ -5832,6 +5832,10 @@ www.nudevista.com##[itemprop="subjectOf"]:has([href="/?t=ai&s=t"])
 ! AI Generated category in sidebar
 ohentai.org##.interlink[href="tagsearch.php?tag=AI Generated"]
 
+! === Omega Scans (NSFW) ===
+! Latest Comic Updates - Ad to create AI Fantasy
+omegascans.org###content section .grid > .flex.flex-row.overflow-hidden:has(iframe[title="Sponsored"])
+
 ! === OOXXX (NSFW) ===
 ! AI porn
 ooxxx.com##.tag__item:has(> [href="https://candyai.gg/home2?oid=1&affid=223&source_id=ooxxx_tablink&creative_id=1"])
