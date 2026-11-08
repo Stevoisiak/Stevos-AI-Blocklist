@@ -3986,6 +3986,11 @@ regex101.com##section[data-section="explanation"] p:has(button[aria-label="Open 
 ! Update notice for v14.5.0 with AI Assistant
 regex101.com##[aria-label="Notifications"] > [role="dialog"]:has([href="https://docs.regex101.com/application/ai-assistant/"])
 
+! -- https://regex101.com/?regex=test&testString=&flags=gm&flavor=pcre2&delimiter=%2F
+! Match Information - Ask AI
+regex101.com##section[data-section="match-info"] .oEhHv:style(font-size: 0px !important)
+regex101.com##section[data-section="match-info"] .oEhHv button:first-child:style(font-size: 14px !important)
+
 ! === Render ===
 ! -- https://render.com/docs/your-first-deploy
 ! Ask button
