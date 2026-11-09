@@ -699,6 +699,11 @@ nowyelektronik.pl##.banner:has(> [src="https://nowyelektronik.pl/modules/ps_bann
 forums.opera.com##.category-54
 forums.opera.com##.category-61
 
+! === Paychex ===
+! -- https://myapps.paychex.com/landing_remote/login.do?lang=en&landingRedirect=true
+! Transient notice about WISE branding
+myapps.paychex.com###pendo-guide-container[aria-label="Meet WISE"]
+
 ! === PC Guide ===
 ! AI category in header
 www.pcguide.com##.menu-item-150141
