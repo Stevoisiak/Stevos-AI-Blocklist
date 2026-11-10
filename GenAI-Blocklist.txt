@@ -2133,6 +2133,10 @@ drive.google.com##[role="separator"] + [role="separator"]
 ! "Summarize this file"/"Ask Gemini" button when hovering over file type icon
 drive.google.com##.oaTPh
 
+! -- https://drive.google.com/drive/search?q=test
+! "Get a quick overview for <search>"
+drive.google.com##[data-target="aioButton"]
+
 ! -- https://drive.google.com/drive/search?q=what%20is%20my%20biggest%20file%3F
 ! AI Overview
 ||appsgenaiserver-pa.clients6.google.com/v1/genai/$xhr,domain=drive.google.com
