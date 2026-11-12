@@ -3762,6 +3762,20 @@ www.priceline.com##[data-testid="poptip"]
 ! AI beta recommendations
 www.primevideo.com##[data-testid="navigation-carousel-wrapper"]:has(.iodfd3.cljaZL)
 
+! === Prisjakt ===
+! Assistent next to logga in button
+www.prisjakt.nu##.justify-self-end.gap-\[16px\].items-center.flex > .hover\:bg-button-transparent-hover.transition-colors.text-text-primary.rounded-full.justify-center.items-center.shrink-0.size-\[40px\].flex > svg
+www.prisjakt.nu##.gfFDd.AssistantLink-sc-37ij6x-17
+! Assistent tab/unique selling point/campaign cards
+www.prisjakt.nu##button.pl-\[16px\].pr-\[24px\].rounded-full.items-center.min-w-0.h-\[44px\].flex.isolate.relative.text-text-primary.font-heavy.text-s:nth-of-type(2)
+www.prisjakt.nu##li.md\:text-center.md\:px-50.md\:gap-25.md\:flex-col.md\:flex-1.gap-50.items-center.flex:nth-of-type(2)
+www.prisjakt.nu##.gap-150.flex-wrap.flex
+! Ask about the product button
+www.prisjakt.nu##.max-md\:hidden.w-\[347px\].\[--assistant-ring-r\:20px\].py-\[10px\].px-125.gap-\[6px\].text-\[0\.875rem\]\/\[1\.25rem\].font-heaviest.active\:shadow-none.active\:\[--assistant-ring-fill\:var\(--color-legacy-surface-brand-subtle\)\].hover\:shadow-\[0_2px_8px_rgba\(0\,0\,0\,0\.12\)\].hover\:\[--assistant-ring-fill\:var\(--color-surface-background-info\)\].text-text-primary.assistant-ring.focus-visible\:ring-border-focus-ring-gap.focus-visible\:ring-2.focus-visible\:outline-border-focus-ring.focus-visible\:outline-offset-2.focus-visible\:outline-2.tracking-m.rounded-\[100px\].justify-center.items-center.flex
+! Insikter tab and section
+www.prisjakt.nu##li.p-0.list-none.m-0:nth-of-type(2)
+www.prisjakt.nu###insights
+
 ! === Privacy ===
 ! Header banner for AI Agents
 www.privacy.com##.click-promo-banner[href="https://agents.privacy.com"]
