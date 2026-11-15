@@ -176,7 +176,7 @@ If you want to contribute filters, please [review the contributing guide](https:
 ## Other AI blocking tools
 ### General
 * [Just the Browser](https://justthebrowser.com/): Removes AI features, telemetry, and sponsored content from web browsers.
-* [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI): Removes AI components in Windows.
+* [RemoveWindowsAI](https://github.com/iFryno/RemoveWindowsAI): Removes AI components in Windows. (Temporary mirror as original [was taken down](https://github.com/user-attachments/assets/bad38671-7291-4880-ae70-f0eba83be7de))
 * [RemoveMacAI](https://github.com/omlahore/RemoveMacAI): Disables Apple Intelligence on macOS 27 and deletes downloaded AI models.
 * [BadWebsiteBlocklist](https://github.com/popcar2/BadWebsiteBlocklist): Removes low-quality pages from search results such as AI generated articles and low-effort spam sites.
 * [just_a_husk's image-search AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist): Removes AI-generated images from search engine results. Forked from [laylavish's blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/).
