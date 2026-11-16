@@ -5,11 +5,11 @@
 ! Author: Stevoisiak
 
 ! Domains
-|https://chatgpt.com^$document
 ||ask-chat.ai^$document
 ||ask.brave.com^$document
 ||assistant.kagi.com^$document
 ||chat.z.ai^$document
+||chatgpt.com^$document
 ||claude.ai^$document
 ||copilot.microsoft.com^$document
 ||duck.ai^$document
@@ -25,7 +25,6 @@
 ||qwen.ai^$document
 
 ! Specific URLs
-|https://github.com/copilot^$document
 ||bing.com/copilotsearch^$document
 ||bing.com/images/create/ai-image-generator^$document
 ||britannica.com/chatbot^$document
@@ -37,6 +36,7 @@
 ||g2a.com/buddy^$document
 ||gemma4.chat/chat^$document
 ||gemma4.com/chat^$document
+||github.com/copilot^$document
 ||glyphy.io/name-generator^$document
 ||imgflip.com/ai-meme^$document
 ||kagi.com/summarizer^$document
