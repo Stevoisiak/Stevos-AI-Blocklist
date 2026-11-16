@@ -4,31 +4,37 @@
 ! Homepage: https://github.com/Stevoisiak/Stevos-AI-Blocklist
 ! Author: Stevoisiak
 
+! Domains
 |https://chatgpt.com^$document
-|https://github.com/copilot^$document
 ||ask.brave.com^$document
 ||assistant.kagi.com^$document
 ||chat.z.ai^$document
 ||claude.ai^$document
-||dictionary.cambridge.org/assistant^$document
 ||duck.ai^$document
 ||euria.infomaniak.com^$document
 ||copilot.microsoft.com^$document
 ||gemma4-ai.com^$document
+||grok.com^$document
+||lumo.proton.me^$document
+||poe.com^$document
+||qwen.ai^$document
+||www.kimi.ai^$document
+||www.kimi.com^$document
+||www.meta.ai^$document
+
+! Specific URLs
+|https://github.com/copilot^$document
+||dictionary.cambridge.org/assistant^$document
 ||gemma4.chat/chat^$document
 ||gemma4.com/chat^$document
-||grok.com^$document
 ||gemini.google.com/app^$document
 ||glyphy.io/name-generator^$document
 ||imgflip.com/ai-meme^$document
 ||kagi.com/summarizer^$document
-||lumo.proton.me^$document
 ||nicevoice.org/ai-voice-generator^$document
 ||notrack.ai/chat^$document
 ||m365.cloud.microsoft/chat^$document
 ||perchance.org/ai-chat^$document
-||poe.com^$document
-||qwen.ai^$document
 ||search.brave.com/ask^$document
 ||stackoverflow.com/ai-assist^$document
 ||www.bing.com/images/create/ai-image-generator^$document
@@ -38,6 +44,3 @@
 ||www.dummies.com/dummies-ai^$document
 ||www.ecosia.org/ai-chat^$document
 ||www.g2a.com/buddy^$document
-||www.kimi.ai^$document
-||www.kimi.com^$document
-||www.meta.ai^$document
