@@ -25,6 +25,7 @@
 ||qwen.ai^$document
 
 ! Specific URLs
+||americanbanker.com/answers^$document
 ||bing.com/copilotsearch^$document
 ||bing.com/images/create/ai-image-generator^$document
 ||britannica.com/chatbot^$document
