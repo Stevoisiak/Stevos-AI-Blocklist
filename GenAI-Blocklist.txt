@@ -458,9 +458,11 @@ www.bing.com##.b_ans.b_top:has(> .cht_container)
 ! AI summary
 www.bing.com##.b_ans:has(> #b_wpt_container_ml)
 
-! -- https://www.bing.com/search?q=Gemini
-! "Meet your AI assistant" promo card at top of search results
+! -- https://www.bing.com/search?q=google%20gemini
+! "Meet your AI assistant" promo card at top of search results (no longer used?)
 www.bing.com###ccpg-container:has(#b_cp_upsell_box_parent)
+! "Your Copilot is here" promo
+www.bing.com###uaanswer:has(> #b_cp_upsell_parent)
 
 ! -- https://www.bing.com/images
 ! "Create" chip below search bar
