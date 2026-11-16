@@ -10,24 +10,30 @@
 ||assistant.kagi.com^$document
 ||chat.z.ai^$document
 ||claude.ai^$document
+||copilot.microsoft.com^$document
 ||duck.ai^$document
 ||euria.infomaniak.com^$document
-||copilot.microsoft.com^$document
 ||gemini.google.com^$document
 ||gemma4-ai.com^$document
 ||grok.com^$document
+||kimi.ai^$document
+||kimi.com^$document
 ||lumo.proton.me^$document
+||meta.ai^$document
 ||poe.com^$document
 ||qwen.ai^$document
-||www.kimi.ai^$document
-||www.kimi.com^$document
-||www.meta.ai^$document
 
 ! Specific URLs
 |https://github.com/copilot^$document
 ||bing.com/copilotsearch^$document
 ||bing.com/images/create/ai-image-generator^$document
+||britannica.com/chatbot^$document
+||collinsdictionary.com/assistant^$document
+||deviantart.com/dreamup^$document
 ||dictionary.cambridge.org/assistant^$document
+||dummies.com/dummies-ai^$document
+||ecosia.org/ai-chat^$document
+||g2a.com/buddy^$document
 ||gemma4.chat/chat^$document
 ||gemma4.com/chat^$document
 ||glyphy.io/name-generator^$document
@@ -39,9 +45,3 @@
 ||perchance.org/ai-chat^$document
 ||search.brave.com/ask^$document
 ||stackoverflow.com/ai-assist^$document
-||www.britannica.com/chatbot^$document
-||www.collinsdictionary.com/assistant^$document
-||www.deviantart.com/dreamup^$document
-||www.dummies.com/dummies-ai^$document
-||www.ecosia.org/ai-chat^$document
-||www.g2a.com/buddy^$document
