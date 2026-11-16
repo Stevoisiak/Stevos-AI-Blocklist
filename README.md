@@ -111,13 +111,17 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
    ```
 4. Press *Add*.
 
-## Optional extra blocklist
-If you want more thorough AI blocking, [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) has additional filters that are stricter, subjective, or experimental. They are more prone to accidentally blocking non-AI content or **breaking site functionality**. These include:
+## Optional extra blocklists
+If you want more thorough AI blocking, there are two additional optional blocklists you can install: [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) and [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-URLs.txt).
+
+[`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) has additional filters that are stricter, subjective, or experimental. They are more prone to accidentally blocking non-AI content or **breaking site functionality**. These include:
 * Customer support chatbots that must be used before you can contact human customer support.
 * YouTube: Trusted filter to remove autodubbing when loading a video directly via URL, but causes visible page refresh even on videos without autodubbing.
 * Early versions of filters that require testing
 * AI category in headers on news sites.
 * Network requests to AI bots that cause visible webpage errors when blocked.
+
+[`GenAI-Blocklist-URLs.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-URLs.txt) contains full page blocks for AI focused sites. For example, it block the the Gemini chatbot page even if you visit the URL intentionally.
 
 ## FAQ
 ### Which adblockers will this filter list work with?
@@ -152,7 +156,7 @@ While uBlock Origin Lite exists as an alternative, it [does not support custom f
 Sometimes. This filter list was created with the primary goal of hiding AI elements, but some network filters have been added to prevent content generation.
 
 ### Where can I find a full list of filtered items?
-Check [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-AI-Blocklist/blob/main/GenAI-Blocklist.txt) and [`GenAI-Blocklist-Extra.txt`](https://github.com/Stevoisiak/Stevos-AI-Blocklist/blob/main/GenAI-Blocklist-Extra.txt).
+Check [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-AI-Blocklist/blob/main/GenAI-Blocklist.txt), [`GenAI-Blocklist-Extra.txt`](https://github.com/Stevoisiak/Stevos-AI-Blocklist/blob/main/GenAI-Blocklist-Extra.txt), and [`GenAI-Blocklist-URLs.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-URLs.txt).
 
 ### Why are trusted filters recommended in AdGuard?
 Some filters use [scriptlets](https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md) to block AI items. (YouTube autodubbing, DeviantArt & Pixiv image filtering, TikTok videos, setting cookies, etc). These filters will only work if the AI blocklist is marked as trusted.
