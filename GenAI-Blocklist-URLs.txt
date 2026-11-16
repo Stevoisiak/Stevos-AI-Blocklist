@@ -6,6 +6,7 @@
 
 ! Domains
 |https://chatgpt.com^$document
+||ask-chat.ai^$document
 ||ask.brave.com^$document
 ||assistant.kagi.com^$document
 ||chat.z.ai^$document
