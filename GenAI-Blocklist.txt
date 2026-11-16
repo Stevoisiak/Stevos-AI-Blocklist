@@ -5915,9 +5915,6 @@ www.redtube.com##.paid_tab_element:has(> [data-label2="AI JERK OFF"], [data-labe
 ! -- https://rule34.xxx/index.php?page=post&s=list&tags=all
 ! "AI CUMSLUTS" in header nav
 rule34.xxx##li:has(> [rel="sponsored"])
-! "Filter AI posts" option
-! * Only hide if option has already been enabled
-rule34.xxx###displayOptions:has(#chkFilterAI[checked])
 ! Cookie to enable "Filter AI posts"
 rule34.xxx##+js(set-cookie-reload, filter_ai, 1)
 
