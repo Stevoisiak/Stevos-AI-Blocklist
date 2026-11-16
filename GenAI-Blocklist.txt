@@ -1586,6 +1586,11 @@ github.com##[data-component="ActionList.Group"]:has(> [aria-label="Copilot"])
 github.com##[data-component="ActionList.Group"]:has(> [aria-label="Copilot"]) + [data-component="ActionList.Divider"]
 github.com##[data-testid="copilot-menu-items"]:remove()
 
+! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/new (New issue page)
+! "Write with Copilot" below issue description
+! * Doesn't always appear. May be limited to issues from repository owner?
+github.com##[data-testid="markdown-editor-footer"]:has(> [class^="footerWrapper__"] > [class^="footerButtonWrapper__"] .octicon-arrow-up-right)
+
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/compare/main...reddit-rewrite (Pull request creation)
 ! "Generate pull request title with Copilot" button
 github.com##[data-component="IconButton"]:has(> .octicon-copilot)
