@@ -25,6 +25,8 @@
 
 ! Specific URLs
 |https://github.com/copilot^$document
+||bing.com/copilotsearch^$document
+||bing.com/images/create/ai-image-generator^$document
 ||dictionary.cambridge.org/assistant^$document
 ||gemma4.chat/chat^$document
 ||gemma4.com/chat^$document
@@ -37,7 +39,6 @@
 ||perchance.org/ai-chat^$document
 ||search.brave.com/ask^$document
 ||stackoverflow.com/ai-assist^$document
-||www.bing.com/images/create/ai-image-generator^$document
 ||www.britannica.com/chatbot^$document
 ||www.collinsdictionary.com/assistant^$document
 ||www.deviantart.com/dreamup^$document
