@@ -326,6 +326,9 @@ www.autozone.com###custom-reviews-container [data-testid="st-view"]:has(> [data-
 docs.aws.amazon.com##button[aria-label="Search with Docs AI"]
 ! Remove purple glow from search bar
 docs.aws.amazon.com##div:has(> [data-testid="agentic-search-trigger"]) {background: #bbb !important}
+! Remove sparkle from search icon
+docs.aws.amazon.com##[data-testid="agentic-search-trigger"] [d^="m11 11.005 4 4M11.9 8a5.002 5.002"] {d: path("m11 11 4 4M7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10Z") !important}
+docs.aws.amazon.com##[data-testid="agentic-search-trigger"] .awsui-icon-sparkle[d^="M12.332 6.888c.028.07.098.112.168"] {d: path("") !important}
 
 ! -- https://docs.aws.amazon.com/search/doc-search.html?searchQuery=test
 ! "Docs AI" tab on search results page
