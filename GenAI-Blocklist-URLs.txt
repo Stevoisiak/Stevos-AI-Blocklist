@@ -13,6 +13,7 @@
 ||duck.ai^$document
 ||euria.infomaniak.com^$document
 ||copilot.microsoft.com^$document
+||gemini.google.com^$document
 ||gemma4-ai.com^$document
 ||grok.com^$document
 ||lumo.proton.me^$document
@@ -27,7 +28,6 @@
 ||dictionary.cambridge.org/assistant^$document
 ||gemma4.chat/chat^$document
 ||gemma4.com/chat^$document
-||gemini.google.com/app^$document
 ||glyphy.io/name-generator^$document
 ||imgflip.com/ai-meme^$document
 ||kagi.com/summarizer^$document
