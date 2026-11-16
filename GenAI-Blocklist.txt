@@ -195,21 +195,12 @@ health.amazon.com##.flex-container.margin-bottom-small > .flex-justify-content-f
 health.amazon.com##[data-hcr-token-id="{{health.ai.widget.upsell.banner}}"]
 
 ! === American Banker ===
-! -- https://www.americanbanker.com/
-! Header - Restore non-ai search button
-! * Created by AchernarB (https://www.reddit.com/r/uBlockOrigin/comments/1te8z0m/comment/om1ap7p/)
-americanbanker.com##body[data-toggle-header="search-overlay"] .Page-header-search-overlay {display: flex !important}
-americanbanker.com##.Page-header-search {display: flex !important}
-americanbanker.com##.miso-page-header-search
-
 ! -- https://www.americanbanker.com/search?q=test
-! Remove sparkle from icon in search bar
-www.americanbanker.com#%#//scriptlet('trusted-set-attr', 'use[href="#miso-arizent-icon-ai-search"]', 'href', '#icon-magnify')
 ! AI Answer
 www.americanbanker.com##.miso-hybrid-search-combo__disclaimer
 www.americanbanker.com##.miso-hybrid-search-combo__grid-answer
 ||api-edge.askmiso.com/v1/ask/questions/$xhr,domain=www.americanbanker.com
-! Promo for AI Answer
+! Promo for AI Answers Pro
 www.americanbanker.com##.miso-hybrid-search-combo__answers-promo
 
 ! === Answer Overflow ===
