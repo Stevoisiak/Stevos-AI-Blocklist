@@ -962,6 +962,10 @@ www.dell.com##.dds__container-fluid > #divHomeMicromomentsContainer
 ! * Does not block network request
 www.delta.com##.site-search__answer
 
+! -- https://www.delta.com/sitesearch?searchTerm=Test
+! "AI search works best when you ask a question"
+www.delta.com##.site-search__search__message
+
 ! === Demócrata ===
 ! Header button
 www.democrata.es##.c-header__fren
