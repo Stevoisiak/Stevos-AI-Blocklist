@@ -132,6 +132,9 @@ They should be usable with [AdBlock](https://getadblock.com/), [Adblock Plus](ht
 ### Will this remove sites with AI-generated articles from search results?
 No. If you want to block sites with AI-generated articles, try [BadWebsiteBlocklist](https://github.com/popcar2/BadWebsiteBlocklist) or [just_a_husk's Image-Search AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist).
 
+### Will this prevent me from intentionally accessing dedicated AI chatbots? (ChatGPT, Gemini, etc)
+Only if you are using the [Extra](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) or [URL](https://github.com/Stevoisiak/Stevos-AI-Blocklist/blob/main/GenAI-Blocklist-URLs.txt) lists. Otherwise, any breakage of these sites is unintended and should be [reported as a bug](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues).
+
 ### Can I use these filters with [Pi-hole](https://pi-hole.net/)?
 No. Pi-hole works differently from traditional adblockers. Adblockers allow filtering individual elements on pages, while Pi-hole blocks entire domains.
 
