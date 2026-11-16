@@ -1598,11 +1598,6 @@ github.com##.prc-ButtonGroup-ButtonGroup-vFUrY:has([data-testid="copilot-ask-men
 ! Right sidebar - Open in GitHub Copilot app
 github.com##body:not(:has([app-name="copilot-agents"])) [data-component="ActionList.Item"]:has(img[src^="https://github.githubassets.com/assets/github-copilot-app-"])
 
-! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/new (New issue page)
-! "Write with Copilot" below issue description
-! * Doesn't always appear. May be limited to issues from repository owner?
-github.com##[data-testid="markdown-editor-footer"]
-
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/pull/13 (Pull request)
 ! "Copilot" promo when adding reviewers via gear icon
 github.com##[partial-name="copilot-assisted-review-upsell"]
