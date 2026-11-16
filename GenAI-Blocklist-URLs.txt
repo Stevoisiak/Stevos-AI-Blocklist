@@ -11,6 +11,7 @@
 ||chat.z.ai^$document
 ||chatgpt.com^$document
 ||claude.ai^$document
+||copilot.com^$document
 ||copilot.microsoft.com^$document
 ||duck.ai^$document
 ||euria.infomaniak.com^$document
