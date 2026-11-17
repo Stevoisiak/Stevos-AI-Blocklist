@@ -44,6 +44,7 @@
 ||glyphy.io/name-generator^$document
 ||imgflip.com/ai-meme^$document
 ||kagi.com/summarizer^$document
+||newegg.com/ai^$document
 ||nicevoice.org/ai-voice-generator^$document
 ||notrack.ai/chat^$document
 ||m365.cloud.microsoft/chat^$document

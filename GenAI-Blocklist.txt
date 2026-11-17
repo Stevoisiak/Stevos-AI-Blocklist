@@ -3423,7 +3423,11 @@ www.newegg.com##.header2021-search-sec-ask
 ! Floating AI Assistant icon
 www.newegg.com##.floating-robot
 
-! -- https://www.newegg.com/p/pl?d=test
+! -- https://www.newegg.com/p/pl?d=what+is+the+best+cpu
+! Ask Celeste sidebar/chat widget
+||www.newegg.com/ai/pin$subdocument,domain=www.newegg.com
+www.newegg.com###ai-side-panel
+www.newegg.com##body.ai-panel-open {padding-right: 0px !important}
 ! Sidebar - Ask Celeste about filters
 www.newegg.com##.plp-side-ask
 
