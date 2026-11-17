@@ -28,6 +28,7 @@
 ||kuku.baidu.com^$document
 ||lumo.proton.me^$document
 ||meta.ai^$document
+||perplexity.ai^$document
 ||poe.com^$document
 ||qwen.ai^$document
 
