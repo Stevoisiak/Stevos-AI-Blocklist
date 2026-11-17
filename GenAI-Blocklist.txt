@@ -2236,8 +2236,9 @@ www.google.*#?#promo-middle-slot:has-text(Gemini)
 www.google.*##[jscontroller="DyTeib"]
 ! Footer - Promo text for AI tools
 www.google.*##[role="contentinfo"] [href^="https://ai.google/"][href$="&utm_campaign=bottom-footer"]
-! Search bar - AI button (magnifying glass icon, mobile only)
+! Search bar - AI button (sparkling magnifying glass icon, mobile only)
 www.google.*##.xOchs
+www.google.*##button.EX3c2d.Cq58Jd:has([d^="M740-560q-6,0-8-6q-16-61-60"])
 ! Autocomplete suggestions
 ! * JSONPath v2 compatible
 www.google.*##+js(json-edit, $..[?@.zp.udm=="50"])
