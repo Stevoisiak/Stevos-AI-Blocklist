@@ -3431,6 +3431,12 @@ www.newegg.com##body.ai-panel-open {padding-right: 0px !important}
 ! Sidebar - Ask Celeste about filters
 www.newegg.com##.plp-side-ask
 
+! -- https://www.newegg.com/p/N82E16823167075
+! "Ask Celeste" question suggestions 
+www.newegg.com##.ask-assistant
+! "Any Questions? Ask Celeste"
+www.newegg.com##.assistant_box
+
 ! === News18 ===
 ! Search - AI overview
 www.news18.com##.aiovwrp
