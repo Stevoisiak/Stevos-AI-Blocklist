@@ -21,6 +21,7 @@
 ||grok.com^$document
 ||kimi.ai^$document
 ||kimi.com^$document
+||kuku.baidu.com^$document
 ||lumo.proton.me^$document
 ||meta.ai^$document
 ||poe.com^$document
