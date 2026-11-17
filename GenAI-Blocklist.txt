@@ -1636,7 +1636,7 @@ github.com##[data-testid="nav-item-ai_resources"]
 
 ! -- https://github.com/ (logged out)
 ! Download GitHub Copilot app button
-github.com##[class^="Primer_Brand__Button-module__Button___"][href="/features/ai/github-app"]
+github.com##[class^="Intro__content__"] [class^="Primer_Brand__Button-module__Button___"][href="/features/copilot"]
 
 ! -- https://github.com/home (landing page)
 ! Try Copilot button (No longer used?)
