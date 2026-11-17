@@ -537,12 +537,6 @@ www.humblebundle.com##.bundle:is([href*="/ai-"], [href*="-ai-"], [href*="claude-
 ! Promo box for Euria
 www.infomaniak.com##.bg-euria-light
 
-! === Insight Software ===
-! -- https://central.insightsoftware.com/ (Main page - logged in)
-! "Ask Max" Virtual Assistant
-! * Required for submitting tickets to a human
-central.insightsoftware.com###forethought-chat
-
 ! === Instagram ===
 ! Hide posts with AI content label
 ! * Needs testing before it can be moved to main filters
