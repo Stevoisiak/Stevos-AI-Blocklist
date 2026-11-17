@@ -208,7 +208,7 @@ www.americanbanker.com##.miso-hybrid-search-combo__answers-promo
 ! Floating "Ask a question" prompt
 www.answeroverflow.com##form:has([placeholder="Ask a question..."])
 ! Resources - MCP Server
-answeroverflow.com#?#.text-left.w-full.pt-4.border-t:has-text(MCP Server)
+www.answeroverflow.com#?#.text-left.w-full.pt-4.border-t:has-text(MCP Server)
 
 ! === Archive of Our Own ===
 ! -- https://archiveofourown.org/tags/Created%20Using%20Generative%20AI/works
