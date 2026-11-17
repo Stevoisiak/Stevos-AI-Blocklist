@@ -9,6 +9,7 @@
 ||ai.prisjagt.dk^$document
 ||ai.prisjakt.no^$document
 ||ai.prisjakt.nu^$document
+||aistudio.google.com^$document
 ||ask-chat.ai^$document
 ||ask.brave.com^$document
 ||assistant.kagi.com^$document
@@ -18,6 +19,7 @@
 ||copilot.cloud.microsoft^$document
 ||copilot.com^$document
 ||copilot.microsoft.com^$document
+||deepai.org^$document
 ||duck.ai^$document
 ||euria.infomaniak.com^$document
 ||gemini.google.com^$document
