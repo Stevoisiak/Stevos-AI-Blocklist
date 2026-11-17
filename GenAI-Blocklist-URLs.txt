@@ -32,6 +32,7 @@
 ||bing.com/images/create/ai-image-generator^$document
 ||britannica.com/chatbot^$document
 ||collinsdictionary.com/assistant^$document
+||collinsdictionary.com/us/assistant^$document
 ||deviantart.com/dreamup^$document
 ||dictionary.cambridge.org/assistant^$document
 ||dummies.com/dummies-ai^$document

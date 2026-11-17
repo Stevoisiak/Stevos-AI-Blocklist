@@ -802,21 +802,14 @@ collabnix.com###docker-ai-book-banner
 
 ! === Collins Dictionary ===
 ! -- https://www.collinsdictionary.com/
-! "AI Assistant" button next to search bar
-www.collinsdictionary.com##.assistantIcon
-! Header assistant button (mobile)
-www.collinsdictionary.com##.assistantMobile:remove()
-! "Ask Collins Dictionary" in bottom-right corner
-www.collinsdictionary.com###assistant-link
+! Bottom sticky assistant bar
+www.collinsdictionary.com##.assistant-pwa-bar
+! Header - AI Assistant sparkle icon
+www.collinsdictionary.com##[aria-label="AI assistant"]
 
 ! -- https://www.collinsdictionary.com/dictionary/english/word
 ! Sticky "Ask me a question" bar
-||www.collinsdictionary.com/external/assistant/idm-assistant.js$script,domain=www.collinsdictionary.com
-www.collinsdictionary.com##.assistant-sticky-bar
-
-! -- https://www.collinsdictionary.com/us/dictionary/english/word
-! Sticky "Ask me a question" chatbox
-www.collinsdictionary.com###ai-widget
+www.collinsdictionary.com##.ai-widget
 
 ! === Computer World ===
 ! Header promo for AI powered hybrid search
