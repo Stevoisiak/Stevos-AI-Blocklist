@@ -2333,6 +2333,10 @@ www.google.*##[jsname="NoEzVd"]:has([jsname="lHCI7d"])
 ! * Filter has a delay before it applies
 www.google.*##[data-crust-trigger] > div:has(.k1U36b.OMMx3d)
 
+! -- https://www.google.com/search?q=boston (mobile)
+! "Ask anything in AI Mode" suggestions
+www.google.*##.rlT1Ue.IGspb.PZPZlf[data-attrid="VisualDigestGeneratedResult"]
+
 ! === Google Shopping ===
 ! -- https://www.google.com/search?q=shirt&udm=28
 ! "Try it on" in left sidebar
