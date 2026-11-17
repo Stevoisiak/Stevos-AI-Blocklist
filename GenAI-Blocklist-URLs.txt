@@ -38,6 +38,7 @@
 ||dictionary.cambridge.org/assistant^$document
 ||dummies.com/dummies-ai^$document
 ||ecosia.org/ai-chat^$document
+||emojipedia.org/ai-emoji-generator^$document
 ||g2a.com/buddy^$document
 ||gemma4.chat/chat^$document
 ||gemma4.com/chat^$document
