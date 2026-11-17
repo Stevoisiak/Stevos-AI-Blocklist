@@ -44,6 +44,7 @@
 ||gemma4.com/chat^$document
 ||github.com/copilot^$document
 ||glyphy.io/name-generator^$document
+||google.*/search?*udm=50^$document
 ||imgflip.com/ai-meme^$document
 ||kagi.com/summarizer^$document
 ||newegg.com/ai^$document
