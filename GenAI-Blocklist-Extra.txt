@@ -681,6 +681,11 @@ prezi.com#?#details > summary > h3:has-text(Can I edit the presentation Prezi cr
 ! Determine game value from photo
 pricecharting.com##.lot-appraiser-entry-form:has(> [value="photo"])
 
+! === PriceSpy ===
+! -- https://www.prisjakt.nu/
+! Listed feature for comparing with AI assistant
+hintaopas.fi,prisjagt.dk,prisjakt.no,prisjakt.nu##[data-test="StartPageLoggedOutUsps"] li:has([d^="M9.10701 5.448C9.70501 3.698 12.123 3.645"])
+
 ! === Pureinfotech ===
 ! Header - AI Category
 pureinfotech.com###menu-item-153857

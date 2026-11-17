@@ -3760,6 +3760,17 @@ www.priceline.com###penny-icon-module
 www.priceline.com##[data-testid="penny-fab-button"]
 www.priceline.com##[data-testid="poptip"]
 
+! === PriceSpy ===
+! Several AI links (header button, explore search results, etc)
+hintaopas.fi,prisjagt.dk,prisjakt.no,prisjakt.nu##a[href^="/open-in-assistant/ask"]
+! Floating AI button
+hintaopas.fi,prisjagt.dk,prisjakt.no,prisjakt.nu##[data-test="StickyAssistantButton"]
+
+! -- https://www.prisjakt.nu/
+! Search mode switcher
+hintaopas.fi,prisjagt.dk,prisjakt.no,prisjakt.nu##[data-sentry-component="HeroModeTabs"]:has(button[aria-pressed="false"] [data-sentry-component="AssistantIcon"])
+hintaopas.fi,prisjagt.dk,prisjakt.no,prisjakt.nu##[data-sentry-component="HeroModeTabs"]:has(button[aria-pressed="false"] [data-sentry-component="AssistantIcon"]) + div:has(> [role="search"]) {border-radius: 32px !important}
+
 ! === Prime Video ===
 ! -- https://www.primevideo.com/search?ie=UTF8&ref_=atv_nb_sug&phrase=Avatar
 ! AI beta recommendations

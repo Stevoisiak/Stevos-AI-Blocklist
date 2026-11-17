@@ -5,6 +5,10 @@
 ! Author: Stevoisiak
 
 ! Domains
+||ai.hintaopas.fi^$document
+||ai.prisjagt.dk^$document
+||ai.prisjakt.no^$document
+||ai.prisjakt.nu^$document
 ||ask-chat.ai^$document
 ||ask.brave.com^$document
 ||assistant.kagi.com^$document
