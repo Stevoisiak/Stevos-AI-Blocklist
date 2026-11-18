@@ -1048,6 +1048,10 @@ www.deviantart.com##section.ail3hi:has([href="https://www.deviantart.com/dreamup
 ! Explain button
 www.diffchecker.com##button.bg-surface-purple:has([clip-path="url(#sparkle_svg__a)"])
 
+! === Dinosaur Pictures ===
+! Automatically toggle setting to hide AI-generated images.
+dinosaurpictures.org##+js(set-local-storage-item, hideAiImages, 1)
+
 ! === DiskGenius ===
 ! Floating AI Assistant
 ||api.livechatinc.com^$script,domain=www.diskgenius.com
