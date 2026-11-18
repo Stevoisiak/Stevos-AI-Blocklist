@@ -1051,6 +1051,11 @@ www.diffchecker.com##button.bg-surface-purple:has([clip-path="url(#sparkle_svg__
 ! === Dinosaur Pictures ===
 ! Automatically toggle setting to hide AI-generated images.
 dinosaurpictures.org##+js(set-local-storage-item, hideAiImages, 1)
+! Backup CSS rules for untrusted filters
+!   Hides the images
+dinosaurpictures.org###images > .ai-content
+!   Hides the 'AI-generated images are hidden' notice
+dinosaurpictures.org###images > .ai-hidden-notice
 
 ! === DiskGenius ===
 ! Floating AI Assistant
