@@ -213,7 +213,7 @@ If you want to contribute filters, please [review the contributing guide](https:
 * **ryanbr**: Maintains [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt), which some filters in this list were based on.
 * **AchernarB & RraaLL**: Moderators for [r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/) who answered questions as I learned how to create filters.
 * **inwiring**: Provided [Google AI Overview filters](https://inwiring.com/google-ai-overviews/) used in earlier versions of this blocklist.
-* [Internet Archive](https://archive.org/): Archived older pre-AI versions of web pages I could use as reference.
+* **[Internet Archive](https://archive.org/)**: Archived older pre-AI versions of web pages I could use as reference.
 * Everyone who has [contributed code](https://github.com/Stevoisiak/Stevos-AI-Blocklist/graphs/contributors?all=1) or filed [an issue report](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues).
 
 ## Feedback
