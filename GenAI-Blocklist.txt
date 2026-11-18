@@ -3818,6 +3818,11 @@ account.proton.me##.lumo-troubleshoot-launcher
 ! Lumo app
 account.proton.me##.explore-apps-list-item:has(> [data-testid="explore-lumo"])
 
+! === Puck ===
+! -- https://puck.news/hollywood/2026/11/the-wachowskis-are-reclaiming-the-matrix
+! AI powered article narration
+puck.news##.puck-article-audio:has(.puck-article-audio__disclaimer)
+
 ! === Pydantic ===
 ! -- https://pydantic.dev/docs/
 ! Header navbar items
