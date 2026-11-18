@@ -127,7 +127,7 @@ If you want more thorough AI blocking, there are two additional optional blockli
 ### Which adblockers will this filter list work with?
 These filters work best with [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo), [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html), or [wBlock](https://skula.me/project/wblock/).
 
-They should be usable with [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), [Brave](https://brave.com), [Ghostery](https://www.ghostery.com/), and the desktop version of [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home#ubo-lite), but they are not supported and may have compatibility issues.
+They should be usable with [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), [Brave's](https://brave.com) built-in adblocker, [Ghostery](https://www.ghostery.com/), and the desktop version of [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home#ubo-lite), but they are not supported and may have compatibility issues.
 
 ### Will this remove sites with AI-generated articles from search results?
 No. If you want to block sites with AI-generated articles, try [BadWebsiteBlocklist](https://github.com/popcar2/BadWebsiteBlocklist) or [just_a_husk's Image-Search AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist).
