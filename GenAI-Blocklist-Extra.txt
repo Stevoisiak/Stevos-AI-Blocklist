@@ -888,6 +888,16 @@ techcrunch.com##.wp-block-navigation-link:has(> [data-ctatext="AI"])
 ! AI category in navbar
 www.techradar.com##.meganav-item--top-level:has(> [data-before-rewrite-localise="/tag/ai"])
 
+! === Testsigma ===
+! -- https://testsigma.com/blog/emulate-safari/
+! Header - AI Agents
+testsigma.com##[data-webmcp-name="AI_AGENTS"]
+! Header - AI Testing blog category
+testsigma.com###ai-testing
+! Footer - Features - AI items
+testsigma.com##footer .links-container [href="/ai-test-automation"]
+testsigma.com##footer .links-container [href="/ai-agents-automated-functional-testing"]
+
 ! === The Verge ===
 ! -- https://www.theverge.com/
 ! "AI" category in header

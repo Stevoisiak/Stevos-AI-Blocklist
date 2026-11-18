@@ -4464,6 +4464,15 @@ www.testmuai.com##.w-\[265px\].flex-shrink-0.desktop\:hidden > div > [title^="Op
 ! Sidebar ad
 www.testmuai.com##.w-\[265px\].flex-shrink-0.desktop\:hidden .mt-20.flex-shrink-0
 
+! === Testsigma ===
+! -- https://testsigma.com/blog/emulate-safari/
+! Sidebar promo for No-Code AI testing
+testsigma.com##section .p-8.sticky:has(img[title="AI-Powered Testing"])
+! Modal popup for AI Agent product demo
+testsigma.com##.popup-backdrop:has([src^="https://website-static.testsigma.com/blog/nextjs/d4bf76/images/v2/common/exit-intent-home.avif"])
+! Footer - Summarize with AI
+testsigma.com##footer div.space-y-4:has([href^="//chat.openai.com/?q="])
+
 ! === The Atlantic ===
 ! -- https://www.theatlantic.com/games/
 ! Lemony Snicket LLM game
