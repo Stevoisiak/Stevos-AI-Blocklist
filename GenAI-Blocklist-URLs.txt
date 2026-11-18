@@ -33,6 +33,8 @@
 ||perplexity.ai^$document
 ||poe.com^$document
 ||qwen.ai^$document
+||sunnoai.com^$document
+||suno.com^$document
 
 ! Specific URLs
 ||americanbanker.com/answers^$document
