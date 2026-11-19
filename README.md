@@ -206,6 +206,7 @@ If you want to contribute filters, please [review the contributing guide](https:
 * [Anubis](https://github.com/techaroHQ/anubis): Web firewall for blocking requests from AI companies.
 * [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt): List of AI crawlers to block as a website owner.
 * [Miasma](https://github.com/austin-weeks/miasma): Send poisoned data to AI web scrapers.
+* [no-agents.md](https://codeberg.org/rossabaker/no-agents.md): Reject AI coding agents via `AGENTS.md`.
 
 ## Special thanks
 * **gorhill**: Created uBlock Origin and answered my questions about `json-edit` filters
