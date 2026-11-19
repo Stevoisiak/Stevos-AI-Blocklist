@@ -770,6 +770,10 @@ platform.claude.com###aiSearchResults__Item-__ask_ai__
 ! Search bar - Toggle AI mode
 platform.claude.com##.ikp-ai-search-input-group > [data-part="view_toggle"]
 
+! -- https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals
+! Markdown dropdown menu - Chat in Claude.ai
+platform.claude.com##[role="menu"][data-side="bottom"] [role="menuitem"]:has([data-cds="Spark"])
+
 ! === CodeAI ===
 ! -- https://code.org/en-US
 ! Navbar - Hour of AI
