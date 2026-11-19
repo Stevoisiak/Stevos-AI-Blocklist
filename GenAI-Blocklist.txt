@@ -195,6 +195,11 @@ health.amazon.com##.flex-container.margin-bottom-small > .flex-justify-content-f
 health.amazon.com##[data-hcr-token-id="{{health.ai.widget.upsell.banner}}"]
 
 ! === American Banker ===
+! Re-activate simplified search
+www.americanbanker.com##.arizent-header-search-toggle {display: inline-flex !important}
+www.americanbanker.com##.ar-miso-header-search {display: none !important}
+www.americanbanker.com###arizent-header-search-panel.is-open {display: block !important}
+
 ! -- https://www.americanbanker.com/search?q=test
 ! AI Answer
 www.americanbanker.com##.miso-hybrid-search-combo__disclaimer
