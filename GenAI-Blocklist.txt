@@ -4928,6 +4928,10 @@ www.wigs.com##.oke-w-reviewsSummaryModule
 ! Floating AI Companion
 ||onlinelibrary.wiley.com/products/acropolis/pericles/releasedAssets/js/ContentAssistant.js$script,domain=onlinelibrary.wiley.com
 
+! -- https://onlinelibrary.wiley.com/doi/epdf/10.1002/zoo.70100
+! Floating AI Companion
+||onlinelibrary.wiley.com/products/pericles/releasedAssets/js/ContentAssistant-$script,domain=onlinelibrary.wiley.com
+
 ! === Wix ===
 ! -- https://manage.wix.com/ai-assistant?flow=main-partner-studio
 ! "Chat with AI" button.
