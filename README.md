@@ -189,7 +189,6 @@ If you want to contribute filters, please [review the contributing guide](https:
 * [just_a_husk's image-search AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist): Removes AI-generated images from search engine results. Forked from [laylavish's blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/).
 * [AI uBlock Origin Blacklist](https://github.com/alvi-se/ai-ublock-blacklist): uBlock Origin filter list for AI content farms. 
 * [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt): Another uBlock Origin filter list for AI elements. Used as reference for some filters on this list.
-* [Deslopify](https://github.com/SolidLamp/deslopify): Extension for Firefox for hiding AI elements. 
 * [HPT AI Blocklist](https://codeberg.org/lumiworx/HPT-AI-Blocklist): Blocklist for AI related sites. Compatible with HOSTS/PiHole/Technitium.
 
 ### Media 
