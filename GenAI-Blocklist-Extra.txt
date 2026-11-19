@@ -213,6 +213,7 @@ dev.to###default-sidebar-element-agents
 www.deviantart.com#?#section.Q6QePr:has-text(Create AI images and video)
 
 ! === Dinosaur Pictures ===
+! -- https://dinosaurpictures.org/Apatoraptor-pictures
 ! "AI-generated images are hidden" notice
 dinosaurpictures.org###images > .ai-hidden-notice
 
