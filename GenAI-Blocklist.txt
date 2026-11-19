@@ -415,6 +415,8 @@ www.bing.com###codex
 www.bing.com##.gbfo_c_bsic_variant:has(> [href^="https://www.bing.com/images/create"])
 ! Header - ... → Microsoft 365 → M365 Copilot
 www.bing.com###m365copilot_overflow
+! Search bar - Plus button + for AI tools
+www.bing.com###hpsbtools-drawer {pointer-events: none !important}
 ! "M365" button to the right of search bar
 www.bing.com##.cdxCopilotIconBg
 ! "Image creator" and "Video creator" buttons below search bar
@@ -425,6 +427,8 @@ www.bing.com###sa_ai_block
 www.bing.com##+js(json-edit-xhr-response, $.s[?@.t=="AI"], propsToMatch, /AS/Suggestions)
 
 ! -- https://www.bing.com/search?q=test (generic search page)
+! Search bar - Plus button for AI tools
+www.bing.com###sb_tool_drawer {pointer-events: none !important}
 ! Navbar tabs for "Search" and "Copilot"
 www.bing.com###b-scopeListItem-copilotsearch
 www.bing.com###b-scopeListItem-conv
