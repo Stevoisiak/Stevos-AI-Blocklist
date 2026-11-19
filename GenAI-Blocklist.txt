@@ -1587,8 +1587,10 @@ github.com##[data-testid="copilot-free-user-checklist"]
 github.com##li:has(> [data-tab-item="agents"]):style(max-width: 0px !important; margin-left: calc(0px - var(--stack-gap-condensed,.5rem)) !important; visibility: hidden !important;)
 github.com##[data-component="ActionList.Item"]:has(> [data-tab-item="agents"])
 ! "Ask Copilot about this repository" when repository has no README file (ex: https://github.com/easylist/easylistchina)
-! Might be limited to enterprise users with Copilot
-github.com##[class^="OverviewRepoFiles-module_"]:has([data-component="Blankslate"] .octicon-copilot)
+! * Enterprise account
+github.com##[class^="OverviewRepoFiles-module_"][class$="_Box_1"]:has([data-component="Blankslate"] .octicon-copilot)
+! * Non-enterprise account
+github.com##[class^="Box_1__"]:has([data-component="Blankslate"] .octicon-copilot)
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/blob/main/GenAI-Blocklist.txt (File view)
 ! File header - "Ask Copilot about this file" button
