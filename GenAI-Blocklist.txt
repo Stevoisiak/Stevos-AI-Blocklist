@@ -1049,13 +1049,14 @@ www.deviantart.com##section.ail3hi:has([href="https://www.deviantart.com/dreamup
 www.diffchecker.com##button.bg-surface-purple:has([clip-path="url(#sparkle_svg__a)"])
 
 ! === Dinosaur Pictures ===
-! Automatically toggle setting to hide AI-generated images.
+! -- https://dinosaurpictures.org/Niobrarasaurus-pictures
+! Enable setting to hide AI-generated images (https://dinosaurpictures.org/how-we-use-ai)
 dinosaurpictures.org##+js(set-local-storage-item, hideAiImages, 1)
-! Backup CSS rules for untrusted filters
-!   Hides the images
+! * Backup CSS for untrusted AdGuard filters
 dinosaurpictures.org###images > .ai-content
-!   Hides the 'AI-generated images are hidden' notice
-dinosaurpictures.org###images > .ai-hidden-notice
+! * Switch "other" dinosaurs to non-ai Version
+dinosaurpictures.org##.featured-dino-row.ai-content {display: none !important}
+dinosaurpictures.org##.featured-dino-row.ai-alt {display: flex !important}
 
 ! === DiskGenius ===
 ! Floating AI Assistant
