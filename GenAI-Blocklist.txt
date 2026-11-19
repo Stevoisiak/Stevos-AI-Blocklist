@@ -2453,6 +2453,11 @@ workspace.google.com##.ORSkHc:has([data-appset-type="49"])
 ! AI search summary
 workspace.google.com##.summary
 
+! === Grand Forks Herald ===
+! -- https://www.grandforksherald.com/search?q=test
+! Ask Herald chatbot
+||assets.dappier.com/widget/dappier-loader.min.js$script,domain=www.grandforksherald.com
+
 ! === Graphed ===
 ! -- https://www.graphed.com/blog/can-you-delete-data-from-google-analytics
 ! Mid-article AI Agent promos
