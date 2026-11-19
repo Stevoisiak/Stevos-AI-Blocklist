@@ -649,8 +649,11 @@ mixam.com###front-chat-iframe
 ! -- https://www.newegg.com/
 ! Search bar - Sparkle icon
 www.newegg.com##.header2021-search-ai-star
-! Search bar - De-sparkle search icon (has a delay)
+! Search bar - De-sparkle search icon
+!#if !adguard
+! * Has a delay. A better AdGuard-specific solution is in main filters
 www.newegg.com#%#//scriptlet('trusted-set-attr', '.header2021-search-button > .ico-search-ai', 'class', 'ico ico-search')
+!#endif
 ! Search bar - trending search - AI hardware
 www.newegg.com##.header-trending.tag-list > [title="ai hardware"]
 ! AI Workstation category

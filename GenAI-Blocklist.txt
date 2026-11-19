@@ -3468,8 +3468,20 @@ www.ndtv.com##.ASum_wr.ASum_Mnon
 www.newegg.com##.header2021-celeste
 ! Search bar (focused) - Ask Celeste
 www.newegg.com##.header2021-search-sec-ask
+! Search bar - Remove sparkle from magnifying glass search button
+!#if adguard
+! * uBO doesn't allow backslash \ in CSS styles
+!   https://github.com/uBlockOrigin/uBlock-issues/issues/668#issuecomment-511117701
+www.newegg.com##.ico-search-ai::before {content: "\f002" !important}
+!#endif
 ! Floating AI Assistant icon
 www.newegg.com##.floating-robot
+
+! -- https://www.newegg.com/ (mobile)
+! Navbar - AI Mode
+www.newegg.com##.ai-mode-links
+! Floating AI button
+www.newegg.com##.ai-button
 
 ! -- https://www.newegg.com/p/pl?d=what+is+the+best+cpu
 ! Ask Celeste sidebar/chat widget
@@ -3484,6 +3496,12 @@ www.newegg.com##.plp-side-ask
 www.newegg.com##.ask-assistant
 ! "Any Questions? Ask Celeste"
 www.newegg.com##.assistant_box
+
+! -- https://www.newegg.com/p/N82E16823167075 (mobile)
+! Ask Celeste question suggestions
+www.newegg.com##.ask-ai-assistant
+! Sticky footer - AI Assistant icon
+www.newegg.com##.ai-btn
 
 ! === News18 ===
 ! Search - AI overview
