@@ -123,6 +123,8 @@ alphacoders.com##.item:has(.thumb-tag-masonry:is([href="https://alphacoders.com/
 ||www.amazon.*/rufus/$xhr,domain=www.amazon.*
 ! AI questions in autocomplete search suggestions
 www.amazon.*##+js(json-prune-xhr-response, suggestions.[-].widgetId, , propsToMatch, /suggestions)
+! * Backup CSS filter
+www.amazon.*##[id^="sac-suggestion-row-"]:has(.s-suggestion-rufus-autocomplete-bh-desktop-icon-container)
 ! Search placeholder messages (No longer used?)
 www.amazon.com##+js(json-edit, $.suggestions[?@.text=="Ask Alexa a question"])
 www.amazon.com##+js(json-edit, $.suggestions[?@.text=="Compare products with Alexa"])
