@@ -4570,9 +4570,11 @@ tms-outsource.com##.menu-item:has(> [href="https://tms-outsource.com/blog/catego
 ! Ramble promo banner
 www.todoist.com##message-banner[data-banner-name="ramble-1vv4lt6"]
 
-! -- https://app.todoist.com/app/upcoming
-! Ramble button
+! -- https://app.todoist.com/app
+! Sidebar - Ramble button
 app.todoist.com##button[aria-label="Dictate tasks with Ramble"]
+! Sidebar - Todoist Automations
+app.todoist.com###apps-automations
 
 ! === TrialX ===
 ! -- https://www.trialx.com/clinical-trials/listings/273100/early-detection-of-endometrialovarian/
