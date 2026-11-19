@@ -3464,6 +3464,11 @@ search.naver.com##[data-meta-ssuid-extra="fender_renderer-ai_briefing"]
 ! AI tab
 search.naver.com##[role="tab"][href^="?ssc=tab.ait.all"]
 
+! == ND Mais (Portuguese)
+! -- https://ndmais.com.br/economia/governo-aumenta-valor-da-hora-extra-fim-escala-6x1-nova-regra-data/
+! Summarize article
+ndmais.com.br##.nd-ro__resumo
+
 ! === NDTV ===
 ! -- https://www.ndtv.com/feature/amazon-announces-90-day-code-safety-reset-amid-ai-related-outages-know-details-11203576
 ! "Quick Read" AI summary
