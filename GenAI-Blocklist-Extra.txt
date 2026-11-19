@@ -656,8 +656,8 @@ www.newegg.com#%#//scriptlet('trusted-set-attr', '.header2021-search-button > .i
 !#endif
 ! Search bar - trending search - AI hardware
 www.newegg.com##.header-trending.tag-list > [title="ai hardware"]
-! AI Workstation category
-www.newegg.com##.menu-level-3:has(> [href="https://www.newegg.com/AI-Workstation/Store/ID-125"])
+! AI Hardware category
+www.newegg.com##.menu-level-3:has(> [href$="/Store/ID-125"])
 
 ! === Noble Knight Games ===
 ! Tracking script from AI company
