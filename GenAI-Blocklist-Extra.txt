@@ -489,7 +489,8 @@ www.google.*##.gTxCBd:has(> [href^="https://labs.google.com/search?"])
 www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
 ! Footer - Promo for Google app
 www.google.com##.fbar.ouy7Mc.diAzE:has(> [data-url^="https://iga.google.com/"][data-url$="iga-footer-acq-button-srp"])
-
+! (Experimental) Blank space where AI overview was
+www.google.*##[role="main"] > .SLPe5b.M8OgIe:has([data-attnms])
 
 ! === Google Search (about) ===
 ! -- https://www.search.google/ways-to-search/lens/
