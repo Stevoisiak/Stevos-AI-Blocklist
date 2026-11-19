@@ -259,6 +259,15 @@ www.evero.com##.giving:has([src="https://www.evero.com/wp-content/uploads/2025/1
 ! Left sidebar - Product categories - AI services 
 console.firebase.google.com##navbar-category[aria-label="AI services"]
 
+! === Font Awesome ===
+! -- https://fontawesome.com/
+! Header nav - AI
+fontawesome.com##.header-nav [href="/ai"]
+
+! -- https://fontawesome.com/icons/classic/solid/magnifying-glass
+! Code block - AI tab
+fontawesome.com###tab-ai[aria-selected="false"]
+
 ! === Fox Business ===
 ! Navbar > Tech > AI
 www.foxbusiness.com##.dropdown-item--ai
