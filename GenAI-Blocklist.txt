@@ -3632,7 +3632,7 @@ www.opera.com##li:has(> .hf__link[href="/ai/articles"])
 ! === Outlook ===
 ! -- https://outlook.office.com/mail/
 ! Copilot icon in top right
-outlook.office.com##[data-app-section="CopilotDabRibbon"]
+outlook.live.com,outlook.office.com##[data-app-section="CopilotDabRibbon"]
 ! Copilot icon in left sidebar
 outlook.office.com##.___77lcry0.f10pi13n[aria-label="Copilot"]
 ! Summarize button while reading a message
