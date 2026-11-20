@@ -639,7 +639,7 @@ builtin.com,builtinaustin.com,builtinbelfast.uk,builtinbengaluru.in,builtinbosto
 ! === Bunnings Warehouse ===
 ! -- https://www.bunnings.com.au/
 ! Ask Buddy button
-www.bunnings.com.au##button:has(.bg-ai-sparkle-gradient)
+www.bunnings.co.nz,www.bunnings.com.au##button:has(.bg-ai-sparkle-gradient)
 
 ! === Business Insider ===
 ! -- https://www.businessinsider.com/
