@@ -325,9 +325,10 @@ docs.aws.amazon.com##button[aria-label="Search with Docs AI"]
 ! Remove purple glow from search bar
 docs.aws.amazon.com##div:has(> [data-testid="agentic-search-trigger"]) {background: #bbb !important}
 ! Remove sparkle from search icon
+!#if !env_safari
 docs.aws.amazon.com##[data-testid="agentic-search-trigger"] [d^="m11 11.005 4 4M11.9 8a5.002 5.002"] {d: path("m11 11 4 4M7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10Z") !important}
 docs.aws.amazon.com##[data-testid="agentic-search-trigger"] .awsui-icon-sparkle {d: path("") !important}
-!#if env_safari
+!#else
 docs.aws.amazon.com#%#//scriptlet('trusted-set-attr', '[data-testid="agentic-search-trigger"] path.stroke-linejoin-round', 'd', 'm11 11 4 4M7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10Z')
 docs.aws.amazon.com#%#//scriptlet('trusted-set-attr', '[data-testid="agentic-search-trigger"] path.awsui-icon-sparkle', 'd', '')
 !#endif
@@ -1975,8 +1976,9 @@ console.cloud.google.com##.pcc-zero-state-products > .ng-star-inserted:has(searc
 
 ! === Google Developer Documentation ===
 ! Remove AI sparkle from search icon
+!#if !env_safari
 developer.chrome.com,developers.google.com,docs.cloud.google.com,knowledge.workspace.google.com,web.dev##.devsite-search-ai-image path {d: path("M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z") !important}
-!#if env_safari
+!#else
 developer.chrome.com,developers.google.com,docs.cloud.google.com,knowledge.workspace.google.com,web.dev#%#//scriptlet('trusted-set-attr', '.devsite-search-ai-image path', 'd', 'M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z')
 !#endif
 
@@ -3525,8 +3527,9 @@ www.news18.com##.aiovwrp
 ! "Ask NikeAI" when search bar is focused
 www.nike.com##.nav-css-1f9nce4:has(> [data-testid="ask-nikeai-search-result"])
 ! De-sparkle search logo
+!#if !env_safari
 www.nike.com###nav-search-icon path {d: path("M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853") !important; stroke: currentColor !important; stroke-width: 1.5 !important; fill: none !important}
-!#if env_safari
+!#else
 www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'd', 'M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853')
 www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'style', 'stroke: currentColor !important; stroke-width: 1.5 !important; fill: none !important')
 !#endif
