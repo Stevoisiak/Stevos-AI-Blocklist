@@ -25,6 +25,7 @@
 ||gemini.google.com^$document
 ||gemma4-ai.com^$document
 ||grok.com^$document
+||halfphoto.com^$document
 ||kimi.ai^$document
 ||kimi.com^$document
 ||kuku.baidu.com^$document
