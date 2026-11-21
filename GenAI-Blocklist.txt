@@ -684,19 +684,19 @@ www.canva.com##[role="list"] > li:has(> [href="https://www.canva.com/business-na
 ! -- https://www.canva.com/ (logged in)
 ! Floating AI chat button
 www.canva.com##button[aria-label="Help Assistant"]
-! Quick select - Canva code
-www.canva.com##.zAWjSA.GLyNIw:has([href^="/design/editor/shell?create&type=TAG5rX9VMoM&category=tAG5rahqeWE"])
 ! Sidebar - Canva AI
-www.canva.com##div:has(> #assistant)
-! Sidebar - More > Dream Lab
-www.canva.com##._B7XGQ [href="/dream-lab"]
+www.canva.com##.xdz27ya:has(+ .xdz27ya #assistant) {padding-bottom: 32px !important}
+www.canva.com##.xdz27ya:has(#assistant)
+! Sidebar > Dream Lab
+! * Also covers "More" overflow menu
+www.canva.com##nav .x1ghz6dp.x1717udv.xng3xce.xc342km.xe8uvvx.x9dqhi0.x9f619.x1a2a7pz.xdz27ya:has(#dream-lab)
+www.canva.com##[role="navigation"] > div:has(> [href="/dream-lab"])
+www.canva.com##[role="navigation"] > div:has(> [href="/dream-lab"]) + hr
 
 ! -  Create menu
 ! Create > For You > Quick Actions >
 ! * Image to Layers
 www.canva.com##.zAWjSA.GLyNIw:has([src="https://content-management-files.canva.com/assets/en/8da12929-77b6-4790-9824-38061f1b67e7"])
-! * Canva Code
-www.canva.com##.zAWjSA.GLyNIw:has([href="/ai/code?forceOpen"])
 ! * Magic Write
 www.canva.com##.zAWjSA.GLyNIw:has([href^="/design/editor/shell?create&type=TAFJi5FXMSs&category=tAFK2fpTBVQ"])
 ! Create > Photo Editor
@@ -704,8 +704,6 @@ www.canva.com##.zAWjSA.GLyNIw:has([href^="/design/editor/shell?create&type=TAFJi
 www.canva.com##.zAWjSA.GLyNIw:has([src="https://static.canva.com/web/images/4798106e6919ec3efa713e286bc110d8.jpg"])
 ! * Background Generator
 www.canva.com##.zAWjSA.GLyNIw:has([src="https://static.canva.com/web/images/58eb8e48f401eb5dfa2cb723df801370.jpg"])
-! Create > Code
-www.canva.com#?#.x1ghz6dp.x1717udv.xng3xce.xc342km.xe8uvvx.x9dqhi0.x9f619.x1a2a7pz.a6ZJUw:has-text(Code)
 
 ! -- https://www.canva.com/design?create&type=TAGyBJVQJvY (Canva Docs)
 ! Navbar - Magic Switch
