@@ -32,6 +32,7 @@
 ||kimi.ai^$document
 ||kimi.com^$document
 ||kuku.baidu.com^$document
+||labs.google^$document
 ||lumo.proton.me^$document
 ||meta.ai^$document
 ||notebook.google.com^$document
