@@ -5,6 +5,7 @@
 ! Author: Stevoisiak
 
 ! Domains
+||ai.google^$document
 ||ai.hintaopas.fi^$document
 ||ai.prisjagt.dk^$document
 ||ai.prisjakt.no^$document
