@@ -41,6 +41,7 @@
 ||qwen.ai^$document
 ||sunnoai.com^$document
 ||suno.com^$document
+||synthesia.io^$document
 
 ! Specific URLs
 ||americanbanker.com/answers^$document
