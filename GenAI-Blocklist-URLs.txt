@@ -23,8 +23,10 @@
 ||deepai.org^$document
 ||duck.ai^$document
 ||euria.infomaniak.com^$document
+||flow.google.com^$document
 ||gemini.google.com^$document
 ||gemma4-ai.com^$document
+||google.ai^$document
 ||grok.com^$document
 ||halfphoto.com^$document
 ||kimi.ai^$document
@@ -32,6 +34,7 @@
 ||kuku.baidu.com^$document
 ||lumo.proton.me^$document
 ||meta.ai^$document
+||notebook.google.com^$document
 ||perplexity.ai^$document
 ||poe.com^$document
 ||qwen.ai^$document
