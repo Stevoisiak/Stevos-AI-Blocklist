@@ -3864,6 +3864,9 @@ hintaopas.fi,prisjagt.dk,prisjakt.no,prisjakt.nu##[data-test="StickyAssistantBut
 ! Search mode switcher
 hintaopas.fi,prisjagt.dk,prisjakt.no,prisjakt.nu##[data-sentry-component="HeroModeTabs"]:has(button[aria-pressed="false"] [data-sentry-component="AssistantIcon"])
 hintaopas.fi,prisjagt.dk,prisjakt.no,prisjakt.nu##[data-sentry-component="HeroModeTabs"]:has(button[aria-pressed="false"] [data-sentry-component="AssistantIcon"]) + div:has(> [role="search"]) {border-radius: 32px !important}
+! Promo card for AI Assistant
+hintaopas.fi##[data-sentry-component="CampaignCard"]:has(> [href="https://hintaopas.fi/teema/shoppingavustaja"])
+prisjagt.dk,prisjakt.nu,prisjakt.no##[data-sentry-component="CampaignCard"]:has(> [href$="/tema/shoppingassistent"])
 
 ! === Prime Video ===
 ! -- https://www.primevideo.com/search?ie=UTF8&ref_=atv_nb_sug&phrase=Avatar
