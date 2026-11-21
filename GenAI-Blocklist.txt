@@ -2237,6 +2237,12 @@ one.google.com##.aTVMOe.RLyrIe.KGSMie
 !   * Mixture of AI and non-ai infoboxes: https://www.google.com/search?q=Super+Mario+64+release+date
 
 ! -- https://www.google.com/ (Homepage)
+! Header - Top left "AI mode history" button
+! * Homepage
+www.google.*##.HoXidc
+! * Search page
+www.google.*##.ECfIkf
+
 ! Remove AI hyperlinks from Google Doodle Logos
 !#if ext_ublock
 ! * Desktop
