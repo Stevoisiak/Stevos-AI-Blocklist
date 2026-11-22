@@ -2750,6 +2750,12 @@ www.ishopchangi.com###chat-wrapper
 ! Chatbot modal
 ||webchat.studizz.fr/webchat.js$script,domain=www.istom.fr
 
+! === J.Crew ===
+! -- https://www.jcrew.com/p/mens/categories/clothing/sweaters/pullover/BC523?display=all&fit=Men&colorProductCode=BC523&colorCode=BK0001
+! Chat with our fit assistant
+www.jcrew.com##[data-qaid="pdpProductLinksfit-assistant"]
+www.jcrew.com##[data-qaid="pdpProductLinksfit-assistant"] + [class^="ProductLinks__links-divider___"]
+
 ! === JCPenney ===
 ! -- https://www.jcpenney.com/
 ! Header - AskPenney
