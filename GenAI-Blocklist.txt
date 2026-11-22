@@ -682,56 +682,54 @@ www.canva.com##[role="list"] > li:has(> [href="https://www.canva.com/ai-logo-gen
 www.canva.com##[role="list"] > li:has(> [href="https://www.canva.com/business-name-generator/"])
 
 ! -- https://www.canva.com/ (logged in)
-! Floating AI chat button
-www.canva.com##button[aria-label="Help Assistant"]
+! Floating AI help button
+www.canva.com##button[aria-label="Get help"]
 ! Sidebar - Canva AI
-www.canva.com##.xdz27ya:has(+ .xdz27ya #assistant) {padding-bottom: 32px !important}
 www.canva.com##.xdz27ya:has(#assistant)
+www.canva.com##.xdz27ya:has(+ .xdz27ya #assistant) {padding-bottom: 32px !important}
 ! Sidebar > Dream Lab
 ! * Also covers "More" overflow menu
 www.canva.com##nav .x1ghz6dp.x1717udv.xng3xce.xc342km.xe8uvvx.x9dqhi0.x9f619.x1a2a7pz.xdz27ya:has(#dream-lab)
 www.canva.com##[role="navigation"] > div:has(> [href="/dream-lab"])
 www.canva.com##[role="navigation"] > div:has(> [href="/dream-lab"]) + hr
 
-! -  Create menu
-! Create > For You > Quick Actions >
-! * Image to Layers
+! - "Create" page
+! Create > For you > Quick actions
+! * Magic Layers, Canva Code, & Magic Write
 www.canva.com##.zAWjSA.GLyNIw:has([src="https://content-management-files.canva.com/assets/en/8da12929-77b6-4790-9824-38061f1b67e7"])
-! * Magic Write
+www.canva.com##.zAWjSA.GLyNIw:has([href^="/ai/code"])
 www.canva.com##.zAWjSA.GLyNIw:has([href^="/design/editor/shell?create&type=TAFJi5FXMSs&category=tAFK2fpTBVQ"])
-! Create > Photo Editor
-! * Magic Eraser
-www.canva.com##.zAWjSA.GLyNIw:has([src="https://static.canva.com/web/images/4798106e6919ec3efa713e286bc110d8.jpg"])
-! * Background Generator
+! Create > Photo Editor > Quick actions
+! * Grab Text, Background Generator
+www.canva.com##.zAWjSA.GLyNIw:has([src="https://static.canva.com/web/images/9a4d533e514bcd5c64c659414e5bf38f.jpg"])
 www.canva.com##.zAWjSA.GLyNIw:has([src="https://static.canva.com/web/images/58eb8e48f401eb5dfa2cb723df801370.jpg"])
 
 ! -- https://www.canva.com/design?create&type=TAGyBJVQJvY (Canva Docs)
-! Navbar - Magic Switch
-www.canva.com#?#.x1ghz6dp.x1717udv.xng3xce.xc342km.xe8uvvx.x9dqhi0.x9f619.x1a2a7pz:has(> .xjp7ctv [role="menuitem"]):has-text(Magic Switch)
-! Sidebar - Canva AI
-www.canva.com##.HqCA9g:has([aria-label="Canva AI"])
-! Sidebar - Templates - Generate button
-www.canva.com##.x9f619.xeuugli.xnvo3vl.x1lca0qi.x10zg81t.xw36f2b.xn95wi4.x1mz2wy7.xxtcm4k.x1qyk479.x5lhr3w:has([aria-label="Generation options"])
-! Sidebar - Apps - AI generation tab
-www.canva.com##div:has(> [id$="_-tab-ai-generation"])
-! TODO: AI section in app list
+! Header - Magic Switch (Translate & Transform)
+www.canva.com##[role="list"] button:has([d^="M23.404 4.16c-2.034-.406-2.911-1.386-3.318-3.369a.25.25"])
+www.canva.com##[role="list"] button:has([d^="M10 9.9c-.2-.4-.5-.8-.9-1.2-.9-.8-2.3-1.5-5.1-1.5a.8.8"])
 ! Toolbar - Ask Canva
 www.canva.com##.nbY0vg > div:has([aria-label="Ask Canva"])
 www.canva.com##.nbY0vg > div:has([aria-label="Ask Canva"]) + .bm8JbQ
-! Replace "Start typing" text on blank document
+! Sidebar - Canva AI
+www.canva.com##.HqCA9g:has([aria-label="Canva AI"])
+! Sidebar - Apps - AI Generation category
+www.canva.com##div:has(> [id$="_-tab-ai-generation"])
+! Sidebar - Apps - Collections - "Your go-to apps, in Canva AI"
+www.canva.com##[role="tabpanel"] .x1ghz6dp.x1717udv.xng3xce.xc342km.xe8uvvx.x9dqhi0.x9f619.x1a2a7pz.xdz27ya:has-text(Your go-to apps, in Canva AI)
+! TODO: AI section in app list
+! Replace "Start typing or ask Canva" text on blank document
+! * TODO: Filter has a delay
 www.canva.com#?#.qiAA2Q:has-text("Start typing or ask Canva to generate"):upward(1):style(--new-text: "Start typing";)
 www.canva.com#?#.qiAA2Q:has-text("Start typing or ask Canva to generate"):style(font-size: 0px !important;)
 www.canva.com##.qiAA2Q::before:style(content: var(--new-text); font-size: 42.6667px;)
-! Plus icon for quick actions menu
-www.canva.com##.lQmhtA:has([aria-label="Quick actions"])
-! TODO: Typing / on blank line opens quick actions
+! Quick Actions > Magic Write
+! * TODO: Still selectable via keyboard arrows
+www.canva.com##[role="listbox"] [role="option"]:has([d^="M11.444 5.489c-2.033-.407-2.91-1.387-3.317-3.37a.25.25"])
 
 ! -- https://www.canva.com/design?create&type=TAGcbLa0hys (Website Builder)
 ! Sidebar > Text > Magic Write
 www.canva.com#?#button:has-text(Magic Write)
-
-! -- https://www.canva.com/templates
-! TODO: AI video effects section
 
 ! === CBC News ===
 ! -- https://www.cbc.ca/news/politics/canada-united-states-trade-negotiations-tariffs-9.7309218
