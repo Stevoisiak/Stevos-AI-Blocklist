@@ -35,6 +35,7 @@
 ||labs.google^$document
 ||lumo.proton.me^$document
 ||meta.ai^$document
+||neural.love^$document
 ||notebook.google.com^$document
 ||perplexity.ai^$document
 ||poe.com^$document
