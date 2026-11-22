@@ -2751,6 +2751,9 @@ www.ishopchangi.com###chat-wrapper
 ||webchat.studizz.fr/webchat.js$script,domain=www.istom.fr
 
 ! === J.Crew ===
+! Navbar - Style Advisor
+www.jcrew.com##.nc-nav__style-assistant
+
 ! -- https://www.jcrew.com/p/mens/categories/clothing/sweaters/pullover/BC523?display=all&fit=Men&colorProductCode=BC523&colorCode=BK0001
 ! Chat with our fit assistant
 www.jcrew.com##[data-qaid="pdpProductLinksfit-assistant"]
