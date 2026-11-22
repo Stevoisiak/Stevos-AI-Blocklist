@@ -121,7 +121,7 @@ If you want more thorough AI blocking, there are two additional optional blockli
 * AI category in headers on news sites.
 * Network requests to AI bots that cause visible webpage errors when blocked.
 
-[`GenAI-Blocklist-URLs.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-URLs.txt) contains full page blocks for AI focused sites. For example, it block the the Gemini chatbot page even if you visit the URL intentionally.
+[`GenAI-Blocklist-URLs.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-URLs.txt) contains full page blocks for AI focused sites. For example, it blocks the the Gemini chatbot page even if you visit the URL intentionally.
 
 ## FAQ
 ### Which adblockers will this filter list work with?
