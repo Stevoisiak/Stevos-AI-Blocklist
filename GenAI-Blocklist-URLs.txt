@@ -184,3 +184,6 @@
 ||xme.bio^$document
 ||xotic.ai^$document
 ||xstory.app^$document
+
+! Specific URLs (NSFW)
+||sankakucomplex.com/ai/create^$document
