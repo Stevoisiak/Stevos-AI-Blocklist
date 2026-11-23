@@ -3881,6 +3881,11 @@ hintaopas.fi,prisjagt.dk,prisjakt.no,prisjakt.nu##[data-sentry-component="HeroMo
 hintaopas.fi##[data-sentry-component="CampaignCard"]:has(> [href="https://hintaopas.fi/teema/shoppingavustaja"])
 prisjagt.dk,prisjakt.nu,prisjakt.no##[data-sentry-component="CampaignCard"]:has(> [href$="/tema/shoppingassistent"])
 
+! -- https://www.prisjakt.nu/produkt.php?p=5147004
+! Insights (product comparison) section
+hintaopas.fi,prisjagt.dk,prisjakt.no,prisjakt.nu##[data-sentry-component="AnchorTab"]:has(> [href="#insights"])
+hintaopas.fi,prisjagt.dk,prisjakt.no,prisjakt.nu###insights
+
 ! === Prime Video ===
 ! -- https://www.primevideo.com/search?ie=UTF8&ref_=atv_nb_sug&phrase=Avatar
 ! AI beta recommendations
