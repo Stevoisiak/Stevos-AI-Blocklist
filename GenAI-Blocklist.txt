@@ -441,7 +441,10 @@ www.bing.com##+js(json-edit-xhr-response, $.s[?@.t=="AI"], propsToMatch, /AS/Sug
 
 ! -- https://www.bing.com/search?q=test (generic search page)
 ! Search bar - Plus button for AI tools
-www.bing.com###sb_tool_drawer {pointer-events: none !important}
+www.bing.com##[data-iid="SBAITOOLS"] {pointer-events: none !important; border: none !important}
+www.bing.com###sb_option_icon > path {fill: #00000099 !important}
+! * Icon replacement doesn't work on Safari
+www.bing.com###sb_option_icon > path {d: path("M7.57895 0.710526C11.3723 0.710526 14.4474 3.78563 14.4474 7.57895C14.4474 9.21969 13.872 10.726 12.9122 11.9073L17.555 16.5502C17.8325 16.8277 17.8325 17.2775 17.555 17.555C17.3028 17.8073 16.9081 17.8302 16.6299 17.6238L16.5502 17.555L11.9073 12.9122C10.726 13.872 9.21969 14.4474 7.57895 14.4474C3.78563 14.4474 0.710526 11.3723 0.710526 7.57895C0.710526 3.78563 3.78563 0.710526 7.57895 0.710526ZM7.57895 2.13158C4.57045 2.13158 2.13158 4.57045 2.13158 7.57895C2.13158 10.5874 4.57045 13.0263 7.57895 13.0263C10.5874 13.0263 13.0263 10.5874 13.0263 7.57895C13.0263 4.57045 10.5874 2.13158 7.57895 2.13158Z") !important}
 ! Navbar tabs for "Search" and "Copilot"
 www.bing.com###b-scopeListItem-copilotsearch
 www.bing.com###b-scopeListItem-conv
