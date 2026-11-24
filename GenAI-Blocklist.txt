@@ -3044,6 +3044,10 @@ www.macys.com##.ask-something-else
 ! Review summary
 www.macys.com##.generated-summary-main-container
 
+! -- https://www.macys.com/shop/featured/straight-fit-white-pants?ss=true
+! "Ask Macy’s" search suggestions
+www.macys.com##.ai-overview-wrapper
+
 ! === Mailchimp ===
 ! -- https://mailchimp.com/
 ! Ask Mailchimp Assistant
