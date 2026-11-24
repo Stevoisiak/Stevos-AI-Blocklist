@@ -2957,6 +2957,10 @@ www.lenovo.com##.pdp-ai-summary
 ! Review summary
 www.lenovo.com##[data-bv-show="review-summaries"]
 
+! -- https://psref.lenovo.com/
+! Floating PSREF AI Beta button [support, chatbot] 
+psref.lenovo.com##.ai-icon-container
+
 ! === Les Numériques (French) ===
 ! Floating chat icon
 www.lesnumeriques.com##[data-lemrock-component]
