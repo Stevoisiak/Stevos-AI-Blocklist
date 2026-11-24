@@ -10,39 +10,59 @@
 ||ai.prisjagt.dk^$document
 ||ai.prisjakt.no^$document
 ||ai.prisjakt.nu^$document
+||aiease.ai^$document
 ||aistudio.google.com^$document
 ||ask-chat.ai^$document
 ||ask.brave.com^$document
 ||assistant.kagi.com^$document
+||bylo.ai^$document
 ||chat.z.ai^$document
 ||chatgpt.com^$document
 ||claude.ai^$document
 ||copilot.cloud.microsoft^$document
 ||copilot.com^$document
 ||copilot.microsoft.com^$document
+||craiyon.com^$document
 ||deepai.org^$document
+||deepdreamgenerator.com^$document
+||dream.ai^$document
 ||duck.ai^$document
 ||euria.infomaniak.com^$document
 ||flow.google.com^$document
+||free.ai^$document
 ||gemini.google.com^$document
 ||gemma4-ai.com^$document
 ||google.ai^$document
 ||grok.com^$document
 ||halfphoto.com^$document
+||hotpot.ai^$document
+||image-generator.com^$document
+||imagine.art^$document
+||imgcreatorai.io^$document
+||insmind.com^$document
+||ipic.ai^$document
 ||kimi.ai^$document
 ||kimi.com^$document
 ||kuku.baidu.com^$document
 ||labs.google^$document
+||leonardo.ai^$document
 ||lumo.proton.me^$document
 ||meta.ai^$document
 ||neural.love^$document
 ||notebook.google.com^$document
+||openart.ai^$document
 ||perplexity.ai^$document
+||picsart.com^$document
+||pixlr.com^$document
 ||poe.com^$document
+||pollo.ai^$document
 ||qwen.ai^$document
+||raphael.app^$document
+||recraft.ai^$document
 ||sunnoai.com^$document
 ||suno.com^$document
 ||synthesia.io^$document
+||visualgpt.io^$document
 
 ! Specific URLs
 ||americanbanker.com/answers^$document
@@ -70,6 +90,7 @@
 ||m365.cloud.microsoft/chat^$document
 ||perchance.org/ai-chat^$document
 ||search.brave.com/ask^$document
+||shutterstock.com/ai-image-generator^$document
 ||stackoverflow.com/ai-assist^$document
 
 ! Domains (NSFW)
