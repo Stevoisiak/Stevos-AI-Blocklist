@@ -318,6 +318,10 @@ www.automateexcel.com##nav:has([href="/formula-generator-ai-bot/"]):has([href="/
 ! Floating chat button
 www.autonocion.com###an-box-btn
 
+! === Auto Trader NZ ===
+! Floating AI chat button
+||embed.vaile.ai/chat-widget-magic.iife.js$script,domain=autotrader.co.nz
+
 ! === AutoZone ===
 ! -- https://www.autozone.com/p/duralast-platinum-battery-h7-agm/319458
 ! Review summary
