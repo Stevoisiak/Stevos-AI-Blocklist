@@ -23,6 +23,7 @@
 ||copilot.com^$document
 ||copilot.microsoft.com^$document
 ||craiyon.com^$document
+||davinci.ai^$document
 ||deepai.org^$document
 ||deepdreamgenerator.com^$document
 ||dream.ai^$document
@@ -32,6 +33,8 @@
 ||free.ai^$document
 ||gemini.google.com^$document
 ||gemma4-ai.com^$document
+||genspark.ai^$document
+||giz.ai^$document
 ||google.ai^$document
 ||grok.com^$document
 ||halfphoto.com^$document
@@ -47,9 +50,11 @@
 ||labs.google^$document
 ||leonardo.ai^$document
 ||lumo.proton.me^$document
+||magicstudio.com^$document
 ||meta.ai^$document
 ||neural.love^$document
 ||notebook.google.com^$document
+||notegpt.io^$document
 ||openart.ai^$document
 ||perplexity.ai^$document
 ||picsart.com^$document
@@ -59,6 +64,8 @@
 ||qwen.ai^$document
 ||raphael.app^$document
 ||recraft.ai^$document
+||simplified.com^$document
+||starryai.com^$document
 ||sunnoai.com^$document
 ||suno.com^$document
 ||synthesia.io^$document
