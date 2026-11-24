@@ -5506,6 +5506,19 @@ studio.youtube.com##.ask-studio-container
 ! Editor - Create - Turn audio into Short
 studio.youtube.com###entrypoint-audiovision-shorts-row
 
+! === Zenni Optical ===
+! Search bar - AI button
+www.zennioptical.com##[data-testid="ai-search-shortcut"]
+! Search bar (focused) - AI Search toggle
+www.zennioptical.com##.tw-group\/aitoggle:has([role="switch"][aria-checked="false"])
+! Search bar (focused) - Try these AI searches
+www.zennioptical.com##.tw-py-4:has([data-testid="ai-example-query"])
+! Search bar - Override placeholder text
+www.zennioptical.com#%#//scriptlet('trusted-set-attr', '.searchInput[placeholder="Search or let AI recommend frames"]', 'placeholder', 'Search glasses')
+! * Backup for non-trusted filters. The text starts as "Search glasses", but changes after page load.
+!   Ideally we'd find a way to block this without trusted filters.
+www.zennioptical.com##.searchInput[placeholder="Search or let AI recommend frames"]::placeholder {color: transparent !important}
+
 ! === Zillow ===
 ! Floating chatbot icon
 ! * Appears during searches. Does not appear for all users.
