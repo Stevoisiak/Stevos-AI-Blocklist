@@ -2531,6 +2531,10 @@ www.greenpan.us##.bar_menu .item:has(+ [data-parent="ai-shopping-assistant"]) a 
 ! Review summary
 www.greenpan.us##[data-bv-show="review-summaries"]
 
+! === Gridinsoft ===
+! Floating AI chat icon
+gridinsoft.com##.ai-chat-widget
+
 ! === Hardware Busters ===
 ! -- https://hwbusters.com/news/comma-ai-egpu-dock-runs-open-source-firmware-249-bare-799-with-an-rx-9060/
 ! Floating "Ask Buster" button
