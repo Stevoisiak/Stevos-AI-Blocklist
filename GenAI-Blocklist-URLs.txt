@@ -99,6 +99,7 @@
 ||notrack.ai/chat^$document
 ||m365.cloud.microsoft/chat^$document
 ||perchance.org/ai-chat^$document
+||perchance.org/ai-text-to-image-generator^$document
 ||search.brave.com/ask^$document
 ||shutterstock.com/ai-image-generator^$document
 ||stackoverflow.com/ai-assist^$document
