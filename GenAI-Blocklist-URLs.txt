@@ -16,6 +16,7 @@
 ||ask.brave.com^$document
 ||assistant.kagi.com^$document
 ||bylo.ai^$document
+||canva.com/ai/code^$document
 ||chat.z.ai^$document
 ||chatgpt.com^$document
 ||claude.ai^$document
@@ -110,7 +111,6 @@
 ||brazzers.ai^$document
 ||camsoda.ai^$document
 ||candy.ai^$document
-||canva.com/ai/code^$document
 ||charmiai.com^$document
 ||chat.romanticai.com^$document
 ||cherrypop.ai^$document
