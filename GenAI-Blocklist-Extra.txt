@@ -254,6 +254,12 @@ www.enikos.gr##[aria-labelledby="article-synopsis-heading"]
 ! Homepage AI promo section
 www.evero.com##.giving:has([src="https://www.evero.com/wp-content/uploads/2025/10/AI-ASSIST.png"])
 
+! === Facebook ===
+! -- https://www.facebook.com/story.php?story_fbid=1158034545997275&id=528533942280675 (mobile)
+! Meta AI - What others are saying
+! * Experimental, hopefully doesn't break anything
+www.facebook.com##.m.displayed[data-mcomponent="MContainer"]:has([data-mcomponent="ServerImageArea"] > [src="https://static.xx.fbcdn.net/rsrc.php/yX/r/Q7kmhycqDF0.webp"])
+
 ! === Firebase ===
 ! -- https://console.firebase.google.com/u/0/project/[id]/overview
 ! Left sidebar - Product categories - AI services 
