@@ -2211,7 +2211,7 @@ www.google.com##.kfgtbc:has([class="lHmueb"])
 ! Modal window for Ask Maps. May only appear once per user.
 www.google.com##[role="dialog"][aria-label="Ask anything about anywhere"]
 ! "Ask Maps" button at top by location categories
-www.google.com##.KNfEk.Rqu0ae.aUjao:has(.F5iire)
+www.google.com/maps##span:has-text(Ask Maps):upward(3)
 ! "Ask Maps" button in expandable sidebar
 www.google.com##.AJqepd:has([jsaction="settings.askGemini"])
 ! "Ask Maps" button in fixed sidebar
