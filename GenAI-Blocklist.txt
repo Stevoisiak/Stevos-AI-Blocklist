@@ -5444,16 +5444,17 @@ m.youtube.com##+js(json-edit, $..[?@.horizontalCardListRenderer.header.richListH
 ! Partially based on https://github.com/moocj/yt-remove-ai-chapters
 ! TODO: Remove segments on playback bar
 ! * Player - Chapter tooltips when hovering progress bar
-www.youtube.com##ytd-watch-flexy:has([target-id="engagement-panel-macro-markers-auto-chapters"]) .ytp-tooltip-progress-bar-pill-title
+www.youtube.com##.watch-root-element:has([target-id="engagement-panel-macro-markers-auto-chapters"]) .ytp-tooltip-progress-bar-pill-title
 ! * Player - Chapter near video time 
-www.youtube.com##ytd-watch-flexy:has([target-id="engagement-panel-macro-markers-auto-chapters"]) .ytp-chapter-container
+www.youtube.com##.watch-root-element:has([target-id="engagement-panel-macro-markers-auto-chapters"]) .ytp-chapter-container
 ! * Description - Chapter cards
-www.youtube.com##ytd-watch-flexy:has([target-id="engagement-panel-macro-markers-auto-chapters"]) ytd-horizontal-card-list-renderer[modern-chapters]
+www.youtube.com##.watch-root-element:has([target-id="engagement-panel-macro-markers-auto-chapters"]) [modern-chapters]
 ! * Sidebar panel - Chapter tab (Not covered by JSON filters)
-www.youtube.com##ytd-watch-flexy:has([target-id="engagement-panel-macro-markers-auto-chapters"]) .ytChipBarViewModelChipWrapper:has(button[aria-label="Chapters"][aria-selected="false"])
-www.youtube.com##ytd-watch-flexy:has([target-id="engagement-panel-macro-markers-auto-chapters"]) chip-bar-view-model:has(button[aria-label="Chapters"][aria-selected="false"]):has(.ytChipBarViewModelChipWrapper:last-child:nth-child(2))
+www.youtube.com##.watch-root-element:has([target-id="engagement-panel-macro-markers-auto-chapters"]) .ytChipBarViewModelChipWrapper:has(button[aria-label="Chapters"][aria-selected="false"])
+! ** Hide all tabs if only 1 is left
+www.youtube.com##.watch-root-element:has([target-id="engagement-panel-macro-markers-auto-chapters"]) chip-bar-view-model:has(button[aria-label="Chapters"][aria-selected="false"]):has(.ytChipBarViewModelChipWrapper:last-child:nth-child(2))
 ! * Sidebar panel - Transcript chapter headers
-www.youtube.com##ytd-watch-flexy:has([target-id="engagement-panel-macro-markers-auto-chapters"]) [data-target-id="PAmodern_transcript_view"] yt-item-section-renderer > #header
+www.youtube.com##.watch-root-element:has([target-id="engagement-panel-macro-markers-auto-chapters"]) timeline-chapter-view-model
 
 ! -- https://m.youtube.com/watch?v=oh5p5f5_-7A (mobile)
 ! "Ask" slide in comment carousel below video
