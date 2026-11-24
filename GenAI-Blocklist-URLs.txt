@@ -26,6 +26,7 @@
 ||davinci.ai^$document
 ||deepai.org^$document
 ||deepdreamgenerator.com^$document
+||design.com^$document
 ||dream.ai^$document
 ||duck.ai^$document
 ||euria.infomaniak.com^$document
