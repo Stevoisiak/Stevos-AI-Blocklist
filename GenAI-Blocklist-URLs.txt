@@ -16,7 +16,6 @@
 ||ask.brave.com^$document
 ||assistant.kagi.com^$document
 ||bylo.ai^$document
-||canva.com/ai/code^$document
 ||chat.z.ai^$document
 ||chatgpt.com^$document
 ||claude.ai^$document
@@ -77,6 +76,7 @@
 ||bing.com/copilotsearch^$document
 ||bing.com/images/create/ai-image-generator^$document
 ||britannica.com/chatbot^$document
+||canva.com/ai/code^$document
 ||collinsdictionary.com/assistant^$document
 ||collinsdictionary.com/us/assistant^$document
 ||deviantart.com/dreamup^$document
