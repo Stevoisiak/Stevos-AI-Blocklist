@@ -215,3 +215,4 @@
 
 ! Specific URLs (NSFW)
 ||sankakucomplex.com/ai/create^$document
+||sankakucomplex.com/companions^$document
