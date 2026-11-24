@@ -1384,6 +1384,11 @@ facebook.com##.m.nb[data-type="container"]:has([role="button"][aria-label="Meta 
 ! Quick Answers - appears below contents box
 fandom.com##section.trfc161
 
+! === Feedly ===
+! -- https://feedly.com/i/my/me (logged in)
+! Sidebar - Create AI Feed
+feedly.com##.LeftnavWebAlertsButton__wrapper
+
 ! === Fight the New Drug ===
 ! Floating AI button
 fightthenewdrug.org###askFTND_button
