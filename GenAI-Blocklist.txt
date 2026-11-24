@@ -6129,6 +6129,10 @@ chan.sankakucomplex.com##.post-preview:has([data-auto_page~="ai-assisted"], [dat
 ! Sankaku subscription promo mentioning AI
 chan.sankakucomplex.com#?#.premium-carousel:has-text(" AI ")
 
+! -- https://chan.sankakucomplex.com/en/posts/porq836Vwa7
+! Plus promo mentioning AI
+chan.sankakucomplex.com#?#.carousel:has(> h5 > [href="https://get.sankaku.plus/"]):has-text(AI creator)
+
 ! === Scrolller (NSFW) ===
 ! AI Jerk Off
 scrolller.com##.index-module__fNZuDa__container[href="https://trk.scrolller.com/b5fb9e68-dccb-4e9c-a514-9b514cfdaf7f"]
