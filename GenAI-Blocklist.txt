@@ -5456,7 +5456,7 @@ www.youtube.com##.watch-root-element:has([target-id="engagement-panel-macro-mark
 ! * Sidebar panel - Transcript chapter headers
 www.youtube.com##.watch-root-element:has([target-id="engagement-panel-macro-markers-auto-chapters"]) timeline-chapter-view-model
 ! ** Sometimes transcript auto-chapters appear without a chapters section (https://www.youtube.com/watch?v=LeFPryVXFwQ)
-www.youtube.com###panels:has(button[aria-label="Transcript"]):not(:has(button[aria-label="Chapters"], [target-id="engagement-panel-macro-markers-description-chapters"])) timeline-chapter-view-model
+www.youtube.com###panels:not(:has(button[aria-label="Chapters"], [target-id="engagement-panel-macro-markers-description-chapters"])) timeline-chapter-view-model
 
 ! -- https://m.youtube.com/watch?v=oh5p5f5_-7A (mobile)
 ! "Ask" slide in comment carousel below video
