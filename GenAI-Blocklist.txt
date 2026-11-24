@@ -6115,8 +6115,8 @@ www.sankakucomplex.com##[data-test="ai_art"]
 ! There are so many AI features, this filter is a drop in the bucket ¯\_(ツ)_/¯
 
 ! -- https://chan.sankakucomplex.com/
-! Navbar, Posts > AI Artwork
-chan.sankakucomplex.com###subnavbar > li:has(> [href^="https://chan.sankakucomplex.com/?tags=sankaku_ai"])
+! Navbar - Posts > AI Artwork
+chan.sankakucomplex.com###header li:has(> [href^="https://chan.sankakucomplex.com/?tags=sankaku_ai"])
 ! Navbar, Companions
 chan.sankakucomplex.com##.nav-special:has(> [href="/companions"])
 ! Floating companions window
