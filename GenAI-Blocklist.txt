@@ -508,6 +508,14 @@ www.bing.com##.editorial-promo-card:has(> [aria-label^="Advance your AI skills"]
 ! Copilot price insignhts (bottom)
 www.bing.com#?##ShoppingLandingPage_ShoppingEducation:has-text(Try it on Copilot)
 
+! -- https://www.bing.com/videos/riverview/relatedvideo?q=bob+ross+episode+1&&mid=4EA7E588CD4C7E1FDC044EA7E588CD4C7E1FDC04&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCxcnsr1R5Ge_fbTu5ajt8DQ&FORM=VRDGAR (Video)
+! AI insights
+www.bing.com##.aibtn
+! "Key moments in this video"
+www.bing.com##.aichpolc
+! Summary
+www.bing.com##.acaiic
+
 ! -- https://rewards.bing.com/
 ! Earn > Microsoft Unlocked
 rewards.bing.com##mee-card:has([aria-label="Microsoft Unlocked, Stories from the heart and soul of AI innovation, Explore now"])
