@@ -29,6 +29,7 @@
 ||dream.ai^$document
 ||duck.ai^$document
 ||euria.infomaniak.com^$document
+||felo.ai^$document
 ||flow.google.com^$document
 ||free.ai^$document
 ||gemini.google.com^$document
