@@ -6114,10 +6114,12 @@ www.sankakucomplex.com##[data-test="ai_art"]
 ! Can't block AI art from non-chan site because only a few image tags are present in the metadata.
 ! There are so many AI features, this filter is a drop in the bucket ¯\_(ツ)_/¯
 
-! -- https://chan.sankakucomplex.com/
+! -- https://chan.sankakucomplex.com/ (logged in)
+! Header - Promo for Sankaku Plus
+chan.sankakucomplex.com###news-ticker:has(> [href="https://get.sankaku.plus/"])
 ! Navbar - Posts > AI Artwork
 chan.sankakucomplex.com###header li:has(> [href^="https://chan.sankakucomplex.com/?tags=sankaku_ai"])
-! Navbar, Companions
+! Navbar - Companions
 chan.sankakucomplex.com##.nav-special:has(> [href="/companions"])
 ! Floating companions window
 chan.sankakucomplex.com##.companion--draggable_element
@@ -6126,12 +6128,9 @@ chan.sankakucomplex.com##.ai-carousel
 chan.sankakucomplex.com##.companion-carousel
 ! Images tagged as AI made
 chan.sankakucomplex.com##.post-preview:has([data-auto_page~="ai-assisted"], [data-auto_page~="ai-created"], [data-auto_page~="ai-upscaled"], [data-auto_page~="ai-voiced"])
-! Sankaku subscription promo mentioning AI
-chan.sankakucomplex.com#?#.premium-carousel:has-text(" AI ")
-
-! -- https://chan.sankakucomplex.com/en/posts/porq836Vwa7
-! Plus promo mentioning AI
-chan.sankakucomplex.com#?#.carousel:has(> h5 > [href="https://get.sankaku.plus/"]):has-text(AI creator)
+! Promo banner for Sankaku Plus
+! * Covers homepage, search, and post view
+chan.sankakucomplex.com##.carousel:has(h5 > [href="https://get.sankaku.plus/"])
 
 ! === Scrolller (NSFW) ===
 ! AI Jerk Off
