@@ -2323,6 +2323,7 @@ www.google.*##[data-attnms]
 ! * Blank space for AI Overview at top of search results
 www.google.*##.Kevs9.SLPe5b:has([data-attnms])
 www.google.*##.YNk70c.EjQTId:has(+ div [data-attnms]) #oFNiHe:empty
+www.google.*##[role="main"] > .SLPe5b.M8OgIe:has([data-attnms]):has(#oFNiHe:empty)
 ! * Blank space when in middle of search results (Ex: https://www.google.com/search?q=stevo%27s+genai+blocklist)
 www.google.*##.ULSxyf:has(> .MjjYud > .SePcAf[data-tma="80"] [data-attnms])
 ! * Fix conflict with laylavish's AI blocklist
