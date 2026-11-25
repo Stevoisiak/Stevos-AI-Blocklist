@@ -3113,6 +3113,12 @@ widget.indexfox.ai##.ask-response
 ! Search - Page summary
 ||api.indexfox.ai/api/6383989965980236728/summary$xhr,domain=widget.indexfox.ai
 
+! === MarketBeat ===
+! -- https://www.marketbeat.com/pages/search.aspx?query=test
+! AI search overview
+||www.marketbeat.com/Pages/Search.aspx/GetOverview$xhr,domain=www.marketbeat.com
+www.marketbeat.com###ai-overview
+
 ! === Mathrubhumi ===
 ! -- https://english.mathrubhumi.com/news/india/suvendu-adhikari-aide-murder-bike-recovered-west-bengal-u8r914aj
 ! Article summary
