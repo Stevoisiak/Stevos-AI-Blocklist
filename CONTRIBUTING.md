@@ -52,7 +52,7 @@ Also refer to the following general purpose resources
 * [MDN Web Docs: Web developer guides](https://developer.mozilla.org/en-US/docs/MDN/Guides)
 
 ## How should commit messages/pull requests be written?
- Commit messages should begin with a prefix indicating the type of change being made, followed by the site where the unblocked item appears and a description of the change.
+Preferably, new filters should be limited to a single site per pull request. Commit messages should begin with a prefix indicating the type of change being made, followed by the site where the unblocked item appears and a description of the change.
 
 The prefixes are:
 * A: Added a new filter
