@@ -984,6 +984,16 @@ code.visualstudio.com###main-nav [href="#agentic-articles"]
 ! View as markdown
 code.visualstudio.com##.docs-markdown-actions
 
+! === Woolworths ===
+! -- https://www.woolworths.com.au/
+! Olive digital assistant - only way to message a human is through the chatbot
+www.woolworths.com.au##shared-olive-chat-button
+||chatwidget.woolworths.com.au^$script,domain=www.woolworths.com.au
+
+! -- https://www.woolworths.com.au/shop/help
+! "Chat with Olive" card
+www.woolworths.com.au###tabpanel-0-woolworths div.contact-us-card_component_contact-card__vb0hu:nth-of-type(1)
+
 ! === WordCounter ===
 ! -- https://wordcounter.net/
 ! "Your text might contain writing issues" promo for Grammarly
