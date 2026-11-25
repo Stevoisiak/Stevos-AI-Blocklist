@@ -71,6 +71,7 @@
 ||sunnoai.com^$document
 ||suno.com^$document
 ||synthesia.io^$document
+||urbandictionary.ai^$document
 ||visualgpt.io^$document
 
 ! Specific URLs
