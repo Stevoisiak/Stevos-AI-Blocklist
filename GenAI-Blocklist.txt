@@ -4886,7 +4886,7 @@ www.urbandictionary.com##.ud-ask
 ! === US News ===
 ! -- https://www.usnews.com/banking/articles/what-is-a-credit-union
 ! Floating Ask AI button
-www.usnews.com##.MuiBox-root:has(> [aria-label="Ask U.S. News AI"])
+usnews.com##.MuiBox-root:has(> [aria-label="Ask U.S. News AI"])
 
 ! === Valnet ===
 ! Sites found via https://www.valnetinc.com/en/our-brands
