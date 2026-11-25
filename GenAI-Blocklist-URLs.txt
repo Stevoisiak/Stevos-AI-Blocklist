@@ -206,6 +206,7 @@
 ||spicychat.ai^$document
 ||spicymate.ai^$document
 ||spmates.com^$document
+||sugarlab.ai^$document
 ||sweetdream.ai^$document
 ||sweetporn.ai^$document
 ||swipey.ai^$document
