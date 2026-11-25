@@ -1385,9 +1385,15 @@ facebook.com##.m.nb[data-type="container"]:has([role="button"][aria-label="Meta 
 fandom.com##section.trfc161
 
 ! === Feedly ===
-! -- https://feedly.com/i/my/me (logged in)
+! -- https://feedly.com/i/my/me
 ! Sidebar - Create AI Feed
 feedly.com##.LeftnavWebAlertsButton__wrapper
+! Sidebar > Feeds > Plus icon (+) > Create AI Feed
+feedly.com##[data-floating-ui-focusable] [role="menuitem"][tabindex="0"]:has([d^="M10.005 3.133a.5.5 0 0 1 .492.41l"])
+
+! -- https://feedly.com/i/collection/content/user/[user-id]/category/global.all (Feeds > All)
+! "Synthesize articles" sparkle icon
+feedly.com##div:has(> button[aria-label="Toggle Ask AI panel"])
 
 ! === Fight the New Drug ===
 ! Floating AI button
