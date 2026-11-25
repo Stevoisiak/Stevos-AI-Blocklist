@@ -3559,11 +3559,7 @@ www.newegg.com##.header2021-celeste
 ! Search bar (focused) - Ask Celeste
 www.newegg.com##.header2021-search-sec-ask
 ! Search bar - Remove sparkle from magnifying glass search button
-!#if adguard
-! * uBO doesn't allow backslash \ in CSS styles
-!   https://github.com/uBlockOrigin/uBlock-issues/issues/668#issuecomment-511117701
-www.newegg.com##.ico-search-ai::before {content: "\f002" !important}
-!#endif
+www.newegg.com##.ico-search-ai::before {content: "" !important}
 ! Floating AI Assistant icon
 www.newegg.com##.floating-robot
 
