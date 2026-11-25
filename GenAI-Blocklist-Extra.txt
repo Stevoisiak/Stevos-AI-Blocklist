@@ -1090,3 +1090,7 @@ zoom.us###pane-summary
 ! === The Porn Links (NSFW) ===
 ! Blog post about AI porn vs traditional porn
 thepornlinks.com##.RelatedPosts-hp > [href="https://thepornlinks.com/blog/ai-porn-generators-vs-traditional-porn-sites/"]
+
+! === The Porn Map (NSFW) ===
+! AI Porn Sites category
+thepornmap.com##.ai-porn-sites

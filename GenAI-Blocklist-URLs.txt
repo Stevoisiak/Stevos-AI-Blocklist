@@ -71,6 +71,7 @@
 ||sunnoai.com^$document
 ||suno.com^$document
 ||synthesia.io^$document
+||urbandictionary.ai^$document
 ||visualgpt.io^$document
 
 ! Specific URLs
@@ -206,6 +207,7 @@
 ||spicychat.ai^$document
 ||spicymate.ai^$document
 ||spmates.com^$document
+||sugarlab.ai^$document
 ||sweetdream.ai^$document
 ||sweetporn.ai^$document
 ||swipey.ai^$document
