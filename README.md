@@ -121,13 +121,13 @@ If you want more thorough AI blocking, there are two additional optional blockli
 * AI category in headers on news sites.
 * Network requests to AI bots that cause visible webpage errors when blocked.
 
-[`GenAI-Blocklist-URLs.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-URLs.txt) contains full page blocks for AI focused sites. For example, it block the the Gemini chatbot page even if you visit the URL intentionally.
+[`GenAI-Blocklist-URLs.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-URLs.txt) contains full page blocks for AI focused sites. For example, it blocks the the Gemini chatbot page even if you visit the URL intentionally.
 
 ## FAQ
 ### Which adblockers will this filter list work with?
 These filters work best with [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo), [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html), or [wBlock](https://skula.me/project/wblock/).
 
-They should be usable with [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), [Brave](https://brave.com), [Ghostery](https://www.ghostery.com/), and the desktop version of [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home#ubo-lite), but they are not fully supported and may have compatibility issues.
+They should be usable with [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), [Brave's](https://brave.com) built-in adblocker, [Ghostery](https://www.ghostery.com/), and the desktop version of [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home#ubo-lite), but this is not supported and you may encounter compatibility issues.
 
 ### Will this remove sites with AI-generated articles from search results?
 No. If you want to block sites with AI-generated articles, try [BadWebsiteBlocklist](https://github.com/popcar2/BadWebsiteBlocklist) or [just_a_husk's Image-Search AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist).
@@ -189,13 +189,10 @@ If you want to contribute filters, please [review the contributing guide](https:
 * [just_a_husk's image-search AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist): Removes AI-generated images from search engine results. Forked from [laylavish's blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/).
 * [AI uBlock Origin Blacklist](https://github.com/alvi-se/ai-ublock-blacklist): uBlock Origin filter list for AI content farms. 
 * [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt): Another uBlock Origin filter list for AI elements. Used as reference for some filters on this list.
-* [Deslopify](https://github.com/SolidLamp/deslopify): Extension for Firefox for hiding AI elements. 
+* [HPT AI Blocklist](https://codeberg.org/lumiworx/HPT-AI-Blocklist): Blocklist for AI related sites. Compatible with HOSTS/PiHole/Technitium.
 
 ### Media 
 * [CevvalYoutubeAIBlocklist](https://github.com/cevvalkoala/CevvalYoutubeAIBlocklist): Filter list for AI Music channels on YouTube for uBlock Origin.
-* Blocktube ([Chrome/Edge](https://chromewebstore.google.com/detail/blocktube/bbeaicapbccfllodepmimpkgecanonai?hl=en-US), [Firefox](http://addons.mozilla.org/en-US/firefox/addon/blocktube/)): Extension for blocking channels and videos on YouTube.
-    * [Blocklist for AI music on YouTube](https://surasshu.com/blocklist-for-ai-music-on-youtube/): List of AI music channels for Blocktube.
-    * [Ionotter's YT Blocklist](https://pastebin.com/QS93tnXk): List of channels that use AI for BlockTube.
 * [AiSList & AiBlock](https://aisloplist.com/): Block AI content on YouTube based on a community maintained blocklist.
 * [Spotify AI Band Blocker](https://github.com/Reginald-Gillespie/Spotify-AI-Band-Blocker): Plugin for Spicetify to block AI artists on Spotify.
 * [Spotify AI Blocker](https://github.com/CennoxX/spotify-ai-blocker): Userscript to block AI artists on Spotify.
@@ -206,6 +203,7 @@ If you want to contribute filters, please [review the contributing guide](https:
 * [Anubis](https://github.com/techaroHQ/anubis): Web firewall for blocking requests from AI companies.
 * [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt): List of AI crawlers to block as a website owner.
 * [Miasma](https://github.com/austin-weeks/miasma): Send poisoned data to AI web scrapers.
+* [no-agents.md](https://codeberg.org/rossabaker/no-agents.md): Reject AI coding agents via `AGENTS.md`.
 
 ## Special thanks
 * **gorhill**: Created uBlock Origin and answered my questions about `json-edit` filters
@@ -213,6 +211,7 @@ If you want to contribute filters, please [review the contributing guide](https:
 * **ryanbr**: Maintains [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt), which some filters in this list were based on.
 * **AchernarB & RraaLL**: Moderators for [r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/) who answered questions as I learned how to create filters.
 * **inwiring**: Provided [Google AI Overview filters](https://inwiring.com/google-ai-overviews/) used in earlier versions of this blocklist.
+* **[Internet Archive](https://archive.org/)**: Archived older versions of web pages used for reference.
 * Everyone who has [contributed code](https://github.com/Stevoisiak/Stevos-AI-Blocklist/graphs/contributors?all=1) or filed [an issue report](https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues).
 
 ## Feedback

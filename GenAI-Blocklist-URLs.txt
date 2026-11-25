@@ -5,40 +5,81 @@
 ! Author: Stevoisiak
 
 ! Domains
+||ai.google^$document
 ||ai.hintaopas.fi^$document
 ||ai.prisjagt.dk^$document
 ||ai.prisjakt.no^$document
 ||ai.prisjakt.nu^$document
+||aiease.ai^$document
 ||aistudio.google.com^$document
 ||ask-chat.ai^$document
 ||ask.brave.com^$document
 ||assistant.kagi.com^$document
+||bylo.ai^$document
 ||chat.z.ai^$document
 ||chatgpt.com^$document
 ||claude.ai^$document
 ||copilot.cloud.microsoft^$document
 ||copilot.com^$document
 ||copilot.microsoft.com^$document
+||craiyon.com^$document
+||davinci.ai^$document
 ||deepai.org^$document
+||deepdreamgenerator.com^$document
+||design.com^$document
+||dream.ai^$document
 ||duck.ai^$document
 ||euria.infomaniak.com^$document
+||felo.ai^$document
+||flow.google.com^$document
+||free.ai^$document
 ||gemini.google.com^$document
 ||gemma4-ai.com^$document
+||genspark.ai^$document
+||giz.ai^$document
+||google.ai^$document
 ||grok.com^$document
+||halfphoto.com^$document
+||hotpot.ai^$document
+||image-generator.com^$document
+||imagine.art^$document
+||imgcreatorai.io^$document
+||insmind.com^$document
+||ipic.ai^$document
 ||kimi.ai^$document
 ||kimi.com^$document
 ||kuku.baidu.com^$document
+||labs.google^$document
+||leonardo.ai^$document
 ||lumo.proton.me^$document
+||magicstudio.com^$document
 ||meta.ai^$document
+||neural.love^$document
+||notebook.google.com^$document
+||notegpt.io^$document
+||openart.ai^$document
 ||perplexity.ai^$document
+||picsart.com^$document
+||pixlr.com^$document
 ||poe.com^$document
+||pollo.ai^$document
 ||qwen.ai^$document
+||raphael.app^$document
+||recraft.ai^$document
+||simplified.com^$document
+||starryai.com^$document
+||sunnoai.com^$document
+||suno.com^$document
+||synthesia.io^$document
+||visualgpt.io^$document
 
 ! Specific URLs
 ||americanbanker.com/answers^$document
 ||bing.com/copilotsearch^$document
 ||bing.com/images/create/ai-image-generator^$document
 ||britannica.com/chatbot^$document
+||canva.com/ai-image-generator^$document
+||canva.com/ai/code^$document
 ||collinsdictionary.com/assistant^$document
 ||collinsdictionary.com/us/assistant^$document
 ||deviantart.com/dreamup^$document
@@ -59,7 +100,9 @@
 ||notrack.ai/chat^$document
 ||m365.cloud.microsoft/chat^$document
 ||perchance.org/ai-chat^$document
+||perchance.org/ai-text-to-image-generator^$document
 ||search.brave.com/ask^$document
+||shutterstock.com/ai-image-generator^$document
 ||stackoverflow.com/ai-assist^$document
 
 ! Domains (NSFW)
@@ -173,3 +216,7 @@
 ||xme.bio^$document
 ||xotic.ai^$document
 ||xstory.app^$document
+
+! Specific URLs (NSFW)
+||sankakucomplex.com/ai/create^$document
+||sankakucomplex.com/companions^$document
