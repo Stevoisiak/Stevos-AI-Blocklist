@@ -1432,6 +1432,11 @@ firstpost.com###ia-search
 ! Review summary
 www.foodnetwork.com##.reviewsSummary
 
+! === Font Awesome ===
+! -- https://fontawesome.com/search?q=%EE%80%A8
+! Let your agent find icons for you
+fontawesome.com##.ais-StateResults .column-6:has(> [href="/ai"])
+
 ! === Forbes ===
 ! -- https://www.forbes.com/sites/jonmarkman/2026/09/03/googles-gemini-38-flash-brings-frontier-level-work-to-its-cheap-tier/
 ! Article voiceover
