@@ -5309,6 +5309,10 @@ finance.yahoo.com##.dock-tablist-capsule:has(#tab-dock-modules[aria-selected="tr
 ! Ask AI button (mobile)
 finance.yahoo.com##.scout-fab-split-half--scout
 
+! -- https://finance.yahoo.com/quote/ANT/
+! "What's happening with [stock]" summary
+finance.yahoo.com##.ai-analyst-hybrid-banner
+
 ! -- https://finance.yahoo.com/technology/ai/articles/us-threatens-sanctions-against-chinese-153705506.html
 ! Mid-article "Ask Yahoo Scout" (No longer used?)
 finance.yahoo.com##.dig-deeper-wrapper
