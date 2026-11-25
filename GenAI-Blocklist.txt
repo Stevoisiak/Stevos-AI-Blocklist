@@ -4879,8 +4879,8 @@ ups.com###WACContainer
 
 ! === Urban Dictionary ===
 ! Floating chatbox
-||urbandictionary.ai/widget$subdocument,domain=www.urbandictionary.com
-! "Ask UD" button
+||urbandictionary.ai/widget$subdocument,script,domain=www.urbandictionary.com
+! "Ask UD" button by word definitions
 www.urbandictionary.com##.ud-ask
 
 ! === US News ===
