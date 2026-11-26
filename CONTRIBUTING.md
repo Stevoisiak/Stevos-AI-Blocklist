@@ -30,6 +30,24 @@ This repository categorizes filters between two files: a main list `GenAI-Blockl
 * Within each site group, filters are grouped by a URL showing where the filter applies. Whenever possible, users should be able to visit the link as-is to see the elements being filtered.
 * Filters should include specific identifying elements avoid accidental filtering of unintended items.
 
+## How should commit messages/pull requests be written?
+Preferably, new filters should be limited to a single site per pull request. Commit messages should begin with a prefix indicating the type of change being made, followed by the site where the unblocked item appears and a description of the change. For example:
+
+```
+A: google.com: AI history button
+M: youtube.com: Simplify auto-chapter filters
+```
+
+The prefixes are:
+* A: Added a new filter
+* M: Modified an existing filter
+* R: Removed a filter
+* C: Cosmetic "meta" change like editing comments or rearranging filters
+* T: Transfer filter between extra and main list.
+* F: Fix a filter that isn't working.
+
+Additionally, if the altered change only applies to the extra filters, it should begin with a +.
+
 ## Resources for learning to create filters
 
 Most filter rules in this list use CSS selectors to select AI elements to hide. This type of rule is known as a cosmetic rule or an element hiding filter. To borrow an image from [AdGuard's filter guide](https://adguard.com/kb/general/ad-filtering/create-own-filters/#cosmetic-rule):
@@ -50,19 +68,6 @@ Also refer to the following general purpose resources
 * [AdGuard Wiki](https://adguard.com/kb/)
 * [uBlock Origin Wiki](https://github.com/gorhill/uBlock/wiki)
 * [MDN Web Docs: Web developer guides](https://developer.mozilla.org/en-US/docs/MDN/Guides)
-
-## How should commit messages/pull requests be written?
- Commit messages should begin with a prefix indicating the type of change being made, followed by the site where the unblocked item appears and a description of the change.
-
-The prefixes are:
-* A: Added a new filter
-* M: Modified an existing filter
-* R: Removed a filter
-* C: Cosmetic "meta" change like editing comments or rearranging filters
-* T: Transfer filter between extra and main list.
-* F: Fix a filter that isn't working.
-
-Additionally, if the altered change only applies to the extra filters, it should begin with a +.
 
 ## AI Policy
 

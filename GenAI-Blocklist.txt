@@ -2434,6 +2434,10 @@ www.google.*##[jsname="NoEzVd"]:has([jsname="lHCI7d"])
 ! * Filter has a delay before it applies
 www.google.*##[data-crust-trigger] > div:has(.k1U36b.OMMx3d)
 
+! -- https://www.google.com/search?q=Thanksgiving+2026
+! Floating "Join the parade" button to turn selfie into balloon
+www.google.*##.tkcvsb.pQltpb[data-delight-buttons]
+
 ! -- https://www.google.com/search?q=boston (mobile)
 ! "Ask anything in AI Mode" suggestions
 www.google.*##.rlT1Ue.IGspb.PZPZlf[data-attrid="VisualDigestGeneratedResult"]
@@ -5316,6 +5320,10 @@ finance.yahoo.com##.dock-tablist-capsule:has(#tab-dock-modules[aria-selected="tr
 ! -- https://finance.yahoo.com/markets/article/meta-announces-plans-to-raise-up-to-95-billion-for-ai-buildout-140141962.html
 ! Ask AI button (mobile)
 finance.yahoo.com##.scout-fab-split-half--scout
+
+! -- https://finance.yahoo.com/quote/ANT/
+! "What's happening with [stock]" summary
+finance.yahoo.com##.ai-analyst-hybrid-banner
 
 ! -- https://finance.yahoo.com/technology/ai/articles/us-threatens-sanctions-against-chinese-153705506.html
 ! Mid-article "Ask Yahoo Scout" (No longer used?)
