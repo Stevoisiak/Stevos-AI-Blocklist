@@ -563,10 +563,9 @@ hiringcafe.com#%#//scriptlet('trusted-click-element', '[aria-label="Search mode"
 www.howtogeek.com##.subheader-menu-item:has(> [href="/category/ai-amp-machine-learning/"]):remove()
 
 ! === Humble Bundle ===
-! -- https://www.humblebundle.com/bundles
 ! Bundles involving AI
 ! * Exclude the "The Cybersecurity & AI Defense" bundle
-www.humblebundle.com##.bundle:is([href*="/ai-"], [href*="-ai-"], [href*="claude-code"], [href*="genai-"]):not([href*="cybersecurity"])
+www.humblebundle.com##[data-testid="product-card"]:has([href*="/ai-"], [href*="-ai-"], [href*="claude-code"], [href*="genai-"]):not([href*="cybersecurity"])
 
 ! === Infomaniak ===
 ! -- https://www.infomaniak.com/en
