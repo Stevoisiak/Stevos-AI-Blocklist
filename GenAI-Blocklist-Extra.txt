@@ -808,6 +808,12 @@ render.com##.relative.inline-flex.items-stretch.mb-20:has([d="M4,18H2V4A2,2,0,0,
 ! Copy as markdown
 developer.salesforce.com##doc-content-action-toolbar
 
+! === Sankaku Complex (NSFW) ===
+! -- https://chan.sankakucomplex.com/ (logged in)
+! Images tagged as AI made
+! * Filter bugs out for some users when infinite scrolling is enabled. Need to investigate. See https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/317
+chan.sankakucomplex.com##.post-preview:has([data-auto_page~="ai-assisted"], [data-auto_page~="ai-created"], [data-auto_page~="ai-upscaled"], [data-auto_page~="ai-voiced"])
+
 ! === ScienceDirect ===
 ! -- https://www.sciencedirect.com/
 ! LeapSpace carousel item.

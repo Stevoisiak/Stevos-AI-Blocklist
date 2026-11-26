@@ -6206,8 +6206,6 @@ chan.sankakucomplex.com##.companion--draggable_element
 ! Carousel promos
 chan.sankakucomplex.com##.ai-carousel
 chan.sankakucomplex.com##.companion-carousel
-! Images tagged as AI made
-chan.sankakucomplex.com##.post-preview:has([data-auto_page~="ai-assisted"], [data-auto_page~="ai-created"], [data-auto_page~="ai-upscaled"], [data-auto_page~="ai-voiced"])
 ! Promo banner for Sankaku Plus
 ! * Covers homepage, search, and post view
 chan.sankakucomplex.com##.carousel:has(h5 > [href="https://get.sankaku.plus/"])
