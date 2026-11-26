@@ -360,6 +360,11 @@ www.diy.com##[data-testid="hello-bq"]
 ! Floating "Ask a question" button
 ||decagon.ai/demo/backbone$subdocument,domain=help.backbone.com
 
+! === Back Market ===
+! -- https://www.backmarket.com/en-us
+! Floating "Ask me" chatbot button
+www.backmarket.com##[data-test="shopping-assistant-fab"]
+
 ! === Baidu ===
 ! -- https://www.baidu.com/
 ! "Wenxin" tab in top navbar
