@@ -141,8 +141,11 @@ docs.aws.amazon.com##.t3G8h4IshJXWYCDYGqYhiA\=\=
 ! -- https://www.bigw.com.au/
 ! Dot digital assistant - only way to message a human is through the chatbot
 www.bigw.com.au##.ChatBot_ChatBot__q2ziG
-www.bigw.com.au##div.ContactUsCard_hero__xbhV3.ContactUsCard_contactUsCard__I9mLp:nth-of-type(2)
 ||chatwidget.bigw.com.au^$script,domain=www.bigw.com.au
+
+! -- https://www.bigw.com.au/help/contact-us
+! "Chat with Us" card (opens chatbot)
+www.bigw.com.au##div.ContactUsCard_hero__xbhV3.ContactUsCard_contactUsCard__I9mLp:nth-of-type(2)
 
 ! === Bitly ===
 ! -- https://app.bitly.com/integrations/discover
