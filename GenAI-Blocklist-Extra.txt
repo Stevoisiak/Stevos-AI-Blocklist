@@ -139,8 +139,9 @@ docs.aws.amazon.com##.t3G8h4IshJXWYCDYGqYhiA\=\=
 
 ! === Big W ===
 ! -- https://www.bigw.com.au/
-! Dot digital assistant - only way to message a human is through the chatbot
-www.bigw.com.au##.ChatBot_ChatBot__q2ziG
+! Floating "Chat with Dot" assistant button
+! * Only way to message a human is through the chatbot
+www.bigw.com.au##[data-testid="chatbot"]
 ||chatwidget.bigw.com.au^$script,domain=www.bigw.com.au
 
 ! -- https://www.bigw.com.au/help/contact-us
