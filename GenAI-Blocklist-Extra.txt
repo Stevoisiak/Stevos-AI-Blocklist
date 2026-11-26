@@ -137,13 +137,6 @@ docs.aws.amazon.com#?#.GIwN\+fnsOgfy9-QBp9lnOg\=\=:has-text(AI resources)
 ! * Seemingly only the article descriptions are AI. Should look into more targeted filter for main list.
 docs.aws.amazon.com##.t3G8h4IshJXWYCDYGqYhiA\=\=
 
-! === Big W ===
-! -- https://www.bigw.com.au/
-! Floating "Chat with Dot" assistant button
-! * Only way to message a human is through the chatbot
-www.bigw.com.au##[data-testid="chatbot"]
-||chatwidget.bigw.com.au^$script,domain=www.bigw.com.au
-
 ! === Bitly ===
 ! -- https://app.bitly.com/integrations/discover
 ! AI category chip
