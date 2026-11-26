@@ -5169,6 +5169,14 @@ www.womansworld.com###gist-answers-widget
 ! -- https://recoverit.wondershare.com/computer-backup/backup-files-before-reformatting-in-windows.html
 recoverit.wondershare.com##.ai-summary
 
+! === Woolworths ===
+! -- https://www.woolworths.com.au/shop/help
+! AI help page (big "How can we help?" box - no option to speak to a person)
+www.woolworths.com.au##.gen-faq_component_container__Dd6SX
+! * This seems to be collecting data but not required for the chatbot to function
+||www.woolworths.com.au/apis/gen-faq/$xhr,1p
+
+
 ! === Wordpress ===
 ! -- https://wordpress.com/ (Main page - logged out)
 ! Navbar dropdown items 

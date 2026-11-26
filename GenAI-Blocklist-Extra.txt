@@ -144,6 +144,10 @@ docs.aws.amazon.com##.t3G8h4IshJXWYCDYGqYhiA\=\=
 www.bigw.com.au##[data-testid="chatbot"]
 ||chatwidget.bigw.com.au^$script,domain=www.bigw.com.au
 
+! -- https://www.bigw.com.au/help/contact-us
+! "Chat with Us" card (opens chatbot)
+www.bigw.com.au##div.ContactUsCard_hero__xbhV3.ContactUsCard_contactUsCard__I9mLp:nth-of-type(2)
+
 ! === Bitly ===
 ! -- https://app.bitly.com/integrations/discover
 ! AI category chip
@@ -989,6 +993,16 @@ code.visualstudio.com###main-nav [href="#agentic-articles"]
 ! -- https://code.visualstudio.com/docs/remote/wsl
 ! View as markdown
 code.visualstudio.com##.docs-markdown-actions
+
+! === Woolworths ===
+! -- https://www.woolworths.com.au/
+! Olive digital assistant - only way to message a human is through the chatbot
+www.woolworths.com.au##shared-olive-chat-button
+||chatwidget.woolworths.com.au^$script,domain=www.woolworths.com.au
+
+! -- https://www.woolworths.com.au/shop/help
+! "Chat with Olive" card
+www.woolworths.com.au###tabpanel-0-woolworths div.contact-us-card_component_contact-card__vb0hu:nth-of-type(1)
 
 ! === WordCounter ===
 ! -- https://wordcounter.net/
