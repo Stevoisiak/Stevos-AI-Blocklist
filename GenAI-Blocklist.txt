@@ -1176,6 +1176,8 @@ duckduckgo.com##[data-testid="ai-toggle"][data-mode="search"]
 duckduckgo.com##[class^="inline-ai-search-box-module-scss-module__"][class$="__footerAskWrap"] {visibility: hidden}
 ! * Mobile
 duckduckgo.com##[class^="stacked-ai-search-box-module-scss-module__"][class$="__suggestionsFooter"]
+! Transient AI promo below search bar
+duckduckgo.com##[data-testid="duckai-drawer-promotion"]
 ! Header - "Duck.ai"
 duckduckgo.com##[data-testid="aichat-button"]
 ! ≡ menu > "More from DuckDuckGo" > "Duck.ai"
