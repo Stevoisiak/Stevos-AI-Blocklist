@@ -5206,6 +5206,13 @@ www.wolframalpha.com##.sc-fc1b1463-0:has(> [href^="https://www.wolfram.com/noteb
 www.wolframalpha.com##.sc-fc1b1463-0:has(> [href^="https://www.wolfram.com/language/core-areas/machine-learning"])
 www.wolframalpha.com##.sc-fc1b1463-0:has(> [href^="https://www.wolfram.com/artificial-intelligence"])
 
+! === Woolworths ===
+! -- https://www.woolworths.com.au/shop/help
+! "How can we help?" chatbot section
+! * There's another AI button for "Olive" further down, but you can ask the bot
+!   to contact human customer support.
+www.woolworths.com.au##[class^="gen-faq_component_container__"]
+
 ! === Woman's World ===
 ! -- https://www.womansworld.com/wellness/sleep/lavender-oil-for-sleep-beat-insomnia-naturally
 ! "Ask us your health questions"
