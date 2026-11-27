@@ -51,6 +51,7 @@
 ||kuku.baidu.com^$document
 ||labs.google^$document
 ||leonardo.ai^$document
+||liveavatarai.com^$document
 ||lumo.proton.me^$document
 ||magicstudio.com^$document
 ||meta.ai^$document
