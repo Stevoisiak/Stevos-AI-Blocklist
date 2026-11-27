@@ -238,6 +238,11 @@ www.dropbox.com##._mainContainer_yn2kq_11 > .dwg-hero-l3-plank__media-area.dwg-f
 www.dropbox.com###dwg_headline_plank-d494ba2353
 www.dropbox.com###dwg_multi_block_plank-e97fca73ef
 
+! === DuckDuckGo ===
+! -- https://duckduckgo.com/ (Homepage)
+! AI chat feature promo section
+duckduckgo.com##section.motif-blossom:has([d^="M73.444 60.435c.145-.58.969-.58 1.114 0l.478 1.914a4.512 4.512 0 0 0 3.283 3.282l1.913.479c.58.145.58.969"])
+
 ! === eBay ===
 ! -- https://www.ebay.fr/
 ! eBay Live auctions (many have AI thumbnails)

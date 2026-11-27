@@ -1154,41 +1154,49 @@ www.dropbox.com##.oa-pulsar-effect-WAFFLE_RECLAIM
 ! === DuckDuckGo ===
 ! Set "Duck.ai" to "Off"
 duckduckgo.com##+js(set-cookie, bg, -1)
+!#if adguard
+! * See https://github.com/AdguardTeam/Scriptlets/issues/590
+duckduckgo.com#%#//scriptlet('trusted-set-cookie', 'bg', '-1')
+!#endif
 ! Set "Search Assist" to "Never"
 duckduckgo.com##+js(set-cookie, be, 0)
 ! Set "Hide AI-Generated Images" to "On"
 duckduckgo.com##+js(set-cookie, bj, 1)
 
 ! -- https://duckduckgo.com/ (Homepage)
+! * Backup if disabling Duck.ai with `set-cookie` failed
 ! Search box - AI mode toggle
-duckduckgo.com##.ai-searchbox_modeSelectorWrapper__yKK7S
-! Header > "Duck.ai"
-duckduckgo.com##.header_aiChatButton__e_9yJ
+duckduckgo.com##[data-testid="ai-toggle"][data-mode="search"]
+! * TODO: Reclaim space for search field, return old search button, etc.
+!   May be possible either by removing classes or using CSS overrides.
+! IE: duckduckgo.com#%#//scriptlet('remove-class', 'inline-ai-search-box-module-scss-module__eJ3y5G__queryWrap|inline-ai-search-box-module-scss-module__eJ3y5G__queryInput')
+! Search autocomplete - "Ask Duck.ai"
+! * TODO: This element mentions that pressing Alt+Enter searches with Duck.ai,
+!   so users may get redirected if they press the key combo.
+duckduckgo.com##[class^="inline-ai-search-box-module-scss-module__"][class$="__footerAskWrap"] {visibility: hidden}
+! * Mobile
+duckduckgo.com##[class^="stacked-ai-search-box-module-scss-module__"][class$="__suggestionsFooter"]
+! Header - "Duck.ai"
+duckduckgo.com##[data-testid="aichat-button"]
 ! ≡ menu > "More from DuckDuckGo" > "Duck.ai"
-duckduckgo.com##[class^="sideMenu_sectionLink__"][href^="https://duck.ai/"]
-! Search autocomplete > "Ask Duck.ai"
-! * This element mentions that pressing Alt+Enter searches with Duck.ai. I am unsure if this behavior can be
-!   blocked, so users may get redirected if they unknowingly press the key combo.
-duckduckgo.com##.search-input_duckAiSubmitWrapper__yHJMl
+duckduckgo.com##[data-testid="sidemenu-link-aichat"]
+! Discover more from DuckDuckGo - Duck.ai
+duckduckgo.com##.product-showcase-chip-module-scss-module__Wr_QMG__root:has([d^="M12.264 5.89c.061.245.41.245.472 0l.136-.544a2.026 2.026"])
 
 ! -- https://duckduckgo.com/?q=what+is+a+snow+emergency (Search results)
-! Navbar > "Duck.ai" button
-duckduckgo.com##a.Pd_jmhkZzftl0UtTaw0u[href*="&ia=chat"]
-! Navbar > "Search Assist" button
-duckduckgo.com##a.d3n3IVqx1558EtMlZV_g[href*="&assist="]
+! Navbar - "Ask Duck.ai" button
+duckduckgo.com###react-duckbar li:has([href*="?ia=chat"], [href*="&ia=chat"])
+! Navbar - "Search Assist" button
+duckduckgo.com###react-duckbar li:has([data-assist-icon-trigger])
 ! Top of page > "Search Assist" summary
 duckduckgo.com##[data-react-module-id="wikinlp"]
 ||duckduckgo.com/qna.js$xhr,1p
-! Right sidebar > "More from DuckDuckGo" > "Duck.ai"
-duckduckgo.com##.nav-menu__item:has(> a[href="https://duck.ai"])
+! Right sidebar - "More from DuckDuckGo" > "Duck.ai"
+duckduckgo.com##.nav-menu__item:has(> [href="https://duck.ai"])
 ! Right sidebar > "Search Assist" summary
 ! * Sometimes the search assist can appear on the side instead of on top.
 !   For example, (https://duckduckgo.com/?q=what+is+a+test&ia=web)
 duckduckgo.com##[data-layout="wikinlp"]
-
-! -- https://noai.duckduckgo.com/
-! ≡ menu > Duck AI
-noai.duckduckgo.com##[class^="side-menu-module-scss-module__"][href="https://duck.ai"]
 
 ! === Dummies ===
 ! Header - Dummies AI button
