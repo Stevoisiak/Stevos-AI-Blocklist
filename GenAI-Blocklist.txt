@@ -1247,8 +1247,11 @@ export.ebay.com##.chatbot
 www.ecosia.org##+js(set-cookie-reload, ECNOAI, true)
 
 ! -- https://www.ecosia.org/ (Homepage)
+! * Backup filters if setting cookie fails
 ! "AI Chat" in search bar
 www.ecosia.org##.omnibox-search-form__ai-chat
+! Plus button for AI tools
+www.ecosia.org##.omnibox-ai-tools__toggle
 
 ! -- https://www.ecosia.org/search?q=test (Search results)
 ! "AI Chat" & separator in navbar
