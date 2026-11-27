@@ -1200,6 +1200,10 @@ duckduckgo.com##.nav-menu__item:has(> [href="https://duck.ai"])
 !   For example, (https://duckduckgo.com/?q=what+is+a+test&ia=web)
 duckduckgo.com##[data-layout="wikinlp"]
 
+! -- https://duckduckgo.com/?q=test
+! Sidebar - Explore More
+duckduckgo.com##[data-layout="explore_more"]
+
 ! === Dummies ===
 ! Header - Dummies AI button
 www.dummies.com##.n4-dummies-ai_btn
