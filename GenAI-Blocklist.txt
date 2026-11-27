@@ -5256,11 +5256,14 @@ x.com##[data-testid="grokImgGen"]
 ! Floating Grok chat button in bottom right
 x.com##[data-testid="GrokDrawer"]
 ! - Promos
-! Top of home feed - Promos for video generation and Grok Build
+! Top of home feed - Promos for Grok
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="inlinePrompt-primaryAction"] > [href^="https://grok.com/"])
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="inlinePrompt-primaryAction"] > [href^="https://grok.com/"]) + [data-testid="cellInnerDiv"]:has(.r-gu4em3:empty)
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="inlinePrompt-primaryAction"] > [href^="https://x.ai/"])
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="inlinePrompt-primaryAction"] > [href^="https://x.ai/"]) + [data-testid="cellInnerDiv"]:has(.r-gu4em3:empty)
+x.com##[data-testid="cellInnerDiv"]:has([data-testid="inlinePrompt-primaryAction"] > [href^="/i/premium_sign_up?referring_page=grok-bot-offer"])
+x.com##[data-testid="cellInnerDiv"]:has([data-testid="inlinePrompt-primaryAction"] > [href^="/i/premium_sign_up?referring_page=grok-bot-offer"]) + [data-testid="cellInnerDiv"]:has(.r-gu4em3:empty)
+
 ! Right sidebar - Grok promos
 x.com##.css-175oi2r:has(> .r-kemksi.r-1ifxtd0 > aside > [href="https://grok.com/imagine?referring_page=home_sidebar_grok_promo"])
 x.com##.css-g5y9jx.r-kemksi.r-1kqtdi0.r-1867qdf.r-1phboty.r-rs99b7.r-1ifxtd0.r-1udh08x:has(> aside [href^="https://grok.com/"])
