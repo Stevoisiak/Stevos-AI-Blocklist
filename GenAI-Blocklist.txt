@@ -2997,6 +2997,11 @@ www.lawinsider.com##.zKcZVDrbtr
 www.lawinsider.com##.mdc-menu-surface--anchor:has([data-trigger-paywall-id="CLAUSE_FINDER"])
 www.lawinsider.com##.mdc-menu-surface--anchor:has(> [data-trigger-paywall-id="AI_SEARCH_COLUMNS"])
 
+! === Learn Python ===
+! -- https://www.learnpython.org/en/Hello%2C_World%21
+! Explain Code button
+www.learnpython.org##[data-trackid="exercise-action-bar-explain"]
+
 ! === Lenovo ===
 ! -- https://www.lenovo.com/us/en/p/workstations/thinkstation-p-series/lenovo-thinkstation-p3-tiny-gen-2-intel/30k6000xus
 ! AI Overview (mobile)
