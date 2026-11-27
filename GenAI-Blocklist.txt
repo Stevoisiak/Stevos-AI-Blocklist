@@ -5265,6 +5265,7 @@ x.com##[data-testid="cellInnerDiv"]:has([data-testid="inlinePrompt-primaryAction
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="inlinePrompt-primaryAction"] > [href^="/i/premium_sign_up?referring_page=grok-bot-offer"]) + [data-testid="cellInnerDiv"]:has(.r-gu4em3:empty)
 
 ! Right sidebar - Grok promos
+x.com##aside[aria-label="Get Grok Bot with X Premium"]
 x.com##.css-175oi2r:has(> .r-kemksi.r-1ifxtd0 > aside > [href="https://grok.com/imagine?referring_page=home_sidebar_grok_promo"])
 x.com##.css-g5y9jx.r-kemksi.r-1kqtdi0.r-1867qdf.r-1phboty.r-rs99b7.r-1ifxtd0.r-1udh08x:has(> aside [href^="https://grok.com/"])
 
