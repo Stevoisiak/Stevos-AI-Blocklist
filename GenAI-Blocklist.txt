@@ -2637,6 +2637,25 @@ www.homedepot.com###beyond_bought_together
 ! Review summary
 www.homedepot.com###magic-apron-review-summary
 
+! === Home Depot (Canada) ===
+! -- https://www.homedepot.ca/en/home.html
+! Header - Ask button
+www.homedepot.ca##.global-header-magic-apron-ask
+
+! -- https://www.homedepot.ca/search?q=%20
+! Transient notice for Ask button
+www.homedepot.ca##magic-apron-blurb-widget
+! Search filters - Ask
+www.homedepot.ca##.ask-button-touch
+! Floating magic apron button
+www.homedepot.ca##hdca-magic-apron-assist-micro
+
+! -- https://www.homedepot.ca/product/milwaukee-tool-18v-m18-lithium-ion-extended-capacity-xc-6-0-ah-redlithium-high-output-battery/1001129753
+! Ask AI about out product
+www.homedepot.ca###magicApronBot
+! Review summary
+www.homedepot.ca##[data-bv-show="review-summaries"]
+
 ! === Hourglass Cosmetics ===
 ! -- https://www.hourglasscosmetics.com/products/veil-hydrating-skin-tint
 ! Review summary
