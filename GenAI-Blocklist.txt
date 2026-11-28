@@ -1126,6 +1126,15 @@ hub.docker.com##.MuiAccordion-root:has([id="Generative AI-content"])
 ! Machine Learning & AI section category
 hub.docker.com#?#.MuiTypography-h4:has-text(Machine Learning & AI):upward(.MuiStack-root.css-1hqz9cp)
 
+! === Docusign ===
+! -- https://apps.docusign.com/sign/app?t_dss=%7B%7D&site=au.docusign.net&ti=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+! * A document security code is needed to access the page
+! "Summarise this agreement" floating box that pops up once/day
+apps.docusign.com##[data-qa="tools-callout-panel"]:has([data-widget-id="@shared/ai-assisted-callout"])
+! Summarise button in sidebar
+apps.docusign.com###toolbar-ai-button-label
+apps.docusign.com##button[data-qa="toolbar-ai-button"]
+
 ! === Drinkmate ===
 ! -- https://idrinkproducts.com/
 ! Floating chatbot icon in bottom right
