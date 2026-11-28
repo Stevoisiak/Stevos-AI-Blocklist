@@ -149,6 +149,7 @@
 ||get-harder.today^$document
 ||glamgirls.ai^$document
 ||gptgirlfriend.online^$document
+||hentaihub.com^$document
 ||honea.ai^$document
 ||honeypot.com^$document
 ||hotgens.net^$document

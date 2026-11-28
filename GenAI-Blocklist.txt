@@ -6021,6 +6021,10 @@ hentairun.com,imhentai.xxx##[data-tags~="17861"]
 ! === Hentaivox (NSFW) ===
 hentaivox.com##.affil-in-content:has([data-value*="AI Porn Video"])
 
+! === ihentai (NSFW) ===
+! Header - AI Hentai
+ihentai.com##.nav-ai
+
 ! === InPorn (NSFW) ===
 ! Navbar - AI porn tag
 inporn.com##.carousel__list > .tag__item:has-text(AI)
